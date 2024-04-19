@@ -1,7 +1,7 @@
 {
   "name": "RAD2-vanilla_v1.10a",
   "author": "mortar",
-  "version": "1.10a_mortar_7",
+  "version": "1.10a_mortar_8",
   "description": "",
   "fileApi": "https://www.landmine.top/mc",
   "files": [
@@ -11259,7 +11259,7 @@
     },
     {
       "path": "servers.dat",
-      "hash": "e8fd52a222d1cc614803df910f7e0beae84fcb12"
+      "hash": "91ba48f38af1a7d13cc12aa02d9ad06e57490ee0"
     },
     {
       "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip",
