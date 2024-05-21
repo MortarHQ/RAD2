@@ -10888,6 +10888,14 @@
     {
       "path": "scripts/yurtingBlacklist.zs",
       "hash": "1c4997b80a7f1b968c2fc25297b6fb80b47509dc"
+    },
+    {
+      "path": "servers.dat",
+      "hash": "4b243909272f2b90a1c2f45076be8585cb14abe2"
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip",
+      "hash": "65c7ef20fef4b5b03aa44afccbfdfdd82574c193"
     }
   ],
   "addons": [
