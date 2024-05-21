@@ -1,7 +1,7 @@
 {
 	id: "130231C87959F255"
 	order_index: 83
-	title: "Ores 4"
+	title: "{loot_table.84}"
 	loot_size: 1
 	rewards: [
 		{

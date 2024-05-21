@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 9
 	filename: "card_collector"
-	title: "Card Collector"
+	title: "{chapter.15.title}"
 	icon: "buddycards:mystery_pack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -30,7 +30,7 @@
 				{
 					id: "62B4033C5409DF11"
 					type: "item"
-					title: "Any #buddycards:packs"
+					title: "{chapter.15.quest.1.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1123,7 +1123,7 @@
 		{
 			x: -6.0d
 			y: 11.5d
-			description: ["Rare drop from luminis ore."]
+			description: ["{chapter.15.quest.39.description.1}"]
 			id: "073A074883B85626"
 			tasks: [{
 				id: "25DABC8241D2AAE0"

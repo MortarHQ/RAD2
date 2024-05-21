@@ -1,7 +1,7 @@
 {
 	id: "5C4A4F8FDF520798"
 	order_index: 67
-	title: "10rare"
+	title: "{loot_table.68}"
 	loot_size: 1
 	rewards: [{
 		item: {

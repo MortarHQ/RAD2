@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 2
 	filename: "dragons_in_your_own_homeland"
-	title: "Dragons!"
+	title: "{chapter.31.title}"
 	icon: {
 		id: "iceandfire:dragon_skull_fire"
 		Count: 1b
@@ -13,7 +13,7 @@
 			}
 		}
 	}
-	subtitle: ["In your own homeland! Can you believe it?"]
+	subtitle: ["{chapter.31.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -71,13 +71,13 @@
 		{
 			x: -2.5d
 			y: -1.0d
-			subtitle: "Click on the scale to learn more!"
+			subtitle: "{chapter.31.quest.2.subtitle}"
 			dependencies: ["0289B5163EDBE735"]
 			id: "43CB9B3DAD77683A"
 			tasks: [{
 				id: "4ADC46F4B9A68D7C"
 				type: "item"
-				title: "Slay any Fire dragon!"
+				title: "{chapter.31.quest.2.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -105,13 +105,13 @@
 		{
 			x: 2.5d
 			y: -1.0d
-			subtitle: "Click on the scale to learn more!"
+			subtitle: "{chapter.31.quest.3.subtitle}"
 			dependencies: ["0289B5163EDBE735"]
 			id: "35557AE2D124F340"
 			tasks: [{
 				id: "2C38EDA94738B25A"
 				type: "item"
-				title: "Slay any Ice dragon!"
+				title: "{chapter.31.quest.3.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -139,13 +139,13 @@
 		{
 			x: 1.5d
 			y: -2.5d
-			subtitle: "Click on the scale to learn more!"
+			subtitle: "{chapter.31.quest.4.subtitle}"
 			dependencies: ["0289B5163EDBE735"]
 			id: "605894F90D1565D9"
 			tasks: [{
 				id: "1BC7DBCE2CFB50A0"
 				type: "item"
-				title: "Slay any Lightning dragon!"
+				title: "{chapter.31.quest.4.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -713,7 +713,7 @@
 		{
 			x: -4.5d
 			y: -7.0d
-			description: ["Used to teleport a bound fire dragon to you."]
+			description: ["{chapter.31.quest.20.description.1}"]
 			dependencies: ["09882BA9CA9D8453"]
 			id: "42178C8AE0F6403F"
 			tasks: [{
@@ -738,7 +738,7 @@
 		{
 			x: 4.5d
 			y: -7.0d
-			description: ["Used to teleport a bound ice dragon to you."]
+			description: ["{chapter.31.quest.21.description.1}"]
 			dependencies: ["596E4BBBE5ECB9C5"]
 			id: "44D34FC0F25E3719"
 			tasks: [{
@@ -763,7 +763,7 @@
 		{
 			x: 1.5d
 			y: -8.0d
-			description: ["Used to teleport a bound lightning dragon to you."]
+			description: ["{chapter.31.quest.22.description.1}"]
 			dependencies: ["752042A08C0343CE"]
 			id: "2A58AD42BCAFD8E2"
 			tasks: [{
@@ -909,7 +909,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			description: ["Deals bonus damage to ice dragons."]
+			description: ["{chapter.31.quest.27.description.1}"]
 			dependencies: ["09882BA9CA9D8453"]
 			id: "2D16B44C7D383ED2"
 			tasks: [{
@@ -961,7 +961,7 @@
 		{
 			x: 4.5d
 			y: -8.0d
-			description: ["Deals bonus damage to fire dragons."]
+			description: ["{chapter.31.quest.28.description.1}"]
 			dependencies: ["596E4BBBE5ECB9C5"]
 			id: "668B64CA5C7C8280"
 			tasks: [{
@@ -1013,7 +1013,7 @@
 		{
 			x: 0.0d
 			y: -10.5d
-			description: ["Deals bonus damage to both ice and fire dragons."]
+			description: ["{chapter.31.quest.29.description.1}"]
 			dependencies: ["752042A08C0343CE"]
 			id: "4374C6812B288DC4"
 			tasks: [{
@@ -1070,7 +1070,7 @@
 			tasks: [{
 				id: "702F12FBB62E3915"
 				type: "item"
-				title: "Any #iceandfire:dragon_skulls"
+				title: "{chapter.31.quest.30.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1142,7 +1142,7 @@
 		{
 			x: -7.0d
 			y: 0.5d
-			description: ["Calls your dragon back to you, useful if they fly away."]
+			description: ["{chapter.31.quest.32.description.1}"]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "313CAD78364A3D66"
 			tasks: [{
@@ -1187,7 +1187,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["A stronger trident that pierces multiple enemies."]
+			description: ["{chapter.31.quest.33.description.1}"]
 			dependencies: ["49AD80E916672BBE"]
 			id: "452887E4D3CF63A4"
 			tasks: [{
@@ -1227,7 +1227,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			description: ["Stores your dragon in this horn to carry them with you during your adventures."]
+			description: ["{chapter.31.quest.34.description.1}"]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "6C82D3C21252DD57"
 			tasks: [{
@@ -1339,11 +1339,7 @@
 		{
 			x: -0.5d
 			y: 5.5d
-			description: [
-				"Shoots projectiles that deal light damage to enemies."
-				""
-				"This weapon does not aggrovate neutral mobs."
-			]
+			description: ["{chapter.31.quest.37.description.1}"]
 			dependencies: ["55C1E6BBD60D4586"]
 			id: "325E00CC4C5AB970"
 			tasks: [{
@@ -1439,7 +1435,7 @@
 		{
 			x: -3.5d
 			y: 11.0d
-			description: ["When held applies weakness to nearby hostile mobs."]
+			description: ["{chapter.31.quest.40.description.1}"]
 			id: "4576D3B3A1577D84"
 			tasks: [{
 				id: "27630217A1027FC1"
@@ -1566,7 +1562,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
-			description: ["Rarely laid by chickens. Can be thrown like a chicken egg to spawn a tamed cockatrice!"]
+			description: ["{chapter.31.quest.43.description.1}"]
 			id: "05A7E9B1299D7219"
 			tasks: [{
 				id: "2C76D7A98BDB4E6E"
@@ -1653,11 +1649,7 @@
 		{
 			x: 0.0d
 			y: 10.0d
-			description: [
-				"A one-time use item that can turn any mob into stone (except the enderdragon)"
-				""
-				"You can break the stone statue by hitting with a pickaxe 10 times, a silk touch pickaxe allows you to obtain the statue itself."
-			]
+			description: ["{chapter.31.quest.45.description.1}"]
 			id: "5F9AC0AB15154C7D"
 			tasks: [{
 				id: "2A8CB89E57A1253E"
@@ -1859,7 +1851,7 @@
 		{
 			x: -6.0d
 			y: 3.0d
-			description: ["Speeds up the growth of your dragons."]
+			description: ["{chapter.31.quest.49.description.1}"]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "1DCD8CFCE09D656F"
 			tasks: [{
@@ -1891,7 +1883,7 @@
 		{
 			x: -7.0d
 			y: 2.5d
-			description: ["Stops the growth of your dragon. This is a permanant change to your dragon."]
+			description: ["{chapter.31.quest.50.description.1}"]
 			dependencies: ["1DCD8CFCE09D656F"]
 			id: "4451F4351231A711"
 			tasks: [{
@@ -1941,7 +1933,7 @@
 			x: -5.0d
 			y: 1.5d
 			shape: "octagon"
-			subtitle: "Obtain a dragon egg"
+			subtitle: "{chapter.31.quest.51.subtitle}"
 			size: 2.0d
 			id: "5C42AD1E351785EA"
 			tasks: [{
@@ -1978,11 +1970,7 @@
 		{
 			x: 2.0d
 			y: 10.5d
-			description: [
-				"Dropped by the Stymphalian Birds either from killing them or picking up some of the feathers they shoot out."
-				""
-				"They can be used to make a dagger, arrows, or a bundle of feathers."
-			]
+			description: ["{chapter.31.quest.52.description.1}"]
 			id: "0DBDC4BAA4465307"
 			tasks: [{
 				id: "557F6530028246D7"
@@ -2124,7 +2112,7 @@
 		{
 			x: 1.0d
 			y: 7.0d
-			description: ["Flings mobs high into the air like an iron golem's swing!"]
+			description: ["{chapter.31.quest.56.description.1}"]
 			dependencies: ["53F95089CB6FF9CF"]
 			id: "0638813A7CD7CB60"
 			tasks: [{
@@ -2557,11 +2545,7 @@
 		{
 			x: 3.0d
 			y: 6.0d
-			description: [
-				"Dropped by ghosts and used to craft cursed chests and graveyard soil."
-				""
-				"It can also be used to make the Ectoplasm Orb, the key component to making stronger gate pearls."
-			]
+			description: ["{chapter.31.quest.63.description.1}"]
 			id: "5474A3F78B629DB9"
 			tasks: [{
 				id: "33EAA179E3DA3CBB"
@@ -2605,11 +2589,7 @@
 		{
 			x: 2.5d
 			y: 5.0d
-			description: [
-				"Rarely dropped by naturally spawning ghosts. (not cursed chest spawned ones)."
-				""
-				"It's main use is to craft the Phasmal Blade, but can also be used to upgrade Knightmetal into Phantom Knight Armor."
-			]
+			description: ["{chapter.31.quest.64.description.1}"]
 			id: "1E4783908222E61C"
 			tasks: [{
 				id: "0A74D7E989DA4C88"
@@ -2633,7 +2613,7 @@
 		{
 			x: 3.5d
 			y: 5.0d
-			description: ["When attacking from a distance it launches swords that phase through walls."]
+			description: ["{chapter.31.quest.65.description.1}"]
 			dependencies: ["1E4783908222E61C"]
 			id: "6E1A96AF0E1B0F18"
 			tasks: [{
@@ -2681,7 +2661,7 @@
 		{
 			x: -6.0d
 			y: -10.5d
-			description: ["Burns enemies and knocks them back further away."]
+			description: ["{chapter.31.quest.66.description.1}"]
 			dependencies: ["5F7B4E456CD5AD52"]
 			id: "13F3473F3041F8BE"
 			tasks: [{
@@ -2740,7 +2720,7 @@
 		{
 			x: 1.0d
 			y: -11.5d
-			description: ["Comes with the Thundering enchantment and some area of effect damage."]
+			description: ["{chapter.31.quest.67.description.1}"]
 			dependencies: ["2BFCFAF2EF10A54E"]
 			id: "6F46536FE6DBE744"
 			tasks: [{
@@ -2799,7 +2779,7 @@
 		{
 			x: 5.0d
 			y: -12.5d
-			description: ["Heavily slows enemies on hit."]
+			description: ["{chapter.31.quest.68.description.1}"]
 			dependencies: ["586BC8112DF3B5FA"]
 			id: "14B446040569CF12"
 			tasks: [{
@@ -3440,7 +3420,7 @@
 		{
 			x: 1.0d
 			y: 5.5d
-			description: ["Gives you Regeneration when in the hotbar."]
+			description: ["{chapter.31.quest.75.description.1}"]
 			id: "77444F5105A251CC"
 			tasks: [{
 				id: "49336133B2F9E1AE"
@@ -6265,11 +6245,7 @@
 		{
 			x: -7.0d
 			y: -10.5d
-			description: [
-				"Dragon Armors can be used to protect your dragon from attacks."
-				""
-				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
-			]
+			description: ["{chapter.31.quest.102.description.1}"]
 			dependencies: ["5F7B4E456CD5AD52"]
 			id: "79222FD515377830"
 			tasks: [
@@ -6357,11 +6333,7 @@
 		{
 			x: 6.5d
 			y: -11.0d
-			description: [
-				"Dragon Armors can be used to protect your dragon from attacks."
-				""
-				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
-			]
+			description: ["{chapter.31.quest.103.description.1}"]
 			dependencies: ["586BC8112DF3B5FA"]
 			id: "47FBF871DC42B9F0"
 			tasks: [
@@ -6449,11 +6421,7 @@
 		{
 			x: 2.5d
 			y: -10.0d
-			description: [
-				"Dragon Armors can be used to protect your dragon from attacks."
-				""
-				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
-			]
+			description: ["{chapter.31.quest.104.description.1}"]
 			dependencies: ["2BFCFAF2EF10A54E"]
 			id: "7004E82094588EBB"
 			tasks: [
@@ -6541,12 +6509,12 @@
 		{
 			x: 2.5d
 			y: 3.5d
-			subtitle: "Discover the mausoleum lock"
+			subtitle: "{chapter.31.quest.105.subtitle}"
 			id: "1F464E151EBF2088"
 			tasks: [{
 				id: "692B6D5D0FA5B40D"
 				type: "observation"
-				title: "A Peculiar Lock"
+				title: "{chapter.31.quest.105.task.1.title}"
 				icon: {
 					id: "iceandfire:dreadwood_planks_lock"
 					Count: 1b
@@ -6562,11 +6530,11 @@
 			}]
 		}
 		{
-			title: "A Near Impossible Key"
+			title: "{chapter.31.quest.106.title}"
 			x: 2.5d
 			y: 2.5d
-			subtitle: "The Rarest Key"
-			description: ["Good luck finding this... Dread Liches don't come by very often"]
+			subtitle: "{chapter.31.quest.106.subtitle}"
+			description: ["{chapter.31.quest.106.description.1}"]
 			dependencies: ["1F464E151EBF2088"]
 			id: "0215C0DA01B8935B"
 			tasks: [{
@@ -6606,18 +6574,12 @@
 		{
 			x: -1.0d
 			y: 11.0d
-			description: [
-				"A cockatrice can be found in Savanna-like biomes. You can tame them by hatching a rotten egg or starting at one in the wild for 50 seconds."
-				""
-				"However the cockatrice's glare will hurt you with a wither effect."
-				""
-				"Luckily the taming progress stays when you look away so you can recover health between taming attempts."
-			]
+			description: ["{chapter.31.quest.107.description.1}"]
 			id: "54761D5F9843BF91"
 			tasks: [{
 				id: "587B9980523F4CA2"
 				type: "observation"
-				title: "Stare at a Cockatrice"
+				title: "{chapter.31.quest.107.task.1.title}"
 				icon: {
 					id: "alexsmobs:tab_icon"
 					Count: 1b
@@ -6650,11 +6612,7 @@
 		{
 			x: 1.0d
 			y: 11.0d
-			description: [
-				"Shoots 8 feathers in all directions when used."
-				""
-				"Some of the feathers can be picked back up."
-			]
+			description: ["{chapter.31.quest.108.description.1}"]
 			dependencies: ["0DBDC4BAA4465307"]
 			id: "04B14007299FC09B"
 			tasks: [{
@@ -6688,7 +6646,7 @@
 		{
 			x: 2.0d
 			y: 11.5d
-			description: ["A fast dagger with 3 Attack Speed. Boosts your Smithing Xp when held in the offhand."]
+			description: ["{chapter.31.quest.109.description.1}"]
 			dependencies: ["0DBDC4BAA4465307"]
 			id: "5D715FBCE0F2D6DC"
 			tasks: [{
@@ -6710,7 +6668,7 @@
 			rewards: [{
 				id: "31D03018670AF36A"
 				type: "pmmo:xpreward"
-				title: "100 Smithing XP"
+				title: "{chapter.31.quest.109.reward.1.title}"
 				icon: {
 					id: "minecraft:anvil"
 					Count: 1b
@@ -6729,7 +6687,7 @@
 		{
 			x: 3.0d
 			y: 11.0d
-			description: ["Deals 50% more damage than the normal arrow and is less hindered by gravity. Useful for long range attacks, and great for getting the sniper duel and bullseye achievements."]
+			description: ["{chapter.31.quest.110.description.1}"]
 			dependencies: ["0DBDC4BAA4465307"]
 			id: "425F7CE940B05FD5"
 			tasks: [{

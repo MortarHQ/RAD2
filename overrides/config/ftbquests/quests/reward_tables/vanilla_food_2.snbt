@@ -1,7 +1,7 @@
 {
 	id: "05C8486A5C4DF2BE"
 	order_index: 72
-	title: "Food 2"
+	title: "{loot_table.73}"
 	loot_size: 1
 	use_title: true
 	rewards: [

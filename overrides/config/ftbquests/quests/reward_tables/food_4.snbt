@@ -1,7 +1,7 @@
 {
 	id: "0B940E9B450494C0"
 	order_index: 86
-	title: "Food 4"
+	title: "{loot_table.87}"
 	icon: "pickletweaks:diamond_apple"
 	loot_size: 1
 	rewards: [

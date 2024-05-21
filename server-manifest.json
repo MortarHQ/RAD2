@@ -1,7 +1,7 @@
 {
-  "name": "RAD2-v1.11",
+  "name": "RAD2-vanilla_v1.11",
   "author": "mortar",
-  "version": "1.11_mortar_1",
+  "version": "1.11_mortar_2",
   "description": "",
   "fileApi": "https://www.landmine.top/mc",
   "files": [
@@ -2271,139 +2271,139 @@
     },
     {
       "path": "config/ftbquests/quests/chapters/alexs_mobs.snbt",
-      "hash": "27334112947c8f44cf1f2f8749039252a38d7176"
+      "hash": "ccca483413a5a51656f90df9f54080a921acc7f8"
     },
     {
       "path": "config/ftbquests/quests/chapters/ars_noveau.snbt",
-      "hash": "a8636cecc498c1077b51728d0d954cb78704510f"
+      "hash": "46bf62fde2bdd6fec765a22ab885ebcb2541d09e"
     },
     {
       "path": "config/ftbquests/quests/chapters/a_reliable_friend.snbt",
-      "hash": "ba571031d4af658e31cb946de719d028b4d43c76"
+      "hash": "7a0033342982d040feef4c8eca8503c9fc44d988"
     },
     {
       "path": "config/ftbquests/quests/chapters/blue_skies.snbt",
-      "hash": "e16bfe07dd33bbf6ff3d6e34374f9ae7e93b1e9a"
+      "hash": "8ca50b6f186d2fb484023491f1cbeca032ad354e"
     },
     {
       "path": "config/ftbquests/quests/chapters/card_collector.snbt",
-      "hash": "00df0a2d650e0cfe6b012f805627c4e40cc3cc73"
+      "hash": "1bf7adafed6a3f414bc271b09ee0b29277700004"
     },
     {
       "path": "config/ftbquests/quests/chapters/cheesy_business.snbt",
-      "hash": "b5ad6a917660360d59875d419d1083669b2e3090"
+      "hash": "201b35bc048556704f9662f93485530becc65b2d"
     },
     {
       "path": "config/ftbquests/quests/chapters/contraptions.snbt",
-      "hash": "21db4c7cdf6f905709c9f21c66d08902c5524318"
+      "hash": "a546c109c78e587937c066a39e2700fe8542d2b9"
     },
     {
       "path": "config/ftbquests/quests/chapters/culinary_engineering.snbt",
-      "hash": "7af94d3118c955cf0e6fa6a0bcb788982df5948d"
+      "hash": "b77dc9d6ca526d00884440f11960355b37a6d915"
     },
     {
       "path": "config/ftbquests/quests/chapters/dark_magoc.snbt",
-      "hash": "61320e0a2c8677346c8a98158a255af09621509f"
+      "hash": "ef1405c103858fe0e7310a803e66dbcdc1395bde"
     },
     {
       "path": "config/ftbquests/quests/chapters/dimensional_dungeons.snbt",
-      "hash": "1eb8c33761ecd2bf32401e996e4d860475089acf"
+      "hash": "21f8b7a7d164f051b412cf3c3364e9fb5b9a76ba"
     },
     {
       "path": "config/ftbquests/quests/chapters/dragons_in_your_own_homeland.snbt",
-      "hash": "3a4a840a9e56382b23225464885b984201897d94"
+      "hash": "e59d3d355e59e1e953026a97e14926d449275713"
     },
     {
       "path": "config/ftbquests/quests/chapters/enigmatic_legacy.snbt",
-      "hash": "46ed4b2f9df8a3e7d1da0ed81e3f03097b1621c6"
+      "hash": "dac1b5619d38caabcf32405e4b6480efac18bf90"
     },
     {
       "path": "config/ftbquests/quests/chapters/farmers_delight.snbt",
-      "hash": "6f2685e66de9baa51ef424bc3a210e6bfb1f5027"
+      "hash": "6f1055f02f37df5ff264f13cb891fd18d58606b4"
     },
     {
       "path": "config/ftbquests/quests/chapters/features_and_mechanics.snbt",
-      "hash": "e65cbb2b9dc5e71c5dc71ee9b2a839af23b74a67"
+      "hash": "d2815d28f6a890c9545b5edb6dc0f0260b9340c8"
     },
     {
       "path": "config/ftbquests/quests/chapters/greek_fantasy.snbt",
-      "hash": "e501a74a814309ea6f6a671d759da7a71a712639"
+      "hash": "fafd18393fc8772e78ba989f9bb746f7e09b3c1d"
     },
     {
       "path": "config/ftbquests/quests/chapters/highway_to_the_bumblezone.snbt",
-      "hash": "5010b0c21aaf39dc7a6273f46380119488ad8284"
+      "hash": "577e553463f6091b0eaaa8656c1ed7f65884c59d"
     },
     {
       "path": "config/ftbquests/quests/chapters/into_the_sands.snbt",
-      "hash": "f94a3558c6a021505d93db6c369da779305364f4"
+      "hash": "199bcd93216d512ceb26ea24e69f9b8f4be379fb"
     },
     {
       "path": "config/ftbquests/quests/chapters/meet_your_fight.snbt",
-      "hash": "8dc122253f4d715aa27aedecc613c58ea7c1df75"
+      "hash": "c1048d33a03868c6aeb6c92b06033289a7303e23"
     },
     {
       "path": "config/ftbquests/quests/chapters/mining_dimension.snbt",
-      "hash": "a36cd94342a65adf3113e4abbcd074385f4338b4"
+      "hash": "489477cb9cb15e4f327e417f72fbb00aadc6259c"
     },
     {
       "path": "config/ftbquests/quests/chapters/nether_exploration.snbt",
-      "hash": "904782e96cd0a4257f50d200306f5d23e7caddf6"
+      "hash": "84a06cf80e22b8976d546e66756e721367ebeb87"
     },
     {
       "path": "config/ftbquests/quests/chapters/overworld_exploration.snbt",
-      "hash": "706952d96694b84203df91b18e2cffeb0736f643"
+      "hash": "11486f40a78f6af0de01b99872fd93109e92a429"
     },
     {
       "path": "config/ftbquests/quests/chapters/pathfinder.snbt",
-      "hash": "e569ef0607d3451369242fd60c0e9cd6adaf4203"
+      "hash": "d0cb997035000a8d67f508715df53ad3dce65f99"
     },
     {
       "path": "config/ftbquests/quests/chapters/reborn_of_the_end.snbt",
-      "hash": "0c3059440d233b21791285b14b0cc364123d2b54"
+      "hash": "853403632ea65789523a002ee779e97290103ac7"
     },
     {
       "path": "config/ftbquests/quests/chapters/shop.snbt",
-      "hash": "4fbe84d7ed48de9c1ee5188aaaa7daa288fc1ba1"
+      "hash": "3d5177bcaed33107eb111b4ab099aa9f0593dd13"
     },
     {
       "path": "config/ftbquests/quests/chapters/simple_storage.snbt",
-      "hash": "b630287013ced4611f35fb46697565357fc574b2"
+      "hash": "745e91e30deb066965e2248e82a7a2d1374f33e9"
     },
     {
       "path": "config/ftbquests/quests/chapters/specialization.snbt",
-      "hash": "89493a1da4333d8c7e3a294e7b04de1355e90f1e"
+      "hash": "31a042542da306c887e60f2634b342955c76aac4"
     },
     {
       "path": "config/ftbquests/quests/chapters/sweet_dreams.snbt",
-      "hash": "4555cd1101ea0eecf6175e406c4dfe5882305ace"
+      "hash": "f3010d15ae2ecdaa91894ef81a98d150d51f1dae"
     },
     {
       "path": "config/ftbquests/quests/chapters/the_garden_under.snbt",
-      "hash": "17264f13a680c9b4d8d8767722333ab679912823"
+      "hash": "8c806613a01815d3b9ec9a665f37f14bc6c5691d"
     },
     {
       "path": "config/ftbquests/quests/chapters/the_patreon.snbt",
-      "hash": "6b56e6dda2f9a4db9ad906de4c6762a705cd3b06"
+      "hash": "1ca625a960bc90938549a0f44c9402df7fa71d62"
     },
     {
       "path": "config/ftbquests/quests/chapters/titles.snbt",
-      "hash": "a9def228dd4721299cfcb210d3d35f4e43107d70"
+      "hash": "d077f259617008300cf5b84632caacca17d3a265"
     },
     {
       "path": "config/ftbquests/quests/chapters/trinkets__curios.snbt",
-      "hash": "21152985ea2c173b204438dffbc1e3983196de53"
+      "hash": "eb1228fde6ce0f41a83ed8e65732351d8ddeb88c"
     },
     {
       "path": "config/ftbquests/quests/chapters/tropicraft.snbt",
-      "hash": "e2d32a00fdaf68454119dee9b55f1ca30c1cef34"
+      "hash": "efca89e5ff376fe043a0f4306675fafc3769193d"
     },
     {
       "path": "config/ftbquests/quests/chapters/twilight_forest.snbt",
-      "hash": "8e51a986cd1d6fa0f12ea9e98fe879050acf1932"
+      "hash": "0121c688ddde24483d8265ccfd1136bbbfcafee2"
     },
     {
       "path": "config/ftbquests/quests/chapter_groups.snbt",
-      "hash": "2e83790b145e1205ccd347d832bd5cddbc80a4f0"
+      "hash": "44f415e27634aaa9b7148e21096d7d41fe5f75bc"
     },
     {
       "path": "config/ftbquests/quests/data.snbt",
@@ -2411,395 +2411,395 @@
     },
     {
       "path": "config/ftbquests/quests/reward_tables/10rare.snbt",
-      "hash": "5b628f06d98bed0413dfb89033b8a8b700c66d54"
+      "hash": "a223e2a7250f5d532fba594009e5f6f377536cef"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32common.snbt",
-      "hash": "261e8be8e1276c0721e275f8757d39df2ab13b13"
+      "hash": "7110e060124623e113639292a67dd38b3624f584"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32rare.snbt",
-      "hash": "cf69349ad072e6cae0be393dd27af6cc3d6553ae"
+      "hash": "1e45efad026ccd8c315f7d184998fc2c7f22fb8e"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32uncommon.snbt",
-      "hash": "5a37b9cc9a25aeea6a1a1e3a9af8f5d0ff2c36c3"
+      "hash": "2ce0376c05d24997ad2a28e2fb46f97e50a2bbf5"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64common.snbt",
-      "hash": "f7845bdc81e21a144d9aea4e34a77ecc3064faf0"
+      "hash": "84763f209fbcf9f0c8288600fe56d5a0cf953b1b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64uncommon.snbt",
-      "hash": "88961258cf7f607fed6f54cba32ddb43d83ce0b4"
+      "hash": "9a2a8660c3ba381e19d71d7c0cfbd1d9e918d439"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64_rare_crates.snbt",
-      "hash": "eec78283c4725e004aa135c6fcfefa10d37179f2"
+      "hash": "c3ca318f7834d7f8a6d9de5168d532cb08ec1f36"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/amethcoin.snbt",
-      "hash": "4b5b88ce5a6faf842fd2f68db2ad426d00733873"
+      "hash": "b7fc068d80f01211b44769c96a71a2d2df31ab3b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/armor_crate.snbt",
-      "hash": "6103a714aba2c3d4e8f4351bde3202f905ae7958"
+      "hash": "ec154611600e0a064b37c357aca9f12973094da9"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/artefact_crate.snbt",
-      "hash": "5f569817fb4673dca433f7147c819571e7646e89"
+      "hash": "a31f10a4b8c1463010796cdd52c2bed8bba4ea0c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/avengers_sword_crate.snbt",
-      "hash": "8ce0c02aa9206b1fff039dbffcbfa628b76a319c"
+      "hash": "0b52a4239cf4dab48ff1640d19670c7b7c981b4f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/blossom_saplings.snbt",
-      "hash": "c1600519280502d24dd56126a0e903e2b552be50"
+      "hash": "e86192581cbea7e550e4f6a82c837003aa8c0af2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/common_loot_crate.snbt",
-      "hash": "ea387af0e6bee74adaf31d1b870a40b8c611a933"
+      "hash": "70d5fdd7a4b97badc4edf9bcd42ff9c55a52793e"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/coppercoin.snbt",
-      "hash": "c8c3bb0fb2c978dfac2eb52a6c42fe6c482e23c9"
+      "hash": "3c870232cb8e034c72a87ddba55130dafc60c809"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward.snbt",
-      "hash": "9dcd7b307b8d6b8933b1bc2ac86cf8d3da23eebf"
+      "hash": "9d010eb3127afb059d70f0b8782fcd21cc88a64f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward_x32.snbt",
-      "hash": "d57370fc3566890164572f8a5b68202321df7c05"
+      "hash": "327f7c6deedba9d1df40ea8d36c369ae0460377f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward_x64.snbt",
-      "hash": "08fb51c1f6bf070cc8990779a88c2b6e5f4007fc"
+      "hash": "546997235f982fe98a0b91b121075139d6446954"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/crate_crate.snbt",
-      "hash": "2b999e1105b95dbf2b07a25e57ee47667a5355ab"
+      "hash": "f41717333d3c277f53a92185f8224f8535dd5a74"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamondcoin.snbt",
-      "hash": "136244c98ea3da805c3b028fc2bf2a8a9f48f6ad"
+      "hash": "f6e54d61f25ca383849c67186fc632e3a131eb74"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamondcoinreward.snbt",
-      "hash": "0990e7351265926ab91665aacca2ae5b51f4ebbd"
+      "hash": "1ebf224b42e4e08c9f6d5afd7590b214ee55048e"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamond_coin_reward.snbt",
-      "hash": "0230dcf6dc271e5ed15d9cd8399b71bd0745357c"
+      "hash": "876984fb1cbe85969146c55533d4ff2a6191c4ee"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/duds.snbt",
-      "hash": "303011eecac7f3a32aeb8c43cef813a7ed69a283"
+      "hash": "90c7e3ced1330f47ea3a9b1928f1d2b937cf901c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/duds1.snbt",
-      "hash": "d0978fe160a148366dbd12bcf6b5cf22b25054d6"
+      "hash": "643e36c2e9ea2d171134ba77f47496bb0c781e3c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_artifacts_crate.snbt",
-      "hash": "490a269bc39ba0a1e6880eb49c5fef629b7bbe4b"
+      "hash": "ec7a01b4e788bf558f71f2ebef347d7fa5df3d59"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_gear_crate.snbt",
-      "hash": "b16581f352cb7a62678d2699755fbe2afe25a279"
+      "hash": "7ab3134e00f07d2917207dcc3d953db2e8d5a579"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_mobs_gear_crate.snbt",
-      "hash": "a473ab9933c830bad74d8acaa6ed68c106eca3ae"
+      "hash": "aed41fa3029a68ea55ed0d7b41d40cfc14920221"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_weapons_crate.snbt",
-      "hash": "cb726194cc21ec4727d0c0e5bbedc3dc8db8dcb7"
+      "hash": "de081e6685190996cd00d0cf26e4610796706b0b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/emeraldcoin.snbt",
-      "hash": "57ef924e5ac15237827811bd061458d90e9f7347"
+      "hash": "02120a052d9858f4ae2d16a1b8760a4523ef00ae"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/enchanted_books_4.snbt",
-      "hash": "189cad688c855f9fb8dd4f93787feff8a47de3b3"
+      "hash": "ce773ad5db15aeadba7919d5b1708f1ddbb9305d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/enchantments.snbt",
-      "hash": "82ddaceef52007b75796969d122fb6e176cc82c2"
+      "hash": "d2dcddc68a37a65554a5a3be28775af62ffb0bb5"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/epic_loot_crate.snbt",
-      "hash": "d60f8ec77cffc70160987645e3b1253627a7c6d2"
+      "hash": "25b5bb55b4165b0848300dc7129f351a57680175"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/experience.snbt",
-      "hash": "03528bae49fc76e1bfa7dc0a3b1ef5ca677e5075"
+      "hash": "01fc109010e385a18eb8f6f733e7003aba965432"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/experience30.snbt",
-      "hash": "37effab81c2060dbc8e15d73911ad63ece22c84f"
+      "hash": "f9820c81ff06c3e570bff7c1c99c75678e9a346c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/filler_blocks.snbt",
-      "hash": "303061e71a49d1a1cec3ef4d2da79162dd4f5472"
+      "hash": "8fcd7c8ced41bf844fa7f98f08baf4bfdd301f0d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/food_4.snbt",
-      "hash": "f2d18fb69627a434f4132ffe4f3e3aa8b47d983a"
+      "hash": "9088983f7ec8a2d4d1ad2762a7034d2baf966492"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/food_crate.snbt",
-      "hash": "1834fcebc7ca833a11f3246e1e93a7e49f98cf14"
+      "hash": "3e11cb24ca22134e1a7af19f01e148256af6d8c1"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold2coin.snbt",
-      "hash": "e2f9daa3bbb51e1dfb732627893b9c403522b9e6"
+      "hash": "6bfcbfa53f5c86c565aa36a0dff393e0f4293882"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/goldcoin.snbt",
-      "hash": "39e47210b36f3de452ab14ac06664a06ca31c8f7"
+      "hash": "c34971e611d8c56a2fcba4ebe06d16a892d17ae4"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold_coin.snbt",
-      "hash": "431b5379c14d71a1b3a4faa80868b652c3a86843"
+      "hash": "8501e76c75d6da8165aa37ba40af06e1f0fe0c8f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold_coin_reward.snbt",
-      "hash": "c78e1fa7ef8115d2c285733e3dbef3b5f3340ae6"
+      "hash": "50e671881dac5827ac59523d432b4ae23f236461"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/hat_crate.snbt",
-      "hash": "b1c276178eaa2a4653dde875e63bac8deecfa61d"
+      "hash": "1c6b9c8121bc200869f177c02b493333db159b13"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ingots_basic.snbt",
-      "hash": "5fd498e458e41df6b45b0ea641a30076a96fd7c2"
+      "hash": "3a0c5f259ee593450e1bc0a5027c902393dc01b0"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ingots_valuable.snbt",
-      "hash": "c3490c3266ad934e370dad3043ee9d0437292330"
+      "hash": "5e6ed1fc156858090d4f24deff299a2a2de33482"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward.snbt",
-      "hash": "4086564b6b35725035b03772491097e93cbeff1d"
+      "hash": "3b2dbbedb22da1a72ee102670a4a70cdf3b0f14d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward_x32.snbt",
-      "hash": "555d4c31147ec142ddfb247a096f77a4d5bd81fb"
+      "hash": "4341e1da5bb564a7256933a1508e8e83af413dd7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward_x64.snbt",
-      "hash": "ae800d48d044d8657d24e06ea2a7ee75ab9996dd"
+      "hash": "db0d483935bf86b4c210e80edb040470af3d8f0c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/junk_3.snbt",
-      "hash": "b30cd389909dce9e387a30c82addbd4ed838770d"
+      "hash": "24ce2efb4b0da761eca728d7ca2ee0273da5bd4f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/junk_4.snbt",
-      "hash": "c76b165644da7b958a8db04144173a8a7743f83e"
+      "hash": "51b705644368b82092dc308710d3d43834dd1d6e"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/lapiscoin.snbt",
-      "hash": "3c90ab5214c1465c19a99b59ef53f6b2baf6fa53"
+      "hash": "7197513f14d1ee1c88c4193c357dd087465f86ed"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/legendary_loot_crate.snbt",
-      "hash": "de5477fa68cf96e7080e9232960855ccdb31bb71"
+      "hash": "6d3063962b630f1b2ac5e2a7fe43882ee5b3007c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/logs.snbt",
-      "hash": "3fbb54774bfb729d003552b6b0f2f1326b1092ef"
+      "hash": "3e6c8b3efb6779d619cf9db963716a302f4d15b7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_3.snbt",
-      "hash": "fa1d0d0c0c655220069397dffef5b46eb8467f1f"
+      "hash": "8386e898dace6970c9150731eba927a54eab83af"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_dusts.snbt",
-      "hash": "f2ec9ad17ba8acd47b4b8724a3a8b7df36a378d9"
+      "hash": "4804299338c5781eae505572c12c0593952df6af"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_magic.snbt",
-      "hash": "2bfd8d364303933f3d3ac9503387f749722ef56c"
+      "hash": "d7c61904b4ec9d487efd9c6348dba06f6cfe691c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_monsters.snbt",
-      "hash": "f3dcc261e8a56131e7c1b18046a284630dd151dd"
+      "hash": "cd8a02ccf9ffa546ae089d72a2856855645821b6"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_random.snbt",
-      "hash": "20e555c26f44b2f995382a0ded1c6d5005cbfd46"
+      "hash": "6de3ca00846a77ec72e96943ebc18f281e66aba1"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/miners_pick_crate.snbt",
-      "hash": "4f5e865a7872950a6d32dc9349335a9f03849edf"
+      "hash": "a4e1e8a66c902b0b4d6b652846a9d1bb8226bb31"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers.snbt",
-      "hash": "629ac67c610bb20b554e3151fcaad71bc4fd8ff7"
+      "hash": "f26c95effa0422ad571d7030d883cbd95e1e0828"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers_armor.snbt",
-      "hash": "79d9a46d3ce16e301929f1c6955eaf545c5441e8"
+      "hash": "87df19b0ef22357c1167a0497349a1ce44d6dcbe"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers_tools.snbt",
-      "hash": "fa555bc161b3124f64b432e3ac59b383ae0f6cec"
+      "hash": "be54a43bd1b14bca4997b1e4c0f7982d394c3324"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money.snbt",
-      "hash": "eaa01f5d54d4c139aa295a2bee257c0de1575471"
+      "hash": "0c4d83bea6e6947ea70ba17e3b8e9a27428231b9"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money10.snbt",
-      "hash": "ba8bb72b5b1044e71120446a9cba5d6d13100b56"
+      "hash": "6317a1d7d7d91fe431a324861f894966cf141528"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money1000.snbt",
-      "hash": "370a8aa7673a2b26917672c04959f34dbb146fa0"
+      "hash": "d8c955154a2897bb52add3775e3aa6275bc8a9b8"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money50.snbt",
-      "hash": "d2f628768602cf1fbb09d15135bffbe0eb39e037"
+      "hash": "c568ceecb3386127feb934eff06a137b87fcef72"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/mythic_loot_crate.snbt",
-      "hash": "a6760a0adfbd4d759d955f9041765c3b515a7e06"
+      "hash": "249116d0fdf5e8bb45e41fcbfe16807c7c742157"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/netherite_coin_reward.snbt",
-      "hash": "d2e1f64408e31f05cc978746eead5acf18b0c8dd"
+      "hash": "d1000662190f6a96a1027b882dbbf6bf14d26566"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/nether_loot_crate.snbt",
-      "hash": "dca62926eb98811712b15f8f8fa6ea7068d50209"
+      "hash": "7506ee7cfb2bcc1d929809e0a6c6e404d640e82e"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores.snbt",
-      "hash": "0c63521a80e4c1c146eab0fe1a01570bf86680f4"
+      "hash": "5179f3491b4f1dd5c643f8d176d7f32f2745f774"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_2.snbt",
-      "hash": "98f2dfa7301a68e25be075000113b99a2ff77910"
+      "hash": "7924ee37e82b44dce53ebff997a11a3327313b4a"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_3.snbt",
-      "hash": "db46f0debb7c94798d5caa5de640373c86578870"
+      "hash": "81c6eee63c849677e1b6969447181753f7acc8a1"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_4.snbt",
-      "hash": "b580a7ad00dd09bc4f08cb56f9ae1fe1d8886c47"
+      "hash": "7046eb790a733946fd19f0b2dbf2d289abcc3162"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/passive_spawn_eggs.snbt",
-      "hash": "00c0b2c13357905103a851a6aeeb1a70622e9c9d"
+      "hash": "13584495230e6c196ad3b8dda86d195ecad1d2a7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/planks.snbt",
-      "hash": "502c26a28fac749ee3203871d83853c6a6f0941b"
+      "hash": "2087650aae973ae8eed3b1a6184cb26fd45fbf38"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/potions.snbt",
-      "hash": "f5bd2bb20faf66b55f74878a80709e2d882ac767"
+      "hash": "79d0a5d98e2ee688b4a1d433cd86908398e40b39"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/random_dyes.snbt",
-      "hash": "f9bb958163656dd3df6b545aa5fc532423f63c43"
+      "hash": "a734d82ffcedca5a25d2aeb97ae19047544b1862"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/random_materials.snbt",
-      "hash": "fb2187fbf3dca86b84c70b77d5eb22609c6a4760"
+      "hash": "2b6a7b2a14c2576b81c8d10924ca0ee3f677ee94"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/rare_loot_crate.snbt",
-      "hash": "5264330ff9d08c23d8c3ae5dc0d32ac5334677e1"
+      "hash": "94a6784c70d42297f14e9effc7515cde5189b601"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/redstonecoin.snbt",
-      "hash": "87f412adc44bf25790a943b5472a7273d428aa3a"
+      "hash": "a63187344e04ed3fa633477b606e700a128e1a34"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/relics_materials_crate.snbt",
-      "hash": "2b8329dba03fad9b9dfe419122be56b69f181e3b"
+      "hash": "288cbdc997b9d992ed9945b3133ea601317a3355"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/relic_crate.snbt",
-      "hash": "7270d21edce203c4ba8f61c8572dac3e79d3db5b"
+      "hash": "b596feb5089ea6804a30d1a8891d22042f0e2c51"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/sapling_crate.snbt",
-      "hash": "f001a90a224d952a80af839e9dea97cc6942ebdf"
+      "hash": "b79ba707a89aa45f450bdbdca759407040f22e58"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/seed_crate.snbt",
-      "hash": "bdef49fe5f73577830e3e2d70ec91c6ab1076ee2"
+      "hash": "2ce47731964d0bd6da67704d00087ea5d05c4e4b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience.snbt",
-      "hash": "0e2ddd684658dc829189ec9a3c954e77daf40ab1"
+      "hash": "1b03f8f608c14d192ee06029a6c5ac2336c33ee8"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience05.snbt",
-      "hash": "4fb39ed4de74ab165d6e74960bbf01e219d76633"
+      "hash": "1872027e8c3b91cd6b496282121738bd476fada8"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience10.snbt",
-      "hash": "8395798b15f2c1ccc1652d63d6212e39318a5e50"
+      "hash": "40f65d985561febd1e5ccb372bba2c59bf45e0c3"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_level.snbt",
-      "hash": "acef8d76479e543a5006aaf79e21f14cdb499b85"
+      "hash": "02f8d2663eb7de154007ab99244685863106290c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/spawn_eggs_2.snbt",
-      "hash": "eb835f6d544d66af2ddfb03a9c983d038a7c7a44"
+      "hash": "af0d2a26ac152deb1e68cf2cd300babe72fd5dff"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/spawn_eggs_3.snbt",
-      "hash": "c6613122a919ec92f1c7472f8f6fa34d6bcb04c7"
+      "hash": "fa1ea073142ce11bf0c53ff31719f4146663f24a"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/specialization_token_i.snbt",
-      "hash": "2ea668992632bd6dd04055510f1d5883f04af5a3"
+      "hash": "8d1fc9cea95fa1059508a30b1585212e7f8cce29"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/stone.snbt",
-      "hash": "8c2ac5fa9390e073e870b0c6772b211971b18f0d"
+      "hash": "106de2b19a98f26dac516375e2db029ad3437eb2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/uncommon_loot_crate.snbt",
-      "hash": "70368d0991ce8b775a32c7f10c4d474dbd0e7f69"
+      "hash": "b528f31762560d261f2f29c830845da5c68353fd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food.snbt",
-      "hash": "3ab69260020d2b537f431ea038a107bf5a939791"
+      "hash": "f27484459e7fdebabbdaa3f763ba55dc3907e349"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food_2.snbt",
-      "hash": "0d836674b7c81b8ff36f239b17beb7a83572c870"
+      "hash": "1077a6996f1ffe92ae81b949fc2cda9295115df4"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food_3.snbt",
-      "hash": "2f77d6fc38e3c8909a1e20f56320b93b466f5521"
+      "hash": "13aee2b9a85c6d293e3c3769c7f04d15b65bd17d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials.snbt",
-      "hash": "b83c8889a9746e9f1d35f04d609e2a600f2670db"
+      "hash": "1d5e6bae8e66c34b633e9294444f487933798c1a"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials_2.snbt",
-      "hash": "6aa9128c42ad917bef3357319f784ce47c125a13"
+      "hash": "14da8e5e481393d788a0d55c968ba6fba61d69a7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials_4.snbt",
-      "hash": "417661e97f3c69c43f55d058ea6a6d522f2340a2"
+      "hash": "b97fd8f4d5a4e52f661234285a86ef4b0436f21a"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/weapon_crate.snbt",
-      "hash": "77a59561184ed91fcc695439a08100fe7307d428"
+      "hash": "5d87ab7bfe733cea5709095a3dd2c84015f689ae"
     },
     {
       "path": "config/ftbultimine.snbt",
@@ -8940,6 +8940,14 @@
     {
       "path": "hmclversion.cfg",
       "hash": "77ead7db807fa11d7d453ce71ac20352007d5ac3"
+    },
+    {
+      "path": "kubejs/assets/kubejs/lang/en_us.json",
+      "hash": "b2367cc02ce2669726f1d3c836a91f972169cdb4"
+    },
+    {
+      "path": "kubejs/assets/kubejs/lang/zh_cn.json",
+      "hash": "324c6f77d4fd601154a2e2615ebcb48b483f1327"
     },
     {
       "path": "kubejs/assets/kubejs/models/block/glass_slab_bottom.json",

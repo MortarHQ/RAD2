@@ -1,7 +1,7 @@
 {
 	id: "535F9CD1C1DD53D1"
 	order_index: 66
-	title: "Vanilla Materials 1"
+	title: "{loot_table.67}"
 	icon: "minecraft:paper"
 	loot_size: 1
 	use_title: true

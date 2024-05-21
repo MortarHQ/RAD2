@@ -1,7 +1,7 @@
 {
 	id: "5C1D4DD18C36BB75"
 	order_index: 76
-	title: "Ores "
+	title: "{loot_table.77}"
 	loot_size: 1
 	rewards: [ ]
 	loot_crate: {

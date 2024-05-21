@@ -3,7 +3,7 @@
 	group: "2C344CA71B9F0CFD"
 	order_index: 0
 	filename: "ars_noveau"
-	title: "Ars Nouveau"
+	title: "{chapter.25.title}"
 	icon: {
 		id: "ars_nouveau:apprentice_hood"
 		Count: 1b
@@ -672,7 +672,7 @@
 			]
 		}
 		{
-			title: "Novice Mage"
+			title: "{chapter.25.quest.15.title}"
 			x: 5.5d
 			y: -4.0d
 			dependencies: ["4A3496748AB9E7FF"]
@@ -803,7 +803,7 @@
 			]
 		}
 		{
-			title: "Regular Mage"
+			title: "{chapter.25.quest.17.title}"
 			x: 7.5d
 			y: -4.0d
 			dependencies: ["059A9420DE24D272"]
@@ -905,7 +905,7 @@
 			]
 		}
 		{
-			title: "Arch Mage"
+			title: "{chapter.25.quest.18.title}"
 			x: 9.5d
 			y: -4.0d
 			dependencies: ["2CE8F52EE44DA32B"]
@@ -3026,10 +3026,10 @@
 			]
 		}
 		{
-			title: "Enchanter's Hammer"
+			title: "{chapter.25.quest.55.title}"
 			x: 6.0d
 			y: 7.5d
-			description: ["Custom RAD2 Item. Completely identical to Enchanter's Sword but has higher attack power and reduced attack speed."]
+			description: ["{chapter.25.quest.55.description.1}"]
 			dependencies: ["6BC8A28A792C35B2"]
 			id: "190DDF53698C55E1"
 			tasks: [{
@@ -3065,7 +3065,7 @@
 			]
 		}
 		{
-			title: "Mad Mage"
+			title: "{chapter.25.quest.56.title}"
 			icon: {
 				id: "losttrinkets:tha_wizard"
 				Count: 1b
@@ -3094,11 +3094,7 @@
 			}
 			x: 7.0d
 			y: 3.5d
-			description: [
-				"Collect all 92 glyphs from Ars Nouveau and then go insane trying to craft the last glyphs."
-				""
-				"The title can be claimed in the Titles chapter after completing this."
-			]
+			description: ["{chapter.25.quest.56.description.1}"]
 			dependencies: ["1CDFAAB12C713AA0"]
 			size: 1.75d
 			id: "2FD36B1AF21BF370"
@@ -4323,7 +4319,7 @@
 				{
 					id: "053D4F9BE8F9E911"
 					type: "pmmo:xpreward"
-					title: "1337 Magic XP"
+					title: "{chapter.25.quest.56.reward.3.title}"
 					icon: {
 						id: "kubejs:book2"
 						Count: 1b

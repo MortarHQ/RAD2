@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "shop"
-	title: "$ - COIN SHOP - $"
+	title: "{chapter.2.title}"
 	icon: "kubejs:gold_coin"
 	disable_toast: true
 	default_quest_shape: ""
@@ -120,7 +120,7 @@
 	]
 	quests: [
 		{
-			title: "Common loot crate random reward"
+			title: "{chapter.2.quest.1.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -132,8 +132,8 @@
 			x: -8.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "For Copper coin (repeatable)"
-			description: ["This quest will give you the item as soon as the coin is submitted."]
+			subtitle: "{chapter.2.quest.1.subtitle}"
+			description: ["{chapter.2.quest.1.description.1}"]
 			size: 2.0d
 			optional: true
 			id: "64AE92F598464E3E"
@@ -152,7 +152,7 @@
 			}]
 		}
 		{
-			title: "Uncommon loot crate random reward"
+			title: "{chapter.2.quest.2.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -164,7 +164,7 @@
 			x: -4.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "For Iron coin (repeatable)"
+			subtitle: "{chapter.2.quest.2.subtitle}"
 			size: 2.0d
 			optional: true
 			id: "071F9F757CCADA93"
@@ -183,7 +183,7 @@
 			}]
 		}
 		{
-			title: "Rare loot crate random reward"
+			title: "{chapter.2.quest.3.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -195,7 +195,7 @@
 			x: 0.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "For Gold coin (repeatable)"
+			subtitle: "{chapter.2.quest.3.subtitle}"
 			size: 2.0d
 			optional: true
 			id: "62356B57A7D667A6"
@@ -214,7 +214,7 @@
 			}]
 		}
 		{
-			title: "Epic loot crate random reward"
+			title: "{chapter.2.quest.4.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -226,7 +226,7 @@
 			x: 4.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "For Diamond coin (repeatable)"
+			subtitle: "{chapter.2.quest.4.subtitle}"
 			size: 2.0d
 			optional: true
 			id: "2EB2758D16E8BAE2"
@@ -244,7 +244,7 @@
 			}]
 		}
 		{
-			title: "Legendary loot crate random reward"
+			title: "{chapter.2.quest.5.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -256,7 +256,7 @@
 			x: 8.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "For Netherite coin (repeatable)"
+			subtitle: "{chapter.2.quest.5.subtitle}"
 			size: 2.0d
 			optional: true
 			id: "15645F279C638145"
@@ -277,8 +277,8 @@
 			x: -8.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
-			description: ["Acquired by exchanging items, completing quests, and defeating Tier 1 \\& 2 Champions."]
+			subtitle: "{chapter.2.quest.6.subtitle}"
+			description: ["{chapter.2.quest.6.description.1}"]
 			size: 2.0d
 			optional: true
 			id: "12AA5A2ECF315050"
@@ -299,8 +299,8 @@
 			x: -4.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
-			description: ["Acquired by exchanging items, completing quests, and defeating Tier 2 \\& 3 Champions."]
+			subtitle: "{chapter.2.quest.7.subtitle}"
+			description: ["{chapter.2.quest.7.description.1}"]
 			size: 2.0d
 			optional: true
 			id: "4CA69F473539E565"
@@ -322,8 +322,8 @@
 			x: 0.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
-			description: ["Acquired by exchanging items, completing quests, and defeating Tier 4, 5 \\& 6 Champions."]
+			subtitle: "{chapter.2.quest.8.subtitle}"
+			description: ["{chapter.2.quest.8.description.1}"]
 			size: 2.0d
 			optional: true
 			id: "2146186B43D64F53"
@@ -344,8 +344,8 @@
 			x: 4.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
-			description: ["Acquired by exchanging items and completing quests."]
+			subtitle: "{chapter.2.quest.9.subtitle}"
+			description: ["{chapter.2.quest.9.description.1}"]
 			size: 2.0d
 			optional: true
 			id: "0802FC6EE2B78153"
@@ -366,8 +366,8 @@
 			x: 8.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
-			description: ["Acquired by completing quests."]
+			subtitle: "{chapter.2.quest.10.subtitle}"
+			description: ["{chapter.2.quest.10.description.1}"]
 			size: 2.0d
 			optional: true
 			id: "4BD23FFF77631DA0"
@@ -388,8 +388,8 @@
 			x: 15.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
-			description: ["Acquired by defeating any Tier Champions in the Nether."]
+			subtitle: "{chapter.2.quest.11.subtitle}"
+			description: ["{chapter.2.quest.11.description.1}"]
 			size: 2.0d
 			optional: true
 			id: "637B4E0CF8EE27A0"
@@ -407,7 +407,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Dungeon's Mobs Gear"
+			title: "{chapter.2.quest.12.title}"
 			icon: {
 				id: "dungeons_mobs:drowned_necromancer_chestplate"
 				Count: 1b
@@ -442,7 +442,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Dungeon's Gear Crate"
+			title: "{chapter.2.quest.13.title}"
 			icon: {
 				id: "dungeons_gear:full_metal_chestplate"
 				Count: 1b
@@ -477,12 +477,12 @@
 			}]
 		}
 		{
-			title: "Copper coin -> Money"
+			title: "{chapter.2.quest.14.title}"
 			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
 			y: -1.0d
-			description: ["This quest will give you the money as soon as the coin is submitted."]
+			description: ["{chapter.2.quest.14.description.1}"]
 			optional: true
 			id: "3459460308668951"
 			tasks: [{
@@ -509,7 +509,7 @@
 			}]
 		}
 		{
-			title: "Diamond Coin -> Relics Crate"
+			title: "{chapter.2.quest.15.title}"
 			icon: {
 				id: "relics:magma_walker"
 				Count: 1b
@@ -544,7 +544,7 @@
 			}]
 		}
 		{
-			title: "Gold Coind -> Relics Materials Crate"
+			title: "{chapter.2.quest.16.title}"
 			icon: "relics:uncommon_scrap"
 			disable_toast: true
 			x: 2.0d
@@ -573,7 +573,7 @@
 			}]
 		}
 		{
-			title: "Diamond Coin -> Artifacts Crate"
+			title: "{chapter.2.quest.17.title}"
 			icon: "artifacts:fire_gauntlet"
 			x: 6.0d
 			y: 1.5d
@@ -601,7 +601,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Dungeon's Weapons Crate"
+			title: "{chapter.2.quest.18.title}"
 			icon: {
 				id: "dungeons_gear:frost_scythe"
 				Count: 1b
@@ -635,7 +635,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Dungeon's Artifacts Crate"
+			title: "{chapter.2.quest.19.title}"
 			icon: {
 				id: "dungeons_gear:iron_hide_amulet"
 				Count: 1b
@@ -670,7 +670,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Experience Levels"
+			title: "{chapter.2.quest.20.title}"
 			icon: {
 				id: "minecraft:experience_bottle"
 				Count: 1b
@@ -707,7 +707,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Stats Experience"
+			title: "{chapter.2.quest.21.title}"
 			icon: "kubejs:levelup"
 			disable_toast: true
 			x: 12.0d
@@ -737,7 +737,7 @@
 			}]
 		}
 		{
-			title: "10x Monster Coin -> Stats Experience x10"
+			title: "{chapter.2.quest.22.title}"
 			icon: "kubejs:levelup"
 			disable_toast: true
 			x: 12.0d
@@ -763,13 +763,13 @@
 			rewards: [{
 				id: "74E87CA4950C741A"
 				type: "questsadditions:repeat_choice"
-				title: "Skill Experience 1000"
+				title: "{chapter.2.quest.22.reward.1.title}"
 				team_reward: false
 				table_id: 3680913278004027102L
 			}]
 		}
 		{
-			title: "10x Monster Coin -> Experience Levels"
+			title: "{chapter.2.quest.23.title}"
 			icon: {
 				id: "minecraft:experience_bottle"
 				Count: 1b
@@ -807,13 +807,13 @@
 			}]
 		}
 		{
-			title: "Monster Coin"
+			title: "{chapter.2.quest.24.title}"
 			disable_toast: true
 			x: 11.5d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "Random Repeatable Reward"
-			description: ["Acquired by defeating Tier 2, 3, 4, 5 \\& 6 Champions."]
+			subtitle: "{chapter.2.quest.24.subtitle}"
+			description: ["{chapter.2.quest.24.description.1}"]
 			size: 2.0d
 			optional: true
 			id: "2BF225A3266C70D9"
@@ -840,7 +840,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Artifacts Crate"
+			title: "{chapter.2.quest.25.title}"
 			icon: { id: "artifacts:shock_pendant", Count: 5b }
 			disable_toast: true
 			x: 11.0d
@@ -870,7 +870,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Dungeon's Gear Crate"
+			title: "{chapter.2.quest.26.title}"
 			icon: {
 				id: "dungeons_gear:gilded_glory_chestplate"
 				Count: 5b
@@ -907,7 +907,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Dungeon's Weapons Crate"
+			title: "{chapter.2.quest.27.title}"
 			icon: {
 				id: "dungeons_gear:firebrand"
 				Count: 5b
@@ -944,7 +944,7 @@
 			}]
 		}
 		{
-			title: "10x Copper Coin -> 100 Money"
+			title: "{chapter.2.quest.28.title}"
 			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
@@ -977,7 +977,7 @@
 			}]
 		}
 		{
-			title: "100x Copper Coin -> 1000 Money"
+			title: "{chapter.2.quest.29.title}"
 			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
@@ -1010,7 +1010,7 @@
 			}]
 		}
 		{
-			title: "32x Copper Coin -> 32x Common Loot Crates"
+			title: "{chapter.2.quest.30.title}"
 			disable_toast: true
 			x: -8.5d
 			y: 0.5d
@@ -1040,7 +1040,7 @@
 			}]
 		}
 		{
-			title: "64x Copper Coin -> 64x Common Loot Crates"
+			title: "{chapter.2.quest.31.title}"
 			disable_toast: true
 			x: -7.5d
 			y: 0.5d
@@ -1070,7 +1070,7 @@
 			}]
 		}
 		{
-			title: "32x Iron Coin -> 32x Uncommon Loot Crates"
+			title: "{chapter.2.quest.32.title}"
 			x: -4.5d
 			y: 0.5d
 			shape: "hexagon"
@@ -1099,7 +1099,7 @@
 			}]
 		}
 		{
-			title: "64x Iron Coin -> 64x Uncommon Loot Crates"
+			title: "{chapter.2.quest.33.title}"
 			disable_toast: true
 			x: -3.5d
 			y: 0.5d
@@ -1129,7 +1129,7 @@
 			}]
 		}
 		{
-			title: "32x Gold Coin -> 32x Rare Loot Crates"
+			title: "{chapter.2.quest.34.title}"
 			disable_toast: true
 			x: -0.5d
 			y: 0.5d
@@ -1171,7 +1171,7 @@
 			}]
 		}
 		{
-			title: "32x Copper Coin -> 32x Choice Rewards"
+			title: "{chapter.2.quest.35.title}"
 			x: -8.5d
 			y: 3.5d
 			shape: "hexagon"
@@ -1201,7 +1201,7 @@
 			}]
 		}
 		{
-			title: "64x Copper Coin -> 64x Choice Rewards"
+			title: "{chapter.2.quest.36.title}"
 			x: -7.5d
 			y: 3.5d
 			shape: "hexagon"
@@ -1230,7 +1230,7 @@
 			}]
 		}
 		{
-			title: "64x Gold Coin -> 64x Rare Loot Crates"
+			title: "{chapter.2.quest.37.title}"
 			x: 0.5d
 			y: 0.5d
 			shape: "hexagon"
@@ -1270,7 +1270,7 @@
 			}]
 		}
 		{
-			title: "32x Iron Coin -> 32x Choice Rewards"
+			title: "{chapter.2.quest.38.title}"
 			x: -4.5d
 			y: 3.5d
 			shape: "hexagon"
@@ -1299,7 +1299,7 @@
 			}]
 		}
 		{
-			title: "64x Iron Coin -> 64x Choice Rewards"
+			title: "{chapter.2.quest.39.title}"
 			x: -3.5d
 			y: 3.5d
 			shape: "hexagon"
@@ -1328,11 +1328,11 @@
 			}]
 		}
 		{
-			title: "Two Submissions > Copper Coin"
+			title: "{chapter.2.quest.40.title}"
 			x: -8.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Any 2 submissions will get you 1 coin"
+			subtitle: "{chapter.2.quest.40.subtitle}"
 			optional: true
 			min_required_tasks: 2
 			id: "13265E15534D4AAA"
@@ -1421,11 +1421,11 @@
 			}]
 		}
 		{
-			title: "Two Submissions > Iron Coin"
+			title: "{chapter.2.quest.41.title}"
 			x: -4.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Any 2 submissions will get you 1 coin"
+			subtitle: "{chapter.2.quest.41.subtitle}"
 			optional: true
 			min_required_tasks: 2
 			id: "1CE64EA211F879F0"
@@ -1453,7 +1453,7 @@
 				{
 					id: "255AB278711FBE94"
 					type: "item"
-					title: "Any #forge:storage_blocks/sapphire"
+					title: "{chapter.2.quest.41.task.3.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1466,7 +1466,7 @@
 				{
 					id: "54DFD67E7558AE23"
 					type: "item"
-					title: "Any #forge:storage_blocks/lead"
+					title: "{chapter.2.quest.41.task.4.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1479,7 +1479,7 @@
 				{
 					id: "4B0FB87CE7902699"
 					type: "item"
-					title: "Any #forge:storage_blocks/amethyst"
+					title: "{chapter.2.quest.41.task.5.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1525,11 +1525,11 @@
 			}]
 		}
 		{
-			title: "Two Submissions > Gold Coin"
+			title: "{chapter.2.quest.42.title}"
 			x: 0.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Any 2 submissions will get you 1 coin"
+			subtitle: "{chapter.2.quest.42.subtitle}"
 			optional: true
 			min_required_tasks: 2
 			id: "7DC7F5C906814CE3"
@@ -1543,7 +1543,7 @@
 				{
 					id: "4AA4E236235AF7DF"
 					type: "item"
-					title: "Any #forge:storage_blocks/fire_dragon_scale"
+					title: "{chapter.2.quest.42.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1589,11 +1589,11 @@
 			}]
 		}
 		{
-			title: "Two Submissions > Diamond Coin"
+			title: "{chapter.2.quest.43.title}"
 			x: 4.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Any 2 submissions will get you 1 coin"
+			subtitle: "{chapter.2.quest.43.subtitle}"
 			optional: true
 			min_required_tasks: 2
 			id: "5593274DC54B9937"
@@ -1697,7 +1697,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Artifacts Crate"
+			title: "{chapter.2.quest.44.title}"
 			icon: "artifacts:whoopee_cushion"
 			x: 2.0d
 			y: 2.5d
@@ -1724,7 +1724,7 @@
 			}]
 		}
 		{
-			title: "Diamond Coin -> Modifier Book"
+			title: "{chapter.2.quest.45.title}"
 			icon: {
 				id: "modifiers:modifier_book"
 				Count: 1b

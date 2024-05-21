@@ -1,7 +1,7 @@
 {
 	id: "42FD5CBD40DA353D"
 	order_index: 94
-	title: "32 Rare Crates"
+	title: "{loot_table.95}"
 	loot_size: 1
 	rewards: [{
 		item: {

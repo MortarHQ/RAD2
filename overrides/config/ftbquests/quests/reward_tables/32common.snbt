@@ -1,7 +1,7 @@
 {
 	id: "01932079859AE12B"
 	order_index: 61
-	title: "32common"
+	title: "{loot_table.62}"
 	loot_size: 1
 	rewards: [{
 		item: {

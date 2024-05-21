@@ -1,7 +1,7 @@
 {
 	id: "4402BA7FC530C3B1"
 	order_index: 91
-	title: "Spawn Eggs 3"
+	title: "{loot_table.92}"
 	icon: "meetyourfight:bellringer_spawn_egg"
 	loot_size: 1
 	rewards: [

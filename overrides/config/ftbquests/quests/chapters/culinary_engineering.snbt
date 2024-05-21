@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 1
 	filename: "culinary_engineering"
-	title: "Culinary Expedition"
+	title: "{chapter.21.title}"
 	icon: "cookingforblockheads:cooking_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: -9.0d
 			y: 11.5d
 			shape: "gear"
-			description: ["With this book you will be able to make food specifically from in your inventory."]
+			description: ["{chapter.21.quest.1.description.1}"]
 			size: 1.5d
 			id: "0000000000000FF0"
 			tasks: [{
@@ -25,7 +25,7 @@
 			x: -5.0d
 			y: 11.5d
 			shape: "rsquare"
-			description: ["This cooking table is the first step in having a entire functioning and linked kitchen. It will be where you craft your food. "]
+			description: ["{chapter.21.quest.2.description.1}"]
 			dependencies: ["0000000000000FF0"]
 			id: "0000000000000FF2"
 			tasks: [{
@@ -51,7 +51,7 @@
 			x: -3.0d
 			y: 11.5d
 			shape: "rsquare"
-			description: ["By having a sink linked into your kitchen (touching other counter blocks and equipment) you will have water supplied freely to all your recipes."]
+			description: ["{chapter.21.quest.3.description.1}"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FF4"
 			tasks: [{
@@ -69,7 +69,7 @@
 			x: -2.0d
 			y: 10.5d
 			shape: "rsquare"
-			description: ["The oven will allow you to cook any food needed in your recipes, when connected in your kitchen. Without upgrades the oven will require a fuel source to cook food."]
+			description: ["{chapter.21.quest.4.description.1}"]
 			dependencies: ["0000000000000FF4"]
 			id: "0000000000000FF6"
 			tasks: [{
@@ -86,7 +86,7 @@
 		{
 			x: -4.0d
 			y: 10.5d
-			description: ["The toaster will convert bread to toast for any recipe needing it."]
+			description: ["{chapter.21.quest.5.description.1}"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FF8"
 			tasks: [{
@@ -111,11 +111,7 @@
 		{
 			x: 0.0d
 			y: 12.5d
-			description: [
-				"Provides a constant supply of milk for recipes without manually having to be filled. "
-				""
-				"May want to drop an anvil on a cow over a milk jar to see if one actually fits."
-			]
+			description: ["{chapter.21.quest.6.description.1}"]
 			dependencies: ["0000000000000FFC"]
 			id: "0000000000000FFA"
 			tasks: [{
@@ -139,7 +135,7 @@
 		{
 			x: 0.0d
 			y: 10.5d
-			description: ["Holds milk to be used in recipes. Must be filled with milk manually."]
+			description: ["{chapter.21.quest.7.description.1}"]
 			id: "0000000000000FFC"
 			tasks: [{
 				id: "0000000000000FFD"
@@ -162,10 +158,7 @@
 		{
 			x: -6.0d
 			y: 10.5d
-			description: [
-				"The fridge is a decorative storage block that will allow you to store ingredients for recipes."
-				"Can be double stacked to expand storage space."
-			]
+			description: ["{chapter.21.quest.8.description.1}"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FFE"
 			tasks: [{
@@ -182,7 +175,7 @@
 		{
 			x: -4.0d
 			y: 12.5d
-			description: ["Holds tools that will be able to be used in recipes in attached kitchens."]
+			description: ["{chapter.21.quest.9.description.1}"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000001000"
 			tasks: [{
@@ -199,7 +192,7 @@
 		{
 			x: -6.0d
 			y: 12.5d
-			description: ["Holds and displays spices to be used in the kitchen."]
+			description: ["{chapter.21.quest.10.description.1}"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000001002"
 			tasks: [{
@@ -216,7 +209,7 @@
 		{
 			x: -2.0d
 			y: 12.5d
-			description: ["Stores and displays fruit for recipes that can be used by the kitchen."]
+			description: ["{chapter.21.quest.11.description.1}"]
 			dependencies: ["0000000000000FF4"]
 			id: "0000000000001004"
 			tasks: [{
@@ -247,7 +240,7 @@
 		{
 			x: -6.5d
 			y: 9.5d
-			description: ["A fridge upgrade that will provide all the snow and ice you need for recipes. "]
+			description: ["{chapter.21.quest.12.description.1}"]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001006"
 			tasks: [{
@@ -271,7 +264,7 @@
 		{
 			x: -5.5d
 			y: 9.5d
-			description: ["A fridge upgrade that saves the last item in a slot so that item spaces are saved from being replaced."]
+			description: ["{chapter.21.quest.13.description.1}"]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001008"
 			tasks: [{
@@ -295,7 +288,7 @@
 		{
 			x: -2.0d
 			y: 9.5d
-			description: ["By applying this upgrade to your oven it will be able to accept RF to cook food, no longer requiring fuel."]
+			description: ["{chapter.21.quest.14.description.1}"]
 			dependencies: ["0000000000000FF6"]
 			id: "000000000000100A"
 			tasks: [{
@@ -319,11 +312,7 @@
 		{
 			x: 2.0d
 			y: 10.5d
-			description: [
-				"A hanging kitchen cabinet to decorate your kitchen and provide some extra storage."
-				""
-				"Can be dyed to change their color."
-			]
+			description: ["{chapter.21.quest.15.description.1}"]
 			id: "000000000000100C"
 			tasks: [{
 				id: "000000000000100D"
@@ -339,11 +328,7 @@
 		{
 			x: 4.0d
 			y: 10.5d
-			description: [
-				"A simple hanging cabinet corner to help around bends while maintaining connection."
-				""
-				"Can be dyed to change their color."
-			]
+			description: ["{chapter.21.quest.16.description.1}"]
 			id: "000000000000100E"
 			tasks: [{
 				id: "000000000000100F"
@@ -359,11 +344,7 @@
 		{
 			x: 2.0d
 			y: 12.5d
-			description: [
-				"Kitchen counter allows you to connect multiple pieces of kitchen equipment together as well as provide some storage for ingredients."
-				""
-				"Can be dyed to change their color."
-			]
+			description: ["{chapter.21.quest.17.description.1}"]
 			id: "0000000000001010"
 			tasks: [{
 				id: "0000000000001011"
@@ -379,11 +360,7 @@
 		{
 			x: 4.0d
 			y: 12.5d
-			description: [
-				"A simple corner to help counters around bends, maintaining their connection."
-				""
-				"Can be dyed to change their color."
-			]
+			description: ["{chapter.21.quest.18.description.1}"]
 			id: "0000000000001012"
 			tasks: [{
 				id: "0000000000001013"
@@ -399,7 +376,7 @@
 		{
 			x: 3.0d
 			y: 11.5d
-			description: ["The \"classic\" kitchen flooring. Can be converted to a number of other colors, check the recipes in JEI. "]
+			description: ["{chapter.21.quest.19.description.1}"]
 			id: "0000000000001014"
 			tasks: [{
 				id: "0000000000001015"
@@ -423,18 +400,14 @@
 			x: -2.5d
 			y: 15.0d
 			shape: "octagon"
-			subtitle: "*You may need to zoom out quite a bit to see all the quests*"
-			description: [
-				"Feel no need to complete a lot of these quests as they do not provide useful rewards, but are here to give you ideas on what to cook to keep your diet diverse."
-				""
-				"May this be your veritable recipe book."
-			]
+			subtitle: "{chapter.21.quest.20.subtitle}"
+			description: ["{chapter.21.quest.20.description.1}"]
 			size: 2.5d
 			id: "000000000000107A"
 			tasks: [{
 				id: "000000000000107B"
 				type: "checkmark"
-				title: "Recipe Time"
+				title: "{chapter.21.quest.20.task.1.title}"
 			}]
 		}
 		{
@@ -1263,12 +1236,12 @@
 			]
 		}
 		{
-			title: "Soup, Salad, and Casserole"
+			title: "{chapter.21.quest.59.title}"
 			icon: "simplefarming:spinach_quinoa_quiche"
 			x: 10.75d
 			y: 11.0d
 			shape: "diamond"
-			description: ["You have a straight up cafe menu with these things!"]
+			description: ["{chapter.21.quest.59.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013F3"
@@ -1296,12 +1269,12 @@
 			}]
 		}
 		{
-			title: "Two Slices of Bread and Anything"
+			title: "{chapter.21.quest.60.title}"
 			icon: "fins:crab_sandwich"
 			x: -15.75d
 			y: 20.5d
 			shape: "diamond"
-			description: ["Is a hotdog a sandwich?"]
+			description: ["{chapter.21.quest.60.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013D5"
@@ -1325,12 +1298,12 @@
 			}]
 		}
 		{
-			title: "All Around the World"
+			title: "{chapter.21.quest.61.title}"
 			icon: "simplefarming:chicken_curry"
 			x: -15.75d
 			y: 11.0d
 			shape: "diamond"
-			description: ["Some meals from all over the world!"]
+			description: ["{chapter.21.quest.61.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013E1"
@@ -1393,11 +1366,11 @@
 			]
 		}
 		{
-			title: "Tea time!"
+			title: "{chapter.21.quest.63.title}"
 			x: -7.25d
 			y: 26.0d
 			shape: "hexagon"
-			description: ["Each type of drink will provide useful benefit"]
+			description: ["{chapter.21.quest.63.description.1}"]
 			dependencies: ["19A4385584636C45"]
 			size: 1.5d
 			id: "0960AD8BA5C09440"
@@ -1990,15 +1963,7 @@
 			x: -2.5d
 			y: 26.0d
 			shape: "hexagon"
-			description: [
-				"The Stove is a direct upgrade to the Campfire's cooking features, and a suitable heat source for the Cooking Pot."
-				""
-				"To add items to its grill, simply right-click the Stove when it has no objects blocking its top face. Stoves detect campfire recipes to cook, meaning they usually also take 30 seconds to fully prepare items. Stoves cannot be automated through item transferring blocks (e.g. Hoppers), but require no fuel to cook items, much like a Campfire."
-				""
-				"Stoves can hold six (6) items on its grill, and will gently pop cooked outputs above its surface, instead of throwing them around."
-				""
-				"Stoves can be put out using shovels or buckets of water, and reignited with Flint and Steel."
-			]
+			description: ["{chapter.21.quest.82.description.1}"]
 			dependencies: ["32D6083223BDCD90"]
 			size: 1.5d
 			id: "19A4385584636C45"
@@ -2045,13 +2010,7 @@
 			x: -2.5d
 			y: 20.0d
 			shape: "hexagon"
-			description: [
-				"The Cooking Pot is a workstation where you can both prepare and store a large amount of meals. When placed above any suitable heat source (campfire, open flames, lava, a stove etc.), it will start bubbling, indicating it's ready to cook."
-				""
-				"You can put up to six ingredients inside a pot. If they match, the pot will start cooking them up into a meal. Most meals need a container to be served on, such as Bowls; the result slot will tell you which one to use. Simply add the container on the corresponding slot, or right-click the pot with it, to take a serving!"
-				""
-				"Meals tend to be quite large, so they don't stack up as high in your inventory. If you're not going to eat them all right away, you can just mine the whole pot and take it with you! Cooking Pots can hold 64 servings of any meal with a container, regardless of their maximum stack limit."
-			]
+			description: ["{chapter.21.quest.84.description.1}"]
 			dependencies: ["19A4385584636C45"]
 			size: 2.0d
 			id: "18F8DADD01FEC9C2"
@@ -2098,7 +2057,7 @@
 		{
 			x: -1.5d
 			y: 17.5d
-			description: ["When consumed, it will remove a single random negative effect from the player, keeping positive ones untouched. This provides a simple use for Cocoa Beans in difficult, risky trips."]
+			description: ["{chapter.21.quest.86.description.1}"]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "55AF1779E7AE28A7"
 			tasks: [{
@@ -2139,7 +2098,7 @@
 		{
 			x: -5.0d
 			y: 23.5d
-			description: ["This combination allows your mount to be a lot more agile during travels. Since mounts eat a large volume of feed, the item does not need to be contained in a Bowl, saving some inventory space."]
+			description: ["{chapter.21.quest.88.description.1}"]
 			dependencies: ["604569BC4764E258"]
 			id: "31E7C56ABBA6A7B2"
 			tasks: [{
@@ -2157,12 +2116,8 @@
 			x: 2.5d
 			y: 26.0d
 			shape: "hexagon"
-			subtitle: "The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
-			description: [
-				"Items can be placed on the Cutting Board by using them on it. It always prefers receiving items from the off-hand, allowing players to hold their ingredients there while holding the tool in their main hand, processing the stack simply by holding the use button."
-				""
-				"When the correct tool is used on a valid item, it will be broken down into 1-4 different outputs, which are swiped sideways. Outputs always fly to the direction opposite to the Cutting Board's handle, allowing them to be collected by an item-capturing block, such as a Hopper or Basket. The tool receives 1 point of damage for each processed item."
-			]
+			subtitle: "{chapter.21.quest.89.subtitle}"
+			description: ["{chapter.21.quest.89.description.1}"]
 			dependencies: ["19A4385584636C45"]
 			size: 1.5d
 			id: "2FEC85DD348C7C1C"
@@ -2175,7 +2130,7 @@
 				{
 					id: "372026CF74458EAB"
 					type: "item"
-					title: "Any #farmersdelight:tools/knives"
+					title: "{chapter.21.quest.89.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -2269,7 +2224,7 @@
 		{
 			x: -6.5d
 			y: 23.5d
-			description: ["This combination allows wolves to catch up a lot more easily with you or nimble opponents, as well as last longer in battle."]
+			description: ["{chapter.21.quest.92.description.1}"]
 			dependencies: ["604569BC4764E258"]
 			id: "3693C3F67BD59401"
 			tasks: [{
@@ -2291,7 +2246,7 @@
 			tasks: [{
 				id: "567B754D8FE1DD06"
 				type: "checkmark"
-				title: "Pet Foods"
+				title: "{chapter.21.quest.93.task.1.title}"
 			}]
 			rewards: [{
 				id: "09498BF35D65A18A"
@@ -2302,18 +2257,14 @@
 		{
 			x: 0.0d
 			y: 22.0d
-			subtitle: "Feasts are very large meals, which can be placed as a block to provide multiple servings to players."
-			description: [
-				"Feasts are not edible directly as an item; they must be placed down as a block first. When placed, players can use (right-click) them with Bowls to serve themselves with a consumable portion."
-				""
-				"The existing feasts in Farmer's Delight provide 4 servings in total. Plated feasts will also leave behind leftovers in the form of a dirty plate; right-clicking or mining it will retrieve the original Bowl, and any bones or food scraps left behind."
-			]
+			subtitle: "{chapter.21.quest.94.subtitle}"
+			description: ["{chapter.21.quest.94.description.1}"]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "619A52669514E850"
 			tasks: [{
 				id: "251874AE085FBC47"
 				type: "checkmark"
-				title: "Feasts"
+				title: "{chapter.21.quest.94.task.1.title}"
 			}]
 			rewards: [{
 				id: "4D3E45D3809A8E8A"
@@ -3751,7 +3702,7 @@
 			]
 		}
 		{
-			title: "Cakes and Pies"
+			title: "{chapter.21.quest.145.title}"
 			icon: "simplefarming:strawberry_pie"
 			x: -15.75d
 			y: 29.5d
@@ -3872,7 +3823,7 @@
 			}]
 		}
 		{
-			title: "Sweets n` Snacks"
+			title: "{chapter.21.quest.150.title}"
 			icon: "supplementaries:candy"
 			x: 10.75d
 			y: 22.5d

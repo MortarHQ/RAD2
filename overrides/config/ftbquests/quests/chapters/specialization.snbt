@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 4
 	filename: "specialization"
-	title: "Specialization"
+	title: "{chapter.5.title}"
 	icon: {
 		id: "kubejs:mark_miner"
 		Count: 1b
@@ -20,23 +20,13 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Starter kits with tiers!"
-			description: [
-				"Specializations give you kits of gear that will help you get started."
-				""
-				"To acquire higher tiers of your Specialization, you will have to complete tasks related to them."
-				""
-				"Most rewards for each kit are obtainable in normal gameplay, except for the Mark, which is an emblem that gives bonuses to stats related to your Specialization."
-				""
-				"§a§lIMPORTANT NOTES BELOW PLEASE READ BEFORE PICKING A SPECIALIZATION"
-				"§e§lIf you are on a server, you will want to leave your ftbteam while picking this otherwise all players will end up with the same specialization when you pick one."
-				""
-			]
+			subtitle: "{chapter.5.quest.1.subtitle}"
+			description: ["{chapter.5.quest.1.description.1}"]
 			id: "7D7A71EA9FCC15E2"
 			tasks: [{
 				id: "0358255126AF5F51"
 				type: "checkmark"
-				title: "Choose your Specialization"
+				title: "{chapter.5.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "4149E0BDD7A35D3D"
@@ -45,7 +35,7 @@
 			}]
 		}
 		{
-			title: "Miner"
+			title: "{chapter.5.quest.2.title}"
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				Count: 1b
@@ -55,8 +45,8 @@
 			}
 			x: -7.5d
 			y: 1.0d
-			subtitle: "Just Mining my own business"
-			description: ["Ores spawn more often in caves than when strip mining."]
+			subtitle: "{chapter.5.quest.2.subtitle}"
+			description: ["{chapter.5.quest.2.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -76,13 +66,13 @@
 				{
 					id: "1904783AB1C16D6F"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.2.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "05B4B2272495CD95"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.2.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -185,12 +175,12 @@
 			]
 		}
 		{
-			title: "Farmer"
+			title: "{chapter.5.quest.3.title}"
 			icon: "minecraft:wheat"
 			x: -6.0d
 			y: 1.0d
-			subtitle: "We are farmers dun dun dun dun dun dun dun"
-			description: ["Managing your 5 nutrients well gives you a powerful effect!"]
+			subtitle: "{chapter.5.quest.3.subtitle}"
+			description: ["{chapter.5.quest.3.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -210,13 +200,13 @@
 				{
 					id: "3DE75C0DFC3A63E3"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.3.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "1FF3126B435262EF"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.3.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -412,7 +402,7 @@
 			]
 		}
 		{
-			title: "Warrior"
+			title: "{chapter.5.quest.4.title}"
 			icon: {
 				id: "minecraft:iron_sword"
 				Count: 1b
@@ -422,8 +412,8 @@
 			}
 			x: -4.5d
 			y: 1.0d
-			subtitle: "Taking a short-cut through the mobs"
-			description: ["You beat up mobs with your sword not much to say here"]
+			subtitle: "{chapter.5.quest.4.subtitle}"
+			description: ["{chapter.5.quest.4.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -443,13 +433,13 @@
 				{
 					id: "55608B7B4994E924"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.4.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "4DEC4B439C3206B2"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.4.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -555,7 +545,7 @@
 			]
 		}
 		{
-			title: "Archer"
+			title: "{chapter.5.quest.5.title}"
 			icon: {
 				id: "minecraft:bow"
 				Count: 1b
@@ -565,8 +555,8 @@
 			}
 			x: -3.0d
 			y: 1.0d
-			subtitle: "Take a bow"
-			description: ["A quiver will automatically move arrows stored in it to your offhand when you pull out your bow."]
+			subtitle: "{chapter.5.quest.5.subtitle}"
+			description: ["{chapter.5.quest.5.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -586,13 +576,13 @@
 				{
 					id: "0FCB5E46587E824B"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.5.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "32BA9484670E8BAF"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.5.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -741,7 +731,7 @@
 			]
 		}
 		{
-			title: "Wizard"
+			title: "{chapter.5.quest.6.title}"
 			icon: {
 				id: "eidolon:warlock_hat"
 				Count: 1b
@@ -751,12 +741,8 @@
 			}
 			x: -1.5d
 			y: 1.0d
-			subtitle: "You're a hairy wizard"
-			description: [
-				"Tattered tomes grant Magic xp when read. Each player can read from the book once."
-				""
-				"(You should share it after reading it)"
-			]
+			subtitle: "{chapter.5.quest.6.subtitle}"
+			description: ["{chapter.5.quest.6.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -776,13 +762,13 @@
 				{
 					id: "450A0C70E038DAAB"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.6.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "5DAB213C4FD097D2"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.6.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -922,12 +908,12 @@
 			]
 		}
 		{
-			title: "Pirate"
+			title: "{chapter.5.quest.7.title}"
 			icon: "pirate_hat:pirate_helmet"
 			x: 0.0d
 			y: 1.0d
-			subtitle: "Arr"
-			description: ["All the Pirate Hats boost your swimming speed when worn!"]
+			subtitle: "{chapter.5.quest.7.subtitle}"
+			description: ["{chapter.5.quest.7.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -947,13 +933,13 @@
 				{
 					id: "27BD35DF4CB624CD"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.7.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "3BB2EF5668291E68"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.7.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -1089,7 +1075,7 @@
 			]
 		}
 		{
-			title: "Thief"
+			title: "{chapter.5.quest.8.title}"
 			icon: {
 				id: "atum:iron_dagger"
 				Count: 1b
@@ -1099,8 +1085,8 @@
 			}
 			x: 1.5d
 			y: 1.0d
-			subtitle: "Nerves of Steal"
-			description: ["Mobs in boats can't turn around. This lets you get an easy backstab on tough champions."]
+			subtitle: "{chapter.5.quest.8.subtitle}"
+			description: ["{chapter.5.quest.8.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1120,13 +1106,13 @@
 				{
 					id: "1C6FE385255D21A7"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.8.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "50294E05D5BD5223"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.8.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -1290,12 +1276,12 @@
 			]
 		}
 		{
-			title: "Huntsman"
+			title: "{chapter.5.quest.9.title}"
 			icon: "minecraft:leather"
 			x: 3.0d
 			y: 1.0d
-			subtitle: "Oh Deer"
-			description: ["Knowledge Potions increase your experience gain."]
+			subtitle: "{chapter.5.quest.9.subtitle}"
+			description: ["{chapter.5.quest.9.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1315,13 +1301,13 @@
 				{
 					id: "0231924AE59559D9"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.9.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "4B5BD2FDE5281B03"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.9.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -1486,7 +1472,7 @@
 			]
 		}
 		{
-			title: "Healer"
+			title: "{chapter.5.quest.10.title}"
 			icon: {
 				id: "roughtweaks:medkit"
 				Count: 1b
@@ -1496,8 +1482,8 @@
 			}
 			x: 4.5d
 			y: 1.0d
-			subtitle: "The class everyone wants around but hates to play as"
-			description: ["The Danger Sight potion lets you see where monsters will spawn."]
+			subtitle: "{chapter.5.quest.10.subtitle}"
+			description: ["{chapter.5.quest.10.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1517,13 +1503,13 @@
 				{
 					id: "575563DEB347D2F6"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.10.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "0DFD7353218E2263"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.10.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -1650,7 +1636,7 @@
 			]
 		}
 		{
-			title: "Pitfighter"
+			title: "{chapter.5.quest.11.title}"
 			icon: {
 				id: "artifacts:power_glove"
 				Count: 1b
@@ -1662,8 +1648,8 @@
 			}
 			x: 6.0d
 			y: 1.0d
-			subtitle: "I guess you could consider a cave a pit"
-			description: ["The Light Feather can be used as an early game version of the double jump."]
+			subtitle: "{chapter.5.quest.11.subtitle}"
+			description: ["{chapter.5.quest.11.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1683,13 +1669,13 @@
 				{
 					id: "3306566555B8C564"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.11.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "42333B2737E9CF77"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.11.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -1847,18 +1833,12 @@
 			]
 		}
 		{
-			title: "Tamer"
+			title: "{chapter.5.quest.12.title}"
 			icon: "ars_nouveau:glyph_summon_wolves"
 			x: 7.5d
 			y: 1.0d
-			subtitle: "Bark."
-			description: [
-				"Check the A Reliable Friend chapter to see how to use training treats."
-				""
-				"The Masters Call enchantment allows all of your pets to attack what you attack, even pets that don't normally attack, like cats."
-				""
-				"Keep in mind this specialization does NOT change what can and cant be tamed."
-			]
+			subtitle: "{chapter.5.quest.12.subtitle}"
+			description: ["{chapter.5.quest.12.description.1}"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1878,13 +1858,13 @@
 				{
 					id: "0DD6278B39D732AE"
 					type: "checkmark"
-					title: "Select this Specialization"
+					title: "{chapter.5.quest.12.task.1.title}"
 					disable_toast: true
 				}
 				{
 					id: "189B06A9C951E4C8"
 					type: "checkmark"
-					title: "Confirm this Specialization"
+					title: "{chapter.5.quest.12.task.2.title}"
 					disable_toast: true
 				}
 			]
@@ -2056,7 +2036,7 @@
 			]
 		}
 		{
-			title: "Spelunkerer"
+			title: "{chapter.5.quest.13.title}"
 			icon: {
 				id: "losttrinkets:miners_pick"
 				Count: 1b
@@ -2068,7 +2048,7 @@
 			}
 			x: -7.5d
 			y: 2.5d
-			description: [""]
+			description: ["{chapter.5.quest.13.description.1}"]
 			dependencies: ["683225884B0525D7"]
 			optional: true
 			id: "23D32CEF3529DC11"
@@ -2219,7 +2199,7 @@
 			]
 		}
 		{
-			title: "Rancher"
+			title: "{chapter.5.quest.14.title}"
 			icon: {
 				id: "losttrinkets:lunch_bag"
 				Count: 1b
@@ -2231,7 +2211,7 @@
 			}
 			x: -6.0d
 			y: 2.5d
-			description: ["The Seed Pouch can hold up to 640 of a single seed!"]
+			description: ["{chapter.5.quest.14.description.1}"]
 			dependencies: ["4124F9EEBAA895F0"]
 			optional: true
 			id: "2D76206095D119CB"
@@ -2428,7 +2408,7 @@
 			]
 		}
 		{
-			title: "Mercenary"
+			title: "{chapter.5.quest.15.title}"
 			icon: {
 				id: "dungeons_gear:mercenary_helmet"
 				Count: 1b
@@ -2438,8 +2418,8 @@
 			}
 			x: -4.5d
 			y: 2.5d
-			subtitle: "Soldier for Hire"
-			description: ["You are tankier now."]
+			subtitle: "{chapter.5.quest.15.subtitle}"
+			description: ["{chapter.5.quest.15.description.1}"]
 			dependencies: ["2B8432D35FB49159"]
 			optional: true
 			id: "0B619314C9EEA318"
@@ -2605,7 +2585,7 @@
 			]
 		}
 		{
-			title: "Arbalester"
+			title: "{chapter.5.quest.16.title}"
 			icon: {
 				id: "dungeons_gear:rapid_crossbow"
 				Count: 1b
@@ -2615,10 +2595,7 @@
 			}
 			x: -3.0d
 			y: 2.5d
-			description: [
-				"The Crescendo of Bolts enchantment lets you shoot multiple times before reloading."
-				""
-			]
+			description: ["{chapter.5.quest.16.description.1}"]
 			dependencies: ["3A9272D0C456214D"]
 			optional: true
 			id: "457B4C8DB54B2C78"
@@ -2784,7 +2761,7 @@
 			]
 		}
 		{
-			title: "Alchemist"
+			title: "{chapter.5.quest.17.title}"
 			icon: {
 				id: "dungeons_gear:ember_robes_chestplate"
 				Count: 1b
@@ -2794,7 +2771,7 @@
 			}
 			x: -1.5d
 			y: 2.5d
-			subtitle: "No Alchemy Xp bonus?"
+			subtitle: "{chapter.5.quest.17.subtitle}"
 			dependencies: ["0243EC598DB0583C"]
 			optional: true
 			id: "150C2D107C30D787"
@@ -2997,7 +2974,7 @@
 			]
 		}
 		{
-			title: "Corsair"
+			title: "{chapter.5.quest.18.title}"
 			icon: {
 				id: "dungeons_gear:cutlass"
 				Count: 1b
@@ -3007,7 +2984,7 @@
 			}
 			x: 0.0d
 			y: 2.5d
-			description: ["A ship's sails can be raised by pressing the \"toggle sail\" key (default r)"]
+			description: ["{chapter.5.quest.18.description.1}"]
 			dependencies: ["5ABCBE93E9B7A41E"]
 			optional: true
 			id: "7FE110B6FD08031B"
@@ -3143,7 +3120,7 @@
 			]
 		}
 		{
-			title: "Bandit"
+			title: "{chapter.5.quest.19.title}"
 			icon: {
 				id: "dungeons_gear:shadow_walker_helmet"
 				Count: 1b
@@ -3153,11 +3130,7 @@
 			}
 			x: 1.5d
 			y: 2.5d
-			description: [
-				"The Dodge Ability can be used to dash through mobs without taking damage or avoid skeleton arrows while eating."
-				""
-				"See \"Dodge\" in the features and mechanics tab to figure out how to dodge."
-			]
+			description: ["{chapter.5.quest.19.description.1}"]
 			dependencies: ["17B7928C5E72DF4A"]
 			optional: true
 			id: "75803607F74E0EA9"
@@ -3351,7 +3324,7 @@
 			]
 		}
 		{
-			title: "Tracker"
+			title: "{chapter.5.quest.20.title}"
 			icon: {
 				id: "relics:hunter_belt"
 				Count: 1b
@@ -3361,7 +3334,7 @@
 			}
 			x: 3.0d
 			y: 2.5d
-			description: ["Talisman curios require a certain belt in order to wear them, like this Hunter Belt."]
+			description: ["{chapter.5.quest.20.description.1}"]
 			dependencies: ["04399280EC946CB6"]
 			optional: true
 			id: "46B016B40B360CEF"
@@ -3528,7 +3501,7 @@
 			]
 		}
 		{
-			title: "Spiritualist"
+			title: "{chapter.5.quest.21.title}"
 			icon: {
 				id: "dungeons_gear:totem_of_regeneration"
 				Count: 1b
@@ -3538,7 +3511,7 @@
 			}
 			x: 4.5d
 			y: 2.5d
-			description: ["To use the Secret Ingredient, you have to hold it in your hand not wear it to enhance the potions, unlike other pocket curios."]
+			description: ["{chapter.5.quest.21.description.1}"]
 			dependencies: ["591E749ECBF3BF91"]
 			optional: true
 			id: "50DB09954A68BDF3"
@@ -3749,7 +3722,7 @@
 			]
 		}
 		{
-			title: "Fighter"
+			title: "{chapter.5.quest.22.title}"
 			icon: {
 				id: "dungeons_gear:highland_helmet"
 				Count: 1b
@@ -3759,8 +3732,8 @@
 			}
 			x: 6.0d
 			y: 2.5d
-			subtitle: "Got tired of fighting in pits"
-			description: [""]
+			subtitle: "{chapter.5.quest.22.subtitle}"
+			description: ["{chapter.5.quest.22.description.1}"]
 			dependencies: ["064CD4861C2413A8"]
 			optional: true
 			id: "42CC938BE615A4AF"
@@ -3941,7 +3914,7 @@
 			]
 		}
 		{
-			title: "Summoner"
+			title: "{chapter.5.quest.23.title}"
 			icon: {
 				id: "dungeons_gear:tasty_bone"
 				Count: 1b
@@ -3951,11 +3924,7 @@
 			}
 			x: 7.5d
 			y: 2.5d
-			description: [
-				"Any pet can be given a player's armor by sneak-clicking on them."
-				""
-				"The Flute can teleport your pets standing up instantly to you. Useful for saving them from hazards like lava in a pinch."
-			]
+			description: ["{chapter.5.quest.23.description.1}"]
 			dependencies: ["75434610CC4789B4"]
 			optional: true
 			id: "18156A17C2B04B79"
@@ -4135,7 +4104,7 @@
 			]
 		}
 		{
-			title: "Cavemaster"
+			title: "{chapter.5.quest.24.title}"
 			icon: {
 				id: "artifacts:digging_claws"
 				Count: 1b
@@ -4281,7 +4250,7 @@
 			]
 		}
 		{
-			title: "Agrarian"
+			title: "{chapter.5.quest.25.title}"
 			icon: {
 				id: "dungeons_gear:satchel_of_snacks"
 				Count: 1b
@@ -4323,7 +4292,7 @@
 				{
 					id: "4F2626E223C35FE7"
 					type: "item"
-					title: "Any #forge:hay_bales"
+					title: "{chapter.5.quest.25.task.3.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -4490,7 +4459,7 @@
 			]
 		}
 		{
-			title: "Champion"
+			title: "{chapter.5.quest.26.title}"
 			icon: {
 				id: "dungeons_gear:champions_helmet"
 				Count: 1b
@@ -4632,7 +4601,7 @@
 			]
 		}
 		{
-			title: "Artillerist"
+			title: "{chapter.5.quest.27.title}"
 			icon: {
 				id: "dungeons_gear:corrupted_crossbow"
 				Count: 1b
@@ -4642,8 +4611,8 @@
 			}
 			x: -3.0d
 			y: 4.0d
-			subtitle: "Make your enemies Quiver in fear"
-			description: [""]
+			subtitle: "{chapter.5.quest.27.subtitle}"
+			description: ["{chapter.5.quest.27.description.1}"]
 			dependencies: ["457B4C8DB54B2C78"]
 			optional: true
 			id: "27155BAC83580A64"
@@ -4796,7 +4765,7 @@
 			]
 		}
 		{
-			title: "Thaumaturge"
+			title: "{chapter.5.quest.28.title}"
 			icon: {
 				id: "artifacts:antidote_vessel"
 				Count: 1b
@@ -4930,7 +4899,7 @@
 			]
 		}
 		{
-			title: "Captain"
+			title: "{chapter.5.quest.29.title}"
 			icon: {
 				id: "artifacts:golden_hook"
 				Count: 1b
@@ -4940,7 +4909,7 @@
 			}
 			x: 0.0d
 			y: 4.0d
-			description: ["Sneak-Clicking a ship lets you access its storage."]
+			description: ["{chapter.5.quest.29.description.1}"]
 			dependencies: ["7FE110B6FD08031B"]
 			optional: true
 			id: "5835821DED0B50BB"
@@ -5063,7 +5032,7 @@
 			]
 		}
 		{
-			title: "Rogue"
+			title: "{chapter.5.quest.30.title}"
 			icon: {
 				id: "atum:dagger_poison"
 				Count: 1b
@@ -5078,7 +5047,7 @@
 			}
 			x: 1.5d
 			y: 4.0d
-			subtitle: "It is ROGUElike after all!"
+			subtitle: "{chapter.5.quest.30.subtitle}"
 			dependencies: ["75803607F74E0EA9"]
 			optional: true
 			id: "086467EF70DFCE43"
@@ -5304,7 +5273,7 @@
 			]
 		}
 		{
-			title: "Pursuer"
+			title: "{chapter.5.quest.31.title}"
 			icon: {
 				id: "losttrinkets:minds_eye"
 				Count: 1b
@@ -5349,7 +5318,7 @@
 				{
 					id: "7729F05C84004CA8"
 					type: "item"
-					title: "Any #forge:leather"
+					title: "{chapter.5.quest.31.task.4.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -5468,7 +5437,7 @@
 			]
 		}
 		{
-			title: "Shaman"
+			title: "{chapter.5.quest.32.title}"
 			icon: {
 				id: "dungeons_gear:totem_of_soul_protection"
 				Count: 1b
@@ -5478,7 +5447,7 @@
 			}
 			x: 4.5d
 			y: 4.0d
-			description: ["The Totem of Soul Protection is a soul artifact. It needs Souls to use, indicated by the blue bar on the bottom left of your screen if you have any. To get souls just kill mobs with the artifact equipped."]
+			description: ["{chapter.5.quest.32.description.1}"]
 			dependencies: ["50DB09954A68BDF3"]
 			optional: true
 			id: "2541699B18497F4D"
@@ -5636,11 +5605,11 @@
 			]
 		}
 		{
-			title: "Underdog"
+			title: "{chapter.5.quest.33.title}"
 			icon: "artifacts:vampiric_glove"
 			x: 6.0d
 			y: 4.0d
-			subtitle: "Woof."
+			subtitle: "{chapter.5.quest.33.subtitle}"
 			dependencies: ["42CC938BE615A4AF"]
 			optional: true
 			id: "366092E413554761"
@@ -5772,7 +5741,7 @@
 			]
 		}
 		{
-			title: "Beastmaster"
+			title: "{chapter.5.quest.34.title}"
 			icon: {
 				id: "spartanweaponry:lance_diamond"
 				Count: 1b
@@ -5782,11 +5751,7 @@
 			}
 			x: 7.5d
 			y: 4.0d
-			description: [
-				"The Dog Mount dog upgrade allows you to ride your dog."
-				"This Lance increases the damage you deal while riding something."
-				"Pair them together and you become the Dog Knight!"
-			]
+			description: ["{chapter.5.quest.34.description.1}"]
 			dependencies: ["18156A17C2B04B79"]
 			optional: true
 			id: "5E27B6A9814D748F"
@@ -5913,7 +5878,7 @@
 			]
 		}
 		{
-			title: "The Prestige"
+			title: "{chapter.5.quest.35.title}"
 			icon: {
 				id: "curios:crown"
 				Count: 1b
@@ -5928,8 +5893,8 @@
 			}
 			x: 0.0d
 			y: 6.0d
-			subtitle: "Are you watching closely?"
-			description: ["Completing this quest will reset this entire chapter, and allow you to pick a different specialization"]
+			subtitle: "{chapter.5.quest.35.subtitle}"
+			description: ["{chapter.5.quest.35.description.1}"]
 			dependencies: [
 				"25FE6F8D9076C909"
 				"228F0BED78F0BD1F"
@@ -5950,7 +5915,7 @@
 				{
 					id: "62882C8F8EAAC349"
 					type: "checkmark"
-					title: "Prestige"
+					title: "{chapter.5.quest.35.task.1.title}"
 				}
 				{
 					id: "2C1E0159342463B1"
@@ -5975,7 +5940,7 @@
 			rewards: [{
 				id: "778EE847A63807A6"
 				type: "command"
-				title: "Reset Specializations"
+				title: "{chapter.5.quest.35.reward.1.title}"
 				icon: {
 					id: "rats:party_hat_4"
 					Count: 1b

@@ -1,7 +1,7 @@
 {
 	id: "16BEA8B61A7AE332"
 	order_index: 60
-	title: "64uncommon"
+	title: "{loot_table.61}"
 	loot_size: 1
 	rewards: [{
 		item: {

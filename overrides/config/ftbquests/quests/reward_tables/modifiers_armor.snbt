@@ -1,7 +1,7 @@
 {
 	id: "2987501803F5574C"
 	order_index: 89
-	title: "Modifiers (Armor)"
+	title: "{loot_table.90}"
 	loot_size: 1
 	rewards: [
 		{

@@ -1,7 +1,7 @@
 {
 	id: "738E382631EA6C99"
 	order_index: 64
-	title: "Filler Blocks"
+	title: "{loot_table.65}"
 	icon: "minecraft:dirt"
 	loot_size: 1
 	use_title: true

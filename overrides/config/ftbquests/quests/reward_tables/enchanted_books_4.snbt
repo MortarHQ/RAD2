@@ -1,7 +1,7 @@
 {
 	id: "3CF1A0860A8FFF87"
 	order_index: 85
-	title: "Enchanted Items"
+	title: "{loot_table.86}"
 	loot_size: 1
 	rewards: [
 		{

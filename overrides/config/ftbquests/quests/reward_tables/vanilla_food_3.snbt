@@ -1,7 +1,7 @@
 {
 	id: "2D3CF7CE85753D90"
 	order_index: 81
-	title: "Food 3"
+	title: "{loot_table.82}"
 	icon: {
 		id: "minecraft:enchanted_golden_apple"
 		Count: 1b

@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "titles"
-	title: "Titles"
+	title: "{chapter.4.title}"
 	icon: {
 		id: "titles:title_scroll_rare"
 		Count: 1b
@@ -20,18 +20,12 @@
 			icon: "kubejs:scroll_01c"
 			x: 0.0d
 			y: 0.0d
-			description: [
-				"Press 't' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
-				""
-				"Understand that you may not have any titles to choose from at first."
-				""
-				"Simply complete advancements to start growing your selection."
-			]
+			description: ["{chapter.4.quest.1.description.1}"]
 			id: "4B93CE8715CACD5A"
 			tasks: [{
 				id: "5392A0BFA52D6B1C"
 				type: "checkmark"
-				title: "Titles"
+				title: "{chapter.4.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "3D3AC225061A725D"
@@ -48,22 +42,18 @@
 			}]
 		}
 		{
-			title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
+			title: "{chapter.4.quest.2.title}"
 			x: -6.0d
 			y: 5.0d
 			shape: "hexagon"
-			subtitle: "Earned by completing the Feedback Form during beta."
-			description: [
-				"Link to form: bit.ly/RAD2FeedbackTEST"
-				""
-				"If you provide your username if the form, you will be added to a list of users who will receive this title in the next update."
-			]
+			subtitle: "{chapter.4.quest.2.subtitle}"
+			description: ["{chapter.4.quest.2.description.1}"]
 			optional: true
 			id: "555DE2027606D5B7"
 			tasks: [{
 				id: "5D6983FD863F51B3"
 				type: "custom"
-				title: "Provide Feedback"
+				title: "{chapter.4.quest.2.task.1.title}"
 				icon: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -77,7 +67,7 @@
 			rewards: [{
 				id: "11C10744446F9668"
 				type: "command"
-				title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
+				title: "{chapter.4.quest.2.reward.1.title}"
 				icon: "titles:title_scroll_rare"
 				team_reward: false
 				command: "/titles add @p titles:feedbacker"
@@ -87,11 +77,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: [
-				"Title Fragments can be found in loot, and are used to trade for Title Scrolls with villagers."
-				""
-				"There is a limited amount of titles you can unlock with each scroll."
-			]
+			description: ["{chapter.4.quest.3.description.1}"]
 			dependencies: ["4B93CE8715CACD5A"]
 			id: "13BF5C3D53C0B1F5"
 			tasks: [{
@@ -117,14 +103,14 @@
 			x: -6.0d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "Granted to users who helped develop the pack. Please do not impersonate developers by giving yourself this title."
+			subtitle: "{chapter.4.quest.4.subtitle}"
 			optional: true
 			secret: true
 			id: "70E5ACFA41387822"
 			tasks: [{
 				id: "6237C8565A36FFF9"
 				type: "custom"
-				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
+				title: "{chapter.4.quest.4.task.1.title}"
 				icon: {
 					id: "kubejs:ruby"
 					Count: 1b
@@ -138,7 +124,7 @@
 			rewards: [{
 				id: "7CEEC0584CF0E4D4"
 				type: "command"
-				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
+				title: "{chapter.4.quest.4.reward.1.title}"
 				icon: "titles:title_scroll_rare"
 				team_reward: false
 				command: "/titles add @p titles:developer"
@@ -239,17 +225,12 @@
 			]
 		}
 		{
-			title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
+			title: "{chapter.4.quest.8.title}"
 			x: -6.0d
 			y: 4.0d
 			shape: "hexagon"
-			subtitle: "Granted to users who subscribe to dreams01 on Patreon."
-			description: [
-				""
-				"https://www.patreon.com/Dreams01"
-				""
-				"Please msg me your Minecraft username in Patreon messages, Discord messages(dreams#0285), or Discord Hall-Of-Heroes channel."
-			]
+			subtitle: "{chapter.4.quest.8.subtitle}"
+			description: ["{chapter.4.quest.8.description.1}"]
 			optional: true
 			id: "746A3F9BEE5F8477"
 			tasks: [{
@@ -268,7 +249,7 @@
 			rewards: [{
 				id: "11E518256C81330E"
 				type: "command"
-				title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
+				title: "{chapter.4.quest.8.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b
@@ -284,10 +265,10 @@
 			}]
 		}
 		{
-			title: "§4§kDO§r§4CURSED§kOM"
+			title: "{chapter.4.quest.9.title}"
 			x: -3.0d
 			y: 3.0d
-			subtitle: "Wear the Ring of Seven Curses"
+			subtitle: "{chapter.4.quest.9.subtitle}"
 			optional: true
 			id: "7B90BE75C03FC842"
 			tasks: [{
@@ -298,10 +279,10 @@
 			}]
 		}
 		{
-			title: "§1the Champion"
+			title: "{chapter.4.quest.10.title}"
 			x: -1.5d
 			y: 3.0d
-			subtitle: "Defeat a Demonic Champion (Tier 5)"
+			subtitle: "{chapter.4.quest.10.subtitle}"
 			id: "5E09DAF586A91C01"
 			tasks: [{
 				id: "09483474EDBB26C7"
@@ -311,10 +292,10 @@
 			}]
 		}
 		{
-			title: "§7Defier of Death"
+			title: "{chapter.4.quest.11.title}"
 			x: -1.5d
 			y: 4.0d
-			subtitle: "Defeat a Blasphemous Harbinger (Tier 6)"
+			subtitle: "{chapter.4.quest.11.subtitle}"
 			id: "0F86D8591149BD11"
 			tasks: [{
 				id: "3A7EC45CDBEF987B"
@@ -324,10 +305,10 @@
 			}]
 		}
 		{
-			title: "§5the §kDreaded"
+			title: "{chapter.4.quest.12.title}"
 			x: 0.0d
 			y: 3.0d
-			subtitle: "Complete a set of dreadsteel armor"
+			subtitle: "{chapter.4.quest.12.subtitle}"
 			id: "3D080F094832612B"
 			tasks: [{
 				id: "39363838F22031BC"
@@ -337,10 +318,10 @@
 			}]
 		}
 		{
-			title: "the Gambler"
+			title: "{chapter.4.quest.13.title}"
 			x: 1.5d
 			y: 3.0d
-			subtitle: "Defeat Dame Fortuna to get a Fortune's Favor"
+			subtitle: "{chapter.4.quest.13.subtitle}"
 			id: "756D91C669861D90"
 			tasks: [{
 				id: "1F7A456E6C11FDC8"
@@ -350,7 +331,7 @@
 			}]
 		}
 		{
-			title: "the Chef"
+			title: "{chapter.4.quest.14.title}"
 			icon: {
 				id: "dungeons_mobs:chef_helmet"
 				Count: 1b
@@ -368,8 +349,8 @@
 			}
 			x: 3.0d
 			y: 3.0d
-			subtitle: "Place a cooking pot and start your chef journey"
-			description: [""]
+			subtitle: "{chapter.4.quest.14.subtitle}"
+			description: ["{chapter.4.quest.14.description.1}"]
 			id: "4DA9BF75AA123CCC"
 			tasks: [{
 				id: "5CE16E8AF2837DF9"
@@ -379,7 +360,7 @@
 			}]
 		}
 		{
-			title: "the Seagull Magnet"
+			title: "{chapter.4.quest.15.title}"
 			icon: {
 				id: "twilightforest:ore_magnet"
 				Count: 1b
@@ -394,8 +375,8 @@
 			}
 			x: 4.5d
 			y: 3.0d
-			subtitle: "Obtained by feeding a seagull"
-			description: [""]
+			subtitle: "{chapter.4.quest.15.subtitle}"
+			description: ["{chapter.4.quest.15.description.1}"]
 			id: "4C23F119C971EE8D"
 			tasks: [{
 				id: "3A44934BFAF90576"
@@ -405,11 +386,11 @@
 			}]
 		}
 		{
-			title: "the Chad"
+			title: "{chapter.4.quest.16.title}"
 			x: -4.5d
 			y: 3.0d
-			subtitle: "Defeat the Warped Mosco and claim the title of Chad"
-			description: [""]
+			subtitle: "{chapter.4.quest.16.subtitle}"
+			description: ["{chapter.4.quest.16.description.1}"]
 			id: "2A973F38FD6E0B08"
 			tasks: [{
 				id: "7B1D271057BED93A"
@@ -426,11 +407,11 @@
 			}]
 		}
 		{
-			title: "the Assassin"
+			title: "{chapter.4.quest.17.title}"
 			x: 6.0d
 			y: 3.0d
-			subtitle: "defeat an Assassin in Atum and gain the title for yourself"
-			description: [""]
+			subtitle: "{chapter.4.quest.17.subtitle}"
+			description: ["{chapter.4.quest.17.description.1}"]
 			id: "4803B7176940EDF9"
 			tasks: [{
 				id: "50D37FE907B9E0AC"
@@ -440,7 +421,7 @@
 			}]
 		}
 		{
-			title: "the Food Critic"
+			title: "{chapter.4.quest.18.title}"
 			icon: {
 				id: "dungeons_mobs:wooden_ladle"
 				Count: 1b
@@ -455,8 +436,8 @@
 			}
 			x: 3.0d
 			y: 4.0d
-			subtitle: "Give every dish from farmer's delight a taste to become the ultimate Food Critic"
-			description: [""]
+			subtitle: "{chapter.4.quest.18.subtitle}"
+			description: ["{chapter.4.quest.18.description.1}"]
 			id: "3F13F86497060869"
 			tasks: [{
 				id: "7D1FE4BDDB938965"
@@ -466,10 +447,10 @@
 			}]
 		}
 		{
-			title: "the Dreamer"
+			title: "{chapter.4.quest.19.title}"
 			x: -4.5d
 			y: 6.0d
-			subtitle: "Enter the dream dimension and get a RAD title"
+			subtitle: "{chapter.4.quest.19.subtitle}"
 			id: "09908626ADFAD48F"
 			tasks: [{
 				id: "598BF46DB4AE8BF4"
@@ -479,11 +460,11 @@
 			}]
 		}
 		{
-			title: "Herobrine's Bane"
+			title: "{chapter.4.quest.20.title}"
 			x: -3.0d
 			y: 6.0d
-			subtitle: "Defeat Herobrine in the Nightmare dimension"
-			description: [""]
+			subtitle: "{chapter.4.quest.20.subtitle}"
+			description: ["{chapter.4.quest.20.description.1}"]
 			id: "7ABDB4D872CD85AF"
 			tasks: [{
 				id: "4CCEA9A64A09F393"
@@ -493,11 +474,11 @@
 			}]
 		}
 		{
-			title: "the Dragonslayer"
+			title: "{chapter.4.quest.21.title}"
 			x: -1.5d
 			y: 6.0d
-			subtitle: "Slay a dragon."
-			description: ["Pretty much everyone goes for this for some reason so you should get this one really quick"]
+			subtitle: "{chapter.4.quest.21.subtitle}"
+			description: ["{chapter.4.quest.21.description.1}"]
 			id: "4DA0C9352F8BBA87"
 			tasks: [{
 				id: "21537AE7C67D4471"
@@ -508,7 +489,7 @@
 			rewards: [{
 				id: "7EEDC06EAE308F30"
 				type: "command"
-				title: "Dragonslayer's Message"
+				title: "{chapter.4.quest.21.reward.1.title}"
 				icon: "iceandfire:manuscript"
 				auto: "enabled"
 				command: "/tellraw @p {\"text\":\"The fall of a dragon has awakened the power of some weaker bosses previously held under its control.\",\"color\":\"dark_red\",\"bold\":true}"
@@ -518,12 +499,12 @@
 		{
 			x: 0.0d
 			y: 6.0d
-			subtitle: "Relocate a full bee's nest with silk touch and become the keeper of bees"
+			subtitle: "{chapter.4.quest.22.subtitle}"
 			id: "64344C1296F6BA6A"
 			tasks: [{
 				id: "16A5122A2DE6D314"
 				type: "advancement"
-				title: "the Beekeeper"
+				title: "{chapter.4.quest.22.task.1.title}"
 				icon: {
 					id: "dungeons_gear:buzzy_nest"
 					Count: 1b
@@ -541,7 +522,7 @@
 			}]
 		}
 		{
-			title: "the Dendrologist"
+			title: "{chapter.4.quest.23.title}"
 			icon: {
 				id: "twilightforest:minotaur_axe"
 				Count: 1b
@@ -556,7 +537,7 @@
 			}
 			x: 3.0d
 			y: 6.0d
-			subtitle: "Collect and Craft every type of block made of wood from the \"Unfinished\" Forest and question your life decisions"
+			subtitle: "{chapter.4.quest.23.subtitle}"
 			id: "1628D6C6E5CB1CBB"
 			tasks: [{
 				id: "0BBB182F4D8BDDEC"
@@ -568,7 +549,7 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			subtitle: "Defeat the extremely rare Pied Piper and steal his title"
+			subtitle: "{chapter.4.quest.24.subtitle}"
 			id: "7A6B7E410672A9BE"
 			tasks: [{
 				id: "31639C090BD00959"
@@ -578,10 +559,10 @@
 			}]
 		}
 		{
-			title: "the Noob"
+			title: "{chapter.4.quest.25.title}"
 			x: 4.5d
 			y: 6.0d
-			subtitle: "Die two times in a row"
+			subtitle: "{chapter.4.quest.25.subtitle}"
 			id: "28F38CEA8870B961"
 			tasks: [{
 				id: "4E17CA73423FFB12"
@@ -602,7 +583,7 @@
 				{
 					id: "1426261C0B6627E4"
 					type: "command"
-					title: "The Noob"
+					title: "{chapter.4.quest.25.reward.1.title}"
 					icon: {
 						id: "titles:title_scroll_common"
 						Count: 1b
@@ -620,7 +601,7 @@
 				{
 					id: "6854B6A3D61AB392"
 					type: "command"
-					title: "Noob's Message"
+					title: "{chapter.4.quest.25.reward.2.title}"
 					icon: {
 						id: "iceandfire:manuscript"
 						Count: 1b
@@ -638,7 +619,7 @@
 			]
 		}
 		{
-			title: "the §aTester"
+			title: "{chapter.4.quest.26.title}"
 			icon: {
 				id: "supplementaries:wrench"
 				Count: 1b
@@ -648,14 +629,14 @@
 			}
 			x: -6.0d
 			y: 6.0d
-			subtitle: "Granted to users who test RAD2 pre-release versions."
-			description: ["Best of us"]
+			subtitle: "{chapter.4.quest.26.subtitle}"
+			description: ["{chapter.4.quest.26.description.1}"]
 			optional: true
 			id: "290AB1813B3A9515"
 			tasks: [{
 				id: "1EDA9B202A8A35A2"
 				type: "custom"
-				title: "Test modpack pre-release"
+				title: "{chapter.4.quest.26.task.1.title}"
 				icon: {
 					id: "supplementaries:wrench"
 					Count: 1b
@@ -672,7 +653,7 @@
 			rewards: [{
 				id: "1F290226068867C5"
 				type: "command"
-				title: "The Tester"
+				title: "{chapter.4.quest.26.reward.1.title}"
 				icon: "titles:title_scroll_rare"
 				team_reward: false
 				auto: "disabled"
@@ -684,19 +665,19 @@
 			icon: "minecraft:spawner"
 			x: 6.0d
 			y: 6.0d
-			subtitle: "Break 500 Spawners"
-			description: ["Complete the Break 500 Spawners Quest in the \"Meet your Fight!\" Chapter."]
+			subtitle: "{chapter.4.quest.27.subtitle}"
+			description: ["{chapter.4.quest.27.description.1}"]
 			dependencies: ["40FF66BE65AF171D"]
 			id: "4B455D9DA6A65FFC"
 			tasks: [{
 				id: "13D3A43216E49AE5"
 				type: "checkmark"
-				title: "Spawner Smasher"
+				title: "{chapter.4.quest.27.task.1.title}"
 			}]
 			rewards: [{
 				id: "74215E966E019CB8"
 				type: "command"
-				title: "§2Spawner Smasher"
+				title: "{chapter.4.quest.27.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_uncommon"
 					Count: 1b
@@ -717,22 +698,22 @@
 			}]
 		}
 		{
-			title: "Final Boss Title"
+			title: "{chapter.4.quest.28.title}"
 			icon: "twilightforest:time_sapling"
 			x: -1.5d
 			y: 7.5d
-			subtitle: "Awarded for completing the Final Castle in the Twilight Forest chapter."
-			description: ["Complete the Last Quest in the Twilight Zone Chapter."]
+			subtitle: "{chapter.4.quest.28.subtitle}"
+			description: ["{chapter.4.quest.28.description.1}"]
 			dependencies: ["50408E199382BDCD"]
 			id: "4004EFD371791C82"
 			tasks: [{
 				id: "545571FE4CECB9D2"
 				type: "checkmark"
-				title: "Still Searching for the Final Boss..."
+				title: "{chapter.4.quest.28.task.1.title}"
 			}]
 		}
 		{
-			title: "Starlit Lumberjack"
+			title: "{chapter.4.quest.29.title}"
 			icon: {
 				id: "blue_skies:starlit_crusher_trophy"
 				Count: 1b
@@ -749,7 +730,7 @@
 			}
 			x: 0.0d
 			y: 7.5d
-			description: ["Defeat the Starlit Crusher in the Everbright dimension."]
+			description: ["{chapter.4.quest.29.description.1}"]
 			id: "7BC6161ED22064D1"
 			tasks: [{
 				id: "5ED6B8142FB84F6A"
@@ -759,7 +740,7 @@
 			}]
 		}
 		{
-			title: "Arachnid Annihilator"
+			title: "{chapter.4.quest.30.title}"
 			icon: {
 				id: "blue_skies:arachnarch_trophy"
 				Count: 1b
@@ -776,7 +757,7 @@
 			}
 			x: 1.5d
 			y: 7.5d
-			description: ["Defeat the Arachnarch in the Everdawn dimension."]
+			description: ["{chapter.4.quest.30.description.1}"]
 			id: "1182309200FF1818"
 			tasks: [{
 				id: "469A3603137B4CFE"
@@ -786,7 +767,7 @@
 			}]
 		}
 		{
-			title: "§5§lMad Mage"
+			title: "{chapter.4.quest.31.title}"
 			icon: {
 				id: "losttrinkets:tha_wizard"
 				Count: 1b
@@ -815,18 +796,18 @@
 			}
 			x: 7.0d
 			y: 4.5d
-			description: ["Complete the Mad Mage quest in the Ars Nouveau Chapter."]
+			description: ["{chapter.4.quest.31.description.1}"]
 			dependencies: ["2FD36B1AF21BF370"]
 			id: "7F643383AC98A054"
 			tasks: [{
 				id: "41376730E7DEBF5E"
 				type: "checkmark"
-				title: "Mad Mage"
+				title: "{chapter.4.quest.31.task.1.title}"
 			}]
 			rewards: [{
 				id: "1F01B4A8483A413F"
 				type: "command"
-				title: "Mad Mage"
+				title: "{chapter.4.quest.31.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b
