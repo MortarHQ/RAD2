@@ -3,18 +3,26 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 5
 	filename: "into_the_sands"
-	title: "{chapter.11.title}"
+	title: "Into the sands"
 	icon: "atum:scarab"
-	subtitle: ["{chapter.11.subtitle}"]
+	subtitle: ["Atum 2"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.11.quest.1.title}"
+			title: "Atum 2: Return to the Sands"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "{chapter.11.quest.1.subtitle}"
-			description: ["{chapter.11.quest.1.description.1}"]
+			subtitle: "Enter Atum dimension"
+			description: [
+				"To create the Atum Portal, build a 5x5 floor layer, then add another layer, keep a 3x3 area clear on the top layer and fill each with a water source block."
+				""
+				"Each corner must have a 2 high pillar."
+				""
+				"The throw a Scarab into the water to activate the portal."
+				""
+				"Every block on the portal MUST be made of vanilla sandstone."
+			]
 			size: 1.5d
 			id: "4352370BD2C34188"
 			tasks: [
@@ -161,7 +169,7 @@
 		{
 			x: -3.5d
 			y: 0.0d
-			description: ["{chapter.11.quest.8.description.1}"]
+			description: ["This block has no GUI. To operate click on it with the input then continue clicking to slowly grind down the item."]
 			id: "0FA8AD42BF6007FD"
 			tasks: [{
 				id: "4F62BA7D685ED2D5"
@@ -185,7 +193,7 @@
 		{
 			x: -5.0d
 			y: 0.0d
-			description: ["{chapter.11.quest.9.description.1}"]
+			description: ["This block has no GUI. To operate it click the top with the input ingredients and keep clicking till you see the side texture change. Once the side texture changes you can click the side to get the output."]
 			id: "6CE59E0F65B99584"
 			tasks: [{
 				id: "339F317311EC8EB9"
@@ -224,8 +232,12 @@
 		{
 			x: -6.5d
 			y: 0.0d
-			subtitle: "{chapter.11.quest.11.subtitle}"
-			description: ["{chapter.11.quest.11.description.1}"]
+			subtitle: "Forge of the Gods"
+			description: [
+				"With the Godforge and Nebu hammer you can recycle unwanted Godforged items."
+				""
+				"Simply fill the forge with lava and place any Godforged item into the forge and it will melt down to the corresponding shard."
+			]
 			id: "65776DFA812A6986"
 			tasks: [
 				{
@@ -1446,7 +1458,7 @@
 		{
 			x: 9.5d
 			y: -4.5d
-			description: ["{chapter.11.quest.47.description.1}"]
+			description: [""]
 			dependencies: ["43CC5882023343EA"]
 			id: "72B8966C744595E7"
 			tasks: [{
@@ -3911,10 +3923,10 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.99.title}"
+			title: "Shard Collector"
 			x: -7.5d
 			y: 0.0d
-			description: ["{chapter.11.quest.99.description.1}"]
+			description: ["Collect all the fragments of bygone power."]
 			dependencies: ["65776DFA812A6986"]
 			id: "15CF843E09C1AB15"
 			tasks: [
@@ -4120,17 +4132,17 @@
 			]
 		}
 		{
-			title: "{chapter.11.quest.100.title}"
+			title: "Fragments of Godly Power"
 			x: -6.5d
 			y: -1.0d
-			subtitle: "{chapter.11.quest.100.subtitle}"
-			description: ["{chapter.11.quest.100.description.1}"]
+			subtitle: "Shatter their influience"
+			description: ["Used to craft a variety of items. The two most interesting being the Godforged blocks and the Torches of the Gods."]
 			dependencies: ["65776DFA812A6986"]
 			id: "6000A5327F9AB578"
 			tasks: [{
 				id: "143873241FA55999"
 				type: "item"
-				title: "{chapter.11.quest.100.task.1.title}"
+				title: "Any #atum:godshards"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -4148,8 +4160,14 @@
 		{
 			x: -7.5d
 			y: -1.0d
-			subtitle: "{chapter.11.quest.101.subtitle}"
-			description: ["{chapter.11.quest.101.description.1}"]
+			subtitle: "Remake that which was Broken"
+			description: [
+				"These blocks allow one to randomly gain a new Godforged item."
+				""
+				"The Deity of the item is determined by the type of block, with the normal Godforged block dropping any of the Godforged items"
+				""
+				"To do this simply place the Godforged block and then break it with the Nebu Hammer. Once broken you will gain a new Godforged item."
+			]
 			dependencies: ["6000A5327F9AB578"]
 			min_required_tasks: 1
 			id: "2C98D97E3EC5A3E5"
@@ -4370,11 +4388,11 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.102.title}"
+			title: "Torches of the Gods"
 			x: -6.5d
 			y: -2.0d
-			subtitle: "{chapter.11.quest.102.subtitle}"
-			description: ["{chapter.11.quest.102.description.1}"]
+			subtitle: "Invoke the Gods"
+			description: ["When used in place of the standard Nebu torches these will influence the type of Godforged item dropped by the awakened pharaoh to match that of the torches used."]
 			dependencies: ["6000A5327F9AB578"]
 			min_required_tasks: 1
 			id: "3744033B79896746"
@@ -4582,7 +4600,7 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.103.title}"
+			title: "Desert Secrets"
 			icon: {
 				id: "atum:sarcophagus"
 				Count: 1b
@@ -4594,14 +4612,14 @@
 			}
 			x: 5.0d
 			y: -2.0d
-			subtitle: "{chapter.11.quest.103.subtitle}"
-			description: ["{chapter.11.quest.103.description.1}"]
+			subtitle: "Long Since Forgotten"
+			description: ["These sealed structures resist all normal attempts at entry. Placing Nebu torches on these Quandary Blocks near the entrance will break the ancient seal."]
 			id: "70912EEE83C41996"
 			tasks: [
 				{
 					id: "7948015CFC088D89"
 					type: "structure"
-					title: "{chapter.11.quest.103.task.1.title}"
+					title: "Find a Pyramid"
 					icon: {
 						id: "atum:sarcophagus"
 						Count: 1b
@@ -4630,7 +4648,7 @@
 				{
 					id: "6A1F3324485A5E63"
 					type: "observation"
-					title: "{chapter.11.quest.103.task.3.title}"
+					title: "Observer Quandary Block"
 					icon: {
 						id: "atum:quandary_block"
 						Count: 1b
@@ -4654,15 +4672,15 @@
 		{
 			x: 6.5d
 			y: -2.0d
-			subtitle: "{chapter.11.quest.104.subtitle}"
-			description: ["{chapter.11.quest.104.description.1}"]
+			subtitle: "Shut Tight, Something Stirs"
+			description: ["Like entering the pyramid placing Nebu Torches on the Quandary blocks will break the seal and allow you to open the Sarcophagus."]
 			dependencies: ["70912EEE83C41996"]
 			id: "3BFDA57DB43B29F1"
 			tasks: [
 				{
 					id: "0F545833DE64715B"
 					type: "observation"
-					title: "{chapter.11.quest.104.task.1.title}"
+					title: "Observe the Sarcophagus"
 					icon: "atum:sarcophagus"
 					timer: 20L
 					observe_type: 0
@@ -4690,11 +4708,15 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.105.title}"
+			title: "Buried in the Sands"
 			x: 0.0d
 			y: -2.5d
-			subtitle: "{chapter.11.quest.105.subtitle}"
-			description: ["{chapter.11.quest.105.description.1}"]
+			subtitle: "Ancient Relics with a Glimmer Beneath"
+			description: [
+				"These relics need to be washed. To do so drop them carefully into water. (This also works dropping into a cauldron of water.)"
+				""
+				"Sometimes you may randomly fumble while washing them off and the item will be destroyed."
+			]
 			id: "0B31940CA9D2174C"
 			tasks: [
 				{

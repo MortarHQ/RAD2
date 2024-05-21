@@ -1,7 +1,7 @@
 {
 	id: "3A00AA024D71440E"
 	order_index: 12
-	title: "{loot_table.13}"
+	title: "Epic loot crate"
 	loot_size: 1
 	use_title: true
 	rewards: [

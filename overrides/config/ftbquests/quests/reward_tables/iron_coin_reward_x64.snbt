@@ -1,7 +1,7 @@
 {
 	id: "30CDBEDB4A2C5CCF"
 	order_index: 93
-	title: "{loot_table.94}"
+	title: "Iron coin reward x64"
 	loot_size: 1
 	rewards: [
 		{

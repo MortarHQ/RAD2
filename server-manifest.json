@@ -1,7 +1,7 @@
 {
-  "name": "RAD2-vanilla_v1.10a",
+  "name": "RAD2-v1.11",
   "author": "mortar",
-  "version": "1.10a_mortar_8",
+  "version": "1.11_mortar_1",
   "description": "",
   "fileApi": "https://www.landmine.top/mc",
   "files": [
@@ -700,10 +700,6 @@
     {
       "path": "config/atum-common.toml",
       "hash": "48b8297deb0d95d9342f3cc47c23c6d02d5cc2e9"
-    },
-    {
-      "path": "config/bagofyurting-client.toml",
-      "hash": "0cc56f0246bf968d8b3f985dc6ce20e6bdb1d252"
     },
     {
       "path": "config/bayou_blues-common.toml",
@@ -1482,10 +1478,6 @@
       "hash": "386a75d7241501b1b9f823609d59e44de78b4683"
     },
     {
-      "path": "config/cavesandcliffs-common.toml",
-      "hash": "397c694a458fde66d28c3ed79162f751672312e6"
-    },
-    {
       "path": "config/cc-common.toml",
       "hash": "8e426e99e87990d3c91738d68ce5dc00c9d1e2e3"
     },
@@ -1504,10 +1496,6 @@
     {
       "path": "config/clickadv-common.toml",
       "hash": "fc38ca45a25c468096368d598c19ad967b077514"
-    },
-    {
-      "path": "config/cobbler-common.toml",
-      "hash": "6bb10029c7c1a3d4be2ed3e458086b5d39cb31c9"
     },
     {
       "path": "config/cofh_core-client.toml",
@@ -1559,7 +1547,7 @@
     },
     {
       "path": "config/craftpresence.json",
-      "hash": "bb5ac2974bf56eeddc8884989858191e5aa86bb7"
+      "hash": "32e789300717ef5d4cd04bd8d1c22ac6ea754281"
     },
     {
       "path": "config/cucumber-client.toml",
@@ -1746,14 +1734,6 @@
       "hash": "baa4bb721380d96d5f5ac2982f34e3cc5c8569ad"
     },
     {
-      "path": "config/dynamic_lights_reforged.toml",
-      "hash": "3742bc3d77edbc9cbe07bab7d510075f348b5f20"
-    },
-    {
-      "path": "config/edibles-common.toml",
-      "hash": "0ff48336a1b2ae1cd194b12fe5d920c7ed105722"
-    },
-    {
       "path": "config/eidolon-client.toml",
       "hash": "a7bd6c314784181c5b5df9d449e62a041ae4cd84"
     },
@@ -1926,8 +1906,8 @@
       "hash": "bec5f3b6d1c6d9906f1783ea582c0364c2e4c748"
     },
     {
-      "path": "config/extrabows-common.toml",
-      "hash": "6d902f3c7392878f18d69436e7e583084be48b9c"
+      "path": "config/ezzoom-client-1.toml.bak",
+      "hash": "c01d352225c22b416ce31faccdf1e987325727c2"
     },
     {
       "path": "config/ezzoom-client.toml",
@@ -2278,46 +2258,6 @@
       "hash": "8a9d760e17ef5a22db57516c876c3997dae1b5fe"
     },
     {
-      "path": "config/forgery/block_logo.ini",
-      "hash": "146ad9ff01822f865b42e43e227f145673973513"
-    },
-    {
-      "path": "config/forgery/block_logo.png",
-      "hash": "79cb52b6023d997cea78116beb717ef51c0041ba"
-    },
-    {
-      "path": "config/forgery/classic_block_drops.ini",
-      "hash": "27299ece3e9f854e6ef6d152440211a12c3ec621"
-    },
-    {
-      "path": "config/forgery/dimensional_tools.ini",
-      "hash": "a2ce13f0e5ac13dda5c3ad6e52cf6e7688d4a007"
-    },
-    {
-      "path": "config/forgery/features.ini",
-      "hash": "681e8cc75af6a1aaeeb6e834ef15012064e84d52"
-    },
-    {
-      "path": "config/forgery/fscript.ini",
-      "hash": "6f67febac0485e8339d7e87a247a096a8a90c386"
-    },
-    {
-      "path": "config/forgery/gear_components.ini",
-      "hash": "5880d3d1810416953690ad1d022f012c4901c453"
-    },
-    {
-      "path": "config/forgery/item_despawn.ini",
-      "hash": "d84765d10e412d998ca59220da423de3c8d67641"
-    },
-    {
-      "path": "config/forgery/taggable_players.ini",
-      "hash": "373e1dc64264383caa65a5c1631793e653b3f081"
-    },
-    {
-      "path": "config/forgery/yeet_recipes.ini",
-      "hash": "0df9ccf9c40abd43e700563472cd7380a5deb0e6"
-    },
-    {
       "path": "config/forgivingvoid-common.toml",
       "hash": "08761f785cc6291341d54160cb2c343de2788301"
     },
@@ -2331,535 +2271,535 @@
     },
     {
       "path": "config/ftbquests/quests/chapters/alexs_mobs.snbt",
-      "hash": "9f92a01eb8051689b6fc6763c603cc388f34e961"
+      "hash": "27334112947c8f44cf1f2f8749039252a38d7176"
     },
     {
       "path": "config/ftbquests/quests/chapters/ars_noveau.snbt",
-      "hash": "579cf1a158cb8c4b27abc08aa148bebd10b9ebe2"
+      "hash": "a8636cecc498c1077b51728d0d954cb78704510f"
     },
     {
       "path": "config/ftbquests/quests/chapters/a_reliable_friend.snbt",
-      "hash": "7a0033342982d040feef4c8eca8503c9fc44d988"
+      "hash": "ba571031d4af658e31cb946de719d028b4d43c76"
     },
     {
       "path": "config/ftbquests/quests/chapters/blue_skies.snbt",
-      "hash": "8ca50b6f186d2fb484023491f1cbeca032ad354e"
+      "hash": "e16bfe07dd33bbf6ff3d6e34374f9ae7e93b1e9a"
     },
     {
       "path": "config/ftbquests/quests/chapters/card_collector.snbt",
-      "hash": "1bf7adafed6a3f414bc271b09ee0b29277700004"
+      "hash": "00df0a2d650e0cfe6b012f805627c4e40cc3cc73"
     },
     {
       "path": "config/ftbquests/quests/chapters/cheesy_business.snbt",
-      "hash": "201b35bc048556704f9662f93485530becc65b2d"
+      "hash": "b5ad6a917660360d59875d419d1083669b2e3090"
     },
     {
       "path": "config/ftbquests/quests/chapters/contraptions.snbt",
-      "hash": "a546c109c78e587937c066a39e2700fe8542d2b9"
+      "hash": "21db4c7cdf6f905709c9f21c66d08902c5524318"
     },
     {
       "path": "config/ftbquests/quests/chapters/culinary_engineering.snbt",
-      "hash": "b77dc9d6ca526d00884440f11960355b37a6d915"
+      "hash": "7af94d3118c955cf0e6fa6a0bcb788982df5948d"
     },
     {
       "path": "config/ftbquests/quests/chapters/dark_magoc.snbt",
-      "hash": "ef1405c103858fe0e7310a803e66dbcdc1395bde"
+      "hash": "61320e0a2c8677346c8a98158a255af09621509f"
     },
     {
       "path": "config/ftbquests/quests/chapters/dimensional_dungeons.snbt",
-      "hash": "21f8b7a7d164f051b412cf3c3364e9fb5b9a76ba"
+      "hash": "1eb8c33761ecd2bf32401e996e4d860475089acf"
     },
     {
       "path": "config/ftbquests/quests/chapters/dragons_in_your_own_homeland.snbt",
-      "hash": "e59d3d355e59e1e953026a97e14926d449275713"
+      "hash": "3a4a840a9e56382b23225464885b984201897d94"
     },
     {
       "path": "config/ftbquests/quests/chapters/enigmatic_legacy.snbt",
-      "hash": "dac1b5619d38caabcf32405e4b6480efac18bf90"
+      "hash": "46ed4b2f9df8a3e7d1da0ed81e3f03097b1621c6"
     },
     {
       "path": "config/ftbquests/quests/chapters/farmers_delight.snbt",
-      "hash": "6f1055f02f37df5ff264f13cb891fd18d58606b4"
+      "hash": "6f2685e66de9baa51ef424bc3a210e6bfb1f5027"
     },
     {
       "path": "config/ftbquests/quests/chapters/features_and_mechanics.snbt",
-      "hash": "d2815d28f6a890c9545b5edb6dc0f0260b9340c8"
+      "hash": "e65cbb2b9dc5e71c5dc71ee9b2a839af23b74a67"
     },
     {
       "path": "config/ftbquests/quests/chapters/greek_fantasy.snbt",
-      "hash": "fafd18393fc8772e78ba989f9bb746f7e09b3c1d"
+      "hash": "e501a74a814309ea6f6a671d759da7a71a712639"
     },
     {
       "path": "config/ftbquests/quests/chapters/highway_to_the_bumblezone.snbt",
-      "hash": "577e553463f6091b0eaaa8656c1ed7f65884c59d"
+      "hash": "5010b0c21aaf39dc7a6273f46380119488ad8284"
     },
     {
       "path": "config/ftbquests/quests/chapters/into_the_sands.snbt",
-      "hash": "199bcd93216d512ceb26ea24e69f9b8f4be379fb"
+      "hash": "f94a3558c6a021505d93db6c369da779305364f4"
     },
     {
       "path": "config/ftbquests/quests/chapters/meet_your_fight.snbt",
-      "hash": "c1048d33a03868c6aeb6c92b06033289a7303e23"
+      "hash": "8dc122253f4d715aa27aedecc613c58ea7c1df75"
     },
     {
       "path": "config/ftbquests/quests/chapters/mining_dimension.snbt",
-      "hash": "489477cb9cb15e4f327e417f72fbb00aadc6259c"
+      "hash": "a36cd94342a65adf3113e4abbcd074385f4338b4"
     },
     {
       "path": "config/ftbquests/quests/chapters/nether_exploration.snbt",
-      "hash": "217b7b23a6654d6c8f24bf678b65ea471d3a6fc4"
+      "hash": "904782e96cd0a4257f50d200306f5d23e7caddf6"
     },
     {
       "path": "config/ftbquests/quests/chapters/overworld_exploration.snbt",
-      "hash": "8ab7191e84ace48ebc23507c13f23c9a9eac1ce1"
+      "hash": "706952d96694b84203df91b18e2cffeb0736f643"
     },
     {
       "path": "config/ftbquests/quests/chapters/pathfinder.snbt",
-      "hash": "0df0c4ef1ff2764ce978c145314f28482bef00e2"
+      "hash": "e569ef0607d3451369242fd60c0e9cd6adaf4203"
     },
     {
       "path": "config/ftbquests/quests/chapters/reborn_of_the_end.snbt",
-      "hash": "0890dd96f2dfc30588a781248bd418a612a897ad"
+      "hash": "0c3059440d233b21791285b14b0cc364123d2b54"
     },
     {
       "path": "config/ftbquests/quests/chapters/shop.snbt",
-      "hash": "3d5177bcaed33107eb111b4ab099aa9f0593dd13"
+      "hash": "4fbe84d7ed48de9c1ee5188aaaa7daa288fc1ba1"
     },
     {
       "path": "config/ftbquests/quests/chapters/simple_storage.snbt",
-      "hash": "745e91e30deb066965e2248e82a7a2d1374f33e9"
+      "hash": "b630287013ced4611f35fb46697565357fc574b2"
     },
     {
       "path": "config/ftbquests/quests/chapters/specialization.snbt",
-      "hash": "31a042542da306c887e60f2634b342955c76aac4"
+      "hash": "89493a1da4333d8c7e3a294e7b04de1355e90f1e"
     },
     {
       "path": "config/ftbquests/quests/chapters/sweet_dreams.snbt",
-      "hash": "f3010d15ae2ecdaa91894ef81a98d150d51f1dae"
+      "hash": "4555cd1101ea0eecf6175e406c4dfe5882305ace"
     },
     {
       "path": "config/ftbquests/quests/chapters/the_garden_under.snbt",
-      "hash": "8c806613a01815d3b9ec9a665f37f14bc6c5691d"
+      "hash": "17264f13a680c9b4d8d8767722333ab679912823"
     },
     {
       "path": "config/ftbquests/quests/chapters/the_patreon.snbt",
-      "hash": "1ca625a960bc90938549a0f44c9402df7fa71d62"
+      "hash": "6b56e6dda2f9a4db9ad906de4c6762a705cd3b06"
     },
     {
       "path": "config/ftbquests/quests/chapters/titles.snbt",
-      "hash": "179d3292d7edfa7bd4bfe6666a815ffd80ca8d57"
+      "hash": "a9def228dd4721299cfcb210d3d35f4e43107d70"
     },
     {
       "path": "config/ftbquests/quests/chapters/trinkets__curios.snbt",
-      "hash": "eb1228fde6ce0f41a83ed8e65732351d8ddeb88c"
+      "hash": "21152985ea2c173b204438dffbc1e3983196de53"
     },
     {
       "path": "config/ftbquests/quests/chapters/tropicraft.snbt",
-      "hash": "efca89e5ff376fe043a0f4306675fafc3769193d"
+      "hash": "e2d32a00fdaf68454119dee9b55f1ca30c1cef34"
     },
     {
       "path": "config/ftbquests/quests/chapters/twilight_forest.snbt",
-      "hash": "0121c688ddde24483d8265ccfd1136bbbfcafee2"
+      "hash": "8e51a986cd1d6fa0f12ea9e98fe879050acf1932"
     },
     {
       "path": "config/ftbquests/quests/chapter_groups.snbt",
-      "hash": "44f415e27634aaa9b7148e21096d7d41fe5f75bc"
+      "hash": "2e83790b145e1205ccd347d832bd5cddbc80a4f0"
     },
     {
       "path": "config/ftbquests/quests/data.snbt",
-      "hash": "62060ebecd9a9d90f12dbf56a8dad10d54e5b00c"
+      "hash": "e7bf200117f0386c69240e1e4014dc58f2095769"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/10rare.snbt",
-      "hash": "a223e2a7250f5d532fba594009e5f6f377536cef"
+      "hash": "5b628f06d98bed0413dfb89033b8a8b700c66d54"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32common.snbt",
-      "hash": "7110e060124623e113639292a67dd38b3624f584"
+      "hash": "261e8be8e1276c0721e275f8757d39df2ab13b13"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32rare.snbt",
-      "hash": "1e45efad026ccd8c315f7d184998fc2c7f22fb8e"
+      "hash": "cf69349ad072e6cae0be393dd27af6cc3d6553ae"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32uncommon.snbt",
-      "hash": "2ce0376c05d24997ad2a28e2fb46f97e50a2bbf5"
+      "hash": "5a37b9cc9a25aeea6a1a1e3a9af8f5d0ff2c36c3"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64common.snbt",
-      "hash": "84763f209fbcf9f0c8288600fe56d5a0cf953b1b"
+      "hash": "f7845bdc81e21a144d9aea4e34a77ecc3064faf0"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64uncommon.snbt",
-      "hash": "9a2a8660c3ba381e19d71d7c0cfbd1d9e918d439"
+      "hash": "88961258cf7f607fed6f54cba32ddb43d83ce0b4"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64_rare_crates.snbt",
-      "hash": "c3ca318f7834d7f8a6d9de5168d532cb08ec1f36"
+      "hash": "eec78283c4725e004aa135c6fcfefa10d37179f2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/amethcoin.snbt",
-      "hash": "b7fc068d80f01211b44769c96a71a2d2df31ab3b"
+      "hash": "4b5b88ce5a6faf842fd2f68db2ad426d00733873"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/armor_crate.snbt",
-      "hash": "ec154611600e0a064b37c357aca9f12973094da9"
+      "hash": "6103a714aba2c3d4e8f4351bde3202f905ae7958"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/artefact_crate.snbt",
-      "hash": "a31f10a4b8c1463010796cdd52c2bed8bba4ea0c"
+      "hash": "5f569817fb4673dca433f7147c819571e7646e89"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/avengers_sword_crate.snbt",
-      "hash": "0b52a4239cf4dab48ff1640d19670c7b7c981b4f"
+      "hash": "8ce0c02aa9206b1fff039dbffcbfa628b76a319c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/blossom_saplings.snbt",
-      "hash": "e86192581cbea7e550e4f6a82c837003aa8c0af2"
+      "hash": "c1600519280502d24dd56126a0e903e2b552be50"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/common_loot_crate.snbt",
-      "hash": "70d5fdd7a4b97badc4edf9bcd42ff9c55a52793e"
+      "hash": "ea387af0e6bee74adaf31d1b870a40b8c611a933"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/coppercoin.snbt",
-      "hash": "3c870232cb8e034c72a87ddba55130dafc60c809"
+      "hash": "c8c3bb0fb2c978dfac2eb52a6c42fe6c482e23c9"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward.snbt",
-      "hash": "9d010eb3127afb059d70f0b8782fcd21cc88a64f"
+      "hash": "9dcd7b307b8d6b8933b1bc2ac86cf8d3da23eebf"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward_x32.snbt",
-      "hash": "327f7c6deedba9d1df40ea8d36c369ae0460377f"
+      "hash": "d57370fc3566890164572f8a5b68202321df7c05"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward_x64.snbt",
-      "hash": "546997235f982fe98a0b91b121075139d6446954"
+      "hash": "08fb51c1f6bf070cc8990779a88c2b6e5f4007fc"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/crate_crate.snbt",
-      "hash": "f41717333d3c277f53a92185f8224f8535dd5a74"
+      "hash": "2b999e1105b95dbf2b07a25e57ee47667a5355ab"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamondcoin.snbt",
-      "hash": "f6e54d61f25ca383849c67186fc632e3a131eb74"
+      "hash": "136244c98ea3da805c3b028fc2bf2a8a9f48f6ad"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamondcoinreward.snbt",
-      "hash": "1ebf224b42e4e08c9f6d5afd7590b214ee55048e"
+      "hash": "0990e7351265926ab91665aacca2ae5b51f4ebbd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamond_coin_reward.snbt",
-      "hash": "876984fb1cbe85969146c55533d4ff2a6191c4ee"
+      "hash": "0230dcf6dc271e5ed15d9cd8399b71bd0745357c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/duds.snbt",
-      "hash": "90c7e3ced1330f47ea3a9b1928f1d2b937cf901c"
+      "hash": "303011eecac7f3a32aeb8c43cef813a7ed69a283"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/duds1.snbt",
-      "hash": "643e36c2e9ea2d171134ba77f47496bb0c781e3c"
+      "hash": "d0978fe160a148366dbd12bcf6b5cf22b25054d6"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_artifacts_crate.snbt",
-      "hash": "ec7a01b4e788bf558f71f2ebef347d7fa5df3d59"
+      "hash": "490a269bc39ba0a1e6880eb49c5fef629b7bbe4b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_gear_crate.snbt",
-      "hash": "7ab3134e00f07d2917207dcc3d953db2e8d5a579"
+      "hash": "b16581f352cb7a62678d2699755fbe2afe25a279"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_mobs_gear_crate.snbt",
-      "hash": "aed41fa3029a68ea55ed0d7b41d40cfc14920221"
+      "hash": "a473ab9933c830bad74d8acaa6ed68c106eca3ae"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_weapons_crate.snbt",
-      "hash": "de081e6685190996cd00d0cf26e4610796706b0b"
+      "hash": "cb726194cc21ec4727d0c0e5bbedc3dc8db8dcb7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/emeraldcoin.snbt",
-      "hash": "02120a052d9858f4ae2d16a1b8760a4523ef00ae"
+      "hash": "57ef924e5ac15237827811bd061458d90e9f7347"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/enchanted_books_4.snbt",
-      "hash": "ce773ad5db15aeadba7919d5b1708f1ddbb9305d"
+      "hash": "189cad688c855f9fb8dd4f93787feff8a47de3b3"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/enchantments.snbt",
-      "hash": "d2dcddc68a37a65554a5a3be28775af62ffb0bb5"
+      "hash": "82ddaceef52007b75796969d122fb6e176cc82c2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/epic_loot_crate.snbt",
-      "hash": "25b5bb55b4165b0848300dc7129f351a57680175"
+      "hash": "d60f8ec77cffc70160987645e3b1253627a7c6d2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/experience.snbt",
-      "hash": "01fc109010e385a18eb8f6f733e7003aba965432"
+      "hash": "03528bae49fc76e1bfa7dc0a3b1ef5ca677e5075"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/experience30.snbt",
-      "hash": "f9820c81ff06c3e570bff7c1c99c75678e9a346c"
+      "hash": "37effab81c2060dbc8e15d73911ad63ece22c84f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/filler_blocks.snbt",
-      "hash": "8fcd7c8ced41bf844fa7f98f08baf4bfdd301f0d"
+      "hash": "303061e71a49d1a1cec3ef4d2da79162dd4f5472"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/food_4.snbt",
-      "hash": "9088983f7ec8a2d4d1ad2762a7034d2baf966492"
+      "hash": "f2d18fb69627a434f4132ffe4f3e3aa8b47d983a"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/food_crate.snbt",
-      "hash": "3e11cb24ca22134e1a7af19f01e148256af6d8c1"
+      "hash": "1834fcebc7ca833a11f3246e1e93a7e49f98cf14"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold2coin.snbt",
-      "hash": "6bfcbfa53f5c86c565aa36a0dff393e0f4293882"
+      "hash": "e2f9daa3bbb51e1dfb732627893b9c403522b9e6"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/goldcoin.snbt",
-      "hash": "c34971e611d8c56a2fcba4ebe06d16a892d17ae4"
+      "hash": "39e47210b36f3de452ab14ac06664a06ca31c8f7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold_coin.snbt",
-      "hash": "8501e76c75d6da8165aa37ba40af06e1f0fe0c8f"
+      "hash": "431b5379c14d71a1b3a4faa80868b652c3a86843"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold_coin_reward.snbt",
-      "hash": "50e671881dac5827ac59523d432b4ae23f236461"
+      "hash": "c78e1fa7ef8115d2c285733e3dbef3b5f3340ae6"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/hat_crate.snbt",
-      "hash": "1c6b9c8121bc200869f177c02b493333db159b13"
+      "hash": "b1c276178eaa2a4653dde875e63bac8deecfa61d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ingots_basic.snbt",
-      "hash": "3a0c5f259ee593450e1bc0a5027c902393dc01b0"
+      "hash": "5fd498e458e41df6b45b0ea641a30076a96fd7c2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ingots_valuable.snbt",
-      "hash": "5e6ed1fc156858090d4f24deff299a2a2de33482"
+      "hash": "c3490c3266ad934e370dad3043ee9d0437292330"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward.snbt",
-      "hash": "3b2dbbedb22da1a72ee102670a4a70cdf3b0f14d"
+      "hash": "4086564b6b35725035b03772491097e93cbeff1d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward_x32.snbt",
-      "hash": "4341e1da5bb564a7256933a1508e8e83af413dd7"
+      "hash": "555d4c31147ec142ddfb247a096f77a4d5bd81fb"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward_x64.snbt",
-      "hash": "db0d483935bf86b4c210e80edb040470af3d8f0c"
+      "hash": "ae800d48d044d8657d24e06ea2a7ee75ab9996dd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/junk_3.snbt",
-      "hash": "24ce2efb4b0da761eca728d7ca2ee0273da5bd4f"
+      "hash": "b30cd389909dce9e387a30c82addbd4ed838770d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/junk_4.snbt",
-      "hash": "51b705644368b82092dc308710d3d43834dd1d6e"
+      "hash": "c76b165644da7b958a8db04144173a8a7743f83e"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/lapiscoin.snbt",
-      "hash": "7197513f14d1ee1c88c4193c357dd087465f86ed"
+      "hash": "3c90ab5214c1465c19a99b59ef53f6b2baf6fa53"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/legendary_loot_crate.snbt",
-      "hash": "6d3063962b630f1b2ac5e2a7fe43882ee5b3007c"
+      "hash": "de5477fa68cf96e7080e9232960855ccdb31bb71"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/logs.snbt",
-      "hash": "3e6c8b3efb6779d619cf9db963716a302f4d15b7"
+      "hash": "3fbb54774bfb729d003552b6b0f2f1326b1092ef"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_3.snbt",
-      "hash": "8386e898dace6970c9150731eba927a54eab83af"
+      "hash": "fa1d0d0c0c655220069397dffef5b46eb8467f1f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_dusts.snbt",
-      "hash": "4804299338c5781eae505572c12c0593952df6af"
+      "hash": "f2ec9ad17ba8acd47b4b8724a3a8b7df36a378d9"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_magic.snbt",
-      "hash": "d7c61904b4ec9d487efd9c6348dba06f6cfe691c"
+      "hash": "2bfd8d364303933f3d3ac9503387f749722ef56c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_monsters.snbt",
-      "hash": "cd8a02ccf9ffa546ae089d72a2856855645821b6"
+      "hash": "f3dcc261e8a56131e7c1b18046a284630dd151dd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_random.snbt",
-      "hash": "6de3ca00846a77ec72e96943ebc18f281e66aba1"
+      "hash": "20e555c26f44b2f995382a0ded1c6d5005cbfd46"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/miners_pick_crate.snbt",
-      "hash": "a4e1e8a66c902b0b4d6b652846a9d1bb8226bb31"
+      "hash": "4f5e865a7872950a6d32dc9349335a9f03849edf"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers.snbt",
-      "hash": "f26c95effa0422ad571d7030d883cbd95e1e0828"
+      "hash": "629ac67c610bb20b554e3151fcaad71bc4fd8ff7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers_armor.snbt",
-      "hash": "87df19b0ef22357c1167a0497349a1ce44d6dcbe"
+      "hash": "79d9a46d3ce16e301929f1c6955eaf545c5441e8"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers_tools.snbt",
-      "hash": "be54a43bd1b14bca4997b1e4c0f7982d394c3324"
+      "hash": "fa555bc161b3124f64b432e3ac59b383ae0f6cec"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money.snbt",
-      "hash": "0c4d83bea6e6947ea70ba17e3b8e9a27428231b9"
+      "hash": "eaa01f5d54d4c139aa295a2bee257c0de1575471"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money10.snbt",
-      "hash": "6317a1d7d7d91fe431a324861f894966cf141528"
+      "hash": "ba8bb72b5b1044e71120446a9cba5d6d13100b56"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money1000.snbt",
-      "hash": "d8c955154a2897bb52add3775e3aa6275bc8a9b8"
+      "hash": "370a8aa7673a2b26917672c04959f34dbb146fa0"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money50.snbt",
-      "hash": "c568ceecb3386127feb934eff06a137b87fcef72"
+      "hash": "d2f628768602cf1fbb09d15135bffbe0eb39e037"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/mythic_loot_crate.snbt",
-      "hash": "249116d0fdf5e8bb45e41fcbfe16807c7c742157"
+      "hash": "a6760a0adfbd4d759d955f9041765c3b515a7e06"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/netherite_coin_reward.snbt",
-      "hash": "d1000662190f6a96a1027b882dbbf6bf14d26566"
+      "hash": "d2e1f64408e31f05cc978746eead5acf18b0c8dd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/nether_loot_crate.snbt",
-      "hash": "7506ee7cfb2bcc1d929809e0a6c6e404d640e82e"
+      "hash": "dca62926eb98811712b15f8f8fa6ea7068d50209"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores.snbt",
-      "hash": "5179f3491b4f1dd5c643f8d176d7f32f2745f774"
+      "hash": "0c63521a80e4c1c146eab0fe1a01570bf86680f4"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_2.snbt",
-      "hash": "7924ee37e82b44dce53ebff997a11a3327313b4a"
+      "hash": "98f2dfa7301a68e25be075000113b99a2ff77910"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_3.snbt",
-      "hash": "81c6eee63c849677e1b6969447181753f7acc8a1"
+      "hash": "db46f0debb7c94798d5caa5de640373c86578870"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_4.snbt",
-      "hash": "7046eb790a733946fd19f0b2dbf2d289abcc3162"
+      "hash": "b580a7ad00dd09bc4f08cb56f9ae1fe1d8886c47"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/passive_spawn_eggs.snbt",
-      "hash": "13584495230e6c196ad3b8dda86d195ecad1d2a7"
+      "hash": "00c0b2c13357905103a851a6aeeb1a70622e9c9d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/planks.snbt",
-      "hash": "2087650aae973ae8eed3b1a6184cb26fd45fbf38"
+      "hash": "502c26a28fac749ee3203871d83853c6a6f0941b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/potions.snbt",
-      "hash": "79d0a5d98e2ee688b4a1d433cd86908398e40b39"
+      "hash": "f5bd2bb20faf66b55f74878a80709e2d882ac767"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/random_dyes.snbt",
-      "hash": "a734d82ffcedca5a25d2aeb97ae19047544b1862"
+      "hash": "f9bb958163656dd3df6b545aa5fc532423f63c43"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/random_materials.snbt",
-      "hash": "2b6a7b2a14c2576b81c8d10924ca0ee3f677ee94"
+      "hash": "fb2187fbf3dca86b84c70b77d5eb22609c6a4760"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/rare_loot_crate.snbt",
-      "hash": "94a6784c70d42297f14e9effc7515cde5189b601"
+      "hash": "5264330ff9d08c23d8c3ae5dc0d32ac5334677e1"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/redstonecoin.snbt",
-      "hash": "a63187344e04ed3fa633477b606e700a128e1a34"
+      "hash": "87f412adc44bf25790a943b5472a7273d428aa3a"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/relics_materials_crate.snbt",
-      "hash": "288cbdc997b9d992ed9945b3133ea601317a3355"
+      "hash": "2b8329dba03fad9b9dfe419122be56b69f181e3b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/relic_crate.snbt",
-      "hash": "b596feb5089ea6804a30d1a8891d22042f0e2c51"
+      "hash": "7270d21edce203c4ba8f61c8572dac3e79d3db5b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/sapling_crate.snbt",
-      "hash": "b79ba707a89aa45f450bdbdca759407040f22e58"
+      "hash": "f001a90a224d952a80af839e9dea97cc6942ebdf"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/seed_crate.snbt",
-      "hash": "2ce47731964d0bd6da67704d00087ea5d05c4e4b"
+      "hash": "bdef49fe5f73577830e3e2d70ec91c6ab1076ee2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience.snbt",
-      "hash": "d048fd875e7a6534591132b9c5abdc90813d32d7"
+      "hash": "0e2ddd684658dc829189ec9a3c954e77daf40ab1"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience05.snbt",
-      "hash": "d61a328124c6be4ef3a86eb16c4c26bf509e186b"
+      "hash": "4fb39ed4de74ab165d6e74960bbf01e219d76633"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience10.snbt",
-      "hash": "31873642c1cbacd9cf5051a292c24375bfcd20b6"
+      "hash": "8395798b15f2c1ccc1652d63d6212e39318a5e50"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_level.snbt",
-      "hash": "02f8d2663eb7de154007ab99244685863106290c"
+      "hash": "acef8d76479e543a5006aaf79e21f14cdb499b85"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/spawn_eggs_2.snbt",
-      "hash": "af0d2a26ac152deb1e68cf2cd300babe72fd5dff"
+      "hash": "eb835f6d544d66af2ddfb03a9c983d038a7c7a44"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/spawn_eggs_3.snbt",
-      "hash": "fa1ea073142ce11bf0c53ff31719f4146663f24a"
+      "hash": "c6613122a919ec92f1c7472f8f6fa34d6bcb04c7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/specialization_token_i.snbt",
-      "hash": "8d1fc9cea95fa1059508a30b1585212e7f8cce29"
+      "hash": "2ea668992632bd6dd04055510f1d5883f04af5a3"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/stone.snbt",
-      "hash": "106de2b19a98f26dac516375e2db029ad3437eb2"
+      "hash": "8c2ac5fa9390e073e870b0c6772b211971b18f0d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/uncommon_loot_crate.snbt",
-      "hash": "b528f31762560d261f2f29c830845da5c68353fd"
+      "hash": "70368d0991ce8b775a32c7f10c4d474dbd0e7f69"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food.snbt",
-      "hash": "f27484459e7fdebabbdaa3f763ba55dc3907e349"
+      "hash": "3ab69260020d2b537f431ea038a107bf5a939791"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food_2.snbt",
-      "hash": "1077a6996f1ffe92ae81b949fc2cda9295115df4"
+      "hash": "0d836674b7c81b8ff36f239b17beb7a83572c870"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food_3.snbt",
-      "hash": "13aee2b9a85c6d293e3c3769c7f04d15b65bd17d"
+      "hash": "2f77d6fc38e3c8909a1e20f56320b93b466f5521"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials.snbt",
-      "hash": "1d5e6bae8e66c34b633e9294444f487933798c1a"
+      "hash": "b83c8889a9746e9f1d35f04d609e2a600f2670db"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials_2.snbt",
-      "hash": "14da8e5e481393d788a0d55c968ba6fba61d69a7"
+      "hash": "6aa9128c42ad917bef3357319f784ce47c125a13"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials_4.snbt",
-      "hash": "b97fd8f4d5a4e52f661234285a86ef4b0436f21a"
+      "hash": "417661e97f3c69c43f55d058ea6a6d522f2340a2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/weapon_crate.snbt",
-      "hash": "5d87ab7bfe733cea5709095a3dd2c84015f689ae"
+      "hash": "77a59561184ed91fcc695439a08100fe7307d428"
     },
     {
       "path": "config/ftbultimine.snbt",
@@ -2883,23 +2823,11 @@
     },
     {
       "path": "config/guardvillagers-common.toml",
-      "hash": "0f64dc9693fd490cc5cd1f7c5bfef9f636c045df"
+      "hash": "3b18c1c07d84a65de97162f4f65b0c85d6bf7449"
     },
     {
       "path": "config/harderbranchmining-common.toml",
       "hash": "1b3290a223daff8faeeb32dedc90564048b3e5ee"
-    },
-    {
-      "path": "config/harderfarther-common.toml",
-      "hash": "0c379ddf82eb89dfa86e615f72249852a331359a"
-    },
-    {
-      "path": "config/healingcampfire-common.toml",
-      "hash": "077ce03a70c4e680c77060c812625a523f942116"
-    },
-    {
-      "path": "config/healingcf-common.toml",
-      "hash": "cda0b370643fb43c18e0202b3b29fc9d026f7b14"
     },
     {
       "path": "config/healthoverlay.toml",
@@ -3095,11 +3023,11 @@
     },
     {
       "path": "config/improvedmobs/common.toml",
-      "hash": "2aa1aba820bd413c570d224381ee6f6fe5e93059"
+      "hash": "8367865919cecfdfea90fa72833e3ffc949ee0ee"
     },
     {
       "path": "config/improvedmobs/equipment.json",
-      "hash": "edda88db75df64203373c2c5fdf8f1142dba53a6"
+      "hash": "75dcdb7ff54802ecfc3e2c92865ef0cba7fe245a"
     },
     {
       "path": "config/infernalexp/spawnrates/basalt_giant_spawns.json",
@@ -3162,16 +3090,12 @@
       "hash": "a5ab375ae0d9745edbfb55cc06435ffa467a2145"
     },
     {
-      "path": "config/jecharacters.toml",
-      "hash": "1a18dd3ade0ac5d71da9f698e65a2f45c715d9ff"
-    },
-    {
       "path": "config/jei/bookmarks.ini",
       "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
     },
     {
       "path": "config/jei/ingredient-list-mod-sort-order.ini",
-      "hash": "4ec0d5ae0bc857f602ddd3847331ffc2e7f67a21"
+      "hash": "8012481cf8d57ed7111a6a9c969cbbd972c5d133"
     },
     {
       "path": "config/jei/ingredient-list-type-sort-order.ini",
@@ -3271,7 +3195,7 @@
     },
     {
       "path": "config/modernfix-mixins.properties",
-      "hash": "0072e859e930b2891d9426116e8aab3731ed333d"
+      "hash": "6e770103f2b273f1085529d5d931a221b40a4159"
     },
     {
       "path": "config/morevillagers-common.toml",
@@ -3311,11 +3235,7 @@
     },
     {
       "path": "config/oculus.properties",
-      "hash": "b0dbc7e6b33a095eeb05d8aa909b6c59c0db2cec"
-    },
-    {
-      "path": "config/oreberriesreplanted-common.toml",
-      "hash": "9d10f6fe2536f5693032ac460cd8210601a6b8e8"
+      "hash": "faa71817e945855e5da93ce7930570e05bc279b3"
     },
     {
       "path": "config/oreexcavation/block_groups.json",
@@ -3558,278 +3478,6 @@
       "hash": "c6948d9be064933085f2d2f8eb609d4ba85a4646"
     },
     {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/biome/mining.json",
-      "hash": "130b73740178e0e110ba5f90063511eb86065c08"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_carver/cave.json",
-      "hash": "bdbc1b5c71a4224722d5686c25b4d046501d1eb8"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/atum_limestone.json",
-      "hash": "ac88d836d3bee7baaa8d56012fc7b83d4f5788a3"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/deepslate.json",
-      "hash": "59d04878cbe00d2016006de79152ac76c2a1071b"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/everbright_turquoise_stone.json",
-      "hash": "29376e1c25bd62aa4eaac18a8756bd6905ff0e4a"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/everdawn_lunar_stone.json",
-      "hash": "80d73cb3e696ef682faf40ade0c874fa49bd532f"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ever_dawn_bright_stone.json",
-      "hash": "caba867fa8844bcef8315dcef11ab2cc18c63cb0"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/goodsleep_dream.json",
-      "hash": "6360623e286f4221a2c331da3f98c014b9c2d231"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/goodsleep_nightmare.json",
-      "hash": "fb1d8b0fcec65e664ecd3f6ee83485505b0e6867"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/infested_stone.json",
-      "hash": "291687dc8b159902b42be3cfc95dbf573afed2a1"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/netherrack.json",
-      "hash": "2a75bb03647dd284b69d155c6c8bc2131f8d1ad6"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_amethyst.json",
-      "hash": "a78d7035ac24e3a13a7910f21058f2c59eb5e87f"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_atum_bone.json",
-      "hash": "45ad3bfac317d10333e02ef98225b094ba3c3385"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_atum_nebu.json",
-      "hash": "eb5a726888b659eb6e696a7125e36e2613b80fab"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_atum_relic.json",
-      "hash": "b98771add3f81e5287095a6dd05300211e1004d5"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_azurite.json",
-      "hash": "035b1b22a779453c02d961a834021d2d77923126"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_coal.json",
-      "hash": "16d860015434839c47043cc432015e2ece6982d4"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_copper.json",
-      "hash": "03aedde39c3c3a083f5d54b3be6d2c927e632458"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_debris.json",
-      "hash": "cf9c37dc0c989cc19eee2bb9c01afc9d70e6930d"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_deepslate.json",
-      "hash": "2164a1b7478b6425d487f22ce2455b9bf3b0f223"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_diamond.json",
-      "hash": "c43e5b6f38ff28c378f2c44313ccad8adc3a9104"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_emerald.json",
-      "hash": "aa3f383cc6d96003e60deb399e7d1e07a55d99a0"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_eudialyte.json",
-      "hash": "90d0548c0df44740d88f30605858dcb968e5b8e9"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everbright_aquite.json",
-      "hash": "2a8a7f16d0b6c4452517d75e491933861d17b5c2"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everbright_charoite.json",
-      "hash": "c5b28cbd750ee62b43f2050e387376d3b3f257f8"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everbright_diopside.json",
-      "hash": "1618b626d66d8288956ca6bde48b3551b7e00308"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everbright_emerald.json",
-      "hash": "31386f90e72e994fa61522e0b0d926614914cd82"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everbright_falsite.json",
-      "hash": "ccb0151f50be96692c78a9873b48d5b93a08bfdd"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everbright_moonstone.json",
-      "hash": "a988134ff7d7690a62c28fabe6a967189a1c0b27"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everbright_pyrope.json",
-      "hash": "32b79eaf80d4f9b6bbbd6d449182e3b0c0180432"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everbright_ventium.json",
-      "hash": "f4eba0c16d437cf32a57e61685ba702c271d0ff4"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everdawn_aquite.json",
-      "hash": "048a45cb1e644985e50baebd044355999dd8e1d9"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everdawn_charoite.json",
-      "hash": "4a23b5014adbf2d0f75286f6e64bdd7bcd23309b"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everdawn_diopside.json",
-      "hash": "a82f1109204ce8ea43a9b446a9c64a4045c17286"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everdawn_emerald.json",
-      "hash": "42b368fb1d60d3c0adc42e07981432fc035941fa"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everdawn_horizonite.json",
-      "hash": "f016ac9dcfac4461a5b70d88b78ecbbca8ef0af6"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everdawn_moonstone.json",
-      "hash": "92b34c4f3a2dffef142e51b8988327240ad7522e"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_everdawn_pyrope.json",
-      "hash": "d2f5d1639e86902f1e6fb7d8b4254f2a781c1805"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_gold.json",
-      "hash": "9dc2001acfbd69e6eb98609b70a14b27656656d3"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_goodsleep_candy.json",
-      "hash": "f085d598fa15e969066faa7e1a5f6da7cdfa7ad3"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_goodsleep_necrum.json",
-      "hash": "6290f7b9fcb8f44b9c534544947b2efa7ee519d6"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_goodsleep_negatite.json",
-      "hash": "972bcfd36e9c7d7672a28db5a3d192132f08b6df"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_goodsleep_positite.json",
-      "hash": "35b2d66958ec7a2eeda67e7afd2c8e7ea052245c"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_goodsleep_rainbow.json",
-      "hash": "03e8a71d58f127049165f0c46919c90ebd503935"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_goodsleep_zitrite.json",
-      "hash": "63a076327a8dcb14e1e32b5b10e1390b4a8a21c5"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_iron.json",
-      "hash": "021622662eb409616d63c4e4654e4c2f04a6c898"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_lapis.json",
-      "hash": "99f9b9eed8b73b9388a83cf8e46e214a49c28240"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_lead.json",
-      "hash": "e209a7fc54446e2bf6019c3c109de5bfe671c2fb"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_luminis.json",
-      "hash": "9118511054f6bd96219b16c41f1f015822284402"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_nether_gold.json",
-      "hash": "f1c4a8305657ebcd4f3f7e4591e7fe4e1dc06991"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_nether_quartze.json",
-      "hash": "320e3f6f6cb9a8a3e08779f77e108fc29c4a32eb"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_quartz.json",
-      "hash": "d2305c8dad8e91e135781e681f06c20df93ccf1c"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_randomite.json",
-      "hash": "32f2d14256bc8808456dc5bc74c12382a7b32b13"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_redstone.json",
-      "hash": "6b569e8f15c563e3baca1a9d2221bba26b492630"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_sapphire.json",
-      "hash": "42f05a5ae078927b03c94ae58fa3eb792fd22cec"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_silver.json",
-      "hash": "24a22d87d61bf9863eb0ea47a0074e6f53cad738"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_source.json",
-      "hash": "9cb1b230fcb143808d76e0c4b816683f2cf45780"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_tin.json",
-      "hash": "e0878c04300d58ffec076c0f9479bb6f1414f4ef"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_undergarden_cloggrum.json",
-      "hash": "9e8d4f07aca9e12f92dc4a96f1d32a06de9132c6"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_undergarden_froststeel.json",
-      "hash": "4434d0e15c9e3dd5e9e18e68e6cc789ea25c9185"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_undergarden_regalium.json",
-      "hash": "b45470da8ce3707ce4e0d14e2b419cdf640274a4"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_undergarden_utherium.json",
-      "hash": "5f8fa6154fbd667982a743d7c93dcd7cdafdd097"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/ore_zircon.json",
-      "hash": "94b665671804f57a1786e42cf5d4d0ca63c1a750"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/sleepy_stone.json",
-      "hash": "268e950cf8763095c1715819477fcaac0483dfcf"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/undergarden_depthrock.json",
-      "hash": "cf7770b83cc1f99084c3060600a71e688420e702"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/undergarden_shiverstone.json",
-      "hash": "42fd0c6cf5a0d523ba14f76ba8af9ea8ba5b2cf9"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/data/mining_dimension/worldgen/configured_feature/undergarden_stone.json",
-      "hash": "9e5a696af3fb63b691bd5c15dfdbe65776219c69"
-    },
-    {
-      "path": "config/paxi/datapacks/radMiningDimension/pack.mcmeta",
-      "hash": "0e37852e25a52cd4fee91a1acc19b34962049729"
-    },
-    {
       "path": "config/paxi/datapacks/radrecipes/data/akashictome/recipes/tome2.json",
       "hash": "e12079e7c1f40c03869da8c19106edc2fdf5f8a1"
     },
@@ -3931,7 +3579,7 @@
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/betterendforge/recipes/aeternium_ingot.json",
-      "hash": "a3d42fe63757d85d19c8690f2ea8a79a685aebd4"
+      "hash": "7ff98dfaa62dc8c5319b96880e947cf1b97407a6"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/betterendforge/recipes/bane_of_arthropods_book.json",
@@ -4242,6 +3890,42 @@
       "hash": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/loot_tables/entities/guard_chestplate.json",
+      "hash": "3b41763c932083f26e682ad65e67191f66b850d9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/loot_tables/entities/guard_feet.json",
+      "hash": "eafe342e042e37a783b541a1a924e99dbce19966"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/loot_tables/entities/guard_helmet.json",
+      "hash": "4b6796705eca3b29ab9135c2cb4085b82c90e577"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/loot_tables/entities/guard_legs.json",
+      "hash": "b82a507b3c60b2f02ece79d9eab9090a60676275"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/loot_tables/entities/guard_main_hand.json",
+      "hash": "bff93442957aa2ca5dc4c880e6bc7ef82e87540d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/loot_tables/entities/guard_off_hand.json",
+      "hash": "3aed12c84b35f8d8ff3f50ca9796ca348280c458"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/tags/items/guard_archer_items.json",
+      "hash": "125562e41e5e5e4cb8237711f17e8fdb61895575"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/tags/items/guard_mercenary_items.json",
+      "hash": "a4c58d12e820ed5422c818d19c3b83f0003478b3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/guardvillagers/tags/items/guard_rogue_items.json",
+      "hash": "b674719089a38eb94f29a5ccbb059134ae85778f"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/iceandfire/advancements/iceandfire/root.json",
       "hash": "5f2bc0b83b7acccd88be15d868245a9d1368a590"
     },
@@ -4320,6 +4004,10 @@
     {
       "path": "config/paxi/datapacks/radrecipes/data/minecraft/tags/blocks/beacon_base_blocks.json",
       "hash": "d435cba8cf1f5d0c53798c570f94971e2a2f4c01"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/minecraft/tags/items/beacon_payment_items.json",
+      "hash": "1ed5e7dc3de4aef3eae8643564a5bbc3d02c677c"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/minecraft/tags/items/logs.json",
@@ -4918,10 +4606,6 @@
       "hash": "aea8ec7bd2c97686eccd48bb5a20e6ca964708d6"
     },
     {
-      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/advancements/mad_mage.json",
-      "hash": "7906df8e6ece1d28505a858701933c665915038d"
-    },
-    {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/advancements/slay_5_star_champion.json",
       "hash": "fbccb58c21ad6d3a4be830ff84c0bc87a0bf5758"
     },
@@ -5394,6 +5078,10 @@
       "hash": "ab10444d6ff7e893255c398c928dedb23abfb2ea"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/betterendsmelter/additional_emerald_ingot.json",
+      "hash": "a08ecdbcdfae1e02ad84421948e3fe35e5b678b3"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/betterendsmelter/additional_etherium.json",
       "hash": "d314f74f0649241a9ea0cc52a8f2a0eba9f5e4fe"
     },
@@ -5768,10 +5456,6 @@
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/byg_fix/travertine_wall_from_travertine_stonecutting.json",
       "hash": "4848fa5bbdd4ad1e2b6453f50f22ee7bdf7ed04e"
-    },
-    {
-      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/emerald_ingot.json",
-      "hash": "1615a553d340331e3c3e111bc292fdd5b358f6e8"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/enchanters_hammer.json",
@@ -6279,7 +5963,7 @@
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/mad_mage.json",
-      "hash": "54f1e6bfb6550a7e2d5e41472401672888176d38"
+      "hash": "bd68b85cf73cde898b0c66927d19f5555c534da0"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/slay_5_star_champion.json",
@@ -6639,7 +6323,7 @@
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/dungeons_libraries/lang/en_us.json",
-      "hash": "598015ff61d19d5927e8b9a485beebea0edb50d5"
+      "hash": "99cc29ae66b0150bb02242e000957f51ebbe30d2"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/dungeons_libraries/textures/gui/artifact_bar.png",
@@ -7894,6 +7578,10 @@
       "hash": "bb377459c1243480eb6b0801e782eb6a1c1a0505"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/remodifier/lang/en_us.json",
+      "hash": "7d1220c5ea9a676bbdf8c5f8e09cd9a262d97045"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/spartanweaponry/models/item/pike_wood.json",
       "hash": "1ae928e536cd5dc2e196f99f44f7a8b0b39ec791"
     },
@@ -8123,7 +7811,7 @@
     },
     {
       "path": "config/pmmo/xp_bonus_worn.json",
-      "hash": "4e5c9eeecaab2b498dbc9ff75408e8e1b5e24279"
+      "hash": "2c751c43e84c6034cc6f68b467c86f721f8ac6bb"
     },
     {
       "path": "config/pmmo/xp_multiplier_dimension.json",
@@ -8202,14 +7890,6 @@
       "hash": "658c42c8d0df567880effe755cbfe68eb50a97a6"
     },
     {
-      "path": "config/prefab.toml",
-      "hash": "a196ed891c72c2cfc4c775e349cb42eac0e36000"
-    },
-    {
-      "path": "config/productivebees-client.toml",
-      "hash": "521e8ee77e49aace06052570f4fdc3a8991bdbf6"
-    },
-    {
       "path": "config/progressivebosses-common.toml",
       "hash": "718f10a70455e7e848cd58d79fecbdd0cc2cd0d0"
     },
@@ -8230,10 +7910,6 @@
       "hash": "d43e3f675dbde08d922fe5880ff15259e5745a7c"
     },
     {
-      "path": "config/randomloot-common.toml",
-      "hash": "e14eaa3545cf0ceaebcf21bb5e1a4d81ee436f9a"
-    },
-    {
       "path": "config/randompatches.toml",
       "hash": "ad19e9ed4bb541b62eb0c827f5213ee79e89b970"
     },
@@ -8244,10 +7920,6 @@
     {
       "path": "config/rats-common.toml",
       "hash": "2fe786097341a7c7d4ca76deb6490d665675dae6"
-    },
-    {
-      "path": "config/refinedstorage-client.toml",
-      "hash": "ec730f7a342e27417c0a6149ac6738baa64057ec"
     },
     {
       "path": "config/relics/items/relics/amphibian_boot.json",
@@ -8463,19 +8135,15 @@
     },
     {
       "path": "config/remodifier/armor-modifiers.toml",
-      "hash": "9a63b956678dc2be226cdaa9b68250079b5d2995"
+      "hash": "3779575c83dd2693c664446c95d58dbfcfea071a"
     },
     {
       "path": "config/remodifier/bow-modifiers.toml",
       "hash": "fd77679e9b674b4cd6888a5915371f01748f162f"
     },
     {
-      "path": "config/remodifier/config.json",
-      "hash": "14e812c1b27f838df814c287b136e055fbc4fa6d"
-    },
-    {
       "path": "config/remodifier/curios-modifiers.toml",
-      "hash": "2459673047027f4d9e0464779dec8c38afd3c5ab"
+      "hash": "dc8f1e6b55354e7327165733e10efe56625e15b8"
     },
     {
       "path": "config/remodifier/reforge.toml",
@@ -8483,11 +8151,11 @@
     },
     {
       "path": "config/remodifier/shield-modifiers.toml",
-      "hash": "24fcab065651e64b2a0bfaf0d808ee0ff4465e7e"
+      "hash": "4eebd33c3b1c96c285c315a3b78892fff60e0009"
     },
     {
       "path": "config/remodifier/tool-modifiers.toml",
-      "hash": "bd0d0857ae22ded5dc4993e1730f387255259fbb"
+      "hash": "072a81d9a3d88f38a0f72bcdf1ca0236c6973b57"
     },
     {
       "path": "config/repurposed_structures-forge/bastions.toml",
@@ -8582,20 +8250,12 @@
       "hash": "400bcae5e18bec40fd31c713185aa8d8902c08f8"
     },
     {
-      "path": "config/roughlyenoughitems/changelog.txt",
-      "hash": "9c77b91cbc27142f1f21fab41dc32d22898cb479"
-    },
-    {
-      "path": "config/roughlyenoughitems/config.json5",
-      "hash": "982de2604626e9b5ebf383cd238802586b3c18bc"
+      "path": "config/roughtweaks-1.toml.bak",
+      "hash": "4d4333354b538fc10873b566d3bd7c77c624cade"
     },
     {
       "path": "config/roughtweaks.toml",
       "hash": "4d4333354b538fc10873b566d3bd7c77c624cade"
-    },
-    {
-      "path": "config/rpggods-common.toml",
-      "hash": "162b754ccff09d85f6256daf2ed24957b0ae4a9d"
     },
     {
       "path": "config/sapience-common.toml",
@@ -8608,10 +8268,6 @@
     {
       "path": "config/savageandravage-common.toml",
       "hash": "ef33730bcf9724f268064d5e6b90994f94573496"
-    },
-    {
-      "path": "config/scannable-client.toml",
-      "hash": "820e68664844e7c6ed3be047ce4b2e490571b1ad"
     },
     {
       "path": "config/scuba_gear-common.toml",
@@ -8631,15 +8287,7 @@
     },
     {
       "path": "config/serverconfigupdater-common.toml",
-      "hash": "431ca0056fc6f73569a0794a7de63e38cc22b838"
-    },
-    {
-      "path": "config/servertabinfo-client.toml",
-      "hash": "d1afdc4cf401c43139e7b6227276d7a313f91979"
-    },
-    {
-      "path": "config/servertabinfo-server.toml",
-      "hash": "7298a409f40e0a95cc404f47931d93fa2c9e525e"
+      "hash": "77b1092341656d64142b1025ee52c177806f2ba5"
     },
     {
       "path": "config/sidebar_buttons.json",
@@ -8670,10 +8318,6 @@
       "hash": "b7ce4288d0dc17a31a31e58b57a797d6af1b0920"
     },
     {
-      "path": "config/solpotato-client.toml",
-      "hash": "d589198d25e19aa8723fb62037138eef245d4f88"
-    },
-    {
       "path": "config/sophisticatedbackpacks-client.toml",
       "hash": "d70537ff9af514b74c1890b3ca1caa02391cec68"
     },
@@ -8700,14 +8344,6 @@
     {
       "path": "config/spawnermod.json",
       "hash": "af6dea218c0e5441aa98e3bb2a6a91c829cf59fa"
-    },
-    {
-      "path": "config/starterkit/starterkit.txt",
-      "hash": "dd2a97f8f7110450cfcdc4778332977b8f7b5dc8"
-    },
-    {
-      "path": "config/starterkit-common.toml",
-      "hash": "8127899ed5a36043a42756ace1eaee0b92e797bb"
     },
     {
       "path": "config/stepup.cfg",
@@ -8918,20 +8554,24 @@
       "hash": "b2255a7da3d64abb451e291492d400db35fb07a4"
     },
     {
+      "path": "config/ue/UEBattle-1.toml.bak",
+      "hash": "7dd255dd60bbc6b35642a9b346ca840d86a23277"
+    },
+    {
+      "path": "config/ue/UEBattle-2.toml.bak",
+      "hash": "7dd255dd60bbc6b35642a9b346ca840d86a23277"
+    },
+    {
+      "path": "config/ue/UEBattle-3.toml.bak",
+      "hash": "7dd255dd60bbc6b35642a9b346ca840d86a23277"
+    },
+    {
       "path": "config/ue/UEBattle.toml",
       "hash": "573c6525c7175650425ea1f97be7c597c049a889"
     },
     {
       "path": "config/ue/UEUtils.toml",
       "hash": "0e6f808e89efb141510aa4a482725ec15f5ca97c"
-    },
-    {
-      "path": "config/union.client.toml",
-      "hash": "ab36daa48f5946ea521c4169b77611bcd71275d4"
-    },
-    {
-      "path": "config/union.common.toml",
-      "hash": "e18d7b9a6c85b8a27f176cb0e5d4e0359d1bd1d2"
     },
     {
       "path": "config/upgradednetherite-client.toml",
@@ -9022,10 +8662,6 @@
       "hash": "bf6722796d74e04000047c125a464fb0f1ec5d7c"
     },
     {
-      "path": "config/worldgenerationprofiler-common.toml",
-      "hash": "ec3cf84d0d6385d0d29ba195578c9ea8d842e83d"
-    },
-    {
       "path": "config/xaerominimap-common.txt",
       "hash": "6b046de5626a1a61b0ef7ff0dd2ae1de3c9bfcad"
     },
@@ -9035,7 +8671,7 @@
     },
     {
       "path": "config/xaerominimap_entities.json",
-      "hash": "771d1b40a34d81d94f442ea33decc3dd096f4d1c"
+      "hash": "e175fdfd1fd409431134566bde0f86da2b67d642"
     },
     {
       "path": "config/xaeropatreon.txt",
@@ -9171,19 +8807,19 @@
     },
     {
       "path": "defaultconfigs/champions-affixes.toml",
-      "hash": "0d5b8b514c59a4e0e67c23814e3534099eb7f99a"
+      "hash": "176ec1dc997bed323f9b39aeb72ac3755f6e4d4e"
     },
     {
       "path": "defaultconfigs/champions-entities.toml",
-      "hash": "3cbce1888c598f11e0a0b86d92398daf46980e9f"
+      "hash": "2e4f6288e308dcaa3263c4f2a6daa347d6ee47f3"
     },
     {
       "path": "defaultconfigs/champions-ranks.toml",
-      "hash": "2e2c68684b0579c8a6d7be901d59ad96dc49dce5"
+      "hash": "106b85c9037be865dd38c337a029816673bdd1ef"
     },
     {
       "path": "defaultconfigs/champions-server.toml",
-      "hash": "154a5397c9e923edaa3a2c8b424de3cdec7113f0"
+      "hash": "2a1843e9ace603b60c218c9178c6774faae734a1"
     },
     {
       "path": "defaultconfigs/cofh_core-server.toml",
@@ -9302,24 +8938,8 @@
       "hash": "497c197776b710998e6cc63af72212b707fd3230"
     },
     {
-      "path": "fancymenu_data/last_world.fmdata",
-      "hash": "17bc663ee65a712ade2d06dcb41115d1d99ed6d9"
-    },
-    {
       "path": "hmclversion.cfg",
-      "hash": "7f509d71d7267bcf10add10d888c31052e96b72e"
-    },
-    {
-      "path": "knownkeys.txt",
-      "hash": "258b38a891ff7f58f452c0b7d3653c81584c74f0"
-    },
-    {
-      "path": "kubejs/assets/kubejs/lang/en_us.json",
-      "hash": "de9856232de24666bdf8924e4e86ec35e7f60507"
-    },
-    {
-      "path": "kubejs/assets/kubejs/lang/zh_cn.json",
-      "hash": "c2e363434bd28e6130ecf2c1936a9119be2829f4"
+      "hash": "77ead7db807fa11d7d453ce71ac20352007d5ac3"
     },
     {
       "path": "kubejs/assets/kubejs/models/block/glass_slab_bottom.json",
@@ -9839,11 +9459,11 @@
     },
     {
       "path": "kubejs/client_scripts/jei-descriptions.js",
-      "hash": "818e9b9f11b9137f9dc66d3cb6a7e709d213557b"
+      "hash": "e033ee8800259e5dbf539f872a70e05e00fa0046"
     },
     {
       "path": "kubejs/client_scripts/script.js",
-      "hash": "a488c7482d90cd0c9eea5b15dcb49871b0724cdf"
+      "hash": "289ee44d0bf81e5b4b285ffd782adff674e225ca"
     },
     {
       "path": "kubejs/config/client.properties",
@@ -9927,19 +9547,15 @@
     },
     {
       "path": "kubejs/server_scripts/loottweaks.js",
-      "hash": "373b2c57e3a65c47728ab8172f54cf015600e90b"
+      "hash": "7e036f1058a313c1927813a41d44ba2e1e2f55e3"
     },
     {
       "path": "kubejs/server_scripts/script.js",
-      "hash": "b93fc940f06b738d51192e3df0187881b735c640"
+      "hash": "65d2ed87541862b6c61f62c7a14a0232d34eb73b"
     },
     {
       "path": "kubejs/startup_scripts/script.js",
       "hash": "1976cf373cd274ed44763075df8f7bcca52dd5a4"
-    },
-    {
-      "path": "log4j2.xml",
-      "hash": "d47d254675d1aee18670aece5ed768e1e631517b"
     },
     {
       "path": "mods/abnormals_core-1.16.5-3.3.1.jar",
@@ -10306,8 +9922,8 @@
       "hash": "eb3348a48537dfd1a18fa409967f63ce2e2f7111"
     },
     {
-      "path": "mods/embeddium-0.3.10+mc1.16.5.jar",
-      "hash": "4ca96787062e47283608914964418bbe9b051710"
+      "path": "mods/embeddium-0.3.18+mc1.16.5.jar",
+      "hash": "e14a2beb0aec7156dd848d1590ce42daf337a4ce"
     },
     {
       "path": "mods/embeddiumextension-1.16.5-0.1.1.jar",
@@ -10638,8 +10254,8 @@
       "hash": "32a3078f21be3c2e959449dc702f64b8d890c1b7"
     },
     {
-      "path": "mods/modernfix-forge-5.14.0+mc1.16.5.jar",
-      "hash": "c624cac2da5a48abf17ea67f2db2380480705214"
+      "path": "mods/modernfix-forge-5.17.0+mc1.16.5.jar",
+      "hash": "e8e8d787ef6ae820e0c4349ccab6f6510deed707"
     },
     {
       "path": "mods/morevillagers-FORGE-1.16.5-1.5.5.jar",
@@ -10686,8 +10302,8 @@
       "hash": "15fe0efb24216c3cbe7f52f4e71f673e01e65523"
     },
     {
-      "path": "mods/oculus-mc1.16.5-1.4.7.jar",
-      "hash": "b6b44734cb837bd85443b6a7a86ce6193dea3cac"
+      "path": "mods/oculus-mc1.16.5-1.4.8.jar",
+      "hash": "96b32eb012090c537b498fa002dfaa166329833f"
     },
     {
       "path": "mods/orcinusscaves-1.3.jar",
@@ -10770,6 +10386,10 @@
       "hash": "7d6e1120a5145462a08691be5c01c3709e83458e"
     },
     {
+      "path": "mods/rad-mining-dimension-1.0.jar",
+      "hash": "093e435ffad0cde55c2e4954c1cc3e17b2c4ba87"
+    },
+    {
       "path": "mods/randomite-1.16.4-1.0.1.jar",
       "hash": "f242dc321b1769de3fa3328c35e3b1e17c5e2157"
     },
@@ -10826,8 +10446,8 @@
       "hash": "d4460d9b9b2f551b6fb5ecf542002527ab8754de"
     },
     {
-      "path": "mods/serializationisbad-1.5.jar",
-      "hash": "38a2714ddaf8b2a844ba4007a665371039db2bac"
+      "path": "mods/serializationisbad-1.5.2.jar",
+      "hash": "da05f7344986d425c858decb36cf776b3fe53dad"
     },
     {
       "path": "mods/serverconfigupdater-1.3.2.jar",
@@ -11070,12 +10690,12 @@
       "hash": "0b95a1966970c7fa7f447002eedc72c0f1766abd"
     },
     {
-      "path": "mods/XaerosWorldMap_1.37.8_Forge_1.16.5.jar",
-      "hash": "10dadc5e9ab36c6cd71950ae24c5997ee113f0e2"
+      "path": "mods/XaerosWorldMap_1.38.4_Forge_1.16.5.jar",
+      "hash": "8281077bfa85207e80dabe656940c8a4bc71f5be"
     },
     {
-      "path": "mods/Xaeros_Minimap_23.9.7_Forge_1.16.5.jar",
-      "hash": "bf5a114c6a505702246e503efa9d3c144a366d2a"
+      "path": "mods/Xaeros_Minimap_24.1.1_Forge_1.16.5.jar",
+      "hash": "6d2ab021c996b1154e490224b01781ee60d4b1d5"
     },
     {
       "path": "mods/xptome-1.16.5-v2.1.5.jar",
@@ -11090,12 +10710,24 @@
       "hash": "012654aa344d84fc3fb84ba744efd27cd2374d9e"
     },
     {
-      "path": "options.txt",
-      "hash": "bc212ad6ba97d9f1ffdb437d3068a91ef74ba2fa"
+      "path": "mods_add/client/farsight-1.7.jar",
+      "hash": "4c069009bc869f72a7c822850fea1d08c8ad9cee"
     },
     {
-      "path": "patchouli_data.json",
-      "hash": "b25365d1c7629d189c37695f533f614975a7f42f"
+      "path": "mods_add/client/I18nUpdateMod-3.5.3-all.jar",
+      "hash": "191b14e675f5e080bf0c045a955eda8b0e9300a7"
+    },
+    {
+      "path": "mods_add/client/jecharacters-1.16.5-forge-4.5.6.jar",
+      "hash": "2a3d4340153ff66fe34281c807bbadef57a79a1f"
+    },
+    {
+      "path": "mods_add/client/ServerTabInfo-1.16.4-1.3.4.jar",
+      "hash": "08e284a58c4ede45b628a820fa410609743435d9"
+    },
+    {
+      "path": "mods_add/server/ServerTabInfo-1.16.4-1.3.4.jar",
+      "hash": "08e284a58c4ede45b628a820fa410609743435d9"
     },
     {
       "path": "resourcepacks/EclecticTrove-1.16.5-1.0.1.zip",
@@ -11114,14 +10746,6 @@
       "hash": "9422af2cea4ef5536c8fcf418f161cdac7881997"
     },
     {
-      "path": "resourcepacks/Infernal Resources.zip",
-      "hash": "8bfe7b593459badf847e3a7e3bc06438b372b296"
-    },
-    {
-      "path": "resourcepacks/Quark Programmer Art.zip",
-      "hash": "c1ea21228f2aac1ffc4f38dac8604d13b4b0681d"
-    },
-    {
       "path": "resourcepacks/Unity-1.16.X-Base-2.4.0.zip",
       "hash": "39eae7dacc98c87b224a40ea303d64fc8a9462bb"
     },
@@ -11134,12 +10758,12 @@
       "hash": "87479f6f543c854c8335c225d9577bff4ca3387a"
     },
     {
-      "path": "scripts/craftingTable.zs",
-      "hash": "038f253f8eca108c5b5977bb45b118b2ed1e9a70"
+      "path": "scripts/blockTweaks.zs",
+      "hash": "b7518ccf37122ca83b0e12ad08a3df8a131d83cc"
     },
     {
-      "path": "scripts/disablebuddycard.zs",
-      "hash": "b858cb282617fb0956d960215c8e84d1ccf909c6"
+      "path": "scripts/craftingTable.zs",
+      "hash": "038f253f8eca108c5b5977bb45b118b2ed1e9a70"
     },
     {
       "path": "scripts/enchantDupeFix.zs",
@@ -11175,7 +10799,7 @@
     },
     {
       "path": "scripts/furnace.zs",
-      "hash": "679e6cf8a48885a1bb54e9dc1502036d5f2965b1"
+      "hash": "2e12082bc37becaf0e60373458020274fb76c226"
     },
     {
       "path": "scripts/gamestages/bosskills.zs",
@@ -11243,7 +10867,7 @@
     },
     {
       "path": "scripts/titles.zs",
-      "hash": "68fe02fe9dd442414b393f6aaf293be2e5ac7c22"
+      "hash": "33383d28ac1491720a1a9f24661651af912144a4"
     },
     {
       "path": "scripts/tollBellNerf.zs",
@@ -11256,14 +10880,6 @@
     {
       "path": "scripts/yurtingBlacklist.zs",
       "hash": "1c4997b80a7f1b968c2fc25297b6fb80b47509dc"
-    },
-    {
-      "path": "servers.dat",
-      "hash": "91ba48f38af1a7d13cc12aa02d9ad06e57490ee0"
-    },
-    {
-      "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip",
-      "hash": "65c7ef20fef4b5b03aa44afccbfdfdd82574c193"
     }
   ],
   "addons": [

@@ -1,7 +1,7 @@
 {
 	id: "3931E53FF85F6579"
 	order_index: 4
-	title: "{loot_table.5}"
+	title: "Materials Random"
 	loot_size: 1
 	hide_tooltip: true
 	use_title: true

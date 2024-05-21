@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 6
 	filename: "blue_skies"
-	title: "{chapter.12.title}"
+	title: "Blue Skies"
 	icon: "blue_skies:star_flare"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -253,7 +253,11 @@
 		{
 			x: -1.5d
 			y: 0.5d
-			description: ["{chapter.12.quest.1.description.1}"]
+			description: [
+				"Find the Gatekeeper and trade a book in exchange for his journal. You can find the houses spawning in either plains, mountains, and most snowy biomes."
+				""
+				"The Blue Journal, a book written by the Gatekeeper that’s filled with information discovered from his experiences in these dimensions. The more you progress through Blue Skies, the more pages you will unlock in the journal. You only need to obtain the blue journal item once. Afterwards, you can always find access to it by opening your inventory and clicking the tab on the right with the blue journal icon."
+			]
 			size: 1.5d
 			id: "2B1333F88EBD6BA9"
 			tasks: [{
@@ -275,12 +279,12 @@
 			]
 		}
 		{
-			title: "{chapter.12.quest.2.title}"
+			title: "Visit Dimension: Everbright"
 			x: 1.5d
 			y: -2.5d
 			shape: "octagon"
-			subtitle: "{chapter.12.quest.2.subtitle}"
-			description: ["{chapter.12.quest.2.description.1}"]
+			subtitle: "Find an Everbright portal and enter it"
+			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "72F9931405BEFE11"
@@ -304,7 +308,7 @@
 				{
 					id: "712F666FF1C32522"
 					type: "pmmo:xpreward"
-					title: "{chapter.12.quest.2.reward.3.title}"
+					title: "50 Light XP"
 					auto: "invisible"
 					skill: "light"
 					amount: 50.0d
@@ -313,12 +317,12 @@
 			]
 		}
 		{
-			title: "{chapter.12.quest.3.title}"
+			title: "Visit Dimension: Everdawn"
 			x: 1.5d
 			y: 3.5d
 			shape: "octagon"
-			subtitle: "{chapter.12.quest.3.subtitle}"
-			description: ["{chapter.12.quest.3.description.1}"]
+			subtitle: "Find an Everdawn portal and enter it"
+			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "26A94FF0B70C2076"
@@ -342,7 +346,7 @@
 				{
 					id: "7AABD3D23A7566D9"
 					type: "pmmo:xpreward"
-					title: "{chapter.12.quest.3.reward.3.title}"
+					title: "50 Shadow XP"
 					auto: "invisible"
 					skill: "shadow"
 					amount: 50.0d
@@ -353,7 +357,7 @@
 		{
 			x: 4.0d
 			y: -4.5d
-			description: ["{chapter.12.quest.4.description.1}"]
+			description: ["While you can't craft tools with this, you can use it to craft buckets, shears, anvils and most importantly, the tool box!"]
 			dependencies: ["72F9931405BEFE11"]
 			id: "4794A9B6D95E1E20"
 			tasks: [
@@ -377,7 +381,7 @@
 		{
 			x: 2.5d
 			y: -5.0d
-			description: ["{chapter.12.quest.5.description.1}"]
+			description: ["In addition to its crafting uses, Falsite is used to grant tools bonus durability"]
 			dependencies: ["72F9931405BEFE11"]
 			id: "55F576A9B46CDEE9"
 			tasks: [
@@ -407,7 +411,7 @@
 		{
 			x: 4.0d
 			y: 5.5d
-			description: ["{chapter.12.quest.6.description.1}"]
+			description: ["Used to craft the horizonite forge, and make tools with autosmelt."]
 			dependencies: ["26A94FF0B70C2076"]
 			id: "1855EE653FA1E241"
 			tasks: [
@@ -431,7 +435,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
-			description: ["{chapter.12.quest.7.description.1}"]
+			description: ["Diopside has higher damage and armor toughness than charoite, but lower attack speed and armor."]
 			dependency_requirement: "one_completed"
 			id: "1BCB46BE15E966C4"
 			tasks: [{
@@ -461,7 +465,7 @@
 		{
 			x: 3.5d
 			y: 0.5d
-			description: ["{chapter.12.quest.8.description.1}"]
+			description: ["Similar tier to copper tools."]
 			dependency_requirement: "one_completed"
 			id: "1665D4E72E5CDCC4"
 			tasks: [{
@@ -491,7 +495,7 @@
 		{
 			x: 4.5d
 			y: 0.5d
-			description: ["{chapter.12.quest.9.description.1}"]
+			description: ["Similar tier to iron tools."]
 			dependency_requirement: "one_completed"
 			id: "420FF8CF919A5422"
 			tasks: [{
@@ -521,7 +525,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			description: ["{chapter.12.quest.10.description.1}"]
+			description: ["Similar Tier to Diamond Tools."]
 			dependency_requirement: "one_completed"
 			id: "458F3157DF05FBE7"
 			tasks: [{
@@ -551,7 +555,7 @@
 		{
 			x: 4.5d
 			y: -0.5d
-			description: ["{chapter.12.quest.11.description.1}"]
+			description: ["Can be used to craft a moonstone, which emits light."]
 			dependency_requirement: "one_completed"
 			id: "3FB1D4C5A889ACED"
 			tasks: [{
@@ -581,7 +585,7 @@
 		{
 			x: 2.5d
 			y: -6.5d
-			description: ["{chapter.12.quest.12.description.1}"]
+			description: ["Can be used as a method of teleportation."]
 			dependencies: ["55F576A9B46CDEE9"]
 			id: "5FC39CB208286BC5"
 			tasks: [
@@ -612,8 +616,8 @@
 		{
 			x: 4.0d
 			y: -6.5d
-			subtitle: "{chapter.12.quest.13.subtitle}"
-			description: ["{chapter.12.quest.13.description.1}"]
+			subtitle: "Keep the monsters at bay with this cool lantern!"
+			description: ["Unlike in the overworld some blue skies mobs can spawn in light. This block will help prevent that."]
 			dependencies: [
 				"55F576A9B46CDEE9"
 				"51C0535FF6ABCB08"
@@ -646,7 +650,7 @@
 		{
 			x: 0.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.14.description.1}"]
+			description: ["Needed to light both the everbright and everdawn portals. Creates blue fire when used in the everbright, and black fire when in the everdawn."]
 			dependencies: ["2B1333F88EBD6BA9"]
 			id: "644C1F036C73D23E"
 			tasks: [{
@@ -715,7 +719,7 @@
 		{
 			x: 4.0d
 			y: 7.5d
-			description: ["{chapter.12.quest.16.description.1}"]
+			description: ["fuel for the horizonite forge."]
 			dependencies: ["4780D50B95651C50"]
 			id: "2C9161A4C75DAF7B"
 			tasks: [{
@@ -739,8 +743,8 @@
 		{
 			x: 5.5d
 			y: -4.5d
-			subtitle: "{chapter.12.quest.17.subtitle}"
-			description: ["{chapter.12.quest.17.description.1}"]
+			subtitle: "Keeping your tools well repaired"
+			description: ["The Tool Box can be used to change a blue skies tool's rod, and grant it bonus durability with a falsite ingot."]
 			dependencies: ["4794A9B6D95E1E20"]
 			id: "5C5D93DD699B0DE5"
 			tasks: [{
@@ -770,7 +774,7 @@
 		{
 			x: 14.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.18.description.1}"]
+			description: ["This table can be used to combine any 5 foods (even ones not from blue skies) into one. Most foods will also keep their effects when converted into the meal."]
 			id: "75170045DA295BD4"
 			tasks: [{
 				id: "54C327253DA603E9"
@@ -814,7 +818,7 @@
 		{
 			x: 16.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.19.description.1}"]
+			description: ["Works similar to a cake."]
 			dependencies: ["3CEB665E2E0A39D6"]
 			id: "5FCE8FDEDD736273"
 			tasks: [{
@@ -886,7 +890,7 @@
 		{
 			x: 6.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.21.description.1}"]
+			description: ["Both the everbright and everdawn need four of these to access their tower illager boss. Can't find all four? Here's a hint: check the brewing stands!"]
 			id: "2A1BA8C5A433CB02"
 			tasks: [{
 				id: "25A3C9BEE96D20D3"
@@ -1068,7 +1072,7 @@
 			x: 12.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "{chapter.12.quest.27.subtitle}"
+			subtitle: "I recommend getting a blue skies axe and spear before fighting this living tree, or you are going to have a bad time..."
 			dependencies: ["6D75A9B7EE136A30"]
 			size: 1.5d
 			id: "3EBFB973D7E9DF7D"
@@ -1647,8 +1651,8 @@
 		{
 			x: 14.5d
 			y: -2.5d
-			subtitle: "{chapter.12.quest.41.subtitle}"
-			description: ["{chapter.12.quest.41.description.1}"]
+			subtitle: "Enter a Nature dungeon"
+			description: [""]
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "0DF7112340FB8A00"
 			tasks: [{
@@ -1695,7 +1699,7 @@
 		{
 			x: 14.5d
 			y: 3.5d
-			subtitle: "{chapter.12.quest.42.subtitle}"
+			subtitle: "Enter a Poison dungeon"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "1A14F33889B103A2"
 			tasks: [{
@@ -1742,7 +1746,7 @@
 		{
 			x: 9.0d
 			y: 5.5d
-			subtitle: "{chapter.12.quest.43.subtitle}"
+			subtitle: "Use an Alchemy table"
 			dependencies: ["5B94856F3F11992D"]
 			id: "0F57C6A3764FAEA3"
 			tasks: [{
@@ -1822,7 +1826,7 @@
 		{
 			x: 9.0d
 			y: -0.5d
-			subtitle: "{chapter.12.quest.45.subtitle}"
+			subtitle: "Use a summoning table to summon artificial golem"
 			dependencies: ["35C5EAA0D938BEAA"]
 			id: "4AC62C9E31D53CFA"
 			tasks: [{
@@ -1879,7 +1883,7 @@
 		{
 			x: 9.0d
 			y: -1.5d
-			description: ["{chapter.12.quest.46.description.1}"]
+			description: ["Used to summon your own minions"]
 			dependencies: ["6D75A9B7EE136A30"]
 			id: "35C5EAA0D938BEAA"
 			tasks: [{
@@ -1913,7 +1917,7 @@
 		{
 			x: 9.0d
 			y: 4.5d
-			description: ["{chapter.12.quest.47.description.1}"]
+			description: ["Used to convert blocks into similar blocks. Useful for changing the color of certain items like wool and dragon scales."]
 			dependencies: ["50D7B576C27AE274"]
 			id: "5B94856F3F11992D"
 			tasks: [{
@@ -1947,7 +1951,7 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			description: ["{chapter.12.quest.48.description.1}"]
+			description: ["Grants a speed boost when worn in the arcs section. This is not a curio."]
 			dependencies: ["6D75A9B7EE136A30"]
 			id: "436F1887204A780B"
 			tasks: [{
@@ -1984,7 +1988,7 @@
 		{
 			x: 6.0d
 			y: 4.5d
-			description: ["{chapter.12.quest.49.description.1}"]
+			description: ["Grants invisibility while sneaking when worn in the arcs section. This is not a curio."]
 			dependencies: ["50D7B576C27AE274"]
 			id: "4B967D68D94BF6D0"
 			tasks: [{
@@ -2021,7 +2025,7 @@
 		{
 			x: 7.0d
 			y: -1.0d
-			description: ["{chapter.12.quest.50.description.1}"]
+			description: ["A Spear that comes back to you when thrown."]
 			dependencies: ["6D75A9B7EE136A30"]
 			id: "2FF8B516AF58A07B"
 			tasks: [{
@@ -2058,7 +2062,7 @@
 		{
 			x: 7.0d
 			y: 5.0d
-			description: ["{chapter.12.quest.51.description.1}"]
+			description: ["A shield that can also be used as a weapon in the mainhand."]
 			dependencies: ["50D7B576C27AE274"]
 			id: "0E55EC2EF936A6A0"
 			tasks: [{
@@ -2134,7 +2138,7 @@
 		{
 			x: 15.0d
 			y: 1.5d
-			description: ["{chapter.12.quest.53.description.1}"]
+			description: ["This one grants regeneration when eaten. Grow it by planting standard brewberries on cherry grass."]
 			id: "68345D94E07C3BF8"
 			tasks: [{
 				id: "141AE66EB547BD2B"
@@ -2206,14 +2210,14 @@
 		{
 			x: 1.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.55.description.1}"]
+			description: ["Tools, Weapons and Armor outside the blue skies dimensions will be weaker when in them. You will want to make gear from the dimensions to help you progress."]
 			dependencies: ["644C1F036C73D23E"]
 			dependency_requirement: "one_completed"
 			id: "1ED53320619BBE2F"
 			tasks: [{
 				id: "42AF295420E807BC"
 				type: "checkmark"
-				title: "{chapter.12.quest.55.task.1.title}"
+				title: "New Beginnings"
 			}]
 			rewards: [{
 				id: "2996B81A50A22E9E"
@@ -2231,7 +2235,7 @@
 			}]
 		}
 		{
-			title: "{chapter.12.quest.56.title}"
+			title: "Sticks and Spears"
 			icon: {
 				id: "blue_skies:bluebright_spear"
 				Count: 1b
@@ -2246,13 +2250,19 @@
 			}
 			x: 2.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.56.description.1}"]
+			description: [
+				"Blue skies tools will be slightly different based on what stick you use in its recipe. Some give more durability while others give more attack speed. The Tool Box can be used to change the rod whenever you want."
+				""
+				"Spears from Blue Skies are throwable and are your main source of ranged attacks while in either of these dimensions. They also make a boss much easier later on."
+				""
+				"Try crafting blue skies tools and spears with these sticks and notice the change in durability and attack speed."
+			]
 			dependencies: ["1ED53320619BBE2F"]
 			id: "4115F1E842101C67"
 			tasks: [{
 				id: "51B08BCD52D80B95"
 				type: "item"
-				title: "{chapter.12.quest.56.task.1.title}"
+				title: "Any #blue_skies:tools"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2423,10 +2433,10 @@
 			}]
 		}
 		{
-			title: "{chapter.12.quest.60.title}"
+			title: "Break 640x Turquoise Stone and Lunar Stone"
 			x: 3.5d
 			y: -0.5d
-			description: ["{chapter.12.quest.60.description.1}"]
+			description: ["Remember that stone mining quest back in the overworld chapter? Now do it here!"]
 			id: "21D2681DBB1F5668"
 			tasks: [
 				{
@@ -2460,7 +2470,7 @@
 		{
 			x: 8.0d
 			y: 5.0d
-			subtitle: "{chapter.12.quest.61.subtitle}"
+			subtitle: "I wouldn't really call summoning rocks \"alchemy\""
 			dependencies: ["50D7B576C27AE274"]
 			id: "03A7C00B4DB2FAAC"
 			tasks: [{
@@ -2502,7 +2512,7 @@
 				{
 					id: "7403C5A7B261FB70"
 					type: "pmmo:xpreward"
-					title: "{chapter.12.quest.61.reward.2.title}"
+					title: "150 Alchemy XP"
 					auto: "invisible"
 					skill: "alchemy"
 					amount: 150.0d
@@ -2554,7 +2564,7 @@
 				{
 					id: "5E7A27F900C37184"
 					type: "pmmo:xpreward"
-					title: "{chapter.12.quest.62.reward.2.title}"
+					title: "150 Endurance XP"
 					auto: "invisible"
 					skill: "endurance"
 					amount: 150.0d
@@ -2565,7 +2575,7 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			description: ["{chapter.12.quest.63.description.1}"]
+			description: ["A Furnace that runs on snowcaps."]
 			dependencies: ["72F9931405BEFE11"]
 			id: "27A5A1DE6F026D6A"
 			tasks: [{
@@ -2599,7 +2609,7 @@
 		{
 			x: 14.5d
 			y: 4.5d
-			description: ["{chapter.12.quest.64.description.1}"]
+			description: ["Increases your melee damage while you are poisoned."]
 			id: "45879AD48D37550E"
 			tasks: [{
 				id: "1E424F0CCD46BA28"
@@ -2621,7 +2631,7 @@
 			rewards: [{
 				id: "07CD2213D1654ED3"
 				type: "pmmo:xpreward"
-				title: "{chapter.12.quest.64.reward.1.title}"
+				title: "300 Shadow XP"
 				auto: "invisible"
 				skill: "shadow"
 				amount: 300.0d
@@ -2631,7 +2641,7 @@
 		{
 			x: 14.5d
 			y: -3.5d
-			description: ["{chapter.12.quest.65.description.1}"]
+			description: ["Gives you special green hearts that regnerate over time."]
 			dependencies: ["0DF7112340FB8A00"]
 			id: "2376F4CD121F43F6"
 			tasks: [{
@@ -2654,7 +2664,7 @@
 			rewards: [{
 				id: "1F12C0A62252AB89"
 				type: "pmmo:xpreward"
-				title: "{chapter.12.quest.65.reward.1.title}"
+				title: "300 Light XP"
 				auto: "invisible"
 				skill: "light"
 				amount: 300.0d
@@ -2728,7 +2738,7 @@
 			}]
 		}
 		{
-			title: "{chapter.12.quest.68.title}"
+			title: "Spear Enchanting"
 			icon: {
 				id: "blue_skies:lunar_spear"
 				Count: 1b
@@ -2747,13 +2757,17 @@
 			}
 			x: 2.0d
 			y: 1.5d
-			description: ["{chapter.12.quest.68.description.1}"]
+			description: [
+				"These Spears can be enchanted with Piercing as well as Loyalty, making them like a trident that's good for dealing with multiple mobs at once."
+				""
+				"To make them more relevant in this modpack there are enchanting table infusion enchanting recipes that allow you to enchant them with damage upgrades like Wrath which cannot be normally put on the spears."
+			]
 			dependencies: ["4115F1E842101C67"]
 			id: "458ABA83F93AD1B5"
 			tasks: [{
 				id: "37207F6CE2224755"
 				type: "checkmark"
-				title: "{chapter.12.quest.68.task.1.title}"
+				title: "Spear Enchanting"
 			}]
 			rewards: [
 				{

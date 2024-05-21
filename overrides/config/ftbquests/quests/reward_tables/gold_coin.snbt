@@ -1,7 +1,7 @@
 {
 	id: "291A883C3FD316F0"
 	order_index: 97
-	title: "{loot_table.98}"
+	title: "gold coin"
 	icon: {
 		id: "kubejs:gold_coin"
 		Count: 1b

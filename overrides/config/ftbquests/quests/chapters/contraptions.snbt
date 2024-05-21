@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 4
 	filename: "contraptions"
-	title: "{chapter.24.title}"
+	title: "Mini Contraptions"
 	icon: {
 		id: "supplementaries:wrench"
 		Count: 1b
@@ -22,7 +22,7 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			description: ["{chapter.24.quest.1.description.1}"]
+			description: ["The Wrench is used to rotate blocks already placed in the world."]
 			id: "685B1BCA8B0F49D2"
 			tasks: [{
 				id: "213C1AB0435A3564"
@@ -47,7 +47,7 @@
 			}]
 		}
 		{
-			title: "{chapter.24.quest.2.title}"
+			title: "Rotation Lock"
 			icon: {
 				id: "kubejs:help"
 				Count: 1b
@@ -59,24 +59,24 @@
 			}
 			x: 0.0d
 			y: -4.0d
-			description: ["{chapter.24.quest.2.description.1}"]
+			description: ["Rotation lock is enabled by pressing K by default on your keyboard. You will see a cube to the right of your crosshair. This makes all blocks you place face in the direction you were facing in when the lock was enabled. Press it again to change direction and again to turn it off."]
 			id: "0FFBD03D30C69566"
 			tasks: [{
 				id: "0262BB5E11609CFF"
 				type: "checkmark"
-				title: "{chapter.24.quest.2.task.1.title}"
+				title: "Press K"
 			}]
 		}
 		{
-			title: "{chapter.24.quest.3.title}"
+			title: "Ropes"
 			x: 2.5d
 			y: -4.0d
-			description: ["{chapter.24.quest.3.description.1}"]
+			description: ["Ropes can be climbed like ladders. The ones from supplementaries can also be passed through."]
 			id: "0A9964481C4795E6"
 			tasks: [{
 				id: "5238B45455B4BD8E"
 				type: "item"
-				title: "{chapter.24.quest.3.task.1.title}"
+				title: "Any #supplementaries:ropes"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -94,7 +94,7 @@
 		{
 			x: 1.0d
 			y: -2.5d
-			description: ["{chapter.24.quest.4.description.1}"]
+			description: ["Places random blocks from your hotbar. Useful for making natural looking walls and paths."]
 			id: "165C637A0F04D7FD"
 			tasks: [{
 				id: "07DE7D1D0FE1B031"
@@ -121,7 +121,11 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			description: ["{chapter.24.quest.5.description.1}"]
+			description: [
+				"When powered starts falling upwards."
+				""
+				"When its on a ceiling it starts falling down when powered again."
+			]
 			id: "4E24F97ADF4E366C"
 			tasks: [{
 				id: "442FF74A70064D63"
@@ -145,7 +149,7 @@
 		{
 			x: 1.0d
 			y: -0.5d
-			description: ["{chapter.24.quest.6.description.1}"]
+			description: ["Emits a redstone signal when looked at."]
 			id: "6CE12F9EBD63ABFA"
 			tasks: [{
 				id: "43FE095BB5721DF2"
@@ -169,7 +173,7 @@
 		{
 			x: -2.5d
 			y: -3.0d
-			description: ["{chapter.24.quest.7.description.1}"]
+			description: ["Bamboo spikes are useful traps to protect you base from mobs. They can be tipped with potion effects!"]
 			id: "53C3ED6F7249424E"
 			tasks: [{
 				id: "08F5A815500B0372"
@@ -193,7 +197,7 @@
 		{
 			x: 1.0d
 			y: -3.5d
-			description: ["{chapter.24.quest.8.description.1}"]
+			description: ["Used to measure the amount blocks between two points."]
 			id: "70D23E7FD975D726"
 			tasks: [{
 				id: "3870A8EF35D5DE3E"
@@ -217,7 +221,7 @@
 		{
 			x: 2.0d
 			y: -5.0d
-			description: ["{chapter.24.quest.9.description.1}"]
+			description: ["Used to find slime chunks; the areas where slimes can spawn in"]
 			id: "7F50F903FEF3FDFD"
 			tasks: [{
 				id: "5D3048957969E9EB"
@@ -241,7 +245,7 @@
 		{
 			x: 0.0d
 			y: -5.5d
-			description: ["{chapter.24.quest.10.description.1}"]
+			description: ["An invisible item frame for showing your items!"]
 			id: "3D795EA23FA1D86E"
 			tasks: [{
 				id: "2B62B2311326308F"
@@ -265,7 +269,7 @@
 		{
 			x: 2.5d
 			y: -2.0d
-			description: ["{chapter.24.quest.11.description.1}"]
+			description: ["Put a hopper above it and it will drop all items below it."]
 			id: "1A1032A815E0BEE0"
 			tasks: [{
 				id: "38FD22CD2976D23C"
@@ -287,10 +291,10 @@
 			}]
 		}
 		{
-			title: "{chapter.24.quest.12.title}"
+			title: "The Crankonator"
 			x: -1.0d
 			y: -5.5d
-			description: ["{chapter.24.quest.12.description.1}"]
+			description: ["Cranks are used to give the exact redstone signal you want"]
 			id: "576E37A04D699593"
 			tasks: [{
 				id: "0A1A3F181EBDA173"
@@ -314,7 +318,7 @@
 		{
 			x: 1.0d
 			y: -5.5d
-			description: ["{chapter.24.quest.13.description.1}"]
+			description: ["Detects the weather"]
 			id: "11558331F40B4499"
 			tasks: [{
 				id: "413E7E96603C6D26"
@@ -336,10 +340,10 @@
 			}]
 		}
 		{
-			title: "{chapter.24.quest.14.title}"
+			title: "VERTICAL REDSTONE?!"
 			x: -3.5d
 			y: -4.0d
-			description: ["{chapter.24.quest.14.description.1}"]
+			description: ["The Cog Block can transmit redstone vertically!"]
 			id: "57114F4515F106CE"
 			tasks: [{
 				id: "63A9040490A4F42D"
@@ -363,7 +367,7 @@
 		{
 			x: -2.5d
 			y: -4.0d
-			description: ["{chapter.24.quest.15.description.1}"]
+			description: ["stores liquids and captures tiny mobs"]
 			id: "7EFBB9A760690892"
 			tasks: [{
 				id: "672CD462B12A618E"
@@ -387,7 +391,7 @@
 		{
 			x: -2.0d
 			y: -5.0d
-			description: ["{chapter.24.quest.16.description.1}"]
+			description: ["captures small mobs like chickens"]
 			dependencies: ["7EFBB9A760690892"]
 			id: "5A2297A4C2BB4A7B"
 			tasks: [{
@@ -412,7 +416,7 @@
 		{
 			x: -1.0d
 			y: -2.5d
-			description: ["{chapter.24.quest.17.description.1}"]
+			description: ["Teleports your nearby pets to you. Useful for getting them out of sticky situations"]
 			id: "74256E8E141D9EF7"
 			tasks: [{
 				id: "4FF1F19B6821D661"
@@ -439,7 +443,7 @@
 		{
 			x: -2.0d
 			y: -1.0d
-			description: ["{chapter.24.quest.18.description.1}"]
+			description: ["emits redstone signal when a key is used on it. The key can be renamed so only that key can be used."]
 			dependencies: ["656E18F286DDF200"]
 			id: "5174D7892CC4EC9C"
 			tasks: [{
@@ -464,7 +468,7 @@
 		{
 			x: -2.5d
 			y: -2.0d
-			description: ["{chapter.24.quest.19.description.1}"]
+			description: ["used to unlock lock blocks. You can put it in any curios slot."]
 			id: "656E18F286DDF200"
 			tasks: [{
 				id: "4249B6E1C43FD2C6"
@@ -488,7 +492,7 @@
 		{
 			x: -1.0d
 			y: -0.5d
-			description: ["{chapter.24.quest.20.description.1}"]
+			description: ["You can set it to speak a message or show it in chat. Perfect for annoying your friends (or enemies!)"]
 			id: "2FC282739157D6DB"
 			tasks: [{
 				id: "1A7E7AE3DDCC6D56"
@@ -520,7 +524,7 @@
 		{
 			x: -1.0d
 			y: -3.5d
-			description: ["{chapter.24.quest.21.description.1}"]
+			description: ["can place blocks from a distance!"]
 			id: "44018815222E8CA9"
 			tasks: [{
 				id: "6179061DE2FEE6BC"
@@ -573,10 +577,10 @@
 			]
 		}
 		{
-			title: "{chapter.24.quest.22.title}"
+			title: "How the tables have turned..."
 			x: -0.5d
 			y: 0.5d
-			description: ["{chapter.24.quest.22.description.1}"]
+			description: ["rotates blocks and mobs standing on it"]
 			id: "6C27B8ECBE98B97A"
 			tasks: [{
 				id: "797AE75BADF88032"
@@ -600,7 +604,7 @@
 		{
 			x: 0.0d
 			y: -0.5d
-			description: ["{chapter.24.quest.23.description.1}"]
+			description: ["Launches you into the air when powered, or if you land on it from a high place"]
 			id: "33871879DC31D806"
 			tasks: [{
 				id: "66E7DA28B84ED6F9"
@@ -624,7 +628,7 @@
 		{
 			x: -3.0d
 			y: -1.0d
-			description: ["{chapter.24.quest.24.description.1}"]
+			description: ["These strong doors can be locked with a key and can be opened with your hand."]
 			dependencies: ["656E18F286DDF200"]
 			id: "1A01E6EA78F32D04"
 			tasks: [
@@ -676,7 +680,7 @@
 		{
 			x: -3.5d
 			y: -2.0d
-			description: ["{chapter.24.quest.25.description.1}"]
+			description: ["These doors can be opened with hand but NOT redstone signals."]
 			id: "68339B382A047B89"
 			tasks: [
 				{
@@ -715,7 +719,7 @@
 		{
 			x: 0.5d
 			y: 0.5d
-			description: ["{chapter.24.quest.26.description.1}"]
+			description: ["Emits light based on its redstone signal."]
 			id: "589AAF1FD992CE82"
 			tasks: [{
 				id: "0112A5D6B124D755"
@@ -737,10 +741,10 @@
 			}]
 		}
 		{
-			title: "{chapter.24.quest.27.title}"
+			title: "Flags"
 			x: 0.0d
 			y: -7.5d
-			description: ["{chapter.24.quest.27.description.1}"]
+			description: ["Can be placed on top of sticks to create a flagpole. Right-click a flagpole to raise the flag, hold sneak to lower it."]
 			dependencies: ["04FC98FCA731C4A9"]
 			id: "2031C7013AC15F55"
 			tasks: [{
@@ -771,10 +775,10 @@
 			}]
 		}
 		{
-			title: "{chapter.24.quest.28.title}"
+			title: "Placeable Items"
 			x: 0.0d
 			y: -6.5d
-			description: ["{chapter.24.quest.28.description.1}"]
+			description: ["Some Rod and Book Items like Sticks, Blaze Rods, and Prismarine Rods can be placed as blocks into the world. Search \"Placeable\" in JEI to see which items can be placed as blocks."]
 			id: "04FC98FCA731C4A9"
 			tasks: [
 				{
@@ -813,7 +817,7 @@
 		{
 			x: -3.5d
 			y: -3.0d
-			description: ["{chapter.24.quest.29.description.1}"]
+			description: ["Created by using a hoe on gravel."]
 			id: "10756B8268EF9D31"
 			tasks: [{
 				id: "784291CBD06E6041"
@@ -837,7 +841,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["{chapter.24.quest.30.description.1}"]
+			description: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
 			dependencies: ["347C4ABF9BCB62A2"]
 			id: "77BE21B5DAA11294"
 			tasks: [{
@@ -878,7 +882,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			description: ["{chapter.24.quest.31.description.1}"]
+			description: ["A small early-game shulker box that can only hold 5 items. Carry too many in your inventory and you get slowed down"]
 			id: "347C4ABF9BCB62A2"
 			tasks: [{
 				id: "66388320D6EF886E"
@@ -902,7 +906,7 @@
 		{
 			x: -2.0d
 			y: -6.0d
-			description: ["{chapter.24.quest.32.description.1}"]
+			description: ["Throwable Explosive that only breaks grass, torches and other weak blocks. Aim at a mob's feet to send them flying!"]
 			id: "1B166861840A1636"
 			tasks: [{
 				id: "7360B900F1ABD942"
@@ -926,7 +930,10 @@
 		{
 			x: -2.0d
 			y: -7.0d
-			description: ["{chapter.24.quest.33.description.1}"]
+			description: [
+				"Rarer version of bomb that can only be found as loot and from a special trader..."
+				"More Powerful than bomb and sets mobs on fire!"
+			]
 			dependencies: ["1B166861840A1636"]
 			id: "6945746FAEFCA3CE"
 			tasks: [{
@@ -960,8 +967,8 @@
 		{
 			x: -1.0d
 			y: -6.5d
-			subtitle: "{chapter.24.quest.34.subtitle}"
-			description: ["{chapter.24.quest.34.description.1}"]
+			subtitle: "The Fan of the Modpack"
+			description: ["The \"fan\" of this modpack, bellows blow mobs in the direction they are facing when powered."]
 			id: "5EE6C136B7D19495"
 			tasks: [{
 				id: "2DA5B1A64D98FDA0"
@@ -985,7 +992,10 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["{chapter.24.quest.35.description.1}"]
+			description: [
+				"The book for more information about Supplementaries items."
+				"Supplementaries Quests are on the left, Quark Quests are on the right."
+			]
 			id: "73EF4CCDA84825C6"
 			tasks: [{
 				id: "51DABD7265B56779"
@@ -1019,7 +1029,7 @@
 		{
 			x: 1.0d
 			y: -6.5d
-			description: ["{chapter.24.quest.36.description.1}"]
+			description: ["Craft with a dye to create a colored rune. Runes change the enchantment glint color on your equipment when combined in an anvil with the enchanted item of your choice. The blank rune removes other rune colors."]
 			id: "628078793DF96DF5"
 			tasks: [{
 				id: "0CB9A0F9B4FE995F"
@@ -1043,7 +1053,7 @@
 		{
 			x: 1.0d
 			y: -7.5d
-			description: ["{chapter.24.quest.37.description.1}"]
+			description: ["Combine runes to craft the Rainbow Rune"]
 			dependencies: ["628078793DF96DF5"]
 			id: "02E1C18734A64F61"
 			tasks: [{
@@ -1075,7 +1085,7 @@
 		{
 			x: 2.5d
 			y: -3.0d
-			description: ["{chapter.24.quest.38.description.1}"]
+			description: ["Only drops from Respawned Ender Dragons. Used to create a copy of an elytra"]
 			id: "5C054B01A4C3BBE6"
 			tasks: [{
 				id: "4561D807AD64FEF0"
@@ -1097,11 +1107,11 @@
 			}]
 		}
 		{
-			title: "{chapter.24.quest.39.title}"
+			title: "Deepslate"
 			x: 3.5d
 			y: -4.0d
-			subtitle: "{chapter.24.quest.39.subtitle}"
-			description: ["{chapter.24.quest.39.description.1}"]
+			subtitle: "Rock Bottom"
+			description: ["Only found at the bottom of the Mining Dimension, this tough rock serves as a nice fortification for your bases."]
 			id: "6E5F90AC792B4FE7"
 			tasks: [{
 				id: "7F5E99FC61855012"
@@ -1132,7 +1142,7 @@
 		{
 			x: 3.5d
 			y: -2.0d
-			description: ["{chapter.24.quest.40.description.1}"]
+			description: ["Place an animal's food in it and it will automatically breed animals for you"]
 			id: "0E4585C54A3E8C31"
 			tasks: [{
 				id: "3B76F3A33283FC58"
@@ -1156,7 +1166,7 @@
 		{
 			x: 3.5d
 			y: -3.0d
-			description: ["{chapter.24.quest.41.description.1}"]
+			description: ["Can only be activated by players."]
 			id: "4D7997F821600BF2"
 			tasks: [{
 				id: "61EAEF93379F49F1"
@@ -1180,7 +1190,7 @@
 		{
 			x: -3.0d
 			y: -6.0d
-			description: ["{chapter.24.quest.42.description.1}"]
+			description: ["The Brass Lantern can only be obtained from Librarian Villagers. You cannot find it anywhere else!"]
 			id: "60A8B8712FF18A56"
 			tasks: [{
 				id: "52E5BB0E259EFA4A"
@@ -1198,7 +1208,7 @@
 			rewards: [{
 				id: "2D9A082D571C2442"
 				type: "item"
-				title: "{chapter.24.quest.42.reward.1.title}"
+				title: "Dragonsteel?"
 				item: {
 					id: "citadel:fancy_item"
 					Count: 1b
@@ -1218,16 +1228,16 @@
 			}]
 		}
 		{
-			title: "{chapter.24.quest.43.title}"
+			title: "The Rarest Trader"
 			x: -3.0d
 			y: -7.0d
-			description: ["{chapter.24.quest.43.description.1}"]
+			description: ["This guy is really hard to find, don't bother looking for him"]
 			optional: true
 			id: "3DC8CBEB83275A0B"
 			tasks: [{
 				id: "38C3277823F3A519"
 				type: "observation"
-				title: "{chapter.24.quest.43.task.1.title}"
+				title: "Find the Red Merchant"
 				icon: {
 					id: "alexsmobs:tab_icon"
 					Count: 1b
@@ -1303,7 +1313,7 @@
 		{
 			x: -3.0d
 			y: -5.0d
-			description: ["{chapter.24.quest.44.description.1}"]
+			description: ["Created with Amethyst in a fletching table, Amethyst arrows deal less damage than their normal counterparts but spread shards where it lands, dealing small area of effect damage."]
 			id: "2C7213DEBCA1DA76"
 			tasks: [{
 				id: "57B2186EBAD9855C"
@@ -1336,12 +1346,12 @@
 		{
 			x: -4.5d
 			y: -3.0d
-			description: ["{chapter.24.quest.45.description.1}"]
+			description: ["Feed a Skeleton Horse a whole stack of rotten flesh to convert them into a Zombie Horse!"]
 			id: "62585DE5A68B21F3"
 			tasks: [{
 				id: "0E983A7CA7BC3E73"
 				type: "observation"
-				title: "{chapter.24.quest.45.task.1.title}"
+				title: "Zombie Horse Conversion"
 				icon: {
 					id: "alexsmobs:tab_icon"
 					Count: 1b
@@ -1378,7 +1388,11 @@
 		{
 			x: -1.0d
 			y: -7.5d
-			description: ["{chapter.24.quest.46.description.1}"]
+			description: [
+				"A block that is a clock."
+				""
+				"Right clicking it will tell you the exact minecraft time."
+			]
 			id: "71F9A642086E1460"
 			tasks: [{
 				id: "10205C9EFD5714A4"
@@ -1402,8 +1416,8 @@
 		{
 			x: 2.0d
 			y: -6.0d
-			subtitle: "{chapter.24.quest.47.subtitle}"
-			description: ["{chapter.24.quest.47.description.1}"]
+			subtitle: "Looking both ways"
+			description: ["When powered randomly powers the block to either the left or right of it."]
 			id: "044F3ECBB906B711"
 			tasks: [{
 				id: "557DD0C21158ECEC"
@@ -1427,7 +1441,7 @@
 		{
 			x: 3.0d
 			y: -5.0d
-			description: ["{chapter.24.quest.48.description.1}"]
+			description: ["Works like an inverted comparator; it combines the total of 3 sides (indicated by red triangles) into the 4th side."]
 			id: "1997E229249CB00E"
 			tasks: [{
 				id: "4B20E062FAB6B46B"
@@ -1451,7 +1465,11 @@
 		{
 			x: 3.0d
 			y: -6.0d
-			description: ["{chapter.24.quest.49.description.1}"]
+			description: [
+				"Obtained by using an empty bottle at y-130 in the overworld."
+				""
+				"You can place it like a block, but in mid-air without needing another block."
+			]
 			id: "5E2428F264DE9DA1"
 			tasks: [{
 				id: "3A3438DEFD06D285"
@@ -1475,8 +1493,12 @@
 		{
 			x: 3.0d
 			y: -1.0d
-			subtitle: "{chapter.24.quest.50.subtitle}"
-			description: ["{chapter.24.quest.50.description.1}"]
+			subtitle: "Grateness awaits"
+			description: [
+				"The grate lets items fall through it but not mobs."
+				""
+				"Animals will also try to avoid walking on grates."
+			]
 			id: "0283DF2A48C5CBF1"
 			tasks: [{
 				id: "733680764DB3829B"
@@ -1508,7 +1530,13 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["{chapter.24.quest.51.description.1}"]
+			description: [
+				"Any rope or chain can be stored inside the block (including from other mods)"
+				""
+				"When the pulley is powered by a turntable going down, it will drop the rope/chain underneath it."
+				""
+				"Clicking the turntable will make the pulley pull the ropes/chains back up, taking the block underneath it up with it."
+			]
 			dependencies: ["6C27B8ECBE98B97A"]
 			id: "0B44F6F68A0BBFD6"
 			tasks: [{

@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 8
 	filename: "tropicraft"
-	title: "{chapter.14.title}"
+	title: "Chill in tropics"
 	icon: "tropicraft:pina_colada"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,8 +12,8 @@
 			x: 0.5d
 			y: -0.5d
 			shape: "octagon"
-			subtitle: "{chapter.14.quest.1.subtitle}"
-			description: ["{chapter.14.quest.1.description.1}"]
+			subtitle: "Why bother with quests? Just chill..."
+			description: ["The method to leave this dimension is the same way you got in, a portal will NOT spawn."]
 			dependencies: ["59140870FC7DE344"]
 			size: 2.0d
 			id: "0559FD160CFF6C2A"
@@ -52,11 +52,15 @@
 			]
 		}
 		{
-			title: "{chapter.14.quest.2.title}"
+			title: "Take a break"
 			x: -2.0d
 			y: -0.5d
-			subtitle: "{chapter.14.quest.2.subtitle}"
-			description: ["{chapter.14.quest.2.description.1}"]
+			subtitle: "Don't get caught in the rain"
+			description: [
+				"Make yourself a drink, Get a chair sit down and watch the sunset"
+				""
+				"You've earned it."
+			]
 			dependencies: ["26B3F0D3178BE1CD"]
 			id: "59140870FC7DE344"
 			tasks: [
@@ -76,7 +80,7 @@
 				{
 					id: "57AF02B50C6CA611"
 					type: "item"
-					title: "{chapter.14.quest.2.task.2.title}"
+					title: "White Chair"
 					icon: {
 						id: "tropicraft:white_chair"
 						Count: 1b
@@ -99,7 +103,7 @@
 			]
 		}
 		{
-			title: "{chapter.14.quest.3.title}"
+			title: "Island Delights"
 			icon: {
 				id: "tropicraft:pineapple"
 				Count: 1b
@@ -111,13 +115,19 @@
 			}
 			x: -4.0d
 			y: -0.5d
-			description: ["{chapter.14.quest.3.description.1}"]
+			description: [
+				"Sometimes you can find pineapples and coconuts growing on beaches."
+				""
+				"Chop them up with your sword and get yourself some lovely snacks."
+				""
+				"Maybe you can even make something to drink?"
+			]
 			id: "26B3F0D3178BE1CD"
 			tasks: [
 				{
 					id: "0CA862264571CD0F"
 					type: "observation"
-					title: "{chapter.14.quest.3.task.1.title}"
+					title: "Coconut"
 					icon: {
 						id: "tropicraft:coconut"
 						Count: 1b
@@ -134,7 +144,7 @@
 				{
 					id: "2C6BFA84F470D4AE"
 					type: "observation"
-					title: "{chapter.14.quest.3.task.2.title}"
+					title: "Pineapple"
 					icon: {
 						id: "tropicraft:pineapple"
 						Count: 1b
