@@ -1,7 +1,7 @@
 {
   "name": "RAD2-vanilla_v1.12",
   "author": "mortar",
-  "version": "1.12_mortar_0",
+  "version": "1.12_mortar_2",
   "description": "",
   "fileApi": "https://www.landmine.top/mc",
   "files": [
@@ -3111,7 +3111,7 @@
     },
     {
       "path": "config/jei/ingredient-list-mod-sort-order.ini",
-      "hash": "239ce80899e330269021699dcd77a3d60d997d59"
+      "hash": "13f4d7f84c3899bbcee7b288ca52b7315eae89fb"
     },
     {
       "path": "config/jei/ingredient-list-type-sort-order.ini",
@@ -3251,7 +3251,7 @@
     },
     {
       "path": "config/oculus.properties",
-      "hash": "6999ba7f64091b8916bdf5ffe4cfaf1e7a86f0cf"
+      "hash": "b2b8343a52e939f08a3599c8d71eb559ae6b699d"
     },
     {
       "path": "config/oreexcavation/block_groups.json",
@@ -9963,7 +9963,7 @@
     },
     {
       "path": "config/stepup.cfg",
-      "hash": "62ab2bfae302bb5b707250eb9efa3ba50395d765"
+      "hash": "a7ed4802bd40c7a461109aa9f76a6ca4efdc84fb"
     },
     {
       "path": "config/stoneholm.json5",
@@ -10299,7 +10299,7 @@
     },
     {
       "path": "config/xaerominimap_entities.json",
-      "hash": "e175fdfd1fd409431134566bde0f86da2b67d642"
+      "hash": "6676ad6ea4efb968736663bcfb4ae23cea1a712b"
     },
     {
       "path": "config/xaeropatreon.txt",
@@ -10571,7 +10571,7 @@
     },
     {
       "path": "fancymenu_data/last_world.fmdata",
-      "hash": "eeb9781b47c89b8f59f54b98c07e3ede6f98a421"
+      "hash": "3193c04d7c16224d3bdbe2a31cea2e9f154b666a"
     },
     {
       "path": "hmclversion.cfg",
@@ -13267,7 +13267,7 @@
     },
     {
       "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.16.5.zip",
-      "hash": "09cec290cd73fb02da6933958bf288055c7706d3"
+      "hash": "1ce9f8e37e7cd68a5259b6970c50f29cc574b383"
     },
     {
       "path": "resourcepacks/Quark Programmer Art.zip",
@@ -13396,6 +13396,10 @@
     {
       "path": "scripts/yurtingBlacklist.zs",
       "hash": "1c4997b80a7f1b968c2fc25297b6fb80b47509dc"
+    },
+    {
+      "path": "servers.dat",
+      "hash": "2f011ffb59079f22c613e287adfbfb95819c5d01"
     }
   ],
   "addons": [

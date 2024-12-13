@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/z1216/Documents/Minecraft/.minecraft/versions/RAD2-vanilla_v1.12/saves/新的世界
+  is_server = true
+  world = juhost.mortar.top:25565
 }
 
