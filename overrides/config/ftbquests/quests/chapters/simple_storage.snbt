@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 3
 	filename: "simple_storage"
-	title: "{chapter.23.title}"
+	title: "存储方式"
 	icon: {
 		id: "sophisticatedbackpacks:backpack"
 		Count: 1b
@@ -31,7 +31,11 @@
 		{
 			x: -3.0d
 			y: -1.5d
-			description: ["{chapter.23.quest.1.description.1}"]
+			description: [
+				"抽屉控制器能让你将12格半径内的抽屉连接起来形成一个庞大的抽屉网络。"
+				""
+				"你可以右键控制器将物品存储到这个抽屉网络中。两次右键控制器会尝试将背包中的物品堆叠到抽屉网络中。"
+			]
 			id: "66D26625F2F9CB42"
 			tasks: [{
 				id: "63A91F340990AA6A"
@@ -53,7 +57,7 @@
 		{
 			x: -1.0d
 			y: -1.5d
-			description: ["{chapter.23.quest.2.description.1}"]
+			description: ["控制器传动方块连接到抽屉控制器时，能扩展你的抽屉网络。这是更加性能友好的多个控制器替代品。"]
 			dependencies: ["66D26625F2F9CB42"]
 			id: "159670F55DD10CD9"
 			tasks: [{
@@ -76,7 +80,11 @@
 		{
 			x: -2.0d
 			y: 5.0d
-			description: ["{chapter.23.quest.3.description.1}"]
+			description: [
+				"压缩抽屉是一种特殊的抽屉，能存储特定的材料，并将其变成对应的压缩种类。"
+				""
+				"例如，把铁块存进去，你就能直接从中拿出9个铁锭或81个铁粒。"
+			]
 			id: "69855EE51B48E6B7"
 			tasks: [{
 				id: "0EF6459DC48C1415"
@@ -98,7 +106,11 @@
 		{
 			x: -2.0d
 			y: 6.5d
-			description: ["{chapter.23.quest.4.description.1}"]
+			description: [
+				"抽屉钥匙能让你为抽屉上锁。上锁后，抽屉就只会存储已锁住的物品，就算物品被全部拿走。"
+				""
+				"数量钥匙能让抽屉在表面显示其中物品的数量。"
+			]
 			id: "206FE38B596D60E7"
 			tasks: [
 				{
@@ -121,12 +133,12 @@
 		{
 			x: -4.5d
 			y: 4.0d
-			description: ["{chapter.23.quest.5.description.1}"]
+			description: ["1x1抽屉，能存储32组物品。"]
 			id: "0994B5C8D2761BEA"
 			tasks: [{
 				id: "0498B4CE87823DEF"
 				type: "item"
-				title: "{chapter.23.quest.5.task.1.title}"
+				title: "完整存储抽屉：一种物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -169,12 +181,12 @@
 		{
 			x: -4.5d
 			y: 5.5d
-			description: ["{chapter.23.quest.6.description.1}"]
+			description: ["1x2抽屉，能存储16组物品。（总共32组）"]
 			id: "5B1664C5DEB1160D"
 			tasks: [{
 				id: "23A19BE3AFE3F041"
 				type: "item"
-				title: "{chapter.23.quest.6.task.1.title}"
+				title: "完整存储抽屉：两种物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -217,12 +229,12 @@
 		{
 			x: -4.0d
 			y: 7.0d
-			description: ["{chapter.23.quest.7.description.1}"]
+			description: ["2x2抽屉，能存储8组物品。（总共32组）"]
 			id: "3EA48F9716705F18"
 			tasks: [{
 				id: "702BCF9A77D94BFF"
 				type: "item"
-				title: "{chapter.23.quest.7.task.1.title}"
+				title: "完整存储抽屉：四种物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -265,12 +277,12 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			description: ["{chapter.23.quest.8.description.1}"]
+			description: ["小型1x1抽屉，能存储16组物品。"]
 			id: "5649FC1867467561"
 			tasks: [{
 				id: "2936B970D64810EC"
 				type: "item"
-				title: "{chapter.23.quest.8.task.1.title}"
+				title: "小型存储抽屉：一种物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -313,12 +325,12 @@
 		{
 			x: 0.5d
 			y: 5.5d
-			description: ["{chapter.23.quest.9.description.1}"]
+			description: ["小型1x2抽屉，能存储8组物品。（总共16组）"]
 			id: "057CB349E1D67E10"
 			tasks: [{
 				id: "12084578B8CA0A5E"
 				type: "item"
-				title: "{chapter.23.quest.9.task.1.title}"
+				title: "小型存储抽屉：两种物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -361,12 +373,12 @@
 		{
 			x: 0.0d
 			y: 7.0d
-			description: ["{chapter.23.quest.10.description.1}"]
+			description: ["小型2x2抽屉，能存储4组物品。（总共16组）"]
 			id: "227177C9C7B62C0C"
 			tasks: [{
 				id: "6ABC8CE33AAEDE2F"
 				type: "item"
-				title: "{chapter.23.quest.10.task.1.title}"
+				title: "小型存储抽屉：四种物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -409,12 +421,12 @@
 		{
 			x: -2.0d
 			y: 8.0d
-			description: ["{chapter.23.quest.11.description.1}"]
+			description: ["桥接方块能让你扩展抽屉网络而不需要消耗额外的抽屉。"]
 			id: "039F4C3E503F2102"
 			tasks: [{
 				id: "3CCB0CCB0FF80E03"
 				type: "item"
-				title: "{chapter.23.quest.11.task.1.title}"
+				title: "抽屉桥接方块"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -457,7 +469,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["{chapter.23.quest.12.description.1}"]
+			description: ["抽屉降级会使抽屉只能存储1组物品。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "61E553A98BE5C2EC"
 			tasks: [{
@@ -482,7 +494,7 @@
 		{
 			x: -0.5d
 			y: 0.5d
-			description: ["{chapter.23.quest.13.description.1}"]
+			description: ["抽屉升级的第一级，能增加2倍的存储空间。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "0F7BAC3F5F3CDBDB"
 			tasks: [{
@@ -499,7 +511,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["{chapter.23.quest.14.description.1}"]
+			description: ["抽屉升级的第二级，能增加4倍的存储空间。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "723A9F5E5263517D"
 			tasks: [{
@@ -516,7 +528,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["{chapter.23.quest.15.description.1}"]
+			description: ["抽屉升级的第三级，能增加8倍的存储空间。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "71C41E71CF881A59"
 			tasks: [{
@@ -533,7 +545,7 @@
 		{
 			x: -0.5d
 			y: 3.5d
-			description: ["{chapter.23.quest.16.description.1}"]
+			description: ["抽屉升级的第四级，能增加16倍的存储空间。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "4F02FD27A3688E42"
 			tasks: [{
@@ -550,7 +562,7 @@
 		{
 			x: -1.5d
 			y: 4.0d
-			description: ["{chapter.23.quest.17.description.1}"]
+			description: ["抽屉升级的第五级，也是最高级，能增加32倍的存储空间。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "0EA88FDF0A8CF786"
 			tasks: [{
@@ -567,7 +579,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			description: ["{chapter.23.quest.18.description.1}"]
+			description: ["销毁升级会销毁所有超过最大存储数量的物品。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "338FEC8C826F9B46"
 			tasks: [{
@@ -584,7 +596,7 @@
 		{
 			x: -3.5d
 			y: 0.5d
-			description: ["{chapter.23.quest.19.description.1}"]
+			description: ["转换升级能将不同模组的材料转换为一个模组。（这个包中不需要）"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "6175CD799995E927"
 			tasks: [{
@@ -609,7 +621,7 @@
 			x: -2.0d
 			y: 2.0d
 			shape: "hexagon"
-			description: ["{chapter.23.quest.20.description.1}"]
+			description: ["升级模板是许多抽屉升级的基础物品。"]
 			size: 1.5d
 			id: "3B2469805D2E4E2B"
 			tasks: [{
@@ -626,7 +638,7 @@
 		{
 			x: -4.0d
 			y: 1.5d
-			description: ["{chapter.23.quest.21.description.1}"]
+			description: ["光亮升级可以让物品和数量在抽屉表面发光，在较暗的地方更加清晰。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "52B6116AD14A0D31"
 			tasks: [{
@@ -643,7 +655,7 @@
 		{
 			x: -4.0d
 			y: 2.5d
-			description: ["{chapter.23.quest.22.description.1}"]
+			description: ["红石升级会在抽屉满后发出红石信号。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "1A1749750B6EF51A"
 			tasks: [{
@@ -660,7 +672,7 @@
 		{
 			x: -3.5d
 			y: 3.5d
-			description: ["{chapter.23.quest.23.description.1}"]
+			description: ["红石升级（最少）会根据抽屉中数量最少的一格发出红石信号。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "17742B177BFBE35C"
 			tasks: [{
@@ -677,7 +689,7 @@
 		{
 			x: -2.5d
 			y: 4.0d
-			description: ["{chapter.23.quest.24.description.1}"]
+			description: ["红石升级（最多）会根据抽屉中数量最多的一格发出红石信号。"]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "49997B92CC48A598"
 			tasks: [{
@@ -694,7 +706,7 @@
 		{
 			x: 4.5d
 			y: 2.5d
-			subtitle: "{chapter.23.quest.25.subtitle}"
+			subtitle: "连接相邻的容器，让存储终端获取所有物品信息"
 			dependencies: ["0B19DE4C8450F1F8"]
 			size: 1.5d
 			id: "6748D3F04B39CA14"
@@ -720,7 +732,7 @@
 		{
 			x: 2.5d
 			y: 2.5d
-			subtitle: "{chapter.23.quest.26.subtitle}"
+			subtitle: "Connects to inventory behind it and list the items in that inventory."
 			id: "0B19DE4C8450F1F8"
 			tasks: [{
 				id: "7C61916BDEE4E11A"
@@ -744,7 +756,7 @@
 		{
 			x: 5.5d
 			y: 5.5d
-			subtitle: "{chapter.23.quest.27.subtitle}"
+			subtitle: "Converts the block in front of it into an inventory"
 			dependencies: ["055071151A820D99"]
 			id: "129B94B7F9894654"
 			tasks: [{
@@ -769,7 +781,7 @@
 		{
 			x: 6.5d
 			y: 3.0d
-			subtitle: "{chapter.23.quest.28.subtitle}"
+			subtitle: "Used to extend connection between Inventory Connector and the inventory"
 			dependencies: ["6748D3F04B39CA14"]
 			id: "4D8F7A5DC35CCA10"
 			tasks: [{
@@ -794,7 +806,7 @@
 		{
 			x: 4.5d
 			y: 4.5d
-			subtitle: "{chapter.23.quest.29.subtitle}"
+			subtitle: "Connects inventories across long distances"
 			dependencies: ["6748D3F04B39CA14"]
 			id: "055071151A820D99"
 			tasks: [
@@ -834,7 +846,7 @@
 		{
 			x: 4.5d
 			y: 6.5d
-			subtitle: "{chapter.23.quest.30.subtitle}"
+			subtitle: "Cable camouflage"
 			dependencies: ["055071151A820D99"]
 			id: "7891226FE7C6FC0E"
 			tasks: [{
@@ -859,7 +871,7 @@
 		{
 			x: 6.5d
 			y: 2.0d
-			subtitle: "{chapter.23.quest.31.subtitle}"
+			subtitle: "用于将存储整合器连接起来"
 			dependencies: ["6748D3F04B39CA14"]
 			id: "72C257254CDE4716"
 			tasks: [{
@@ -884,7 +896,7 @@
 		{
 			x: 3.0d
 			y: 3.5d
-			subtitle: "{chapter.23.quest.32.subtitle}"
+			subtitle: "拥有合成台的高级终端"
 			dependencies: ["0B19DE4C8450F1F8"]
 			id: "30C9C313E2082308"
 			tasks: [{
@@ -909,8 +921,12 @@
 		{
 			x: 4.5d
 			y: 0.5d
-			subtitle: "{chapter.23.quest.33.subtitle}"
-			description: ["{chapter.23.quest.33.description.1}"]
+			subtitle: "增加访问终端的距离(16个方块)"
+			description: [
+				"潜行右键终端来绑定。"
+				""
+				"点击终端时确保终端清晰可见。"
+			]
 			dependencies: ["6748D3F04B39CA14"]
 			id: "0069B9DF54835434"
 			tasks: [{
@@ -962,7 +978,7 @@
 		{
 			x: 3.5d
 			y: 5.5d
-			subtitle: "{chapter.23.quest.35.subtitle}"
+			subtitle: "从存储网络中输入或输出物品"
 			dependencies: ["055071151A820D99"]
 			id: "321D954CA61E3E4C"
 			tasks: [{
@@ -987,7 +1003,7 @@
 		{
 			x: 4.5d
 			y: -1.0d
-			subtitle: "{chapter.23.quest.36.subtitle}"
+			subtitle: "无线终端的高级版本(64个方块)"
 			dependencies: ["0069B9DF54835434"]
 			id: "1B6CD39B642DF273"
 			tasks: [{

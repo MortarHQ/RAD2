@@ -4,10 +4,10 @@
 			"item": "enigmaticlegacy:cursed_ring"
 		},
 		"title": {
-			"text": "Bearer of Curses"
+			"text": "诅咒持有者"
 		},
 		"description": {
-			"text": "Wear the Ring of the Seven Curses (Unlocks a special title)"
+			"text": "戴上七咒之戒（解锁一个特殊的头衔）"
 		}
 	},
 	"parent": "enigmaticlegacy:main/root",

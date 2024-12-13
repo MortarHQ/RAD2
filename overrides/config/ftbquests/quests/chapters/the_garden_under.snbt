@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 3
 	filename: "the_garden_under"
-	title: "{chapter.9.title}"
+	title: "深暗之园"
 	icon: "undergarden:deepturf_block"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			description: ["{chapter.9.quest.1.description.1}"]
+			description: ["要搭建深暗之园传送门，你需要使用石砖搭建成下界传送门结构，然后用深园催化石激活。"]
 			id: "4C6F949FFA715364"
 			tasks: [{
 				id: "2DE60313C6484CEE"
@@ -169,12 +169,12 @@
 			size: 1.5d
 			id: "6EC6F2C9D32D1B8E"
 			tasks: [{
-				id: "60B99E9DC3244676"
-				type: "questsadditions:break"
-				block: "undergarden:diamond_ore"
-				value: 1L
-				checkItem: false
-			}]
+					id: "60B99E9DC3244676"
+					type: "questsadditions:break"
+					block: "undergarden:diamond_ore"
+					value: 1L
+					checkItem: false
+				}]
 			rewards: [
 				{
 					id: "5CC1DF1AACE7B542"
@@ -277,7 +277,7 @@
 			x: 2.5d
 			y: 1.5d
 			shape: "hexagon"
-			description: ["{chapter.9.quest.8.description.1}"]
+			description: ["原版矿石通常能在深暗之园顶部找到，但特殊矿石都会靠近底部生成。"]
 			dependencies: ["29BF84A63E82A63C"]
 			size: 1.5d
 			id: "274C8CD10763851C"
@@ -377,7 +377,7 @@
 		{
 			x: 6.5d
 			y: 4.5d
-			description: ["{chapter.9.quest.11.description.1}"]
+			description: ["与石生体交易所需。"]
 			dependencies: ["3E8D81625369E9E9"]
 			id: "7AB829B116D3495C"
 			tasks: [{

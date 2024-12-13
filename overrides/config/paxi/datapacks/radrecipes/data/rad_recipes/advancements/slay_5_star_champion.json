@@ -4,10 +4,10 @@
       "item": "curios:crown"
     },
     "title": {
-      "text": "Demonic Slayer"
+      "text": "恶魔猎手"
     },
     "description": {
-      "text": "Defeat a Demonic (5 star blue) Champion. Unlocks a special title!"
+      "text": "击败5星级精英怪。会解锁一个特殊的头衔！"
     }
   },
   "parent": "minecraft:adventure/kill_a_mob",

@@ -3,7 +3,7 @@
 	group: "2C344CA71B9F0CFD"
 	order_index: 3
 	filename: "trinkets__curios"
-	title: "{chapter.28.title}"
+	title: "饰品与饰物"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -101,7 +101,13 @@
 			x: 5.0d
 			y: 7.5d
 			shape: "octagon"
-			description: ["{chapter.28.quest.4.description.1}"]
+			description: [
+				"将符文注能成遗物。"
+				""
+				"在祭坛四个槽中放入所需符文。"
+				""
+				"祭坛会告诉玩家所需物品，将物品扔到祭坛上完成合成。"
+			]
 			size: 2.0d
 			id: "6C45CE02A03DCEE9"
 			tasks: [{
@@ -134,7 +140,15 @@
 			x: 5.0d
 			y: 3.5d
 			shape: "diamond"
-			description: ["{chapter.28.quest.5.description.1}"]
+			description: [
+				"用于修复遗物。"
+				""
+				"右键铁砧顶部将遗物放上去。"
+				""
+				"使用符文锤来修复放置的遗物。"
+				""
+				"这会消耗经验和一些物品"
+			]
 			hide_dependency_lines: true
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "3BFC6AA60A53EBEF"
@@ -168,7 +182,11 @@
 			x: 3.0d
 			y: 4.0d
 			shape: "diamond"
-			description: ["{chapter.28.quest.6.description.1}"]
+			description: [
+				"用于修复遗物。"
+				""
+				"使用方法请查看符文铁砧。"
+			]
 			hide_dependency_lines: true
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "056C737A9F7067AC"
@@ -807,7 +825,7 @@
 		{
 			x: -1.0d
 			y: 5.5d
-			description: ["{chapter.28.quest.25.description.1}"]
+			description: ["腐化信标的蓝色版本，不需要消耗灵魂。"]
 			id: "2FDF00E7CA12E60D"
 			tasks: [{
 				id: "783EC4F06C271F1D"
@@ -841,7 +859,7 @@
 		{
 			x: -1.5d
 			y: 7.5d
-			description: ["{chapter.28.quest.26.description.1}"]
+			description: ["给予敌人漂浮效果。"]
 			id: "5286E78A4DF9A954"
 			tasks: [{
 				id: "4DB7A1C4EBE837C5"
@@ -875,7 +893,7 @@
 		{
 			x: -0.5d
 			y: 4.5d
-			description: ["{chapter.28.quest.27.description.1}"]
+			description: ["获得狂欢派对效果。让你在伤害怪物时造成一次爆炸。"]
 			id: "0337A6E2B165AA9C"
 			tasks: [{
 				id: "3A5D2DBD9B4EEAD0"
@@ -909,7 +927,7 @@
 		{
 			x: 11.5d
 			y: 7.5d
-			description: ["{chapter.28.quest.28.description.1}"]
+			description: ["对怪物造成8秒燃烧、缓慢或雷击。"]
 			id: "1A0B0B0C455CD7DD"
 			tasks: [{
 				id: "4E43D455BE42DDCD"
@@ -943,7 +961,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
-			description: ["{chapter.28.quest.29.description.1}"]
+			description: ["随机给予食物。"]
 			id: "3FCFBEBEB40100CF"
 			tasks: [{
 				id: "7AAD8E6F37E37931"
@@ -977,7 +995,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			description: ["{chapter.28.quest.30.description.1}"]
+			description: ["随机给予药水。"]
 			id: "323BB1B3705C832B"
 			tasks: [{
 				id: "46021BC544DFBE7A"
@@ -1011,7 +1029,7 @@
 		{
 			x: 5.0d
 			y: 14.0d
-			description: ["{chapter.28.quest.31.description.1}"]
+			description: ["下5次射出的箭矢不受水的阻力影响。"]
 			id: "38C99F434F124A89"
 			tasks: [{
 				id: "7FB54850F13903D4"
@@ -1045,7 +1063,7 @@
 		{
 			x: 8.0d
 			y: 2.0d
-			description: ["{chapter.28.quest.32.description.1}"]
+			description: ["给予2秒速度提升III。"]
 			id: "111F7DA351EE9339"
 			tasks: [{
 				id: "52ECF39F8ED147A1"
@@ -1079,7 +1097,13 @@
 		{
 			x: 0.5d
 			y: 12.0d
-			description: ["{chapter.28.quest.33.description.1}"]
+			description: [
+				"召唤一只铁傀儡为你战斗。"
+				""
+				"在你问之前，我先回答你，这个铁傀儡不会掉落铁锭。"
+				""
+				"由于bug，你可能需要重新装备奇异饰品来召唤新的宠物。"
+			]
 			id: "10C69118C27044C4"
 			tasks: [{
 				id: "5BD4CC2E307160E0"
@@ -1113,7 +1137,13 @@
 		{
 			x: 9.5d
 			y: 12.0d
-			description: ["{chapter.28.quest.34.description.1}"]
+			description: [
+				"召唤一只宠物狼为你战斗。"
+				""
+				"你无法重复召唤多只狼，除非先前召唤的狼变成小狗天才的宠物狗了。"
+				""
+				"由于bug，你可能需要重新装备奇异饰品来召唤新的宠物。"
+			]
 			id: "5447EF309A6F6181"
 			tasks: [{
 				id: "4918595049885351"
@@ -1147,7 +1177,13 @@
 		{
 			x: -1.5d
 			y: 8.5d
-			description: ["{chapter.28.quest.35.description.1}"]
+			description: [
+				"召唤一只羊驼为你战斗。"
+				""
+				"羊驼会跟着你，所以你可以很方便的让它帮你携带物品。"
+				""
+				"由于bug，你可能需要重新装备奇异饰品来召唤新的宠物。"
+			]
 			id: "7D22D20B86C2D33B"
 			tasks: [{
 				id: "791CDA3C64BFC824"
@@ -1181,7 +1217,11 @@
 		{
 			x: -0.5d
 			y: 10.5d
-			description: ["{chapter.28.quest.36.description.1}"]
+			description: [
+				"给予怪物抗性削弱2和虚弱效果。（它们会受到更多伤害）"
+				""
+				"同时会清除怪物身上已有的抗性效果，所以它很适合用来克制强大的精英怪。"
+			]
 			id: "6A6B392D80E179EE"
 			tasks: [{
 				id: "64846A8B714D0900"
@@ -1215,7 +1255,15 @@
 		{
 			x: 10.5d
 			y: 4.5d
-			description: ["{chapter.28.quest.37.description.1}"]
+			description: [
+				"消耗15灵魂。"
+				""
+				"雷击你看向的怪物。"
+				""
+				"如果没有目标，就会浪费灵魂。"
+				""
+				""
+			]
 			id: "514ADDD70D49C805"
 			tasks: [{
 				id: "389921EA9DEC979D"
@@ -1249,7 +1297,7 @@
 		{
 			x: -1.0d
 			y: 9.5d
-			description: ["{chapter.28.quest.38.description.1}"]
+			description: ["给予自身几秒的抗性2效果。"]
 			id: "6A4432085A4EDE7A"
 			tasks: [{
 				id: "2F9223E1832D278C"
@@ -1283,7 +1331,11 @@
 		{
 			x: 2.0d
 			y: 13.0d
-			description: ["{chapter.28.quest.39.description.1}"]
+			description: [
+				"让你周围最多3个怪物不再攻击你，并且攻击其他怪物。"
+				""
+				"但当你攻击它们时，就会使它们再次攻击你。"
+			]
 			id: "1A7B3032764043F1"
 			tasks: [{
 				id: "3BDDB94A5C23109A"
@@ -1317,7 +1369,7 @@
 		{
 			x: 3.0d
 			y: 13.5d
-			description: ["{chapter.28.quest.40.description.1}"]
+			description: ["下7次射出的箭会附带火焰。适用于弩或无法附魔火矢的武器。"]
 			id: "13B1BAC45C900E70"
 			tasks: [{
 				id: "16ACE4A693B82CD3"
@@ -1351,7 +1403,7 @@
 		{
 			x: 7.0d
 			y: 13.5d
-			description: ["{chapter.28.quest.41.description.1}"]
+			description: ["进行一次小跳。适用于实现较低的二段跳"]
 			id: "45BC33FB2B2F14F2"
 			tasks: [{
 				id: "73F506AB86117FE5"
@@ -1385,7 +1437,11 @@
 		{
 			x: 0.5d
 			y: 3.0d
-			description: ["{chapter.28.quest.42.description.1}"]
+			description: [
+				"花费至多64灵魂来恢复至多6点血。"
+				""
+				"满血时无法使用。"
+			]
 			id: "02577FE7B31039C2"
 			tasks: [{
 				id: "07BA315BC269ECFD"
@@ -1419,7 +1475,7 @@
 		{
 			x: 8.0d
 			y: 13.0d
-			description: ["{chapter.28.quest.43.description.1}"]
+			description: ["将敌对生物推走。"]
 			id: "770842B0FD8C2CDC"
 			tasks: [{
 				id: "2BFAD046ED4494BF"
@@ -1453,7 +1509,7 @@
 		{
 			x: 11.0d
 			y: 9.5d
-			description: ["{chapter.28.quest.44.description.1}"]
+			description: ["在怪物头上召唤冰块，并造成短暂眩晕。"]
 			id: "6C7E9C9561EA31F9"
 			tasks: [{
 				id: "334B90A74D177D86"
@@ -1487,7 +1543,7 @@
 		{
 			x: 10.5d
 			y: 10.5d
-			description: ["{chapter.28.quest.45.description.1}"]
+			description: ["使敌对生物中毒和减速。"]
 			id: "6909DCD346596566"
 			tasks: [{
 				id: "63FF1D85CB620519"
@@ -1521,7 +1577,7 @@
 		{
 			x: 4.0d
 			y: 1.0d
-			description: ["{chapter.28.quest.46.description.1}"]
+			description: ["使周围的敌人定住5秒。"]
 			id: "3D9299C466992703"
 			tasks: [{
 				id: "1D58D42D98317443"
@@ -1555,7 +1611,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
-			description: ["{chapter.28.quest.47.description.1}"]
+			description: ["花费40灵魂制造一次强力爆炸。"]
 			id: "2A98C5C2D27B62C4"
 			tasks: [{
 				id: "4F4A10497ABCBEC4"
@@ -1589,7 +1645,7 @@
 		{
 			x: 7.0d
 			y: 1.5d
-			description: ["{chapter.28.quest.48.description.1}"]
+			description: ["获得3秒发光、速度、抗性4和隐身。"]
 			id: "2C4C2C5419747E78"
 			tasks: [{
 				id: "1D13FF4BC7D90346"
@@ -1623,7 +1679,11 @@
 		{
 			x: 9.5d
 			y: 3.0d
-			description: ["{chapter.28.quest.49.description.1}"]
+			description: [
+				"花费10灵魂。"
+				""
+				"下3次射出的箭不受重力影响"
+			]
 			id: "1E10D8E9066FE566"
 			tasks: [{
 				id: "314B192EC70E45FD"
@@ -1657,7 +1717,7 @@
 		{
 			x: 11.5d
 			y: 6.5d
-			description: ["{chapter.28.quest.50.description.1}"]
+			description: ["获得盾牌效果，让你免疫弹射物。"]
 			id: "1604341F1BC18F95"
 			tasks: [{
 				id: "0178D6096C9AEA86"
@@ -1691,7 +1751,11 @@
 		{
 			x: 11.5d
 			y: 8.5d
-			description: ["{chapter.28.quest.51.description.1}"]
+			description: [
+				"花费5灵魂。所有图腾光环内的非敌对实体将无法被杀死（会保留1点血）"
+				""
+				"图腾持续大约12秒。"
+			]
 			id: "569E6F3199D47AB8"
 			tasks: [{
 				id: "423373963A612B80"
@@ -1725,7 +1789,7 @@
 		{
 			x: 4.0d
 			y: 14.0d
-			description: ["{chapter.28.quest.52.description.1}"]
+			description: ["召唤蜜蜂为你战斗！"]
 			id: "5B652569061DE6F3"
 			tasks: [{
 				id: "63F46F848C42189A"
@@ -1759,7 +1823,11 @@
 		{
 			x: 6.0d
 			y: 14.0d
-			description: ["{chapter.28.quest.53.description.1}"]
+			description: [
+				"快速消耗灵魂发射一道光束，对前方的怪物快速攻击。"
+				""
+				"手持带有特定附魔的剑能增加光束伤害。"
+			]
 			id: "199744C8E04EDD39"
 			tasks: [{
 				id: "603FC1769E05259D"
@@ -1793,7 +1861,11 @@
 		{
 			x: -1.5d
 			y: 6.5d
-			description: ["{chapter.28.quest.54.description.1}"]
+			description: [
+				"召唤一只羊。"
+				""
+				"由于一个bug，你无法用它召唤，除非饰品栏中有另一个召唤类奇异饰品。"
+			]
 			id: "39E2243C32CCADF9"
 			tasks: [{
 				id: "2D3EDDC91E5C6CAA"
@@ -1827,7 +1899,7 @@
 		{
 			x: 11.0d
 			y: 5.5d
-			description: ["{chapter.28.quest.55.description.1}"]
+			description: ["腐化信标的橙色版本。"]
 			id: "6D99960BCE7C37E4"
 			tasks: [{
 				id: "4CDE0D394D91671F"
@@ -1861,7 +1933,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			description: ["{chapter.28.quest.56.description.1}"]
+			description: ["下5次射出的箭会对敌人造成雷击。"]
 			id: "4862D9E14E68B083"
 			tasks: [{
 				id: "0BEBA23473038CC5"

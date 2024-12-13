@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "shop"
-	title: "{chapter.2.title}"
+	title: "$ - 硬币商店 - $"
 	icon: "kubejs:gold_coin"
 	disable_toast: true
 	default_quest_shape: ""
@@ -120,7 +120,7 @@
 	]
 	quests: [
 		{
-			title: "{chapter.2.quest.1.title}"
+			title: "普通战利品箱随机奖励"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -132,8 +132,8 @@
 			x: -8.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.1.subtitle}"
-			description: ["{chapter.2.quest.1.description.1}"]
+			subtitle: "需要铜币（可重复）"
+			description: ["提交硬币后就会给你物品。"]
 			size: 2.0d
 			optional: true
 			id: "64AE92F598464E3E"
@@ -152,7 +152,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.2.title}"
+			title: "罕见战利品箱随机奖励"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -164,7 +164,7 @@
 			x: -4.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.2.subtitle}"
+			subtitle: "需要铁币（可重复）"
 			size: 2.0d
 			optional: true
 			id: "071F9F757CCADA93"
@@ -183,7 +183,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.3.title}"
+			title: "稀有战利品箱随机奖励"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -195,7 +195,7 @@
 			x: 0.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.3.subtitle}"
+			subtitle: "需要金币（可重复）"
 			size: 2.0d
 			optional: true
 			id: "62356B57A7D667A6"
@@ -214,7 +214,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.4.title}"
+			title: "史诗战利品箱随机奖励"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -226,7 +226,7 @@
 			x: 4.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.4.subtitle}"
+			subtitle: "需要钻石币（可重复）"
 			size: 2.0d
 			optional: true
 			id: "2EB2758D16E8BAE2"
@@ -244,7 +244,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.5.title}"
+			title: "传说战利品箱随机奖励"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -256,7 +256,7 @@
 			x: 8.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.5.subtitle}"
+			subtitle: "需要下界合金币（可重复）"
 			size: 2.0d
 			optional: true
 			id: "15645F279C638145"
@@ -277,8 +277,8 @@
 			x: -8.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.6.subtitle}"
-			description: ["{chapter.2.quest.6.description.1}"]
+			subtitle: "选择可重复奖励"
+			description: ["交换物品、完成任务和击败等级1\\&2精英怪获得。"]
 			size: 2.0d
 			optional: true
 			id: "12AA5A2ECF315050"
@@ -299,8 +299,8 @@
 			x: -4.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.7.subtitle}"
-			description: ["{chapter.2.quest.7.description.1}"]
+			subtitle: "选择可重复奖励"
+			description: ["交换物品、完成任务和击败等级2\\&3精英怪获得。"]
 			size: 2.0d
 			optional: true
 			id: "4CA69F473539E565"
@@ -322,8 +322,8 @@
 			x: 0.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.8.subtitle}"
-			description: ["{chapter.2.quest.8.description.1}"]
+			subtitle: "选择可重复奖励"
+			description: ["交换物品、完成任务和击败等级4、5\\&6精英怪获得。出生点远处生成的怪物稀有掉落。"]
 			size: 2.0d
 			optional: true
 			id: "2146186B43D64F53"
@@ -344,8 +344,8 @@
 			x: 4.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.9.subtitle}"
-			description: ["{chapter.2.quest.9.description.1}"]
+			subtitle: "选择可重复奖励"
+			description: ["交换物品、完成任务获得。"]
 			size: 2.0d
 			optional: true
 			id: "0802FC6EE2B78153"
@@ -366,8 +366,8 @@
 			x: 8.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.10.subtitle}"
-			description: ["{chapter.2.quest.10.description.1}"]
+			subtitle: "选择可重复奖励"
+			description: ["完成任务获得"]
 			size: 2.0d
 			optional: true
 			id: "4BD23FFF77631DA0"
@@ -388,8 +388,8 @@
 			x: 15.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.11.subtitle}"
-			description: ["{chapter.2.quest.11.description.1}"]
+			subtitle: "选择可重复奖励"
+			description: ["击败任意等级的下界精英怪获得。"]
 			size: 2.0d
 			optional: true
 			id: "637B4E0CF8EE27A0"
@@ -407,34 +407,34 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.12.title}"
+			title: "金币 -> 地下城怪物装备"
 			icon: {
 				id: "dungeons_mobs:drowned_necromancer_chestplate"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			disable_toast: true
-			x: 2.0d
-			y: -1.5d
-			optional: true
-			id: "58EA4AC53C08ADEE"
-			tasks: [{
-				id: "336F0B6E9D85A9AF"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "kubejs:gold_coin"
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+					tag: {
+						Damage: 0
 					}
 				}
-				consume_items: true
-			}]
+				disable_toast: true
+				x: 2.0d
+				y: -1.5d
+				optional: true
+				id: "58EA4AC53C08ADEE"
+				tasks: [{
+					id: "336F0B6E9D85A9AF"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "kubejs:gold_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+					consume_items: true
+					}]
 			rewards: [{
 				id: "6B35A137798BD60C"
 				type: "questsadditions:repeat_random"
@@ -442,7 +442,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.13.title}"
+			title: "金币 -> 地下城装备箱"
 			icon: {
 				id: "dungeons_gear:full_metal_chestplate"
 				Count: 1b
@@ -457,19 +457,19 @@
 			id: "3E3B2EBE83D1F239"
 			tasks: [{
 				id: "19A895F9E4113D81"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "kubejs:gold_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				consume_items: true
-			}]
+					consume_items: true
+				}]
 			rewards: [{
 				id: "0117728DD2B9D1DB"
 				type: "questsadditions:repeat_random"
@@ -477,29 +477,29 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.14.title}"
+			title: "铜币 -> 钱"
 			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
 			y: -1.0d
-			description: ["{chapter.2.quest.14.description.1}"]
+			description: ["提交硬币后就会给你钱"]
 			optional: true
 			id: "3459460308668951"
 			tasks: [{
 				id: "251D20F3E1232F71"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "kubejs:copper_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				consume_items: true
-			}]
+					consume_items: true
+				}]
 			rewards: [{
 				id: "0F407E367C6CDD4E"
 				type: "questsadditions:repeat"
@@ -509,7 +509,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.15.title}"
+			title: "钻石币 -> 遗物箱"
 			icon: {
 				id: "relics:magma_walker"
 				Count: 1b
@@ -524,19 +524,19 @@
 			id: "03A1DDD2943E57B1"
 			tasks: [{
 				id: "41CC8E3C3158575B"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "kubejs:diamond_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "kubejs:diamond_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				consume_items: true
-			}]
+					consume_items: true
+				}]
 			rewards: [{
 				id: "600299CCD3C22A23"
 				type: "questsadditions:repeat_choice"
@@ -544,7 +544,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.16.title}"
+			title: "金币 -> 遗物材料箱"
 			icon: "relics:uncommon_scrap"
 			disable_toast: true
 			x: 2.0d
@@ -553,19 +553,19 @@
 			id: "2C7A4688A36C8D2F"
 			tasks: [{
 				id: "4F80337BC005F23B"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "kubejs:gold_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				consume_items: true
-			}]
+					consume_items: true
+				}]
 			rewards: [{
 				id: "65E096992E840977"
 				type: "questsadditions:repeat_choice"
@@ -573,7 +573,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.17.title}"
+			title: "钻石币 -> 饰品箱"
 			icon: "artifacts:fire_gauntlet"
 			x: 6.0d
 			y: 1.5d
@@ -581,19 +581,19 @@
 			id: "079C8AA41B7C34E1"
 			tasks: [{
 				id: "069D5335840F51E0"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "kubejs:diamond_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "kubejs:diamond_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				consume_items: true
-			}]
+					consume_items: true
+				}]
 			rewards: [{
 				id: "1C505F7EDFA105D4"
 				type: "questsadditions:repeat_choice"
@@ -601,14 +601,14 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.18.title}"
+			title: "金币 -> 地下城武器箱"
 			icon: {
 				id: "dungeons_gear:frost_scythe"
 				Count: 1b
 				tag: {
 					Damage: 0
+					}
 				}
-			}
 			x: 2.0d
 			y: 0.5d
 			optional: true
@@ -616,18 +616,18 @@
 			tasks: [{
 				id: "6DE7233A9AAFAE48"
 				type: "item"
-				disable_toast: true
-				item: {
-					id: "kubejs:gold_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			disable_toast: true
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				consume_items: true
-			}]
+					consume_items: true
+				}]
 			rewards: [{
 				id: "2AE1A7B3596FD345"
 				type: "questsadditions:repeat_random"
@@ -635,7 +635,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.19.title}"
+			title: "金币 -> 地下城神器箱"
 			icon: {
 				id: "dungeons_gear:iron_hide_amulet"
 				Count: 1b
@@ -650,19 +650,19 @@
 			id: "6CA383590D6216C3"
 			tasks: [{
 				id: "10972A5696072450"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "kubejs:gold_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				consume_items: true
-			}]
+					consume_items: true
+				}]
 			rewards: [{
 				id: "615D2E163809DBDD"
 				type: "questsadditions:repeat_random"
@@ -670,7 +670,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.20.title}"
+			title: "怪物币 -> 经验等级"
 			icon: {
 				id: "minecraft:experience_bottle"
 				Count: 1b
@@ -707,7 +707,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.21.title}"
+			title: "怪物币 -> 技能经验"
 			icon: "kubejs:levelup"
 			disable_toast: true
 			x: 12.0d
@@ -737,7 +737,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.22.title}"
+			title: "10x怪物币 -> 技能经验 x10"
 			icon: "kubejs:levelup"
 			disable_toast: true
 			x: 12.0d
@@ -763,13 +763,13 @@
 			rewards: [{
 				id: "74E87CA4950C741A"
 				type: "questsadditions:repeat_choice"
-				title: "{chapter.2.quest.22.reward.1.title}"
+				title: "Skill Experience 1000"
 				team_reward: false
 				table_id: 3680913278004027102L
 			}]
 		}
 		{
-			title: "{chapter.2.quest.23.title}"
+			title: "10x怪物币 -> 经验等级"
 			icon: {
 				id: "minecraft:experience_bottle"
 				Count: 1b
@@ -807,13 +807,13 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.24.title}"
+			title: "怪物币"
 			disable_toast: true
 			x: 11.5d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "{chapter.2.quest.24.subtitle}"
-			description: ["{chapter.2.quest.24.description.1}"]
+			subtitle: "随机可重复奖励"
+			description: ["击杀等级2/3/4/5/6级精英怪获得。"]
 			size: 2.0d
 			optional: true
 			id: "2BF225A3266C70D9"
@@ -840,7 +840,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.25.title}"
+			title: "怪物币 -> 随机饰品箱"
 			icon: { id: "artifacts:shock_pendant", Count: 5b }
 			disable_toast: true
 			x: 11.0d
@@ -870,7 +870,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.26.title}"
+			title: "怪物币 -> 随机地下城装备箱"
 			icon: {
 				id: "dungeons_gear:gilded_glory_chestplate"
 				Count: 5b
@@ -907,7 +907,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.27.title}"
+			title: "怪物币 -> 随机地下城武器箱"
 			icon: {
 				id: "dungeons_gear:firebrand"
 				Count: 5b
@@ -944,7 +944,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.28.title}"
+			title: "10x 铜币 -> 100 钱"
 			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
@@ -977,7 +977,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.29.title}"
+			title: "100x 铜币 -> 1000 钱"
 			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
@@ -1010,7 +1010,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.30.title}"
+			title: "32x 铜币 -> 32x 普通战利品箱"
 			disable_toast: true
 			x: -8.5d
 			y: 0.5d
@@ -1040,7 +1040,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.31.title}"
+			title: "64x 铜币 -> 64x 普通战利品箱"
 			disable_toast: true
 			x: -7.5d
 			y: 0.5d
@@ -1070,7 +1070,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.32.title}"
+			title: "32x 铁币 -> 32x 罕见战利品箱"
 			x: -4.5d
 			y: 0.5d
 			shape: "hexagon"
@@ -1099,7 +1099,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.33.title}"
+			title: "64x 铁币 -> 64x 罕见战利品箱"
 			disable_toast: true
 			x: -3.5d
 			y: 0.5d
@@ -1129,7 +1129,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.34.title}"
+			title: "32x 金币 -> 32x 稀有战利品箱"
 			disable_toast: true
 			x: -0.5d
 			y: 0.5d
@@ -1171,7 +1171,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.35.title}"
+			title: "32x 铜币 -> 32x 可选奖励"
 			x: -8.5d
 			y: 3.5d
 			shape: "hexagon"
@@ -1201,7 +1201,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.36.title}"
+			title: "64x 铜币 -> 64x 可选奖励"
 			x: -7.5d
 			y: 3.5d
 			shape: "hexagon"
@@ -1230,7 +1230,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.37.title}"
+			title: "64x 金币 -> 64x 稀有战利品箱"
 			x: 0.5d
 			y: 0.5d
 			shape: "hexagon"
@@ -1270,7 +1270,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.38.title}"
+			title: "32x 铁币 -> 32x 可选奖励"
 			x: -4.5d
 			y: 3.5d
 			shape: "hexagon"
@@ -1299,7 +1299,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.39.title}"
+			title: "64x 铁币 -> 64x 可选奖励"
 			x: -3.5d
 			y: 3.5d
 			shape: "hexagon"
@@ -1328,11 +1328,11 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.40.title}"
+			title: "两份材料 > 铜币"
 			x: -8.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "{chapter.2.quest.40.subtitle}"
+			subtitle: "任意2份材料会给你1个硬币"
 			optional: true
 			min_required_tasks: 2
 			id: "13265E15534D4AAA"
@@ -1421,11 +1421,11 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.41.title}"
+			title: "两份材料 > 铁币"
 			x: -4.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "{chapter.2.quest.41.subtitle}"
+			subtitle: "任意2份材料会给你1个硬币"
 			optional: true
 			min_required_tasks: 2
 			id: "1CE64EA211F879F0"
@@ -1453,7 +1453,7 @@
 				{
 					id: "255AB278711FBE94"
 					type: "item"
-					title: "{chapter.2.quest.41.task.3.title}"
+					title: "Any #forge:storage_blocks/sapphire"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1466,7 +1466,7 @@
 				{
 					id: "54DFD67E7558AE23"
 					type: "item"
-					title: "{chapter.2.quest.41.task.4.title}"
+					title: "Any #forge:storage_blocks/lead"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1479,7 +1479,7 @@
 				{
 					id: "4B0FB87CE7902699"
 					type: "item"
-					title: "{chapter.2.quest.41.task.5.title}"
+					title: "Any #forge:storage_blocks/amethyst"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1525,11 +1525,11 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.42.title}"
+			title: "两份材料 > 金币"
 			x: 0.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "{chapter.2.quest.42.subtitle}"
+			subtitle: "任意2份材料会给你1个硬币"
 			optional: true
 			min_required_tasks: 2
 			id: "7DC7F5C906814CE3"
@@ -1543,7 +1543,7 @@
 				{
 					id: "4AA4E236235AF7DF"
 					type: "item"
-					title: "{chapter.2.quest.42.task.2.title}"
+					title: "Any #forge:storage_blocks/fire_dragon_scale"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1589,11 +1589,11 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.43.title}"
+			title: "两份材料 > 钻石币"
 			x: 4.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "{chapter.2.quest.43.subtitle}"
+			subtitle: "任意2份材料会给你1个硬币"
 			optional: true
 			min_required_tasks: 2
 			id: "5593274DC54B9937"
@@ -1697,7 +1697,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.44.title}"
+			title: "金币 -> 遗物箱"
 			icon: "artifacts:whoopee_cushion"
 			x: 2.0d
 			y: 2.5d
@@ -1724,7 +1724,7 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.45.title}"
+			title: "钻石币 -> 词缀书"
 			icon: {
 				id: "modifiers:modifier_book"
 				Count: 1b

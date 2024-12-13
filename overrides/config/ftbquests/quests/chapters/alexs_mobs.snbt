@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 1
 	filename: "alexs_mobs"
-	title: "{chapter.30.title}"
+	title: "充满敌意的世界"
 	icon: {
 		id: "rats:rat_upgrade_warrior"
 		Count: 1b
@@ -19,7 +19,7 @@
 		{
 			x: -2.0d
 			y: -8.5d
-			description: ["{chapter.30.quest.1.description.1}"]
+			description: ["灰熊有时会随机掉落它们的毛发。"]
 			dependencies: ["4E20E64264B2AA55"]
 			id: "11AD9C3E6F7ED206"
 			tasks: [{
@@ -36,7 +36,7 @@
 		{
 			x: -8.5d
 			y: 1.5d
-			description: ["{chapter.30.quest.2.description.1}"]
+			description: ["走鹃会在与响尾蛇...或你战败后掉落这些东西。"]
 			dependencies: ["32F7D28F7B29709C"]
 			id: "7462427AC1D865C7"
 			tasks: [{
@@ -53,7 +53,7 @@
 		{
 			x: -8.5d
 			y: 3.0d
-			description: ["{chapter.30.quest.3.description.1}"]
+			description: ["这些含有走鹃羽毛的鞋子能让穿戴者在沙子上跑的更快。"]
 			dependencies: ["7462427AC1D865C7"]
 			id: "12976ADEDD3B9090"
 			tasks: [{
@@ -76,7 +76,7 @@
 		{
 			x: -9.5d
 			y: 14.0d
-			description: ["{chapter.30.quest.4.description.1}"]
+			description: ["骨蛇跳出熔岩并被杀死后的掉落物。"]
 			dependencies: ["6C2B0968097E6A03"]
 			id: "15132115F40EF4EA"
 			tasks: [{
@@ -99,7 +99,7 @@
 		{
 			x: -8.0d
 			y: 15.0d
-			description: ["{chapter.30.quest.5.description.1}"]
+			description: ["这种特殊的药水能让你在熔岩中拥有像在水下一样的视觉。"]
 			dependencies: ["15132115F40EF4EA"]
 			id: "2092B6A1EE21D018"
 			tasks: [{
@@ -122,7 +122,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			description: ["{chapter.30.quest.6.description.1}"]
+			description: ["瞪羚被杀死后的掉落物，但它们也可能会掉落一些羊肉。"]
 			dependencies: ["617FBFA90048602D"]
 			id: "1561DE019D318A18"
 			tasks: [{
@@ -140,7 +140,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["{chapter.30.quest.7.description.1}"]
+			description: ["在幼年鳄鱼成长后或成年鳄鱼被杀后掉落。"]
 			dependencies: ["4B89A8800535AB16"]
 			id: "2FBC1196F9B59DF7"
 			tasks: [{
@@ -158,7 +158,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.8.description.1}"]
+			description: ["这件鳄鱼制护甲能给你更多保护，也会提升你的游泳速度。"]
 			dependencies: ["2FBC1196F9B59DF7"]
 			id: "7B74EDBD46057811"
 			tasks: [{
@@ -188,7 +188,7 @@
 		{
 			x: -8.5d
 			y: -1.5d
-			description: ["{chapter.30.quest.9.description.1}"]
+			description: ["苍蝇被杀后掉落的蛆。"]
 			dependencies: ["49AB71E75762D0B9"]
 			id: "042E30144F9A1D2A"
 			tasks: [{
@@ -206,7 +206,7 @@
 		{
 			x: -3.0d
 			y: -2.0d
-			description: ["{chapter.30.quest.10.description.1}"]
+			description: ["丛林树叶的稀有掉落物。能够用于制作简单农业模组（Simple Farming）的香蕉树。"]
 			id: "2CF3F2F094B0D3B1"
 			tasks: [{
 				id: "2F2509E78CBF66D8"
@@ -241,7 +241,7 @@
 		{
 			x: -4.0d
 			y: 13.0d
-			description: ["{chapter.30.quest.11.description.1}"]
+			description: ["绯红蚊子吸满血后被击杀的掉落物。"]
 			dependencies: ["3EF3C919FDC60E1B"]
 			id: "3B5F5AF7209A9221"
 			tasks: [{
@@ -258,7 +258,7 @@
 		{
 			x: -6.0d
 			y: 13.0d
-			description: ["{chapter.30.quest.12.description.1}"]
+			description: ["绯红蚊子被击杀后随机掉落。"]
 			dependencies: ["3EF3C919FDC60E1B"]
 			id: "3EC4C7FDCDB42C8D"
 			tasks: [{
@@ -276,7 +276,7 @@
 		{
 			x: -5.0d
 			y: 15.0d
-			description: ["{chapter.30.quest.13.description.1}"]
+			description: ["以武器形态模拟绯红蚊子攻击的自定义武器，以血囊为弹药。"]
 			dependencies: [
 				"3B5F5AF7209A9221"
 				"3EC4C7FDCDB42C8D"
@@ -310,7 +310,7 @@
 		{
 			x: -13.0d
 			y: 1.5d
-			description: ["{chapter.30.quest.14.description.1}"]
+			description: ["响尾蛇被杀死后的掉落物，通常用于保护其他生物免受毒咬。"]
 			dependencies: ["295FFF98AC0C3FB2"]
 			id: "1670F799696648EA"
 			tasks: [{
@@ -327,7 +327,7 @@
 		{
 			x: 9.5d
 			y: 10.0d
-			description: ["{chapter.30.quest.15.description.1}"]
+			description: ["用紫颂果吸引一只末影缓步兽，给它们装上鞍，就像原版的猪一样。制作紫颂果钓竿后，你就可以诱导末影缓步兽去往任何你想去的方向。"]
 			dependencies: ["3CD714A755372F99"]
 			id: "60286A30B5BF3EBF"
 			tasks: [{
@@ -351,7 +351,7 @@
 		{
 			x: 10.0d
 			y: 4.5d
-			description: ["{chapter.30.quest.16.description.1}"]
+			description: ["锤头鲨攻击时随机掉落物。"]
 			dependencies: ["2C2D57D238A96C47"]
 			id: "12903E07FD2AA25B"
 			tasks: [{
@@ -369,7 +369,7 @@
 		{
 			x: 12.0d
 			y: 4.5d
-			description: ["{chapter.30.quest.17.description.1}"]
+			description: ["这些箭在水下会受到更小的阻力，并且会对海洋生物造成更多伤害。"]
 			dependencies: ["12903E07FD2AA25B"]
 			id: "77213B3F102D54FC"
 			tasks: [{
@@ -387,7 +387,7 @@
 		{
 			x: 6.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.18.description.1}"]
+			description: ["如果你想把龙虾搬来搬去。"]
 			dependencies: ["493146EF96766BF4"]
 			id: "0A695B938C047241"
 			tasks: [{
@@ -404,7 +404,7 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.19.description.1}"]
+			description: ["龙虾死后的掉落物。"]
 			dependencies: ["493146EF96766BF4"]
 			id: "5B599C2BB40A43DD"
 			tasks: [{
@@ -421,7 +421,7 @@
 		{
 			x: 5.0d
 			y: 4.0d
-			description: ["{chapter.30.quest.20.description.1}"]
+			description: ["加些黄油会很美味。"]
 			dependencies: ["5B599C2BB40A43DD"]
 			id: "3B65899892E55F6F"
 			tasks: [{
@@ -438,7 +438,7 @@
 		{
 			x: -18.0d
 			y: 1.5d
-			description: ["{chapter.30.quest.21.description.1}"]
+			description: ["科莫多巨蜥偶尔会滴落唾液。"]
 			dependencies: ["6BC74F4BAEA808FF"]
 			id: "08F33774046B54FC"
 			tasks: [{
@@ -456,7 +456,7 @@
 		{
 			x: -17.29761904761905d
 			y: 2.6071428571428186d
-			description: ["{chapter.30.quest.22.description.1}"]
+			description: ["获得几滴唾液并放在瓶子里，以后可能很有用。"]
 			dependencies: ["08F33774046B54FC"]
 			id: "7EBEA1931702D1E5"
 			tasks: [{
@@ -473,7 +473,7 @@
 		{
 			x: -16.583333333333343d
 			y: 3.678571428571395d
-			description: ["{chapter.30.quest.23.description.1}"]
+			description: ["非常典型的毒药。"]
 			dependencies: [
 				"7EBEA1931702D1E5"
 				"154772C9462DDCC4"
@@ -493,7 +493,7 @@
 		{
 			x: -15.5d
 			y: 5.0d
-			description: ["{chapter.30.quest.24.description.1}"]
+			description: ["一种非常有效的抗毒药水，以毒液精华和响尾制成。"]
 			dependencies: [
 				"598345B0F9427722"
 				"1670F799696648EA"
@@ -519,7 +519,7 @@
 		{
 			x: -3.0d
 			y: -5.0d
-			description: ["{chapter.30.quest.25.description.1}"]
+			description: ["给卷尾猴喂香蕉时有概率掉落。"]
 			dependencies: ["76291B63F0ED9022"]
 			id: "05B3DE276E40F772"
 			tasks: [{
@@ -536,7 +536,10 @@
 		{
 			x: -3.0d
 			y: -6.5d
-			description: ["{chapter.30.quest.26.description.1}"]
+			description: [
+				"一种非常\"独特\"的汤......"
+				"何不尝一些。"
+			]
 			dependencies: ["05B3DE276E40F772"]
 			id: "5FE4BCE33C614980"
 			tasks: [{
@@ -553,7 +556,7 @@
 		{
 			x: -17.5d
 			y: 5.0d
-			description: ["{chapter.30.quest.27.description.1}"]
+			description: ["洞穴蜈蚣被杀死后的掉落物，有概率掉落多个。"]
 			dependencies: ["3231E98238491AF0"]
 			id: "154772C9462DDCC4"
 			tasks: [{
@@ -571,7 +574,7 @@
 		{
 			x: -16.5d
 			y: 6.5d
-			description: ["{chapter.30.quest.28.description.1}"]
+			description: ["给予穿戴者爬墙的能力。"]
 			dependencies: ["154772C9462DDCC4"]
 			id: "673635AB75E98296"
 			tasks: [{
@@ -601,7 +604,7 @@
 		{
 			x: -7.5d
 			y: 13.0d
-			description: ["{chapter.30.quest.29.description.1}"]
+			description: ["绯红蚊子的幼体，以蛆和绯红蚊子口器制成，是诡异蟾蜍最爱的食物，你可以用幼体来驯服它们。"]
 			dependencies: ["3EC4C7FDCDB42C8D"]
 			id: "6D5AA599D202F0AF"
 			tasks: [{
@@ -619,7 +622,7 @@
 		{
 			x: -5.0d
 			y: -5.0d
-			description: ["{chapter.30.quest.30.description.1}"]
+			description: ["驼鹿每7-10天就会掉落一支鹿角。"]
 			dependencies: ["3705153037F1DDEE"]
 			id: "2DFC032306822F4E"
 			tasks: [{
@@ -636,7 +639,7 @@
 		{
 			x: -5.0d
 			y: -6.5d
-			description: ["{chapter.30.quest.31.description.1}"]
+			description: ["安上一些鹿角后，这顶帽子能给予玩家击退抗性。"]
 			dependencies: ["2DFC032306822F4E"]
 			id: "27F0DB0AF1386C6D"
 			tasks: [{
@@ -659,7 +662,7 @@
 		{
 			x: -5.0d
 			y: -2.0d
-			description: ["{chapter.30.quest.32.description.1}"]
+			description: ["驼鹿被杀死后，会掉落一些很大的排骨。"]
 			dependencies: ["3705153037F1DDEE"]
 			id: "61C774465250F5E2"
 			tasks: [{
@@ -676,7 +679,7 @@
 		{
 			x: -5.0d
 			y: -0.5d
-			description: ["{chapter.30.quest.33.description.1}"]
+			description: ["烧烤时间到！"]
 			dependencies: ["61C774465250F5E2"]
 			id: "11AFA0A04E10DF94"
 			tasks: [{
@@ -688,7 +691,7 @@
 		{
 			x: -2.0d
 			y: -7.0d
-			description: ["{chapter.30.quest.34.description.1}"]
+			description: ["浣熊被杀死后的掉落物。"]
 			dependencies: ["5AF05B20BB414210"]
 			id: "43A6451E42293BAC"
 			tasks: [{
@@ -700,7 +703,7 @@
 		{
 			x: -0.5d
 			y: -6.5d
-			description: ["{chapter.30.quest.35.description.1}"]
+			description: ["这顶有趣的帽子会给予穿戴者潜行时的速度提升。"]
 			dependencies: ["43A6451E42293BAC"]
 			id: "5E067D93C8018428"
 			tasks: [{
@@ -723,7 +726,7 @@
 		{
 			x: 8.0d
 			y: 2.5d
-			description: ["{chapter.30.quest.36.description.1}"]
+			description: ["当你想要一只黏黏的小家伙时。"]
 			dependencies: ["2142DDB9A0AF6B94"]
 			id: "759CC2ED6720614D"
 			tasks: [{
@@ -740,7 +743,7 @@
 		{
 			x: 7.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.37.description.1}"]
+			description: ["水滴鱼被杀死后留下的悲伤小身体。"]
 			dependencies: ["2142DDB9A0AF6B94"]
 			id: "235A8DAEDFF467D7"
 			tasks: [{
@@ -757,7 +760,7 @@
 		{
 			x: 8.0d
 			y: 4.0d
-			description: ["{chapter.30.quest.38.description.1}"]
+			description: ["将水滴鱼挤压进瓶子中，鱼油便可制成，在下雨天会有一些有趣的特性。"]
 			dependencies: ["235A8DAEDFF467D7"]
 			id: "005E68B4C5271269"
 			tasks: [{
@@ -775,7 +778,7 @@
 		{
 			x: -12.5d
 			y: 3.0d
-			description: ["{chapter.30.quest.39.description.1}"]
+			description: ["沙槌由响尾制成。它会吸引蟑螂的注意力。"]
 			dependencies: ["1670F799696648EA"]
 			id: "679FB7E7C654385F"
 			tasks: [{
@@ -792,7 +795,7 @@
 		{
 			x: -10.5d
 			y: 4.5d
-			description: ["{chapter.30.quest.40.description.1}"]
+			description: ["蟑螂被杀死后随机掉落。"]
 			dependencies: ["3B5935EFBF9C27D7"]
 			id: "147F7EA3E650C141"
 			tasks: [{
@@ -810,7 +813,7 @@
 		{
 			x: -9.0d
 			y: 4.5d
-			description: ["{chapter.30.quest.41.description.1}"]
+			description: ["蟑螂的再修复翅膀。"]
 			dependencies: ["147F7EA3E650C141"]
 			id: "4DC3338C71A2086D"
 			tasks: [{
@@ -827,7 +830,7 @@
 		{
 			x: -7.5d
 			y: 4.5d
-			description: ["{chapter.30.quest.42.description.1}"]
+			description: ["这种药剂会让人几乎不被敌对的虫子看到。"]
 			dependencies: ["4DC3338C71A2086D"]
 			id: "3B1E5DEBB7BE02F1"
 			tasks: [{
@@ -857,7 +860,7 @@
 		{
 			x: -4.5d
 			y: -9.0d
-			description: ["{chapter.30.quest.43.description.1}"]
+			description: ["金合欢树的稀有掉落物。"]
 			id: "568B1FDB06169851"
 			tasks: [{
 				id: "79126CD9D0AD4237"
@@ -874,7 +877,7 @@
 		{
 			x: -6.0d
 			y: 7.0d
-			description: ["{chapter.30.quest.44.description.1}"]
+			description: ["在灵魂鹫攻击玩家汲取生命并提升灵魂等级后，它就会有概率掉落灵魂之心。"]
 			dependencies: ["292B32B34CD5094A"]
 			id: "3E83CFACFBDFDEB2"
 			tasks: [{
@@ -904,7 +907,7 @@
 		{
 			x: -4.5d
 			y: 8.5d
-			description: ["{chapter.30.quest.45.description.1}"]
+			description: ["这种药水会给予玩家灵魂鹫损害生命的力量。"]
 			dependencies: ["3E83CFACFBDFDEB2"]
 			id: "6A1A2DA7A8CF7DFC"
 			tasks: [{
@@ -927,7 +930,7 @@
 		{
 			x: 1.0d
 			y: 3.5d
-			description: ["{chapter.30.quest.46.description.1}"]
+			description: ["对覆有苔藓的大鳄龟使用剪刀有概率掉落。"]
 			dependencies: ["6964B640BF90A11C"]
 			id: "76AAFE97A27F9401"
 			tasks: [{
@@ -945,7 +948,7 @@
 		{
 			x: 2.5d
 			y: 4.5d
-			description: ["{chapter.30.quest.47.description.1}"]
+			description: ["让海龟壳能给予玩家击退抗性并且延长穿戴者15秒水下呼吸时间，也有概率反弹近战攻击。"]
 			dependencies: ["76AAFE97A27F9401"]
 			id: "7C7C37A9744A5749"
 			tasks: [{
@@ -968,7 +971,7 @@
 		{
 			x: -10.5d
 			y: 1.5d
-			description: ["{chapter.30.quest.48.description.1}"]
+			description: ["沙风怪的核心，被杀死后掉落。"]
 			dependencies: ["586FB5B01BB6C341"]
 			id: "1F21942D74A4B548"
 			tasks: [{
@@ -980,7 +983,7 @@
 		{
 			x: -10.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.49.description.1}"]
+			description: ["向他们眼里扔些沙子！"]
 			dependencies: ["1F21942D74A4B548"]
 			id: "3E2F7D08A8E596F1"
 			tasks: [{
@@ -1003,7 +1006,7 @@
 		{
 			x: -11.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.50.description.1}"]
+			description: ["被红石激活后，造风器会在一条线上发射沙风怪把物品推走。"]
 			dependencies: ["1F21942D74A4B548"]
 			id: "2401BD24F4787BEE"
 			tasks: [{
@@ -1028,7 +1031,7 @@
 		{
 			x: -0.5d
 			y: 13.0d
-			description: ["{chapter.30.quest.51.description.1}"]
+			description: ["诡异蚊鬼的力量来源。"]
 			dependencies: ["47BE77D8F21BBDCC"]
 			id: "323E3518BE41C84D"
 			tasks: [{
@@ -1045,7 +1048,7 @@
 		{
 			x: 1.5d
 			y: 13.0d
-			description: ["{chapter.30.quest.52.description.1}"]
+			description: ["诡异蚊鬼诡异力量来源。"]
 			dependencies: ["47BE77D8F21BBDCC"]
 			id: "1DD27A6265642B96"
 			tasks: [{
@@ -1063,7 +1066,7 @@
 		{
 			x: 0.5d
 			y: 15.0d
-			description: ["{chapter.30.quest.53.description.1}"]
+			description: ["升级版血液喷射器。"]
 			dependencies: [
 				"323E3518BE41C84D"
 				"1DD27A6265642B96"
@@ -1090,7 +1093,7 @@
 		{
 			x: -12.0d
 			y: 11.5d
-			description: ["{chapter.30.quest.54.description.1}"]
+			description: ["试着把跨座蝌蚪抓进熔岩桶里。"]
 			dependencies: ["4EDC8D006049F8E4"]
 			id: "13EDF3FD77403F25"
 			tasks: [{
@@ -1107,7 +1110,7 @@
 		{
 			x: -13.0d
 			y: 13.0d
-			description: ["{chapter.30.quest.55.description.1}"]
+			description: ["跨座兽的稀有掉落物，有着有趣的用途。"]
 			dependencies: ["4EDC8D006049F8E4"]
 			id: "1D01C2288B41EBDC"
 			tasks: [{
@@ -1124,7 +1127,7 @@
 		{
 			x: -11.0d
 			y: 13.0d
-			description: ["{chapter.30.quest.56.description.1}"]
+			description: ["可染色的熔岩冲浪板。小心不要撞到东西，你会掉下来的。"]
 			dependencies: ["1D01C2288B41EBDC"]
 			id: "76D75DF855373032"
 			tasks: [{
@@ -1147,7 +1150,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["{chapter.30.quest.57.description.1}"]
+			description: ["鸸鹋偶尔会产出一颗蛋。"]
 			dependencies: ["051CA3BEF47E6BCF"]
 			id: "38854ED19F0C1963"
 			tasks: [{
@@ -1164,7 +1167,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.58.description.1}"]
+			description: ["原壳装原蛋。"]
 			dependencies: ["38854ED19F0C1963"]
 			id: "5155710838D1A547"
 			tasks: [{
@@ -1182,7 +1185,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["{chapter.30.quest.59.description.1}"]
+			description: ["鸸鹋被杀死后的掉落物。"]
 			dependencies: ["051CA3BEF47E6BCF"]
 			id: "369959C82AF24ECD"
 			tasks: [{
@@ -1199,7 +1202,7 @@
 		{
 			x: -4.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.60.description.1}"]
+			description: ["给予穿戴者鸸鹋冲刺的能力。"]
 			dependencies: [
 				"369959C82AF24ECD"
 				"4FBF9E3701C078F6"
@@ -1232,7 +1235,7 @@
 		{
 			x: -12.0d
 			y: 8.0d
-			description: ["{chapter.30.quest.61.description.1}"]
+			description: ["悬熊的掉落物，用于制作打火石或一种特殊的药剂。"]
 			dependencies: ["0544039A394BA4C5"]
 			id: "3DAF08614ABA2EC5"
 			tasks: [{
@@ -1249,7 +1252,7 @@
 		{
 			x: -10.0d
 			y: 7.5d
-			description: ["{chapter.30.quest.62.description.1}"]
+			description: ["这种药剂允许玩家像悬熊一样在天花板上行走。"]
 			dependencies: ["3DAF08614ABA2EC5"]
 			id: "4FE66E25E32AEBAE"
 			tasks: [{
@@ -1272,7 +1275,7 @@
 		{
 			x: -7.0d
 			y: 1.5d
-			description: ["{chapter.30.quest.63.description.1}"]
+			description: ["袋鼠被杀死后的掉落物，真可怜。"]
 			dependencies: ["6941D667244F04D9"]
 			id: "62E977DBD3A3F3FE"
 			tasks: [{
@@ -1289,7 +1292,7 @@
 		{
 			x: -7.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.64.description.1}"]
+			description: ["把肉煮熟。"]
 			dependencies: ["62E977DBD3A3F3FE"]
 			id: "5156BA2D508BE4D0"
 			tasks: [{
@@ -1307,7 +1310,7 @@
 		{
 			x: -6.0d
 			y: 4.0d
-			description: ["{chapter.30.quest.65.description.1}"]
+			description: ["一个精美的手作汉堡。"]
 			dependencies: ["5156BA2D508BE4D0"]
 			id: "16FB2CA4AEF796DC"
 			tasks: [{
@@ -1324,7 +1327,7 @@
 		{
 			x: -5.0d
 			y: 1.5d
-			description: ["{chapter.30.quest.66.description.1}"]
+			description: ["袋鼠皮能够制成皮革或一些精美的裤子。"]
 			dependencies: ["6941D667244F04D9"]
 			id: "4FBF9E3701C078F6"
 			tasks: [{
@@ -1341,7 +1344,7 @@
 		{
 			x: 11.0d
 			y: 2.0d
-			description: ["{chapter.30.quest.67.description.1}"]
+			description: ["抹香鲸攻击时掉落。"]
 			id: "68D06C789ABF3D14"
 			tasks: [{
 				id: "6A36D4B67C346235"
@@ -1358,7 +1361,7 @@
 		{
 			x: 10.0d
 			y: 3.0d
-			description: ["{chapter.30.quest.68.description.1}"]
+			description: ["鲸鱼搁浅时，救助鲸鱼以获得这个奖励。"]
 			id: "151159150037976D"
 			tasks: [{
 				id: "1BDD5F030839EFB0"
@@ -1374,7 +1377,7 @@
 		{
 			x: 11.5d
 			y: 3.5d
-			description: ["{chapter.30.quest.69.description.1}"]
+			description: ["回声定位器能定位附近的洞穴。"]
 			dependencies: [
 				"151159150037976D"
 				"68D06C789ABF3D14"
@@ -1400,7 +1403,7 @@
 		{
 			x: 13.5d
 			y: 3.5d
-			description: ["{chapter.30.quest.70.description.1}"]
+			description: ["末影定位器能定位末地传送门。"]
 			dependencies: ["456C97EA74811997"]
 			id: "02E95675EB8EF204"
 			tasks: [{
@@ -1423,7 +1426,7 @@
 		{
 			x: -2.0d
 			y: -12.5d
-			description: ["{chapter.30.quest.71.description.1}"]
+			description: ["破坏蚁室或击杀蚁后的稀有掉落物。用于制作新的蚂蚁王国，只需要将其使用在泥土或草方块上。"]
 			dependencies: ["7E6468F38A587264"]
 			id: "16CAFA17D62FD870"
 			tasks: [{
@@ -1435,7 +1438,7 @@
 		{
 			x: -0.5d
 			y: -11.5d
-			description: ["{chapter.30.quest.72.description.1}"]
+			description: ["这种菌类用于喂养蚂蚁并治疗它们，或者提升蚁后的繁殖速度。右键切叶蚁丘下方的切叶蚁室获得，在周围放置菌光体，就不会激怒切叶蚁。"]
 			dependencies: ["7E6468F38A587264"]
 			id: "6C244C409D094052"
 			tasks: [{
@@ -1453,7 +1456,7 @@
 		{
 			x: 4.0d
 			y: 12.0d
-			description: ["{chapter.30.quest.73.description.1}"]
+			description: ["末影噬菌体的掉落物，能够存储一组物品，或将物品运输到上方的容器内。"]
 			dependencies: ["40CFB3D7A3ECB1B9"]
 			id: "57D3C1E86A23E5AD"
 			tasks: [{
@@ -1470,7 +1473,7 @@
 		{
 			x: 5.0d
 			y: 10.5d
-			description: ["{chapter.30.quest.74.description.1}"]
+			description: ["一种特殊的烟花火箭，拥有特别的DNA图案，在末地很容易制作。"]
 			dependencies: ["57D3C1E86A23E5AD"]
 			id: "1A85A5ED5D9EDD86"
 			tasks: [{
@@ -1487,7 +1490,7 @@
 		{
 			x: -7.5d
 			y: -11.5d
-			description: ["{chapter.30.quest.75.description.1}"]
+			description: ["猎鹰手套允许玩家捡起被驯服的白头海雕。指向怪物时左键，就能让白头海雕攻击怪物，如果没有指向怪物左键，就会让海雕跳下来。"]
 			dependencies: ["0433861EE023060D"]
 			id: "7FB236F280E77256"
 			tasks: [{
@@ -1504,7 +1507,7 @@
 		{
 			x: -6.0d
 			y: -12.5d
-			description: ["{chapter.30.quest.76.description.1}"]
+			description: ["猎鹰兜帽能更精准的操控白头海雕，白头海雕飞行时会给予玩家第三人称控制视角，白头海雕最多能飞离主人150格。潜行会停止飞行模式。"]
 			dependencies: ["7FB236F280E77256"]
 			id: "2BA83FDF7240DE8B"
 			tasks: [{
@@ -1521,7 +1524,7 @@
 		{
 			x: -16.5d
 			y: 1.5d
-			description: ["{chapter.30.quest.77.description.1}"]
+			description: ["沙漠蛛蜂被杀死后的掉落物。"]
 			dependencies: ["737BD5F672EB23AF"]
 			id: "5F33DAD5DEE9892A"
 			tasks: [{
@@ -1539,7 +1542,7 @@
 		{
 			x: -15.5d
 			y: 2.5d
-			description: ["{chapter.30.quest.78.description.1}"]
+			description: ["沙漠蛛蜂的再修复翅膀。"]
 			dependencies: ["5F33DAD5DEE9892A"]
 			id: "4480FBB32C9E3248"
 			tasks: [{
@@ -1563,7 +1566,7 @@
 		{
 			x: -15.5d
 			y: 4.0d
-			description: ["{chapter.30.quest.79.description.1}"]
+			description: ["用沙漠蛛蜂翅膀增强的鞘翅，会给予玩家额外的保护，还会增加耐久并能附魔。"]
 			dependencies: ["4480FBB32C9E3248"]
 			id: "6F5AC67DDB20ADB4"
 			tasks: [{
@@ -1586,12 +1589,16 @@
 		{
 			x: -3.5d
 			y: -9.0d
-			description: ["{chapter.30.quest.80.description.1}"]
+			description: [
+				"遭遇一只大灰熊。"
+				""
+				"虽然这些生活在森林里的熊毛茸茸的，但最好离大灰熊远点，因为它们附近可能有幼年灰熊，并会不惜一切代价保护它。当然，它们是中立的生物。"
+			]
 			id: "4E20E64264B2AA55"
 			tasks: [{
 				id: "2CDF8914DBF19EC1"
 				type: "advancement"
-				title: "{chapter.30.quest.80.task.1.title}"
+				title: "遭遇大灰熊"
 				advancement: "alexsmobs:alexsmobs/grizzly_bear"
 				criterion: ""
 			}]
@@ -1621,22 +1628,22 @@
 		{
 			x: 0.5d
 			y: -10.0d
-			description: ["{chapter.30.quest.81.description.1}"]
+			description: ["大灰熊能够被驯服，你需要等待它吃些蜂蜜，或喂给它一个蜜脾，然后再喂一些鲑鱼。它们是凶残的保卫者，同时也是一个好用的坐骑。"]
 			dependencies: ["4E20E64264B2AA55"]
 			id: "240F618AC1E292F7"
 			tasks: [{
 				id: "57620075DD5F169C"
 				type: "advancement"
-				title: "{chapter.30.quest.81.task.1.title}"
+				title: "泰迪熊"
 				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear"
 				criterion: ""
 			}]
 		}
 		{
-			title: "{chapter.30.quest.82.title}"
+			title: "迅捷药水 III"
 			x: -7.5d
 			y: -6.5d
-			description: ["{chapter.30.quest.82.description.1}"]
+			description: ["这种药水能让你达到前所未有的速度。"]
 			dependencies: ["1561DE019D318A18"]
 			id: "792DBA9FA8A22FD5"
 			tasks: [{
@@ -1659,12 +1666,12 @@
 		{
 			x: 0.0d
 			y: 0.5d
-			description: ["{chapter.30.quest.83.description.1}"]
+			description: ["鳄鱼生活在大型沼泽和湖泊，对附近的生物充满危险性。但你仍然可以用腐肉喂养它们。当小鳄鱼从蛋中孵化出来，附近的一名玩家就会被当做亲人，并且它们会听从那名玩家的命令。"]
 			id: "4B89A8800535AB16"
 			tasks: [{
 				id: "1CBE91AD76108762"
 				type: "advancement"
-				title: "{chapter.30.quest.83.task.1.title}"
+				title: "遭遇鳄鱼"
 				advancement: "alexsmobs:alexsmobs/crocodile"
 				criterion: ""
 			}]
@@ -1684,12 +1691,12 @@
 		{
 			x: 0.5d
 			y: 2.0d
-			description: ["{chapter.30.quest.84.description.1}"]
+			description: ["大鳄龟生活在大型沼泽。它们会撕咬过于接近它的任何东西。它们很少移动，并且龟壳上会长苔藓。"]
 			id: "6964B640BF90A11C"
 			tasks: [{
 				id: "76B42026258E100A"
 				type: "advancement"
-				title: "{chapter.30.quest.84.task.1.title}"
+				title: "遭遇大鳄龟"
 				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle"
 				criterion: ""
 			}]
@@ -1709,12 +1716,16 @@
 		{
 			x: -4.0d
 			y: -5.5d
-			description: ["{chapter.30.quest.85.description.1}"]
+			description: [
+				"用花朵喂养两只蜂鸟。"
+				""
+				"蜂鸟能够在丛林、繁华森林和向日葵平原被找到，它们飞行速度很快，比蜜蜂更快地为作物和花朵授粉。"
+			]
 			id: "68585BA9EB6949FD"
 			tasks: [{
 				id: "3EBF1EF204B6F41B"
 				type: "advancement"
-				title: "{chapter.30.quest.85.task.1.title}"
+				title: "蜂鸟饲养员"
 				advancement: "alexsmobs:alexsmobs/breed_hummingbird"
 				criterion: ""
 			}]
@@ -1740,12 +1751,16 @@
 		{
 			x: 8.0d
 			y: 1.0d
-			description: ["{chapter.30.quest.86.description.1}"]
+			description: [
+				"和一池虎鲸一起游泳，会获得更快的攻击速度。"
+				""
+				"这种大型海洋动物能够在冷水海洋被找到，它们会跳出水面。它们不是最友好的生物，所以你得与它们保持安全距离，它们也会攻击守卫者和溺尸。"
+			]
 			id: "58BC291643685897"
 			tasks: [{
 				id: "1E88FF99723FF9F5"
 				type: "advancement"
-				title: "{chapter.30.quest.86.task.1.title}"
+				title: "虎鲸的力量"
 				advancement: "alexsmobs:alexsmobs/orcas_might"
 				criterion: ""
 			}]
@@ -1765,12 +1780,16 @@
 		{
 			x: -4.0d
 			y: -14.0d
-			description: ["{chapter.30.quest.87.description.1}"]
+			description: [
+				"被太阳鸟祝福。"
+				""
+				"太阳鸟是一种神话生物，会在高山上飞翔。它会让周围的不死生物燃烧，但平时不会攻击。"
+			]
 			id: "46E970252CE65795"
 			tasks: [{
 				id: "21284B920BF52531"
 				type: "advancement"
-				title: "{chapter.30.quest.87.task.1.title}"
+				title: "来自天空的祝福"
 				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
 				criterion: ""
 			}]
@@ -1783,13 +1802,17 @@
 		{
 			x: -3.0d
 			y: -0.5d
-			description: ["{chapter.30.quest.88.description.1}"]
+			description: [
+				"用香蕉驯服大猩猩。"
+				""
+				"大猩猩是生活在丛林的大型猿类，平时非常和平，但会保护自己。银背猩猩会领导一群猩猩，你能看到小猩猩趴在大猩猩背上。"
+			]
 			dependencies: ["2CF3F2F094B0D3B1"]
 			id: "49474262BB1DD1F1"
 			tasks: [{
 				id: "5B394498182F2EA9"
 				type: "advancement"
-				title: "{chapter.30.quest.88.task.1.title}"
+				title: "巨猩乔扬"
 				advancement: "alexsmobs:alexsmobs/tame_gorilla"
 				criterion: ""
 			}]
@@ -1802,13 +1825,18 @@
 		{
 			x: -3.0d
 			y: -3.5d
-			description: ["{chapter.30.quest.89.description.1}"]
+			description: [
+				"用香蕉驯服卷尾猴。"
+				""
+				"这些生活在丛林的小型猿类很喜欢香蕉。被驯服后，它能坐在主人的肩膀上，跟随、游荡、待命甚至是远近兼备地进行攻击。"
+				"给它们喂鸡蛋可以治疗它们，但蛆才能让它们繁殖。"
+			]
 			dependencies: ["2CF3F2F094B0D3B1"]
 			id: "76291B63F0ED9022"
 			tasks: [{
 				id: "515F2AE9A1C47768"
 				type: "advancement"
-				title: "{chapter.30.quest.89.task.1.title}"
+				title: "Mini Mo"
 				advancement: "alexsmobs:alexsmobs/tame_capuchin"
 				criterion: ""
 			}]
@@ -1821,12 +1849,12 @@
 		{
 			x: -13.0d
 			y: 0.5d
-			description: ["{chapter.30.quest.90.description.1}"]
+			description: ["响尾蛇是一种生活在沙漠或恶地的毒蛇。它们通常用尾巴发出的沙沙声来定位。当摇响尾巴并且有人靠近时，它们会毫不留情地对其毒咬。"]
 			id: "295FFF98AC0C3FB2"
 			tasks: [{
 				id: "5ED6AA67B994CB19"
 				type: "advancement"
-				title: "{chapter.30.quest.90.task.1.title}"
+				title: "遭遇响尾蛇"
 				advancement: "alexsmobs:alexsmobs/rattlesnake"
 				criterion: ""
 			}]
@@ -1839,7 +1867,7 @@
 		{
 			x: -13.5d
 			y: 4.5d
-			description: ["{chapter.30.quest.91.description.1}"]
+			description: ["给蟑螂一个沙锤后会发生什么？谁知道呢。"]
 			dependencies: [
 				"679FB7E7C654385F"
 				"3B5935EFBF9C27D7"
@@ -1848,7 +1876,7 @@
 			tasks: [{
 				id: "1139B235EB572777"
 				type: "advancement"
-				title: "{chapter.30.quest.91.task.1.title}"
+				title: "蟑螂舞"
 				advancement: "alexsmobs:alexsmobs/la_cucaracha"
 				criterion: ""
 			}]
@@ -1861,13 +1889,17 @@
 		{
 			x: -6.0d
 			y: -9.0d
-			description: ["{chapter.30.quest.92.description.1}"]
+			description: [
+				"驯服一只无牙的大象。"
+				""
+				"大象生活在萨瓦纳草原。它们被分为三个种类：幼年、有牙和无牙。所有的大象都善于保护自己的家人。长成的有牙大象不能被金合欢花驯服，有时你能在旅商那看到大象。"
+			]
 			dependencies: ["568B1FDB06169851"]
 			id: "2FF82B88371F5F07"
 			tasks: [{
 				id: "152BF44EB964BD44"
 				type: "advancement"
-				title: "{chapter.30.quest.92.task.1.title}"
+				title: "非洲丛林历险记"
 				advancement: "alexsmobs:alexsmobs/tame_elephant"
 				criterion: ""
 			}]
@@ -1881,13 +1913,17 @@
 		{
 			x: -8.5d
 			y: -10.0d
-			description: ["{chapter.30.quest.93.description.1}"]
+			description: [
+				"在有牙大象幼年时驯服它。"
+				""
+				"有牙的大象只能在幼年时被驯服，它们会成长成有力的保卫者。"
+			]
 			dependencies: ["2FF82B88371F5F07"]
 			id: "24285EBFC92AD6C5"
 			tasks: [{
 				id: "0DD7CF75490E294D"
 				type: "advancement"
-				title: "{chapter.30.quest.93.task.1.title}"
+				title: "最好的战士"
 				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked"
 				criterion: ""
 			}]
@@ -1900,13 +1936,17 @@
 		{
 			x: -8.5d
 			y: -8.0d
-			description: ["{chapter.30.quest.94.description.1}"]
+			description: [
+				"在被驯服的大象身上放一个有颜色的地毯。"
+				""
+				"你可以用不同颜色的地毯装饰大象，同样也可以把箱子放在它们身上来携带更多东西。"
+			]
 			dependencies: ["2FF82B88371F5F07"]
 			id: "4718CFDE2B4A98EB"
 			tasks: [{
 				id: "44DF9DD4AE95E8DD"
 				type: "advancement"
-				title: "{chapter.30.quest.94.task.1.title}"
+				title: "大象的风格"
 				advancement: "alexsmobs:alexsmobs/elephant_swag"
 				criterion: ""
 			}]
@@ -1919,12 +1959,16 @@
 		{
 			x: 6.5d
 			y: 4.0d
-			description: ["{chapter.30.quest.95.description.1}"]
+			description: [
+				"用热带鱼驯服螳螂虾。"
+				""
+				"巨型自然生物，生活在暗礁或暖水海洋等待着给敌人一记重拳。螳螂虾能够被任何鱼类治疗，并且使用龙虾尾可以繁殖。一只被驯服的螳螂虾能够被潜行右键给予一个方块，在破坏模式时，就会寻找这种方块并破坏它。"
+			]
 			id: "1404B0021D22163E"
 			tasks: [{
 				id: "7DCC80D0F958A866"
 				type: "advancement"
-				title: "{chapter.30.quest.95.task.1.title}"
+				title: "子弹，但是手"
 				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp"
 				criterion: ""
 			}]
@@ -1937,13 +1981,13 @@
 		{
 			x: 7.5d
 			y: 5.0d
-			description: ["{chapter.30.quest.96.description.1}"]
+			description: ["给被驯服的螳螂虾一桶水"]
 			dependencies: ["1404B0021D22163E"]
 			id: "7E59CB5BD918ED99"
 			tasks: [{
 				id: "1B8A368CA6453177"
 				type: "advancement"
-				title: "{chapter.30.quest.96.task.1.title}"
+				title: "我好渴"
 				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket"
 				criterion: ""
 			}]
@@ -1956,12 +2000,16 @@
 		{
 			x: -10.5d
 			y: 0.5d
-			description: ["{chapter.30.quest.97.description.1}"]
+			description: [
+				"遭遇沙风怪"
+				""
+				"沙风怪是一种危险的沙漠魂体怪物，在风暴中诞生。它们会攻击所有东西并把它们吹到高空中或向它们丢沙子。"
+			]
 			id: "586FB5B01BB6C341"
 			tasks: [{
 				id: "6F62F95DCC74816E"
 				type: "advancement"
-				title: "{chapter.30.quest.97.task.1.title}"
+				title: "遭遇沙风怪"
 				advancement: "alexsmobs:alexsmobs/guster"
 				criterion: ""
 			}]
@@ -1974,12 +2022,16 @@
 		{
 			x: -5.0d
 			y: -10.0d
-			description: ["{chapter.30.quest.98.description.1}"]
+			description: [
+				"用鱼油驯服白头海雕。"
+				""
+				"白头海雕是一种生活在高山密林中的大型鸟类，它们会飞到河流中捕鱼，或猎捕附近的兔子。它们能被鱼油吸引并驯服。它们会听从主人的命令。可以被鱼治疗，用腐肉繁殖。"
+			]
 			id: "0433861EE023060D"
 			tasks: [{
 				id: "60979777BE765F46"
 				type: "advancement"
-				title: "{chapter.30.quest.98.task.1.title}"
+				title: "不是真的秃头"
 				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
 				criterion: ""
 			}]
@@ -1992,13 +2044,13 @@
 		{
 			x: -4.0d
 			y: -12.5d
-			description: ["{chapter.30.quest.99.description.1}"]
+			description: ["用戴着兜帽的白头海雕击杀100格以外的生物。"]
 			dependencies: ["2BA83FDF7240DE8B"]
 			id: "2FABD2A54A4B0A4E"
 			tasks: [{
 				id: "0DC163D693E32FA0"
 				type: "advancement"
-				title: "{chapter.30.quest.99.task.1.title}"
+				title: "远距离击杀者"
 				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
 				criterion: ""
 			}]
@@ -2011,12 +2063,16 @@
 		{
 			x: -15.5d
 			y: 0.5d
-			description: ["{chapter.30.quest.100.description.1}"]
+			description: [
+				"遭遇沙漠蛛蜂"
+				""
+				"沙漠蛛蜂是飞行在沙漠中的巨型自然峰虫。它们喜欢攻击蜘蛛，将其麻痹并埋在地底。由于它们飞行轨迹不稳定，与它们战斗非常困难。它们可以被花治疗。"
+			]
 			id: "3CA1304CC6ED84A5"
 			tasks: [{
 				id: "7D15C1F72B8C19A2"
 				type: "advancement"
-				title: "{chapter.30.quest.100.task.1.title}"
+				title: "遭遇沙漠蛛蜂"
 				advancement: "alexsmobs:alexsmobs/tarantula_hawk"
 				criterion: ""
 			}]
@@ -2036,13 +2092,16 @@
 		{
 			x: -14.5d
 			y: 1.5d
-			description: ["{chapter.30.quest.101.description.1}"]
+			description: [
+				"用蜘蛛眼驯服沙漠蛛蜂。它们是很好的保护者，能够应付大多数怪物。"
+				"两只被驯服的沙漠蛛蜂可以用发酵蜘蛛眼进行繁殖，接着它们会找到一只蜘蛛并将它麻痹埋在地底。幼年沙漠蛛蜂通常会在蜘蛛被埋的地方出生。"
+			]
 			dependencies: ["3CA1304CC6ED84A5"]
 			id: "737BD5F672EB23AF"
 			tasks: [{
 				id: "470721B071F9795A"
 				type: "advancement"
-				title: "{chapter.30.quest.101.task.1.title}"
+				title: "抚摸飞行恶魔"
 				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
 				criterion: ""
 			}]
@@ -2055,12 +2114,16 @@
 		{
 			x: -6.0d
 			y: -3.5d
-			description: ["{chapter.30.quest.102.description.1}"]
+			description: [
+				"给老虎喂肉以获得它的祝福。"
+				""
+				"老虎是生活在茂密竹林中的巨型猫类。它们对人类十分不耐烦，如果靠得太近，就会攻击人类。它们是优秀的猎人，捕猎时几乎看不见踪影。给它们喂肉，它们就会给予你祝福，这能让你靠近它们，并且获得它们的帮助。它们可以用金合欢花繁殖，有时会生出白虎。"
+			]
 			id: "6B7F9A97D3149745"
 			tasks: [{
 				id: "47E2205644777034"
 				type: "advancement"
-				title: "{chapter.30.quest.102.task.1.title}"
+				title: "托尼的祝福"
 				advancement: "alexsmobs:alexsmobs/tigers_blessing"
 				criterion: ""
 			}]
@@ -2073,12 +2136,16 @@
 		{
 			x: 9.5d
 			y: 1.5d
-			description: ["{chapter.30.quest.103.description.1}"]
+			description: [
+				"拯救一只搁浅的抹香鲸。"
+				""
+				"抹香鲸能在几乎所有海域中找到。它们最喜欢捕猎鱿鱼。在雷暴天气中，有时会被冲到海滩上。"
+			]
 			id: "4B530B73DFFA452D"
 			tasks: [{
 				id: "41AB33590C0FB4EA"
 				type: "advancement"
-				title: "{chapter.30.quest.103.task.1.title}"
+				title: "海上救援队"
 				advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
 				criterion: ""
 			}]
@@ -2109,12 +2176,16 @@
 		{
 			x: -3.0d
 			y: -10.0d
-			description: ["{chapter.30.quest.104.description.1}"]
+			description: [
+				"在蚁丘上跳会发生什么？"
+				""
+				"切叶蚁是一种丛林中以树叶为食的小型蚂蚁。一个聚落由20只蚂蚁构成。通常你只能看到工蚁，但如果你在蚁丘上跳跃，蚁后便会出现。聚落需要蚁后才能再次繁衍。"
+			]
 			id: "7E6468F38A587264"
 			tasks: [{
 				id: "300156AB96F3BDE6"
 				type: "advancement"
-				title: "{chapter.30.quest.104.task.1.title}"
+				title: "有蚂蚁在我裤子里"
 				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
 				criterion: ""
 			}]
@@ -2134,12 +2205,16 @@
 		{
 			x: -6.0d
 			y: 0.5d
-			description: ["{chapter.30.quest.105.description.1}"]
+			description: [
+				"遭遇袋鼠"
+				""
+				"萨瓦纳平原和恶地中的大型跳跳动物。它们十分擅长保护自己。它们会被胡萝卜驯服，驯服后除了跟随主人，还可以潜行右键打开它的随身包包。在它的存储袋中放一把近战武器、头盔和胸甲，它就会使用这些东西。它能被除了肉的食物治疗，用枯萎的灌木或草繁殖。"
+			]
 			id: "6941D667244F04D9"
 			tasks: [{
 				id: "681C7849CB7DF7F8"
 				type: "advancement"
-				title: "{chapter.30.quest.105.task.1.title}"
+				title: "袋鼠杰克"
 				advancement: "alexsmobs:alexsmobs/kangaroo"
 				criterion: ""
 			}]
@@ -2152,12 +2227,16 @@
 		{
 			x: -2.0d
 			y: 0.5d
-			description: ["{chapter.30.quest.106.description.1}"]
+			description: [
+				"遭遇鸸鹋"
+				""
+				"大型走地鸟类，生活在萨瓦纳平原和恶地。它们在受到攻击时会恐惧，但也可以回头攻击。它们喜欢攻击骷髅。能用小麦繁殖，但不能被驯服。它们会以不同颜色出现。"
+			]
 			id: "051CA3BEF47E6BCF"
 			tasks: [{
 				id: "2FC20090FF5FDCC1"
 				type: "advancement"
-				title: "{chapter.30.quest.106.task.1.title}"
+				title: "鸸鹋一日游"
 				advancement: "alexsmobs:alexsmobs/emu"
 				criterion: ""
 			}]
@@ -2177,12 +2256,16 @@
 		{
 			x: 6.0d
 			y: 12.0d
-			description: ["{chapter.30.quest.107.description.1}"]
+			description: [
+				"遭遇末影噬菌体"
+				""
+				"末影噬菌体是生活在末地中型岛屿的巨型病毒生物。它是末影缓步兽的天敌，但有时也会攻击末影人。它们会在宿主身上投放病毒，宿主被病毒杀死后便会从身体中钻出一只末影噬菌体。"
+			]
 			id: "40CFB3D7A3ECB1B9"
 			tasks: [{
 				id: "04F776AF5D636E3E"
 				type: "advancement"
-				title: "{chapter.30.quest.107.task.1.title}"
+				title: "末地病毒"
 				advancement: "alexsmobs:alexsmobs/enderiophage"
 				criterion: ""
 			}]
@@ -2195,13 +2278,13 @@
 		{
 			x: 8.0d
 			y: 12.0d
-			description: ["{chapter.30.quest.108.description.1}"]
+			description: ["要治愈末影流感，你需要吃紫颂果或喝牛奶。"]
 			dependencies: ["40CFB3D7A3ECB1B9"]
 			id: "44DD26244ADEC0F8"
 			tasks: [{
 				id: "6BCC47F491E9A812"
 				type: "advancement"
-				title: "{chapter.30.quest.108.task.1.title}"
+				title: "希望它不具传染性"
 				advancement: "alexsmobs:alexsmobs/ender_flu"
 				criterion: ""
 			}]
@@ -2222,12 +2305,12 @@
 		{
 			x: -8.0d
 			y: 8.5d
-			description: ["{chapter.30.quest.109.description.1}"]
+			description: ["居住于下界的大型不死鸟。它们能够偷取生命，并最多五次强化自身。"]
 			id: "292B32B34CD5094A"
 			tasks: [{
 				id: "021CDEE7CA77D77C"
 				type: "advancement"
-				title: "{chapter.30.quest.109.task.1.title}"
+				title: "遭遇灵魂鹫"
 				advancement: "alexsmobs:alexsmobs/soul_vulture"
 				criterion: ""
 			}]
@@ -2247,13 +2330,17 @@
 		{
 			x: 7.5d
 			y: 7.0d
-			description: ["{chapter.30.quest.110.description.1}"]
+			description: [
+				"在末地引诱一只灵翼然后用栓绳搭个便车。"
+				""
+				"灵翼与幻翼类似，但是被动生物。它们不会被物理攻击伤害。它们最喜欢的物品是灵魂之心，喜欢到满眼都是它。"
+			]
 			dependencies: ["3E83CFACFBDFDEB2"]
 			id: "425A42A957D7D70B"
 			tasks: [{
 				id: "2B197BD81934156E"
 				type: "advancement"
-				title: "{chapter.30.quest.110.task.1.title}"
+				title: "搭便车"
 				advancement: "alexsmobs:alexsmobs/spectre"
 				criterion: ""
 			}]
@@ -2266,12 +2353,16 @@
 		{
 			x: -14.0d
 			y: 11.5d
-			description: ["{chapter.30.quest.111.description.1}"]
+			description: [
+				"遭遇跨座兽"
+				""
+				"跨座兽是炽足兽的大型岩石版本，生活在 玄武岩三角洲。它们具有侵略意识，并会发射跨座蝌蚪攻击它们看到的探险者。"
+			]
 			id: "4EDC8D006049F8E4"
 			tasks: [{
 				id: "00699EA6765B7B6C"
 				type: "advancement"
-				title: "{chapter.30.quest.111.task.1.title}"
+				title: "遭遇跨座兽"
 				advancement: "alexsmobs:alexsmobs/straddler"
 				criterion: ""
 			}]
@@ -2302,7 +2393,7 @@
 		{
 			x: -10.0d
 			y: 11.5d
-			description: ["{chapter.30.quest.112.description.1}"]
+			description: ["给跨座蝌蚪喂一只绯红孑孓，它就会长大。"]
 			dependencies: [
 				"13EDF3FD77403F25"
 				"6D5AA599D202F0AF"
@@ -2311,7 +2402,7 @@
 			tasks: [{
 				id: "4A084078BEDF8074"
 				type: "advancement"
-				title: "{chapter.30.quest.112.task.1.title}"
+				title: "跨座蝌蚪的盛宴"
 				advancement: "alexsmobs:alexsmobs/stradpole_feed"
 				criterion: ""
 			}]
@@ -2324,12 +2415,16 @@
 		{
 			x: -4.0d
 			y: 10.5d
-			description: ["{chapter.30.quest.113.description.1}"]
+			description: [
+				"绯红蚊子生活在绯红森林，它会吸取几乎所有生物的血。它们还会把血发射回它们的目标上。"
+				""
+				"精英绯红蚊子也很擅长传播瘟疫..."
+				]
 			id: "3EF3C919FDC60E1B"
 			tasks: [{
 				id: "5E6012AB1B7B64E9"
 				type: "advancement"
-				title: "{chapter.30.quest.113.task.1.title}"
+				title: "遭遇绯红蚊子"
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
 				criterion: ""
 			}]
@@ -2349,13 +2444,16 @@
 		{
 			x: -7.5d
 			y: 11.5d
-			description: ["{chapter.30.quest.114.description.1}"]
+			description: [
+				"诡异蟾蜍会在诡异森林中稀有出现。它最爱的食物是绯红蚊子，所以非常值得找一只诡异蟾蜍做朋友。"
+				"它能被蛆治疗，用绯红孑孓繁殖。"
+			]
 			dependencies: ["6D5AA599D202F0AF"]
 			id: "434FB123BC8DEEDE"
 			tasks: [{
 				id: "1131503C338F9EEB"
 				type: "advancement"
-				title: "{chapter.30.quest.114.task.1.title}"
+				title: "驱蚊器"
 				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
 				criterion: ""
 			}]
@@ -2368,7 +2466,7 @@
 		{
 			x: -2.0d
 			y: 13.0d
-			description: ["{chapter.30.quest.115.description.1}"]
+			description: ["如果将一只被诡异菌覆盖的蘑菇君喂给绯红蚊子会发生什么？"]
 			dependencies: [
 				"3EF3C919FDC60E1B"
 				"365AD0B3FADC70B1"
@@ -2377,7 +2475,7 @@
 			tasks: [{
 				id: "6DEB65E3D52A483A"
 				type: "advancement"
-				title: "{chapter.30.quest.115.task.1.title}"
+				title: "疯狂科学家"
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
 				criterion: ""
 			}]
@@ -2390,13 +2488,17 @@
 		{
 			x: 0.5d
 			y: 11.0d
-			description: ["{chapter.30.quest.116.description.1}"]
+			description: [
+				"击杀诡异蚊鬼"
+				""
+				"诡异蚊鬼是绯红蚊子的危险进化体。它会攻击几乎所有东西并吸取它们的血来回复自身。"
+			]
 			dependencies: ["6AD1386215D8E52F"]
 			id: "47BE77D8F21BBDCC"
 			tasks: [{
 				id: "23757EA29413C93A"
 				type: "advancement"
-				title: "{chapter.30.quest.116.task.1.title}"
+				title: "Bye Bye Mega Chad"
 				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
 				criterion: ""
 			}]
@@ -2416,12 +2518,12 @@
 			}
 			x: 3.5d
 			y: 2.0d
-			description: ["{chapter.30.quest.117.description.1}"]
+			description: ["海豹非常可爱，不受惊动时，会在沙滩或冰山上找到。发现它们时通常都在睡觉，但它们也是个游泳健将。给海豹三条鱼就能与他\"交易\"，它们会潜到水下，然后带回一个海洋相关的物品（有些很有价值）。用龙虾尾繁殖。"]
 			id: "5A0A76BD018B4C93"
 			tasks: [{
 				id: "2CC93480B5927DA9"
 				type: "observation"
-				title: "{chapter.30.quest.117.task.1.title}"
+				title: "海豹"
 				icon: {
 					id: "alexsmobs:spawn_egg_seal"
 					Count: 1b
@@ -2451,12 +2553,12 @@
 			}
 			x: 1.5d
 			y: 0.5d
-			description: ["{chapter.30.quest.118.description.1}"]
+			description: ["鲸头鹳是生活在沼泽的一种奇特鸟类，受到攻击就会逃跑。它们是孤独的捕鱼人，而且不会带走所有捕上来的东西。可以通过给它们喂鳄鱼蛋来增加捕获几率，喂水滴鱼增加捕获的运气。它们无法用食物繁殖。"]
 			id: "249C1132B4C26334"
 			tasks: [{
 				id: "1C1987E5C7055D6B"
 				type: "observation"
-				title: "{chapter.30.quest.118.task.1.title}"
+				title: "鲸头鹳"
 				icon: {
 					id: "alexsmobs:spawn_egg_shoebill"
 					Count: 1b
@@ -2486,12 +2588,12 @@
 			}
 			x: -2.0d
 			y: -3.5d
-			description: ["{chapter.30.quest.119.description.1}"]
+			description: ["雪豹是一种独居在雪山的大型猫类。它们对玩家没有进攻性，但喜欢捕猎，也会保护自己。当它们捕猎时，经常会产生额外的掉落物（就像有很高幸运值）。它们不会被驯服，但可以用驼鹿排繁殖。"]
 			id: "782985747FDE09EA"
 			tasks: [{
 				id: "3674C17F4A219029"
 				type: "observation"
-				title: "{chapter.30.quest.119.task.1.title}"
+				title: "芝士雪豹"
 				icon: {
 					id: "alexsmobs:spawn_egg_snow_leopard"
 					Count: 1b
@@ -2521,12 +2623,15 @@
 			}
 			x: -4.0d
 			y: -2.5d
-			description: ["{chapter.30.quest.120.description.1}"]
+			description: [
+				"乌鸦是生活在森林和平原的烦人鸟类，它们会环绕农田，阻止作物生长。但只需要一个雕刻南瓜当做稻草人就能把它们吓跑。它们会捡起任何食物或种子并吃掉。"
+				"它们能被南瓜子驯服。它们除了像普通被驯服的动物一样（待命，跟随，游荡），也能收集物品。设置为收集模式后，乌鸦就会寻找有物品展示框的箱子，收集展示框内的物品然后放入箱子。"
+			]
 			id: "0AE3D19B46EFA9D1"
 			tasks: [{
 				id: "617A316883CEFD16"
 				type: "observation"
-				title: "{chapter.30.quest.120.task.1.title}"
+				title: "乌鸦"
 				icon: {
 					id: "alexsmobs:spawn_egg_crow"
 					Count: 1b
@@ -2556,12 +2661,12 @@
 			}
 			x: -2.0d
 			y: 11.5d
-			description: ["{chapter.30.quest.121.description.1}"]
+			description: ["蘑菇君生活在不同的蘑菇群系中。它们是被动生物。它们身上有着能长出蘑菇的菌丝外套，并会根据群系长出更多蘑菇。它们有概率会创造出巨型蘑菇。如果当它身上长有5个蘑菇时被杀死，它就会产生爆炸并且传播身上的蘑菇。可以用蘑菇煲繁殖。"]
 			id: "365AD0B3FADC70B1"
 			tasks: [{
 				id: "4A654648C41C79D9"
 				type: "observation"
-				title: "{chapter.30.quest.121.task.1.title}"
+				title: "蘑菇君"
 				icon: {
 					id: "alexsmobs:spawn_egg_mungus"
 					Count: 1b
@@ -2586,6 +2691,22 @@
 					type: "item"
 					item: "majruszs_difficulty:bandage"
 				}
+				{
+					id: "7D7686B69A1B8DF5"
+					type: "command"
+					title: "让一名玩家受怀疑（多人游戏中效果更好，但可能会适得其反）"
+					icon: {
+						id: "kubejs:magnifier"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					command: "/tellraw @a [{\"text\":\"<\"},{\"selector\":\"@r\"},{\"text\":\"> 我觉得\"},{\"selector\":\"@r\"},{\"text\":\"很可疑\"}]"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -2598,12 +2719,15 @@
 			}
 			x: 2.5d
 			y: 1.0d
-			description: ["{chapter.30.quest.122.description.1}"]
+			description: [
+				"鸭嘴兽是一种生活在河流的奇特小动物。它会以带毒的攻击返还给攻击者。可以用龙虾尾繁殖。"
+				"它还有一种特殊的能力，当被喂了红石后，它就会寻找黏土块并挖掘，从中找出蛆和黏土球。"
+			]
 			id: "36086B5B081E1FE7"
 			tasks: [{
 				id: "7A86119EE7CA0E32"
 				type: "observation"
-				title: "{chapter.30.quest.122.task.1.title}"
+				title: "鸭嘴兽"
 				icon: {
 					id: "alexsmobs:spawn_egg_platypus"
 					Count: 1b
@@ -2633,12 +2757,12 @@
 			}
 			x: -4.0d
 			y: 0.5d
-			description: ["{chapter.30.quest.123.description.1}"]
+			description: ["袋獾是一种生活在温带森林的小生物。它们会成群地发出噪声。受到攻击时，也会自主防卫。给它喂腐肉时，它会在一段时间内发出吼叫来吓走所有怪物。它们不能被驯服，但可以用肉繁殖。"]
 			id: "44E83C7E2B80B35F"
 			tasks: [{
 				id: "7718FF131B0BF706"
 				type: "observation"
-				title: "{chapter.30.quest.123.task.1.title}"
+				title: "袋獾"
 				icon: {
 					id: "alexsmobs:spawn_egg_tasmanian_devil"
 					Count: 1b
@@ -2668,12 +2792,12 @@
 			}
 			x: -3.0d
 			y: -8.0d
-			description: ["{chapter.30.quest.124.description.1}"]
+			description: ["浣熊生活在平原和森林，通常都在搜寻食物。如果玩家手里拿了食物，它会过来乞讨，但有时也会直接从箱子中偷食物。它会在附近的水里清洗食物。可以在水附近用鸡蛋驯服，用面包繁殖。"]
 			id: "5AF05B20BB414210"
 			tasks: [{
 				id: "49FC758D86668539"
 				type: "observation"
-				title: "{chapter.30.quest.124.task.1.title}"
+				title: "浣熊"
 				icon: {
 					id: "alexsmobs:spawn_egg_raccoon"
 					Count: 1b
@@ -2703,12 +2827,12 @@
 			}
 			x: -5.0d
 			y: -8.0d
-			description: ["{chapter.30.quest.125.description.1}"]
+			description: ["瞪羚是一种生活在萨瓦纳平原的小型生物，它非常胆小，遇到危险时会成群逃跑。"]
 			id: "617FBFA90048602D"
 			tasks: [{
 				id: "40DBF5969ABB4E8F"
 				type: "observation"
-				title: "{chapter.30.quest.125.task.1.title}"
+				title: "瞪羚"
 				icon: {
 					id: "alexsmobs:spawn_egg_gazelle"
 					Count: 1b
@@ -2738,12 +2862,12 @@
 			}
 			x: -10.5d
 			y: -2.5d
-			description: ["{chapter.30.quest.126.description.1}"]
+			description: ["这种烦人的虫子在主世界几乎随处可见。它们会追咬僵尸直到濒死。可以用腐肉繁殖。记住，不要把它们放到下界去...."]
 			id: "49AB71E75762D0B9"
 			tasks: [{
 				id: "3F5513E24A79A11D"
 				type: "checkmark"
-				title: "{chapter.30.quest.126.task.1.title}"
+				title: "遇见苍蝇"
 			}]
 			rewards: [
 				{
@@ -2779,12 +2903,15 @@
 			}
 			x: -5.0d
 			y: -3.5d
-			description: ["{chapter.30.quest.127.description.1}"]
+			description: [
+				"驼鹿是一种生活在冻原和针叶林的大型动物，虽然是中立生物但有能力保护自己。"
+				"可以用蒲公英繁殖。"
+			]
 			id: "3705153037F1DDEE"
 			tasks: [{
 				id: "6033D9052F201CE6"
 				type: "observation"
-				title: "{chapter.30.quest.127.task.1.title}"
+				title: "驼鹿"
 				icon: {
 					id: "alexsmobs:spawn_egg_moose"
 					Count: 1b
@@ -2821,12 +2948,15 @@
 			}
 			x: -18.0d
 			y: 0.5d
-			description: ["{chapter.30.quest.128.description.1}"]
+			description: [
+				"科莫多巨蜥是你所见过最大的蜥蜴，生活在恶地。它们会攻击几乎所有东西，所以要小心它们充满毒性的攻击。"
+				"如果给它们非常多的腐肉，它们就能被驯服，它们会尽力保护自己的朋友，并且是一个很好的坐骑。"
+			]
 			id: "6BC74F4BAEA808FF"
 			tasks: [{
 				id: "4B357D8812F881B3"
 				type: "observation"
-				title: "{chapter.30.quest.128.task.1.title}"
+				title: "科莫多巨蜥"
 				icon: {
 					id: "alexsmobs:spawn_egg_komodo_dragon"
 					Count: 1b
@@ -2856,12 +2986,12 @@
 			}
 			x: -8.5d
 			y: 0.5d
-			description: ["{chapter.30.quest.129.description.1}"]
+			description: ["走鹃是一种生活在沙漠和恶地的快速行走鸟类。响尾蛇是它们的天敌。可以用蛆繁殖。"]
 			id: "32F7D28F7B29709C"
 			tasks: [{
 				id: "04AD791F15719F0C"
 				type: "observation"
-				title: "{chapter.30.quest.129.task.1.title}"
+				title: "走鹃"
 				icon: {
 					id: "alexsmobs:spawn_egg_roadrunner"
 					Count: 1b
@@ -2891,12 +3021,12 @@
 			}
 			x: -18.5d
 			y: 3.5d
-			description: ["{chapter.30.quest.130.description.1}"]
+			description: ["生活在地底深处的稀有虫子。它移动缓慢，但有着强力且充满毒性的撕咬攻击。"]
 			id: "3231E98238491AF0"
 			tasks: [{
 				id: "1CBFA39AB4589B71"
 				type: "observation"
-				title: "{chapter.30.quest.130.task.1.title}"
+				title: "洞穴蜈蚣"
 				icon: {
 					id: "alexsmobs:spawn_egg_centipede"
 					Count: 1b
@@ -2944,12 +3074,15 @@
 			}
 			x: -12.0d
 			y: 4.5d
-			description: ["{chapter.30.quest.131.description.1}"]
+			description: [
+				"蟑螂可以在地底洞穴的角落找到。它们平时害怕人类，可以喂它们糖或面包来让它们更放下警惕。它们也会吃掉在地上的任何食物。"
+				"它们最独特的能力是丢掉头来换取逃跑机会。可以用糖繁殖。"
+			]
 			id: "3B5935EFBF9C27D7"
 			tasks: [{
 				id: "47F5DCA1294B0DEB"
 				type: "observation"
-				title: "{chapter.30.quest.131.task.1.title}"
+				title: "蟑螂"
 				icon: {
 					id: "alexsmobs:spawn_egg_cockroach"
 					Count: 1b
@@ -2979,12 +3112,12 @@
 			}
 			x: 5.0d
 			y: 2.0d
-			description: ["{chapter.30.quest.132.description.1}"]
+			description: ["龙虾是一种生活在海滩附近水域的小型海洋生物。它们会钳住任何对它们有敌意的东西，但通常不会追逐。会有不同的颜色。"]
 			id: "493146EF96766BF4"
 			tasks: [{
 				id: "04232F2D49033D32"
 				type: "observation"
-				title: "{chapter.30.quest.132.task.1.title}"
+				title: "龙虾"
 				icon: {
 					id: "alexsmobs:spawn_egg_lobster"
 					Count: 1b
@@ -3014,12 +3147,12 @@
 			}
 			x: 6.5d
 			y: 1.5d
-			description: ["{chapter.30.quest.133.description.1}"]
+			description: ["这种.....黏黏的鱼通常能在海洋深处找到。当对它使用史莱姆球时，它就会获得在陆地生存的能力。"]
 			id: "2142DDB9A0AF6B94"
 			tasks: [{
 				id: "3ED5AAA8C71CB733"
 				type: "observation"
-				title: "{chapter.30.quest.133.task.1.title}"
+				title: "水滴鱼"
 				icon: {
 					id: "alexsmobs:spawn_egg_blobfish"
 					Count: 1b
@@ -3049,12 +3182,12 @@
 			}
 			x: 9.0d
 			y: 3.5d
-			description: ["{chapter.30.quest.134.description.1}"]
+			description: ["锤头鲨是暖水海洋中的大型生物。它是半血以下的所有生物的天敌。"]
 			id: "2C2D57D238A96C47"
 			tasks: [{
 				id: "32CBFE9471A8B5D5"
 				type: "observation"
-				title: "{chapter.30.quest.134.task.1.title}"
+				title: "锤头鲨"
 				icon: {
 					id: "alexsmobs:spawn_egg_hammerhead_shark"
 					Count: 1b
@@ -3084,12 +3217,12 @@
 			}
 			x: 8.5d
 			y: 8.5d
-			description: ["{chapter.30.quest.135.description.1}"]
+			description: ["末影缓步兽是一种生活在末地的和平的飘浮生物，它们喜欢一整天飘在紫颂果林附近，时不时吃一个紫颂果。你可以用紫颂果吸引一只末影缓步兽，还可以用紫颂果繁殖它们。"]
 			id: "3CD714A755372F99"
 			tasks: [{
 				id: "4D0FF467DC7E8FF7"
 				type: "observation"
-				title: "{chapter.30.quest.135.task.1.title}"
+				title: "末影缓步兽"
 				icon: {
 					id: "alexsmobs:spawn_egg_endergrade"
 					Count: 1b
@@ -3119,12 +3252,12 @@
 			}
 			x: -11.0d
 			y: 15.0d
-			description: ["{chapter.30.quest.136.description.1}"]
+			description: ["骨蟒生活在下界的熔岩湖中，它会捕猎几乎所有东西，尤其是凋零骷髅。"]
 			id: "6C2B0968097E6A03"
 			tasks: [{
 				id: "20A07548BED44AD5"
 				type: "observation"
-				title: "{chapter.30.quest.136.task.1.title}"
+				title: "骨蟒"
 				icon: {
 					id: "alexsmobs:spawn_egg_bone_serpent"
 					Count: 1b
@@ -3145,6 +3278,7 @@
 			}]
 		}
 		{
+			title: "遭遇悬熊"
 			icon: {
 				id: "alexsmobs:tab_icon"
 				Count: 1b
@@ -3154,18 +3288,12 @@
 			}
 			x: -14.0d
 			y: 9.5d
-			description: ["{chapter.30.quest.137.description.1}"]
+			description: ["悬熊是一种生活在下界荒地的恶魔生物。它会悬在天花板上等待猎物从下方经过，然后一跃而下攻击猎物。"]
 			id: "0544039A394BA4C5"
-			tasks: [
-				{
-					id: "3904F121483CB9A9"
-					type: "checkmark"
-					title: "{chapter.30.quest.137.task.1.title}"
-				}
-				{
+			tasks: [{
 					id: "02FCD11BA9A44382"
 					type: "observation"
-					title: "{chapter.30.quest.137.task.2.title}"
+					title: "Dropbear"
 					icon: {
 						id: "alexsmobs:spawn_egg_dropbear"
 						Count: 1b
@@ -3178,8 +3306,7 @@
 					timer: 0L
 					observe_type: 5
 					to_observe: "alexsmobs:dropbear"
-				}
-			]
+				}]
 			rewards: [{
 				id: "2B0A0D2830DC0523"
 				type: "xp"
@@ -3189,7 +3316,7 @@
 		{
 			x: 0.5d
 			y: -8.0d
-			description: ["{chapter.30.quest.138.description.1}"]
+			description: ["这种由熊的毛发和力量药水制成的药剂，能够给予使用者击退抗性。"]
 			dependencies: ["11AD9C3E6F7ED206"]
 			id: "2655420D8A840C65"
 			tasks: [{
@@ -3212,7 +3339,11 @@
 		{
 			x: -2.5d
 			y: 19.0d
-			description: ["{chapter.30.quest.139.description.1}"]
+			description: [
+				"将绯红孑孓放入衣壳体能将其转变成一只神秘蠕虫。"
+				""
+				"同样能在末影学家职业的村民处购买获得。"
+			]
 			dependencies: [
 				"6D5AA599D202F0AF"
 				"57D3C1E86A23E5AD"
@@ -3264,7 +3395,7 @@
 							}]
 							Potion: "minecraft:mundane"
 							display: {
-								Name: "{\"text\":\"Engineer's Potion\",\"italic\":false,\"color\":\"gold\"}"
+								Name: "{\"text\":\"工程师药水\",\"italic\":false,\"color\":\"gold\"}"
 							}
 						}
 						ForgeCaps: {
@@ -3292,7 +3423,7 @@
 			}
 			x: -2.5d
 			y: 17.5d
-			description: ["{chapter.30.quest.140.description.1}"]
+			description: ["将蠕虫扔进末地的虚空中，就会召唤出虚空蠕虫"]
 			dependencies: ["0A1A1F6A482BB296"]
 			id: "46341B81ACA2EB15"
 			tasks: [{
@@ -3326,7 +3457,7 @@
 		{
 			x: -3.0d
 			y: 16.0d
-			description: ["{chapter.30.quest.141.description.1}"]
+			description: ["虚空蠕虫的掉落物能制作维度撕裂者，这个工具可以将你和其他生物传送到出生点，甚至能跨维度！"]
 			dependencies: ["46341B81ACA2EB15"]
 			id: "5F4CFD972564982A"
 			tasks: [{
@@ -3363,7 +3494,7 @@
 		{
 			x: -2.0d
 			y: 16.0d
-			description: ["{chapter.30.quest.142.description.1}"]
+			description: ["这个方块被红石充能后，会对咬住的生物造成伤害。"]
 			dependencies: ["46341B81ACA2EB15"]
 			id: "58B16EC56568A6DC"
 			tasks: [{

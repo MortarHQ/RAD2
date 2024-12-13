@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 12
 	filename: "mining_dimension"
-	title: "{chapter.18.title}"
+	title: "采掘维度"
 	icon: {
 		id: "mining_dimension:teleporter"
 		Count: 1b
@@ -89,7 +89,11 @@
 		{
 			x: -0.5d
 			y: -2.0d
-			description: ["{chapter.18.quest.2.description.1}"]
+			description: [
+				"在主世界找到。"
+				""
+				"最简单的方式就是用破坏魔符和提取魔符或精准采集镐。"
+			]
 			id: "561BE7E54694924C"
 			tasks: [{
 				id: "6A5034B518F66ECB"
@@ -108,7 +112,11 @@
 		{
 			x: 0.6571428571428513d
 			y: -1.7690476190476367d
-			description: ["{chapter.18.quest.3.description.1}"]
+			description: [
+				"制作或在热带世界找到。"
+				""
+				"使用热带世界的高山中的石青和锆石制作，偶尔在摩埃结构中也能找到。"
+			]
 			dependency_requirement: "one_started"
 			id: "00C5B20E68BCBAEC"
 			tasks: [{
@@ -128,7 +136,13 @@
 		{
 			x: 1.5d
 			y: -1.0d
-			description: ["{chapter.18.quest.4.description.1}"]
+			description: [
+				"在主世界、下界和末地中找到。"
+				""
+				"会出现在下界的战利品箱中、特定的地牢和废弃传送门上。"
+				""
+				""
+			]
 			id: "6CDA0EECB7587685"
 			tasks: [{
 				id: "7413751516CE950B"
@@ -147,7 +161,11 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			description: ["{chapter.18.quest.5.description.1}"]
+			description: [
+				"能在暮色森林中制作或找到。"
+				""
+				"可以在一些箱子中找到，也可以用生铁木制作。（也能从基础战利品板条箱中获得）"
+			]
 			id: "2FA64A93D6567BB1"
 			tasks: [{
 				id: "0A03F4E52B408F16"
@@ -166,7 +184,13 @@
 		{
 			x: -1.5d
 			y: 1.5d
-			description: ["{chapter.18.quest.6.description.1}"]
+			description: [
+				"几乎在任何地方都能找到或制作。"
+				""
+				"会出现在特定的战利品箱子中，也能制作获得。"
+				""
+				"就是钻石镐，没什么要说的。"
+			]
 			id: "00BE5B3A903BD603"
 			tasks: [{
 				id: "5ECD75BC7F3C8C39"
@@ -188,7 +212,11 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["{chapter.18.quest.7.description.1}"]
+			description: [
+				"能在深暗之园找到。"
+				""
+				"出现在深暗之园的中下层。"
+			]
 			id: "5EBDDE641003355B"
 			tasks: [{
 				id: "6F2C1F158B17AA67"
@@ -207,7 +235,11 @@
 		{
 			x: -0.48571428571428754d
 			y: 1.6880952380952223d
-			description: ["{chapter.18.quest.8.description.1}"]
+			description: [
+				"能在永昼之地找到。"
+				""
+				"在世界深层以矿石形式生成，偶尔在蔚蓝浩空的村庄中也能找到。"
+			]
 			id: "5E1CA1AB7D0835B2"
 			tasks: [{
 				id: "78C45A110E4DF637"
@@ -226,7 +258,11 @@
 		{
 			x: 0.5d
 			y: 1.5d
-			description: ["{chapter.18.quest.9.description.1}"]
+			description: [
+				"在主世界或下界制作获得。"
+				""
+				"用烈焰棒和下界合金制作获得。"
+			]
 			id: "3BC9AE6D97169490"
 			tasks: [{
 				id: "62E08D3E0EE595C6"
@@ -245,7 +281,11 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			description: ["{chapter.18.quest.10.description.1}"]
+			description: [
+				"能在恒晓之地找到。"
+				""
+				"在恒晓之地深层以矿石形式生成，偶尔在蔚蓝浩空的村庄中也能找到。"
+			]
 			id: "306B003B44FCD929"
 			tasks: [{
 				id: "4028F35EFB8F5198"

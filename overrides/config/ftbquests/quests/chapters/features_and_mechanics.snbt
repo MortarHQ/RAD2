@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "features_and_mechanics"
-	title: "{chapter.1.title}"
+	title: "特性 | 机制"
 	icon: {
 		id: "losttrinkets:book_o_enchanting"
 		Count: 1b
@@ -17,8 +17,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -1.0d
-			y: -6.5d
+			x: -2.0d
+			y: -7.5d
 			width: 13.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -29,10 +29,10 @@
 			corner: false
 		}
 		{
-			x: 0.5d
-			y: 3.0d
-			width: 10.0d
-			height: 19.0d
+			x: -2.5d
+			y: 0.0d
+			width: 19.0d
+			height: 15.0d
 			rotation: 0.0d
 			image: "rad2:textures/misc/rad_frame_white.png"
 			hover: [ ]
@@ -41,8 +41,8 @@
 			corner: false
 		}
 		{
-			x: 5.0d
-			y: 10.5d
+			x: 6.0d
+			y: 6.0d
 			width: 6.0d
 			height: 6.0d
 			rotation: 0.0d
@@ -53,8 +53,8 @@
 			corner: false
 		}
 		{
-			x: -0.5d
-			y: -3.0d
+			x: 1.5d
+			y: -4.5d
 			width: 5.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -65,8 +65,8 @@
 			corner: false
 		}
 		{
-			x: -1.0d
-			y: 4.0d
+			x: -6.5d
+			y: -4.5d
 			width: 4.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -77,8 +77,8 @@
 			corner: false
 		}
 		{
-			x: -1.0d
-			y: 1.5d
+			x: 1.0d
+			y: 3.0d
 			width: 3.8d
 			height: 1.0d
 			rotation: 0.0d
@@ -91,92 +91,27 @@
 	]
 	quests: [
 		{
-			icon: "itemfilters:weak_nbt"
-			x: -1.0d
-			y: -0.5d
-			description: ["{chapter.1.quest.1.description.1}"]
-			id: "56127AAF761DC8DA"
-			tasks: [{
-				id: "6FCE6B669DDF6914"
-				type: "checkmark"
-				title: "{chapter.1.quest.1.task.1.title}"
-			}]
-			rewards: [{
-				id: "53256419445952A3"
-				type: "item"
-				item: "minecraft:apple"
-			}]
-		}
-		{
-			icon: {
-				id: "losttrinkets:mad_piggy"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: -2.5d
-			y: 0.0d
-			description: ["{chapter.1.quest.2.description.1}"]
-			dependencies: ["56127AAF761DC8DA"]
-			id: "0DA780E82198E59C"
-			tasks: [{
-				id: "4C371DDFD42B66C2"
-				type: "checkmark"
-				title: "{chapter.1.quest.2.task.1.title}"
-			}]
-			rewards: [{
-				id: "665866DA9908B914"
-				type: "item"
-				item: "minecraft:golden_carrot"
-			}]
-		}
-		{
-			icon: {
-				id: "betterportals:portal_fluid_bucket"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 0.0d
-			y: 2.5d
-			description: ["{chapter.1.quest.3.description.1}"]
-			id: "25045A0059F4E280"
-			tasks: [{
-				id: "7C18E741D1CA3145"
-				type: "checkmark"
-				title: "{chapter.1.quest.3.task.1.title}"
-			}]
-			rewards: [{
-				id: "079877221EB51759"
-				type: "item"
-				item: {
-					id: "minecraft:golden_carrot"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
 			icon: "ars_nouveau:ritual_moonfall"
-			x: -2.5d
-			y: -2.0d
-			description: ["{chapter.1.quest.4.description.1}"]
-			dependencies: ["56127AAF761DC8DA"]
+			x: 1.5d
+			y: -3.5d
+			description: [
+				"血月："
+				"-血月是一个月亮事件，它会使怪物生成率直线上升，并且阻止玩家睡觉！血月的机制是从泰拉瑞亚的血月事件借鉴而来。"
+				""
+				"丰收之月："
+				"-丰收之月是一个月亮事件，它会使作物生长速度和掉落物数量直线上升！"
+				""
+				"蓝月："
+				"-蓝月是一个月亮事件，它会给予你幸运效果，并增加战利品的稀有度！"
+				""
+				"有时，更加强大的超级月亮事件会出现。"
+			]
+			dependencies: ["577182F7C0C5B85B"]
 			id: "1D7B582F298ADFDF"
 			tasks: [{
 				id: "2166672F8EECC3D0"
 				type: "checkmark"
-				title: "{chapter.1.quest.4.task.1.title}"
+				title: "新的月亮事件"
 			}]
 			rewards: [{
 				id: "3BD45027CC335B19"
@@ -186,16 +121,30 @@
 		}
 		{
 			icon: "blue_skies:everbright_portal"
-			x: -2.0d
-			y: 2.5d
+			x: -1.0d
+			y: 4.0d
 			shape: "square"
-			subtitle: "{chapter.1.quest.5.subtitle}"
-			description: ["{chapter.1.quest.5.description.1}"]
+			subtitle: "目前维度数量：10"
+			description: [
+				"•阿图姆（Atum-2）-崭新独特的沙漠维度，充满沙子、神庙和新敌人！在这个维度中，你可以发现新的古物，帮助你穿行于高山与敌人中。"
+				""
+				"•蔚蓝浩空（Blue skies）：永昼之地与恒晓之地-两个崭新的维度，一个更亮更冷，另一个更暗更温暖。你可以在其中发现新方块、怪物、工具、武器和Boss。"
+				""
+				"•维度地牢（Dimensional Dungeons）-由程序无限生成的地牢维度。"
+				""
+				"•蜜蜂领域（The Bumblezone）-充满蜜蜂的维度，如果你带走了它们的蜂蜜，它们会变得非常凶残！"
+				""
+				"•热带世界（Tropicraft）-添加了热带世界"
+				""
+				"•暮色森林（Twilight forest）-一个沐浴在暮色中的神秘维度。"
+				""
+				"•深暗之园（Undergarden）-一个黑暗的地底世界，位于主世界基岩下方。这里的植物已经适应了环境，能在随处生长，并且不需要阳光。奇异的生物在此处安家，并被腐衰侵染。这个维度充满了混乱、神秘的怪物。"
+			]
 			id: "6EAF4C02AC262FC0"
 			tasks: [{
 				id: "1A3AEEE0A82E3188"
 				type: "checkmark"
-				title: "{chapter.1.quest.5.task.1.title}"
+				title: "新维度！"
 			}]
 			rewards: [{
 				id: "59B1B5BF66E28F2F"
@@ -213,74 +162,55 @@
 		}
 		{
 			icon: "ars_nouveau:glyph_haste"
-			x: -1.5d
-			y: -2.0d
-			subtitle: "{chapter.1.quest.6.subtitle}"
-			description: ["{chapter.1.quest.6.description.1}"]
-			dependencies: ["56127AAF761DC8DA"]
+			x: -2.0d
+			y: -2.5d
+			subtitle: "使用Elenai Dodge模组躲避攻击！"
+			description: [
+				"按下闪避键（默认：左Alt）能够向一个方向闪避。闪避方向取决于你的移动方向，闪避过程中有短暂无敌，让你能躲避怪物和弹射物的攻击。"
+				""
+				"你无法在举盾或空中时闪避，但可以在吃东西时闪避。"
+				""
+				"闪避会消耗精力羽毛，其显示在饱食度上方。"
+				""
+				"装备护甲会让一些羽毛变成灰色，意味着它们无法用于闪避。"
+				""
+				"轻便附魔能减少灰色羽毛的数量。"
+				""
+				"还有多种药水能影响你的精力羽毛。"
+			]
+			dependencies: ["0E5AE2A43020AFC3"]
 			id: "55DE8B3522A4F8A6"
 			tasks: [{
 				id: "36478D84CB178449"
 				type: "checkmark"
-				title: "{chapter.1.quest.6.task.1.title}"
-			}]
-			rewards: [
-				{
-					id: "012430C1D7AE5D6B"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_replenishment"
-						}
-					}
-				}
-				{
-					id: "54785A567EA1C042"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-			]
-		}
-		{
-			title: "{chapter.1.quest.7.title}"
-			icon: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 1s
-						id: "minecraft:protection"
-					}]
-				}
-			}
-			x: -2.0d
-			y: 9.5d
-			description: ["{chapter.1.quest.7.description.1}"]
-			id: "6FCA404FDB2D82CC"
-			tasks: [{
-				id: "07F42EA7E8CC38A5"
-				type: "checkmark"
-				title: "{chapter.1.quest.7.task.1.title}"
+				title: "闪避"
 			}]
 			rewards: [{
-				id: "25FD19220EA221C0"
-				type: "xp"
-				xp: 100
+				id: "012430C1D7AE5D6B"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "elenaidodge2:long_replenishment"
+					}
+				}
 			}]
 		}
 		{
-			title: "{chapter.1.quest.8.title}"
+			title: "新的或修改过的结构！"
 			icon: "ars_nouveau:familiar_wixie"
-			x: 1.0d
-			y: 2.5d
-			description: ["{chapter.1.quest.8.description.1}"]
+			x: 2.0d
+			y: 4.0d
+			description: [
+				"- 地底和空中村庄"
+				"- 修改过的人工矿道、要塞、地牢、洞穴"
+			]
 			id: "6560CFA3F7737BBB"
 			tasks: [{
 				id: "3E8E9CE8F8302CF2"
 				type: "checkmark"
-				title: "{chapter.1.quest.8.task.1.title}"
+				title: "新结构！"
 			}]
 			rewards: [{
 				id: "1387A24745731B2C"
@@ -299,21 +229,47 @@
 		{
 			icon: "archers_paradox:redstone_arrow"
 			x: 0.5d
-			y: -2.0d
-			description: ["{chapter.1.quest.9.description.1}"]
-			dependencies: ["56127AAF761DC8DA"]
+			y: -3.5d
+			description: [
+				"被剑砍伤，被蜘蛛咬，或被仙人掌扎会造成流血。"
+				""
+				"这是一种类似中毒的持续性伤害减益，并且可以被一个新物品移除：绷带，绷带也会提供生命再生效果。"
+				""
+				"每件护甲会减少10%流血概率。"
+				""
+				"在专家和大师模式中，流血等级会增加。"
+				""
+				"同样也有方法对敌人造成流血效果，例如这些宽头箭。"
+			]
+			dependencies: ["0F19628AC9F04F38"]
 			id: "04CC7C1C1BFE864D"
 			tasks: [{
 				id: "344ADACFCEB0D8A7"
 				type: "checkmark"
-				title: "{chapter.1.quest.9.task.1.title}"
+				title: "流血"
 			}]
-			rewards: [{
-				id: "0721D0DFC9A4BC06"
-				type: "item"
-				item: "majruszs_difficulty:bandage"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "0721D0DFC9A4BC06"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 2
+				}
+				{
+					id: "35989BBCC782F1D8"
+					type: "item"
+					item: {
+						id: "apotheosis:broadhead_arrow"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+			]
 		}
 		{
 			icon: {
@@ -325,15 +281,22 @@
 					}
 				}
 			}
-			x: 1.5d
-			y: -0.5d
-			description: ["{chapter.1.quest.10.description.1}"]
-			dependencies: ["56127AAF761DC8DA"]
+			x: 0.5d
+			y: -2.0d
+			subtitle: "随时间增加的难度"
+			description: [
+				"3个游戏天后，每位玩家的难度会随着时间提升。"
+				""
+				"随着难度的提升，怪物会获得增强（伤害、速度、生命值、击退、魔法抗性），并且会穿戴更多装备和附魔。"
+				""
+				"怪物的强度由附近玩家的平均难度值决定。"
+			]
+			dependencies: ["38049609F73B874B"]
 			id: "0F19628AC9F04F38"
 			tasks: [{
 				id: "7006A7CF76CC94F9"
 				type: "checkmark"
-				title: "{chapter.1.quest.10.task.1.title}"
+				title: "递增难度"
 				icon: "scalinghealth:heart_crystal"
 			}]
 			rewards: [{
@@ -351,6 +314,7 @@
 			}]
 		}
 		{
+			title: "阶段性Boss"
 			icon: {
 				id: "rats:rat_upgrade_creative"
 				Count: 1b
@@ -360,40 +324,86 @@
 					}
 				}
 			}
-			x: 1.5d
+			x: 2.5d
 			y: -2.0d
-			description: ["{chapter.1.quest.11.description.1}"]
-			dependencies: ["0F19628AC9F04F38"]
+			description: [
+				"原版的Boss变得更强了。"
+				""
+				"它们不仅总是以精英怪级别生成，还会获得新能力，也会提供给更好的奖励和更多经验。"
+				""
+				"凋灵"
+				"-召唤凋零骷髅。掉落下界之心碎片。"
+				""
+				"末影龙"
+				"-召唤潜影贝。"
+				""
+				"远古守卫者不算Boss，每次被击败后会变得更强。"
+				""
+				"-它们存活时，遗迹会被完全保护。"
+				""
+				"-召唤守卫者。掉落海绵和远古守卫者的尖刺。"
+			]
+			dependencies: ["577182F7C0C5B85B"]
 			id: "68203BBBB58B26EA"
 			tasks: [{
 				id: "6C079A785E1D9855"
 				type: "checkmark"
-				title: "{chapter.1.quest.11.task.1.title}"
+				title: "阶段性Boss"
 				icon: "productivebees:upgrade_productivity"
 			}]
 			rewards: [{
-				id: "3678E73DDD73B55C"
+				id: "07F3497AA521167E"
 				type: "item"
 				item: {
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
-						Potion: "minecraft:long_strength"
+						CustomPotionEffects: [
+							{
+								Duration: 1200
+								Id: 39b
+								Amplifier: 1b
+							}
+							{
+								Duration: 1200
+								Id: 42b
+								Amplifier: 4b
+							}
+						]
+						Potion: "minecraft:thick"
+						display: {
+							Lore: ["{\"text\":\"造成和受到双倍伤害\",\"color\":\"dark_red\",\"italic\":false}"]
+							Name: "{\"italic\":false,\"text\":\"狂暴之饮\",\"color\":\"dark_red\"}"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 			}]
 		}
 		{
 			icon: "majruszs_difficulty:undead_battle_standard"
-			x: 2.5d
-			y: -0.5d
-			description: ["{chapter.1.quest.12.description.1}"]
+			x: 1.5d
+			y: -2.0d
+			subtitle: "随发展进度增加的难度"
+			description: [
+				"游戏流程被分为三个部分：普通模式，专家模式和大师模式。"
+				""
+				"-普通模式在游戏初期。"
+				""
+				"-专家模式在击杀凋灵或进入末地后开启。"
+				""
+				"-大师模式在击杀末影龙后开启。"
+			]
 			dependencies: ["0F19628AC9F04F38"]
 			id: "577182F7C0C5B85B"
 			tasks: [{
 				id: "654635E50ADA3AD9"
 				type: "checkmark"
-				title: "{chapter.1.quest.12.task.1.title}"
+				title: "阶段性难度"
 			}]
 			rewards: [{
 				id: "203EF8DF6395F7A6"
@@ -408,18 +418,36 @@
 			}]
 		}
 		{
-			title: "{chapter.1.quest.13.title}"
+			title: "普通模式更改"
 			icon: "minecraft:skeleton_skull"
-			x: 3.5d
-			y: -1.5d
-			subtitle: "{chapter.1.quest.13.subtitle}"
-			description: ["{chapter.1.quest.13.description.1}"]
+			x: 1.5d
+			y: -0.5d
+			subtitle: "一些新的难度机制："
+			description: [
+				"怪物群"
+				"怪物会成群出现，并会有一个领导者。追随者会攻击领导者的目标，追随者大多带有武器，领导者大多穿戴装备。"
+				""
+				"-不死军队（新的入侵）"
+				"在击杀一定数量的不死怪物后，不死军队就会入侵。一共有3-5波，每波增加难度，击败后可以获得宝藏袋。也会增加所有参与入侵的玩家的难度！"
+				""
+				"-摔落伤害会造成缓慢和反胃"
+				""
+				"-溺水伤害会造成反胃和虚弱"
+				""
+				"-苦力怕会产生一个负面效果"
+				""
+				"-动物（例如狼）、僵尸和蜘蛛都会使你流血"
+				""
+				"-箭和被锋利物品伤害（工具、武器、剪刀）会使你流血"
+				""
+				"-触碰仙人掌也会流血"
+			]
 			dependencies: ["577182F7C0C5B85B"]
 			id: "6E509EA1B20B6476"
 			tasks: [{
 				id: "413AD55DBDF6F7A1"
 				type: "checkmark"
-				title: "{chapter.1.quest.13.task.1.title}"
+				title: "新的难度机制"
 			}]
 			rewards: [
 				{
@@ -437,40 +465,130 @@
 		}
 		{
 			icon: "farmersdelight:cake_slice"
-			x: 2.5d
-			y: 5.5d
-			subtitle: "{chapter.1.quest.14.subtitle}"
-			description: ["{chapter.1.quest.14.description.1}"]
+			x: -5.0d
+			y: 5.0d
+			subtitle: "品尝多种美食，获得健康体质"
+			description: [
+				"摄取不同营养，并饮食均衡，你就能获得各种增益，相反，如果有不好的饮食习惯，你就会获得一些减益。"
+				""
+				"食物现在会显示它们能提供的营养种类，同样会显示营养点数(NUs)。"
+				""
+				"要查看营养值，按下营养值GUI的快捷键（默认为N）或点击背包中的面包按钮。"
+				""
+				"-蓝色代表目前你在每个营养种类上拥有的营养点数。"
+				"-绿色代表增益范围。"
+			]
+			dependencies: ["128C6C5B6273C0F3"]
+			dependency_requirement: "one_started"
 			id: "35190DA84895073D"
 			tasks: [{
 				id: "6331E4029462A823"
 				type: "checkmark"
-				title: "{chapter.1.quest.14.task.1.title}"
+				title: "饮食多样化"
 			}]
-			rewards: [{
-				id: "4A593D39CE5A8B79"
-				type: "item"
-				item: {
-					id: "minecraft:golden_carrot"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "2A244FE12BC85191"
+					type: "item"
+					item: {
+						id: "minecraft:suspicious_stew"
+						Count: 1b
+						tag: {
+							Effects: [{
+								EffectId: 23b
+								EffectDuration: 7
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "5D8B3F37E513A3C9"
+					type: "item"
+					item: {
+						id: "farmersdelight:cooked_bacon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1A46BAB54ADD68DC"
+					type: "item"
+					item: {
+						id: "farmersdelight:cooked_rice"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "31BDA8C55CA79C57"
+					type: "item"
+					item: {
+						id: "supplementaries:candy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2026D361B19D0768"
+					type: "item"
+					item: {
+						id: "berry_nice:goldensweetberry"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "fins:spindly_emerald"
-			x: -1.0d
-			y: 2.5d
-			description: ["{chapter.1.quest.15.description.1}"]
+			x: 0.0d
+			y: 4.0d
+			description: [
+				"有一些新的村民职业，意味着也有特殊的交易、工作站和成就！"
+				""
+				"-海洋学家（海洋测绘台）"
+				""
+				"-林务员 (林业研究台)"
+				""
+				"-工程师 (蓝图桌)"
+				""
+				"-花贩 (园艺桌)"
+				""
+				"-猎人 (猎具台)"
+				""
+				"-下界学家 (腐化工作桌)"
+				""
+				"-末影学家 (紫珀祭台)"
+				""
+				"-养蜂人 (蜂蜜罐)"
+				""
+			]
 			id: "2574DDCEFF8FE519"
 			tasks: [{
 				id: "62AD44FDD001C367"
 				type: "checkmark"
-				title: "{chapter.1.quest.15.task.1.title}"
+				title: "改进的村民"
 			}]
 			rewards: [{
 				id: "1A3E8B8ABF4D5B26"
@@ -488,141 +606,46 @@
 		}
 		{
 			icon: {
-				id: "relics:stellar_catalyst"
+				id: "enigmaticlegacy:enigmatic_amulet"
 				Count: 1b
 				tag: {
-					Damage: 0
+					AssignedColor: 0.1f
 				}
 			}
-			x: 2.5d
-			y: 6.5d
-			description: ["{chapter.1.quest.16.description.1}"]
+			x: -3.0d
+			y: -2.0d
+			description: [
+				"逸失饰物（Lost Trinkets）模组添加了50+种不同效果和稀有度的饰物。"
+				""
+				"饰物会在你进行一些行为时随机解锁，例如与敌人战斗、交易、挖矿、砍树或耕作。每种行为也有特殊的提升概率方式：击杀Boss比击杀普通怪物有更高几率解锁。"
+				""
+				"你可以按下R键访问饰物GUI，在这里你可以穿戴饰物和解锁更多饰物槽。"
+				""
+				"========================"
+				""
+				"同样也有无数饰品，它们有专属的槽位，你可以点击物品栏中的饰品按钮打开，也可以按快捷键打开。（默认：G）"
+				""
+				"试着将神秘护身符放入饰品栏中的\"护符\"槽。"
+				"你可以使用滚动条或鼠标滚轮查看所有槽位。"
+			]
+			dependencies: ["2B14E71EF06F5938"]
 			id: "0E5AE2A43020AFC3"
 			tasks: [{
 				id: "0904DC2D17454C24"
 				type: "checkmark"
-				title: "{chapter.1.quest.16.task.1.title}"
-			}]
-			rewards: [{
-				id: "70CB36DD6DEEB01C"
-				type: "item"
-				item: {
-					id: "minecraft:golden_carrot"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				title: "饰物和饰品"
 			}]
 		}
 		{
-			icon: "ars_nouveau:glyph_wither"
-			x: 3.5d
-			y: -0.5d
-			subtitle: "{chapter.1.quest.17.subtitle}"
-			description: ["{chapter.1.quest.17.description.1}"]
-			dependencies: ["577182F7C0C5B85B"]
-			id: "78655B49D92DA1AB"
-			tasks: [{
-				id: "4F575278249F1D60"
-				type: "kill"
-				entity: "minecraft:wither"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "211DA38465A84BB6"
-					type: "item"
-					item: {
-						id: "majruszs_difficulty:golden_bandage"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "382323F735456BD6"
-					type: "item"
-					item: {
-						id: "roughtweaks:medkit"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
+			title: "Corail的墓碑"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "在你死后安全保存物品，也有很多便于生存和探险的特性"
+			description: [
+				"Corail的墓碑（Corail Tombstone）通过提供大量可配置选项来有效解决MC的死亡惩罚，许多特性来鼓励玩家探索世界并兼容一些模组。"
+				""
+				"它也提供了一个额外奖励系统：死亡知识。一个基于帮助玩家捕捉灵魂来装饰墓碑，并让灵魂等待超生的附魔物品。游戏中也有一个让玩家根据喜好配置、访问信息概要和选择额外奖励的界面。"
 			]
-		}
-		{
-			icon: {
-				id: "minecraft:end_crystal"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 3.5d
-			y: 0.5d
-			subtitle: "{chapter.1.quest.18.subtitle}"
-			description: ["{chapter.1.quest.18.description.1}"]
-			dependencies: ["577182F7C0C5B85B"]
-			id: "13FD3ACE5C674BD1"
-			tasks: [{
-				id: "15A903EF1D063764"
-				type: "advancement"
-				advancement: "minecraft:end/kill_dragon"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "39492D8B75AEE13F"
-					type: "item"
-					item: {
-						id: "majruszs_difficulty:golden_bandage"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "106880E710C077BF"
-					type: "item"
-					item: {
-						id: "roughtweaks:medkit_enchanted"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "{chapter.1.quest.19.title}"
-			x: 2.5d
-			y: 7.5d
-			subtitle: "{chapter.1.quest.19.subtitle}"
-			description: ["{chapter.1.quest.19.description.1}"]
 			id: "00EEAE0FACC02300"
 			tasks: [{
 				id: "6121BA739D1C7316"
@@ -652,57 +675,38 @@
 			]
 		}
 		{
-			icon: "kubejs:arrow_left"
-			x: -4.5d
-			y: 1.0d
-			subtitle: "{chapter.1.quest.20.subtitle}"
-			size: 1.5d
+			title: "&4查看任务书获取更多信息！"
+			icon: {
+				id: "kubejs:star"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.0d
+			y: -2.0d
+			subtitle: "欢迎游玩RAD2！"
+			description: [
+				"这本任务书将指导你整合包中所有机制。"
+				""
+				"点击上方\"任务\"下面的复选框完成任务，以解锁下一个任务。"
+				""
+				"要领取奖励，只需要点击奖励图标，这里为你提供了一根火把用于照明。"
+			]
+			size: 2.0d
 			id: "7FF57EE6F8F6FC1C"
 			tasks: [{
-				id: "1A4B7F6D74AF92E1"
-				type: "checkmark"
-				title: "{chapter.1.quest.20.task.1.title}"
-			}]
-		}
-		{
-			title: "{chapter.1.quest.21.title}"
-			icon: "itemfilters:item_group"
-			x: -0.30000000000000004d
-			y: 6.69d
-			subtitle: "{chapter.1.quest.21.subtitle}"
-			description: ["{chapter.1.quest.21.description.1}"]
-			size: 1.55d
-			id: "000000000000009D"
-			tasks: [{
-				id: "000000000000009E"
-				type: "checkmark"
-				title: "{chapter.1.quest.21.task.1.title}"
+				id: "063DC6675EC1C0AC"
+				type: "dimension"
+				dimension: "minecraft:overworld"
 			}]
 			rewards: [{
-				id: "0C08BE9D98246BDB"
-				type: "item"
-				item: "minecraft:golden_carrot"
-			}]
-		}
-		{
-			icon: "minecraft:brewing_stand"
-			x: -1.15d
-			y: 8.4d
-			description: ["{chapter.1.quest.22.description.1}"]
-			dependencies: ["000000000000009D"]
-			size: 0.85d
-			optional: true
-			id: "64F9EE8910E19872"
-			tasks: [{
-				id: "3FE9F9324A9A75ED"
-				type: "checkmark"
-				title: "{chapter.1.quest.22.task.1.title}"
-			}]
-			rewards: [{
-				id: "42EF83110DC99AC4"
+				id: "7F6399762CFD3995"
 				type: "item"
 				item: {
-					id: "minecraft:cookie"
+					id: "minecraft:torch"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -713,6 +717,73 @@
 			}]
 		}
 		{
+			title: "人物提升和技能"
+			icon: "itemfilters:item_group"
+			x: -6.0d
+			y: 2.0d
+			subtitle: "关于属性的更多介绍"
+			description: [
+				"Project MMO模组添加了一系列可通过一些行为升级的属性。"
+				""
+				"你可以按下快捷键访问Project MMO菜单（默认：P）。在这你可以查看属性、技能、术语、增益、如何获得经验等等信息。"
+				""
+				"不同能力升级后，你能解锁不同的额外奖励，也能使用有等级要求的装备。"
+				""
+				"特定物品能增加经验获取数量，你只需手持或穿戴。"
+				""
+				"根据所处群系，不同技能也会有不同的经验倍率。例如：你能在沙漠群系获得更少的耕作经验；在海洋群系获得更多的游泳和钓鱼经验。"
+				""
+				"你可以创建或加入一支队伍，只需要输入\"/pmmo party\"命令，这能增加经验获取、减少友伤和共享一点经验。"
+			]
+			dependencies: ["79F271A2D7FA06A1"]
+			id: "000000000000009D"
+			tasks: [{
+				id: "000000000000009E"
+				type: "checkmark"
+				title: "Project MMO"
+			}]
+			rewards: [{
+				id: "028B92F60396E179"
+				type: "item"
+				title: "有很多东西要读，喝点水润润喉吧！"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "炼金"
+			icon: "minecraft:brewing_stand"
+			x: -4.25d
+			y: 1.275d
+			description: [
+				"炼金经验通过制作炼药材料和酿造药水获得。"
+				""
+				"炼金等级越高，酿造时获得额外药水的概率就越高。"
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "64F9EE8910E19872"
+			tasks: [{
+				id: "61D1CC9EF6A0B00D"
+				type: "pmmo:skill"
+				title: "达到炼金 2"
+				skill: "alchemy"
+				requiredLevel: 2.0d
+			}]
+		}
+		{
+			title: "灵敏"
 			icon: {
 				id: "minecraft:iron_boots"
 				Count: 1b
@@ -720,61 +791,55 @@
 					Damage: 0
 				}
 			}
-			x: 1.4d
-			y: 6.69d
-			description: ["{chapter.1.quest.23.description.1}"]
+			x: -6.8d
+			y: 3.8249999999999997d
+			description: [
+				"灵敏技能通过以下方式获得："
+				""
+				"-疾跑：跑的越远，获得的经验就越多（药水可以增加效率）。"
+				""
+				"-跳跃：跳的越高，获得的经验就越多（药水可以增加效率）。"
+				""
+				"-缓冲摔落伤害（受到摔落伤害时有概率发生）。"
+				""
+				"灵敏等级越高，缓冲摔落伤害的概率就越高。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "63F8E2CB45B9803D"
 			tasks: [{
-				id: "3C321FB0BBBB71CF"
-				type: "checkmark"
-				title: "{chapter.1.quest.23.task.1.title}"
-			}]
-			rewards: [{
-				id: "213C8DF50385C565"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "7B2B6E360C95350B"
+				type: "pmmo:skill"
+				title: "达到灵敏 2"
+				skill: "agility"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "游泳"
 			icon: "minecraft:tropical_fish"
-			x: 0.55d
-			y: 8.4d
-			description: ["{chapter.1.quest.24.description.1}"]
+			x: -4.25d
+			y: 3.8249999999999997d
+			description: [
+				"游泳技能可以通过在水里游泳来升级。"
+				""
+				"水下夜视在25级时解锁。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "214CDC923D179E56"
 			tasks: [{
-				id: "5FFBB579483535DF"
-				type: "checkmark"
-				title: "{chapter.1.quest.24.task.1.title}"
-			}]
-			rewards: [{
-				id: "27A876A72644EE4A"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "06992B436F4CECB3"
+				type: "pmmo:skill"
+				title: "达到游泳 2"
+				skill: "swimming"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "飞行"
 			icon: {
 				id: "minecraft:elytra"
 				Count: 1b
@@ -782,33 +847,27 @@
 					Damage: 0
 				}
 			}
-			x: 1.4d
-			y: 7.55d
-			description: ["{chapter.1.quest.25.description.1}"]
+			x: -4.25d
+			y: 2.975d
+			description: [
+				"飞行技能通过使用鞘翅飞行来升级。"
+				""
+				"这个技能没有升级奖励。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "0A0E3A6CA17F84F9"
 			tasks: [{
-				id: "6AA18B31884A0323"
-				type: "checkmark"
-				title: "{chapter.1.quest.25.task.1.title}"
-			}]
-			rewards: [{
-				id: "1F9CC79DD8FA4F59"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "5FEF56B865BDB228"
+				type: "pmmo:skill"
+				title: "达到飞行 2"
+				skill: "flying"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "忍耐"
 			icon: {
 				id: "minecraft:iron_chestplate"
 				Count: 1b
@@ -816,33 +875,27 @@
 					Damage: 0
 				}
 			}
-			x: 1.4d
-			y: 5.85d
-			description: ["{chapter.1.quest.26.description.1}"]
+			x: -5.1d
+			y: 0.425d
+			description: [
+				"忍耐技能通过受到伤害（掉落、被怪物伤害等）来升级。"
+				""
+				"随着忍耐等级的提高，你受到的伤害会降低，额外生命值会提高。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "78DB7D7B18894DA4"
 			tasks: [{
-				id: "329A1625CD6214D1"
-				type: "checkmark"
-				title: "{chapter.1.quest.26.task.1.title}"
-			}]
-			rewards: [{
-				id: "2042E69D2F7D8D6A"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "2D9E922E01FBDBC0"
+				type: "pmmo:skill"
+				title: "达到忍耐 2"
+				skill: "endurance"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "战斗"
 			icon: {
 				id: "minecraft:iron_sword"
 				Count: 1b
@@ -850,33 +903,29 @@
 					Damage: 0
 				}
 			}
-			x: -2.0d
-			y: 5.85d
-			description: ["{chapter.1.quest.27.description.1}"]
+			x: -6.8d
+			y: 0.425d
+			description: [
+				"战斗技能通过攻击生物造成伤害来升级。"
+				""
+				"如果生物是被动的、死亡的或满血被一击杀死的，获得的经验就会减少。"
+				""
+				"战斗等级越高，你造成的近战伤害就越高。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "71C94DF46703BB3F"
 			tasks: [{
-				id: "4E7CAB038758BA54"
-				type: "checkmark"
-				title: "{chapter.1.quest.27.task.1.title}"
-			}]
-			rewards: [{
-				id: "7FA838BD50290BEE"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "6ABDB73D0FACAA3F"
+				type: "pmmo:skill"
+				title: "达到战斗 2"
+				skill: "combat"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "箭术"
 			icon: {
 				id: "minecraft:bow"
 				Count: 1b
@@ -884,33 +933,31 @@
 					Damage: 0
 				}
 			}
-			x: -2.0d
-			y: 6.69d
-			description: ["{chapter.1.quest.28.description.1}"]
+			x: -4.25d
+			y: 0.425d
+			description: [
+				"箭术通过用弓射击生物来升级。"
+				""
+				"如果怪物被一击杀死或箭矢飞行超过16格，获得的经验就越多。"
+				""
+				"箭术等级越高，用弓造成的伤害就越高。"
+				""
+				"注意：获得经验有一些问题，我们暂时无法解决。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "261FF95C675A0E98"
 			tasks: [{
-				id: "5CB7A94DEE4ADAD5"
-				type: "checkmark"
-				title: "{chapter.1.quest.28.task.1.title}"
-			}]
-			rewards: [{
-				id: "4CF3274B22645B32"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "05496F61D6933A07"
+				type: "pmmo:skill"
+				title: "达到箭术 2"
+				skill: "archery"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "挖掘"
 			icon: {
 				id: "minecraft:iron_shovel"
 				Count: 1b
@@ -918,33 +965,27 @@
 					Damage: 0
 				}
 			}
-			x: 0.55d
-			y: 5.0d
-			description: ["{chapter.1.quest.29.description.1}"]
+			x: -7.6499999999999995d
+			y: 2.125d
+			description: [
+				"挖掘技能通过破坏泥土或泥土相关的方块来升级。"
+				""
+				"挖掘等级越高，挖掘速度就越快，并且能在挖掘时发现宝藏。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "5AC9081752E85D51"
 			tasks: [{
-				id: "1E0BD10C0AEDDA2C"
-				type: "checkmark"
-				title: "{chapter.1.quest.29.task.1.title}"
-			}]
-			rewards: [{
-				id: "747ABF4AEDD1C134"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "4B5BBF2D8C973C8E"
+				type: "pmmo:skill"
+				title: "达到挖掘 2"
+				skill: "excavation"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "采掘"
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				Count: 1b
@@ -952,33 +993,27 @@
 					Damage: 0
 				}
 			}
-			x: -0.3d
-			y: 5.0d
-			description: ["{chapter.1.quest.30.description.1}"]
+			x: -7.6499999999999995d
+			y: 1.275d
+			description: [
+				"采掘技能通过破坏岩石或岩石相关的方块来升级。"
+				""
+				"采掘等级越高，挖掘速度越快，并且在挖掘时获得额外物品。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "5562C277365DF050"
 			tasks: [{
-				id: "27065C11D7892632"
-				type: "checkmark"
-				title: "{chapter.1.quest.30.task.1.title}"
-			}]
-			rewards: [{
-				id: "0A6359E4B13C16B9"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "73CC33A7E58D3A98"
+				type: "pmmo:skill"
+				title: "达到采掘 2"
+				skill: "mining"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "砍伐"
 			icon: {
 				id: "minecraft:iron_axe"
 				Count: 1b
@@ -986,33 +1021,27 @@
 					Damage: 0
 				}
 			}
-			x: -1.15d
-			y: 5.0d
-			description: ["{chapter.1.quest.31.description.1}"]
+			x: -7.6499999999999995d
+			y: 2.975d
+			description: [
+				"砍伐技能通过破坏木质方块来升级（原木、木板等）。"
+				""
+				"砍伐等级越高，挖掘速度就越快，并且有概率获得额外木质方块。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "416E81CE76446066"
 			tasks: [{
-				id: "53F6058FA66F0D87"
-				type: "checkmark"
-				title: "{chapter.1.quest.31.task.1.title}"
-			}]
-			rewards: [{
-				id: "27B553667632567D"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "445298890AE1F456"
+				type: "pmmo:skill"
+				title: "达到砍伐 2"
+				skill: "woodcutting"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "种植"
 			icon: {
 				id: "minecraft:iron_hoe"
 				Count: 1b
@@ -1020,33 +1049,27 @@
 					Damage: 0
 				}
 			}
-			x: -2.0d
-			y: 5.0d
-			description: ["{chapter.1.quest.32.description.1}"]
+			x: -5.1d
+			y: 3.8249999999999997d
+			description: [
+				"种植技能通过收获植物或喂养动物来升级。"
+				""
+				"种植等级越高，从单个作物收获数量就越多，并能收获的更快。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "128C6C5B6273C0F3"
 			tasks: [{
-				id: "11AA91F96D236C7E"
-				type: "checkmark"
-				title: "{chapter.1.quest.32.task.1.title}"
-			}]
-			rewards: [{
-				id: "537A67485463EC65"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "084B09B8D7B4FCF9"
+				type: "pmmo:skill"
+				title: "达到种植 2"
+				skill: "farming"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "垂钓"
 			icon: {
 				id: "minecraft:fishing_rod"
 				Count: 1b
@@ -1054,90 +1077,96 @@
 					Damage: 0
 				}
 			}
-			x: -0.3d
-			y: 8.4d
-			description: ["{chapter.1.quest.33.description.1}"]
+			x: -7.6499999999999995d
+			y: 3.8249999999999997d
+			description: [
+				"你肯定猜不到怎么获得垂钓经验。啊对，是钓鱼。真疯狂。"
+				""
+				"垂钓等级越高，就更有可能获得更好的物品，获得更好附魔物品的概率也越高。"
+				""
+				"在辞典中你可以看到详细信息。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "4C18DC09C5FFB372"
 			tasks: [{
-				id: "26DAF84205172A75"
-				type: "checkmark"
-				title: "{chapter.1.quest.33.task.1.title}"
-			}]
-			rewards: [{
-				id: "1C1A31BE2C5DDBD2"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "23AC77799D109F45"
+				type: "pmmo:skill"
+				title: "达到垂钓 2"
+				skill: "fishing"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "魔法"
 			icon: "ars_nouveau:wand"
-			x: -2.0d
-			y: 7.55d
-			description: ["{chapter.1.quest.34.description.1}"]
+			x: -7.6499999999999995d
+			y: 0.425d
+			description: [
+				"魔法技能通过挖掘魔法矿物、阅读宝典或释放法术来升级。"
+				""
+				"大多数非弓造成的远程攻击也会计入魔法经验，例如丢石头。"
+				""
+				"魔法等级越高，你的最大魔力值、魔力回复速度和魔法伤害就越高。"
+				""
+				"注意：获得经验有一些问题，我们暂时无法解决。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "777FFBDE3AD629F9"
 			tasks: [{
-				id: "15EB7D2E5444C8BB"
-				type: "checkmark"
-				title: "{chapter.1.quest.34.task.1.title}"
-			}]
-			rewards: [{
-				id: "7487E97E1F0700C7"
-				type: "item"
-				item: "ars_nouveau:mana_gem"
+				id: "0CF73E140BE52E48"
+				type: "pmmo:skill"
+				title: "达到魔法 2"
+				skill: "magic"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
+			title: "巧匠"
 			icon: "minecraft:smithing_table"
-			x: -2.0d
-			y: 8.4d
-			description: ["{chapter.1.quest.35.description.1}"]
+			x: -4.25d
+			y: 2.125d
+			description: [
+				"巧匠技能通过在铁砧修复物品或在锻造台回收物品升级（需要潜行）"
+				""
+				"随着巧匠等级的提高，能获得以下奖励："
+				""
+				"-烧制矿物时，有概率获得额外产物。"
+				"-回收物品时，等级越高，成功的概率就越高，产物就越多。"
+				"-增加修复的耐久度，并且铁砧不容易坏。"
+				"-减少铁砧受损概率。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
 			id: "41F4A32BEA5C4295"
 			tasks: [{
-				id: "3B673FE9BA9A3CC0"
-				type: "checkmark"
-				title: "{chapter.1.quest.35.task.1.title}"
-			}]
-			rewards: [{
-				id: "54F73585773748D8"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "21B0F582F8246761"
+				type: "pmmo:skill"
+				title: "达到巧匠 2"
+				skill: "smithing"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
-			title: "{chapter.1.quest.36.title}"
-			x: 2.0d
-			y: 2.5d
-			description: ["{chapter.1.quest.36.description.1}"]
+			title: "指路石"
+			x: 3.0d
+			y: 4.0d
+			description: [
+				"指路石被激活后，能让玩家使用传送卷轴、传送石或另一个指路石传送到其旁边。"
+				""
+				"你可以在野外或村庄中找到指路石。"
+				""
+				"你可以在商店中购买并放在你想放的地方。"
+			]
 			id: "6AA5B436C67A93FF"
 			tasks: [{
 				id: "26621448B976E40A"
 				type: "observation"
-				title: "{chapter.1.quest.36.task.1.title}"
+				title: "找到一个指路石"
 				icon: {
 					id: "waystones:waystone"
 					Count: 1b
@@ -1158,6 +1187,7 @@
 			}]
 		}
 		{
+			title: "采集"
 			icon: {
 				id: "bountifulbaubles:gloves_digging_iron"
 				Count: 1b
@@ -1165,99 +1195,32 @@
 					Damage: 0
 				}
 			}
-			x: 1.4d
-			y: 5.0d
-			description: ["{chapter.1.quest.37.description.1}"]
-			dependencies: ["000000000000009D"]
+			x: -8.5d
+			y: 2.125d
+			description: [
+				"采集技能通过采掘、挖掘或砍伐来升级。"
+				""
+				"采集等级越高，你能使用的物品质量就越好。"
+			]
+			dependencies: [
+				"416E81CE76446066"
+				"5562C277365DF050"
+				"5AC9081752E85D51"
+			]
+			dependency_requirement: "one_completed"
 			size: 0.85d
+			optional: true
 			id: "6754527124EA8B6B"
 			tasks: [{
-				id: "75B1CF2CFE5E288F"
-				type: "checkmark"
-				title: "{chapter.1.quest.37.task.1.title}"
-			}]
-			rewards: [{
-				id: "16655502056D1B37"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "2D5AB0F4310659C7"
+				type: "pmmo:skill"
+				title: "达到采集 2"
+				skill: "gathering"
+				requiredLevel: 2.0d
 			}]
 		}
 		{
-			title: "{chapter.1.quest.38.title}"
-			x: -0.875d
-			y: 9.5d
-			description: ["{chapter.1.quest.38.description.1}"]
-			dependencies: ["6FCA404FDB2D82CC"]
-			id: "0A7911EB233F4FD6"
-			tasks: [{
-				id: "15DC3E6F6598D84C"
-				type: "checkmark"
-				title: "{chapter.1.quest.38.task.1.title}"
-				icon: {
-					id: "buzzier_bees:lime_candle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 0.25d
-			y: 9.5d
-			description: ["{chapter.1.quest.39.description.1}"]
-			dependencies: ["0A7911EB233F4FD6"]
-			id: "09F74D0C27C859A1"
-			tasks: [{
-				id: "28FEC88005A016BF"
-				type: "checkmark"
-				title: "{chapter.1.quest.39.task.1.title}"
-				icon: {
-					id: "buzzier_bees:orange_candle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "{chapter.1.quest.40.title}"
-			icon: "buzzier_bees:purple_candle"
-			x: 1.375d
-			y: 9.5d
-			description: ["{chapter.1.quest.40.description.1}"]
-			dependencies: ["09F74D0C27C859A1"]
-			id: "0054E85C9D29551B"
-			tasks: [{
-				id: "6BE566D5A9954337"
-				type: "checkmark"
-				title: "{chapter.1.quest.40.task.1.title}"
-				icon: {
-					id: "buzzier_bees:purple_candle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "{chapter.1.quest.41.title}"
+			title: "职业专精"
 			icon: {
 				id: "kubejs:mark_miner"
 				Count: 1b
@@ -1267,15 +1230,24 @@
 					}
 				}
 			}
-			x: 2.5d
-			y: 4.5d
-			description: ["{chapter.1.quest.41.description.1}"]
-			dependencies: ["7D7A71EA9FCC15E2"]
+			x: 3.75d
+			y: -2.0d
+			shape: "hexagon"
+			description: [
+				"你可以在职业专精章节选择初始装备。你可以获得用于提升pmmo经验的职业徽章，不过你无法改变自己的职业。如果你在服务器中游玩，你需要在加入队伍之前选择职业。"
+				""
+				"将鼠标移到左侧章节页，选择职业专精查看更多信息。"
+			]
+			dependencies: [
+				"7D7A71EA9FCC15E2"
+				"68203BBBB58B26EA"
+			]
+			size: 1.5d
 			id: "0A8694E6D7E5B93E"
 			tasks: [{
 				id: "5FA8841A3A900FF6"
 				type: "questsadditions:time"
-				title: "{chapter.1.quest.41.task.1.title}"
+				title: "选择一个职业专精"
 				icon: {
 					id: "kubejs:mark_huntsman"
 					Count: 1b
@@ -1290,16 +1262,22 @@
 		}
 		{
 			icon: "ars_nouveau:glyph_leap"
-			x: -0.5d
-			y: -2.0d
-			subtitle: "{chapter.1.quest.42.subtitle}"
-			description: ["{chapter.1.quest.42.description.1}"]
-			dependencies: ["56127AAF761DC8DA"]
+			x: -2.0d
+			y: -1.5d
+			subtitle: "使用蹬墙跳模组跳到三格高的墙上！"
+			description: [
+				"朝着墙跳，然后按住蹬墙快捷键（默认：Shift）能让你\"吸附\"在墙上一小段时间。"
+				""
+				"你无法永远停在墙上，一小段时间后你就会开始往下滑。"
+				""
+				"松开蹬墙快捷键就能再次向上跳跃一段距离。"
+			]
+			dependencies: ["0E5AE2A43020AFC3"]
 			id: "0617314E10C6AEF9"
 			tasks: [{
 				id: "5E69C9DEC9B3F925"
 				type: "checkmark"
-				title: "{chapter.1.quest.42.task.1.title}"
+				title: "蹬——跳！"
 			}]
 			rewards: [{
 				id: "19A9DBC835F1A160"
@@ -1320,10 +1298,22 @@
 		}
 		{
 			icon: "bountifulbaubles:broken_black_dragon_scale"
-			x: 1.4d
-			y: 8.4d
-			subtitle: "{chapter.1.quest.43.subtitle}"
-			description: ["{chapter.1.quest.43.description.1}"]
+			x: -5.95d
+			y: 3.8249999999999997d
+			subtitle: "巨龙击杀者，暗影，光明，旅行，地牢工程学"
+			description: [
+				"这些技能与其他技能不同，它们没有额外的奖励，仅作为物品的使用需求。"
+				""
+				"巨龙击杀者通过击杀巨龙获得。"
+				""
+				"暗影通过击杀特定怪物（查看Glossary's Mobs信息页）和制作Eidolon模组物品获得。"
+				""
+				"光明通过击杀特定怪物（查看Glossary's Mobs信息页）获得。"
+				""
+				"旅行通过探索新建筑和地区获得。"
+				""
+				"地牢工程学通过制作和挖掘地牢相关的物品或方块获得。"
+			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1331,33 +1321,35 @@
 			tasks: [{
 				id: "4544ECA11FB881CE"
 				type: "checkmark"
-				title: "{chapter.1.quest.43.task.1.title}"
-			}]
-			rewards: [{
-				id: "528630BD504D98F0"
-				type: "item"
-				item: {
-					id: "minecraft:cookie"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				title: "其他技能"
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.0d
-			subtitle: "{chapter.1.quest.44.subtitle}"
-			description: ["{chapter.1.quest.44.description.1}"]
-			dependencies: ["56127AAF761DC8DA"]
+			x: -0.5d
+			y: -2.0d
+			subtitle: "精英怪"
+			description: [
+				"怪物有概率以精英怪形式生成，精英怪有更强的属性、额外技能和额外的战利品（附魔书和硬币）。"
+				""
+				"精英怪有着独特的前缀，能让他们获得不同的能力，等级越高，前缀越多。"
+				""
+				"精英怪有6个等级，等级越高则越强，幸运的是，一开始只会生成前两级的精英怪，直到你发展到特定阶段后才会逐渐解锁后续等级（稍后将详细介绍）"
+				""
+				"-等级1精英怪以黄色粒子标示，等级2则由橙色粒子标示。"
+				""
+				"在游戏初期，与精英怪战斗并不是最明智的选择。精英怪考验你的建造、敏捷和模组知识；盲目地拿着剑胡乱砍只会导致死亡。"
+				""
+				"面对这些怪物时，灵活运用之前所述的运动能力快速逃离险境。"
+			]
+			dependencies: [
+				"55DE8B3522A4F8A6"
+				"0617314E10C6AEF9"
+			]
 			id: "38049609F73B874B"
 			tasks: [{
 				id: "72DE9AD07435F340"
 				type: "checkmark"
-				title: "{chapter.1.quest.44.task.1.title}"
+				title: "精英怪"
 				icon: {
 					id: "kubejs:skull"
 					Count: 1b
@@ -1368,15 +1360,288 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "5B1856CC55FD4B38"
-				type: "item"
-				item: {
-					id: "roughtweaks:salve"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "076B6F8032E82625"
+					type: "item"
+					item: {
+						id: "minecraft:scaffolding"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
 					}
+					count: 3
+				}
+				{
+					id: "62F54DEF71163CC9"
+					type: "item"
+					item: {
+						id: "minecraft:oak_boat"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Just Enough Items (JEI)"
+			icon: "ars_nouveau:glyph_craft"
+			x: -6.0d
+			y: -2.0d
+			subtitle: "模组配方百科全书！"
+			description: [
+				"JEI是一个配方浏览器，它就在你的物品栏右侧。"
+				"你可以使用它搜索物品并查看其用途。"
+				""
+				"•将鼠标悬停在任意物品上（不一定要在JEI所在区域）然后按下\"R\"键，你就能看到这个物品的获取配方。"
+				"•按\"U\"键则会展示这个物品的用途。"
+				"•在搜索栏输入\"@\"，后面加上想要搜索的模组名，即可搜索特定模组的物品（例如@Quark）"
+				"•你可以按Ctrl+F快速选中搜索栏。"
+				"•标记一个配方（这样可以在之后快速查看配方）：悬停物品上，按\"A\"。"
+				""
+			]
+			dependencies: ["7FF57EE6F8F6FC1C"]
+			id: "7B1C0892C86A4177"
+			tasks: [{
+				id: "4665A7B467B41395"
+				type: "checkmark"
+				title: "JEI（配方浏览器）"
+			}]
+		}
+		{
+			title: "使用JEI"
+			x: -6.0d
+			y: -3.5d
+			description: [
+				"使用jei查看如何制作物品。"
+				""
+				"你可以点击任务中的物品查看它的配方。"
+				""
+				"这个包中大量任务（就像这个任务一样），需要获得特定物品才能完成。完成任务时，会自动在屏幕角落弹出提示。"
+				""
+				"完成任务不会消耗目标物品。"
+			]
+			dependencies: ["7B1C0892C86A4177"]
+			id: "1AC343ABFB96DF71"
+			tasks: [
+				{
+					id: "5D36D0A389583FD4"
+					type: "item"
+					item: {
+						id: "farmersdelight:cutting_board"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "68648A32FBB76FA4"
+					type: "item"
+					item: {
+						id: "aquaculture:wooden_fillet_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4A0EBC714D0220B9"
+					type: "item"
+					item: {
+						id: "iceandfire:earplugs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "kubejs:coin_q_1"
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"这个包中共可获得两种硬币，材料硬币和任务硬币。"
+				""
+				"任务硬币通过完成任务获得，并能在商店中购买物品。"
+				"商店能在任务右上角找到，它看起来像一个周围散落着硬币的袋子。"
+				""
+				"材料硬币（铜、铁、金、钻石）是实质的物品，掉落自精英怪。"
+				""
+				"精英怪越强，掉落的硬币就越好。"
+				""
+				"这些硬币能用于在左侧商店任务章节换取物品。"
+				""
+			]
+			dependencies: ["38049609F73B874B"]
+			id: "3F721FF28238E067"
+			tasks: [{
+				id: "330D37420BB0FF60"
+				type: "checkmark"
+				title: "硬币"
+			}]
+			rewards: [
+				{
+					id: "362840EA81A14A17"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "77EE4C757E3FCD49"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "PMMO技能"
+			x: -6.0d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "(关于属性的简要说明)"
+			description: [
+				"PMMO增加了在进行特定行为时能提升的属性。"
+				""
+				"这些属性会在屏幕左上角显示，通过快捷键切换是否显示（默认：左Alt）。"
+				""
+				"物品有等级需求、经验提升或能否被回收的词条，通过快捷键切换显示（默认：F6）"
+				""
+				"需求以技能名显示，决定了是否能使用工具、武器、护甲或物品。需求以红色和绿色显示，取决于你是否满足该需求。如果你不满足需求，就不能使用该物品。"
+				""
+				"经验提升能提升你获得的特定技能经验，以百分比显示在物品和屏幕左上角。大多能在盾牌和护甲上看到。主手手持、副手手持或穿戴都能生效，在特定群系或维度也会影响经验提升。"
+				""
+				"当你死亡时，会丢失25%等级进度，但不会低于已有等级，意味着你不会因为死亡太多而失去物品的使用权。"
+			]
+			dependencies: ["7B1C0892C86A4177"]
+			id: "79F271A2D7FA06A1"
+			tasks: [{
+				id: "35029CE2D859E7F9"
+				type: "pmmo:skill"
+				skill: "agility"
+				requiredLevel: 1.0d
+			}]
+			rewards: [{
+				id: "3EF5B45E046B2310"
+				type: "random"
+				table_id: 8545390299491237994L
+			}]
+		}
+		{
+			title: "重铸？"
+			icon: "minecraft:smithing_table"
+			x: -3.0d
+			y: 1.5d
+			subtitle: "没有哥布林会抢走你幸苦得来的铂金币"
+			description: [
+				"与锻造台交互来重铸物品。"
+				""
+				"点击重铸按钮。"
+				""
+				"添加物品和它的修复材料，然后点击锤子"
+				""
+				"如果物品没有修复材料（例如饰品），则需要一个下界之星。"
+			]
+			dependencies: [
+				"41F4A32BEA5C4295"
+				"4C74D405A58FCD5B"
+			]
+			dependency_requirement: "one_started"
+			id: "0D3A108B094C746F"
+			tasks: [{
+				id: "73E91283ED684744"
+				type: "observation"
+				title: "重铸？"
+				icon: "minecraft:smithing_table"
+				timer: 80L
+				observe_type: 0
+				to_observe: "minecraft:smithing_table"
+			}]
+			rewards: [
+				{
+					id: "35A3201138EF4229"
+					type: "item"
+					item: {
+						id: "minecraft:cobblestone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "665C2F0D72342C11"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "困难模式助力包"
+			x: -3.0d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"当你加入一个已经开启专家或大师模式的服务器时，这个助力包将帮助你克服难度提升的问题。"
+				""
+				"这些属性将让你满足穿戴铁装备和使用基础法术书的需求。"
+				""
+				"这些pmmo属性不受经验提升的影响。"
+			]
+			hide_text_until_complete: false
+			size: 2.0d
+			optional: true
+			secret: true
+			id: "54D9FFC26A3D59D8"
+			tasks: [{
+				id: "2358E374BEAF092F"
+				type: "custom"
+				title: "领取专家助力包"
+				icon: {
+					id: "kubejs:levelup"
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1384,10 +1649,240 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "0E5266FECA3997C1"
+					type: "pmmo:xpreward"
+					title: "战斗等级25"
+					auto: "disabled"
+					skill: "combat"
+					amount: 7789.0d
+					ignoreBonuses: true
+				}
+				{
+					id: "1FA0C2103D1E12C1"
+					type: "pmmo:xpreward"
+					title: "忍耐等级15"
+					auto: "disabled"
+					skill: "endurance"
+					amount: 2393.0d
+					ignoreBonuses: true
+				}
+				{
+					id: "1DAEC6762DD48417"
+					type: "pmmo:xpreward"
+					title: "采集等级15"
+					auto: "disabled"
+					skill: "gathering"
+					amount: 2393.0d
+					ignoreBonuses: true
+				}
+				{
+					id: "632B23245C44939E"
+					type: "pmmo:xpreward"
+					title: "灵敏等级3"
+					auto: "disabled"
+					skill: "agility"
+					amount: 175.0d
+					ignoreBonuses: true
+				}
+				{
+					id: "32C7CA5F262D7736"
+					type: "pmmo:xpreward"
+					title: "箭术等级8"
+					auto: "disabled"
+					skill: "archery"
+					amount: 798.0d
+					ignoreBonuses: true
+				}
+				{
+					id: "12FE6DE37AB9BE03"
+					type: "pmmo:xpreward"
+					title: "魔法等级5"
+					auto: "disabled"
+					skill: "magic"
+					amount: 388.0d
+					ignoreBonuses: true
+				}
+				{
+					id: "6746AF49B352E648"
+					type: "item"
+					auto: "disabled"
+					item: {
+						id: "enigmaticlegacy:iron_ring"
+						Count: 1b
+						tag: {
+							itemModifier: "modifiers:rough"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4DE7A604DA877394"
+					type: "item"
+					auto: "disabled"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								Duration: 12000
+								Id: 95b
+							}]
+							Potion: "minecraft:mundane"
+							display: {
+								Name: "[{\"translate\":\"item.minecraft.potion\",\"italic\":false},{\"text\":\" of \"},{\"translate\":\"effect.majruszs_difficulty.bleeding_immunity\"}]"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4F3C942CE4E1AD39"
+					type: "item"
+					item: {
+						id: "curios:knuckles"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"这些拳头是为了帮助困境中的人们的。\",\"color\":\"light_purple\"}"]
+								Name: "{\"text\":\"RAD2 & 指虎\",\"color\":\"gold\",\"italic\":false}"
+							}
+							itemModifier: "modifiers:angelic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
+			title: "回收？"
+			icon: "minecraft:smithing_table"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "让我帮你把它粉碎"
+			description: [
+				"回收物品能退还一部分该物品的合成材料。"
+				""
+				"要回收物品，你需要潜行与锻造台交互。"
+				""
+				"特定物品需要特定巧匠等级来回收。"
+				""
+				"当巧匠等级达到50时，你将解锁双倍回收能力，这能让你同时回收双手中的物品。"
+			]
+			dependencies: ["41F4A32BEA5C4295"]
+			dependency_requirement: "one_started"
+			id: "17C2CFAA419DAA42"
+			tasks: [{
+				id: "6161B1DF42B0DED6"
+				type: "observation"
+				title: "回收？"
+				icon: {
+					id: "minecraft:smithing_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 100L
+				observe_type: 0
+				to_observe: "minecraft:smithing_table"
+			}]
+			rewards: [
+				{
+					id: "54B7E10B084F7F89"
+					type: "item"
+					item: {
+						id: "minecraft:ladder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "306AB7B8566E39A5"
+					type: "item"
+					item: {
+						id: "minecraft:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "36A4BB978DC355E0"
+					type: "item"
+					item: {
+						id: "minecraft:redstone_torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "地牢宝藏"
+			x: -4.0d
+			y: -2.0d
+			subtitle: "所有人都有战利品！"
+			description: [
+				"在各种结构中找到的箱子看起来与原版的不太一样。"
+				""
+				"这些点缀着珠宝的箱子是Lootr模组添加的，能够将战利品箱变为独立的，使每个人都能获得战利品。"
+				"你放入的任何物品其他玩家同样看不到。"
+				""
+				"如果你已经打开了lootr箱子，其材质就会变成蓝灰色。"
+				""
+				"同样的，一些结构中还有桶和潜影盒版本。"
+			]
+			dependencies: ["143E7EB383FC8A60"]
+			id: "2B14E71EF06F5938"
+			tasks: [{
+				id: "74E46D8664297FE3"
+				type: "observation"
+				title: "发现一个Lootr宝箱"
+				icon: {
+					id: "lootr:lootr_chest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 50L
+				observe_type: 0
+				to_observe: "lootr:lootr_chest"
+			}]
+		}
+		{
+			title: "连锁挖掘"
 			icon: {
-				id: "enigmaticlegacy:enchantment_transposer"
+				id: "kubejs:mine"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
@@ -1395,35 +1890,84 @@
 					}
 				}
 			}
-			x: 2.5d
-			y: 8.5d
-			description: ["{chapter.1.quest.45.description.1}"]
-			id: "4FFE28F3DB5EC162"
+			x: -5.0d
+			y: -2.0d
+			description: [
+				"这个包添加了连锁挖掘功能，让玩家能一次挖掘多个同种矿石或砍倒整棵树。"
+				""
+				"你需要手持工具，并且挖掘矿石或原木才能触发这个功能。"
+				""
+				"快捷键（你也可以更改）："
+				"`-（按住）连锁"
+			]
+			dependencies: ["7B1C0892C86A4177"]
+			id: "143E7EB383FC8A60"
 			tasks: [{
-				id: "4C7B1B6EFBA461F3"
+				id: "0EEDD89EE27ED37B"
 				type: "checkmark"
-				title: "{chapter.1.quest.45.task.1.title}"
+				title: "连锁挖掘"
 			}]
 			rewards: [{
-				id: "48EE2F06FDD8213D"
+				id: "65B246D328EEEA52"
 				type: "item"
-				icon: {
-					id: "minecraft:enchanted_book"
+				item: {
+					id: "minecraft:potion"
 					Count: 1b
 					tag: {
-						StoredEnchantments: [{
-							lvl: 5s
-							id: "minecraft:protection"
-						}]
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+						Potion: "apotheosis:strong_haste"
 					}
 				}
-				item: {
-					id: "minecraft:book"
+			}]
+		}
+		{
+			title: "属性调整"
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"属性调整功能会随机给予工具、护甲、盾牌或饰品额外词条。"
+				""
+				"这些词条对于玩家来说有好有坏。"
+				""
+				"通常会随机出影响基础属性的词条，例如额外生命值、伤害或防御，有时也会有新的额外属性。大多都是顾名思义的，但也有一些需要加以解释："
+				""
+				"-亡灵杀手：对亡灵生物造成额外伤害"
+				"-祝福：攻击你的亡灵生物会受到大量伤害"
+				"-得天独厚：额外战利品、时运和幸运"
+				"-生命偷取：根据击杀的怪物生命值比例回复血量"
+				"-灵魂收割/灵魂输导：击杀怪物时获得灵魂（查看之后的灵魂任务）"
+				"-召唤输导：能使用地下城装备模组中的奇异饰品召唤更多怪物"
+			]
+			dependencies: ["0E5AE2A43020AFC3"]
+			hide: false
+			id: "4C74D405A58FCD5B"
+			tasks: [{
+				id: "6679EE100F918A88"
+				type: "checkmark"
+				title: "属性调整"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"在获得地下城装备模组中的特定奇异饰品后，你可能会注意到屏幕左下角出现了一个蓝色条。"
+				""
+				"击杀怪物能获得相当于你总灵魂收割属性的灵魂。你默认拥有300灵魂上限。"
+				""
+				"这个属性能在灵魂相关的武器/护甲属性调整词条中找到。"
+				""
+				"灵魂可以用于使用特定的奇异饰品。查看饰品与饰物任务章节查看详细信息。"
+				""
+				"特定附魔也能受益于灵魂持有量，例如灵魂共振。"
+			]
+			dependencies: ["4C74D405A58FCD5B"]
+			id: "2E5549A74BA848D1"
+			tasks: [{
+				id: "58DFC370CBEDC229"
+				type: "checkmark"
+				title: "灵魂"
+				icon: {
+					id: "quark:soul_bead"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {

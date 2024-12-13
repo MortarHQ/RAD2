@@ -3,18 +3,26 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 5
 	filename: "into_the_sands"
-	title: "{chapter.11.title}"
+	title: "没入沙中"
 	icon: "atum:scarab"
-	subtitle: ["{chapter.11.subtitle}"]
+	subtitle: ["阿图姆2"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.11.quest.1.title}"
+			title: "阿图姆：沙漠之旅"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "{chapter.11.quest.1.subtitle}"
-			description: ["{chapter.11.quest.1.description.1}"]
+			subtitle: "进入阿图姆维度"
+			description: [
+				"阿图姆传送门：搭建一个5x5的地板，然后再抬高一层，在抬高层中间挖出3x3的洞，然后用水填满。"
+				""
+				"每个角必须有2个高柱子。"
+				""
+				"向水中扔一个圣甲虫来激活传送门。"
+				""
+				"搭建传送门的所有方块都必须由原版砂石制作。"
+			]
 			size: 1.5d
 			id: "4352370BD2C34188"
 			tasks: [
@@ -161,7 +169,7 @@
 		{
 			x: -3.5d
 			y: 0.0d
-			description: ["{chapter.11.quest.8.description.1}"]
+			description: ["这个方块没有GUI。你需要手持输入物品右键它，然后按住右键研磨物品。"]
 			id: "0FA8AD42BF6007FD"
 			tasks: [{
 				id: "4F62BA7D685ED2D5"
@@ -185,7 +193,7 @@
 		{
 			x: -5.0d
 			y: 0.0d
-			description: ["{chapter.11.quest.9.description.1}"]
+			description: ["这个方块没有GUI。你需要手持输入物品右键顶部，然后按住右键直到侧边的材质发生变化，变化后你就可以右击侧边获得产物。"]
 			id: "6CE59E0F65B99584"
 			tasks: [{
 				id: "339F317311EC8EB9"
@@ -224,8 +232,12 @@
 		{
 			x: -6.5d
 			y: 0.0d
-			subtitle: "{chapter.11.quest.11.subtitle}"
-			description: ["{chapter.11.quest.11.description.1}"]
+			subtitle: "神之锻炉"
+			description: [
+				"利用神铸熔炉和奈布之锤，你可以重铸不想要的神铸物品。"
+				""
+				"只需要在熔炉里填入熔岩，然后放入任意神铸物品，它就会将其烧炼成相应碎片。"
+			]
 			id: "65776DFA812A6986"
 			tasks: [
 				{
@@ -1446,7 +1458,7 @@
 		{
 			x: 9.5d
 			y: -4.5d
-			description: ["{chapter.11.quest.47.description.1}"]
+			description: [""]
 			dependencies: ["43CC5882023343EA"]
 			id: "72B8966C744595E7"
 			tasks: [{
@@ -3911,10 +3923,10 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.99.title}"
+			title: "碎片收集者"
 			x: -7.5d
 			y: 0.0d
-			description: ["{chapter.11.quest.99.description.1}"]
+			description: ["收集每种古代力量碎片。"]
 			dependencies: ["65776DFA812A6986"]
 			id: "15CF843E09C1AB15"
 			tasks: [
@@ -4120,17 +4132,17 @@
 			]
 		}
 		{
-			title: "{chapter.11.quest.100.title}"
+			title: "神明之力碎片"
 			x: -6.5d
 			y: -1.0d
-			subtitle: "{chapter.11.quest.100.subtitle}"
-			description: ["{chapter.11.quest.100.description.1}"]
+			subtitle: "粉碎它们的信仰"
+			description: ["用于制作多种物品。最重要的两种物品是神之炬和神铸立方。"]
 			dependencies: ["65776DFA812A6986"]
 			id: "6000A5327F9AB578"
 			tasks: [{
 				id: "143873241FA55999"
 				type: "item"
-				title: "{chapter.11.quest.100.task.1.title}"
+				title: "任意#atum:godshards"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -4148,8 +4160,14 @@
 		{
 			x: -7.5d
 			y: -1.0d
-			subtitle: "{chapter.11.quest.101.subtitle}"
-			description: ["{chapter.11.quest.101.description.1}"]
+			subtitle: "破而后立"
+			description: [
+				"这些方块能让玩家随机获得一种新的神铸物品。"
+				""
+				"物品的神明种类取决于方块种类，普通的神铸立方会掉落任意神铸物品。"
+				""
+				"只需要将神铸立方放置下来，然后用奈布之锤破坏它。破坏后你就能得到一种新的神铸物品。"
+			]
 			dependencies: ["6000A5327F9AB578"]
 			min_required_tasks: 1
 			id: "2C98D97E3EC5A3E5"
@@ -4370,11 +4388,11 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.102.title}"
+			title: "神之炬"
 			x: -6.5d
 			y: -2.0d
-			subtitle: "{chapter.11.quest.102.subtitle}"
-			description: ["{chapter.11.quest.102.description.1}"]
+			subtitle: "唤起众神"
+			description: ["替换奈布火把召唤法老时，则只会召唤出对应种类的法老，也就意味着掉落对应种类的神铸物品。"]
 			dependencies: ["6000A5327F9AB578"]
 			min_required_tasks: 1
 			id: "3744033B79896746"
@@ -4582,7 +4600,7 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.103.title}"
+			title: "Desert Secrets"
 			icon: {
 				id: "atum:sarcophagus"
 				Count: 1b
@@ -4594,14 +4612,14 @@
 			}
 			x: 5.0d
 			y: -2.0d
-			subtitle: "{chapter.11.quest.103.subtitle}"
-			description: ["{chapter.11.quest.103.description.1}"]
+			subtitle: "遗忘已久"
+			description: ["这些尘封的建筑入口阻挡一切未经推敲的尝试。将奈布火把放置在这些入口附近的结界方块上，古老的结界就会被打开。"]
 			id: "70912EEE83C41996"
 			tasks: [
 				{
 					id: "7948015CFC088D89"
 					type: "structure"
-					title: "{chapter.11.quest.103.task.1.title}"
+					title: "找到一座金字塔"
 					icon: {
 						id: "atum:sarcophagus"
 						Count: 1b
@@ -4630,7 +4648,7 @@
 				{
 					id: "6A1F3324485A5E63"
 					type: "observation"
-					title: "{chapter.11.quest.103.task.3.title}"
+					title: "Observer Quandary Block"
 					icon: {
 						id: "atum:quandary_block"
 						Count: 1b
@@ -4654,15 +4672,14 @@
 		{
 			x: 6.5d
 			y: -2.0d
-			subtitle: "{chapter.11.quest.104.subtitle}"
-			description: ["{chapter.11.quest.104.description.1}"]
-			dependencies: ["70912EEE83C41996"]
+			subtitle: "嘘！你听到什么了吗？"
+			description: ["将奈布火把放在石棺旁的结界方块上，就能打开石棺。"]
 			id: "3BFDA57DB43B29F1"
 			tasks: [
 				{
 					id: "0F545833DE64715B"
 					type: "observation"
-					title: "{chapter.11.quest.104.task.1.title}"
+					title: "观察石棺"
 					icon: "atum:sarcophagus"
 					timer: 20L
 					observe_type: 0
@@ -4690,11 +4707,15 @@
 			}]
 		}
 		{
-			title: "{chapter.11.quest.105.title}"
+			title: "埋于沙中"
 			x: 0.0d
 			y: -2.5d
-			subtitle: "{chapter.11.quest.105.subtitle}"
-			description: ["{chapter.11.quest.105.description.1}"]
+			subtitle: "地底露出微光的古代遗物"
+			description: [
+				"这些遗物需要被清洗，你只需要把它们扔进水里。（扔在有水的坩埚里同样奏效）"
+				""
+				"清洗遗物时，你可能会失手，遗物就会损坏。"
+			]
 			id: "0B31940CA9D2174C"
 			tasks: [
 				{

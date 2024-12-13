@@ -3,17 +3,25 @@
 	group: "0FF98225FE921275"
 	order_index: 0
 	filename: "a_reliable_friend"
-	title: "{chapter.29.title}"
+	title: "值得信赖的伙伴"
 	icon: "doggytalents:doggy_charm"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.29.quest.1.title}"
+			title: "狗骨头"
 			x: -3.0d
 			y: -2.5d
 			shape: "gear"
-			description: ["{chapter.29.quest.1.description.1}"]
+			description: [
+				"步骤1："
+				"在野外找到一只狼（原版的狼）。"
+				"步骤2："
+				"给它喂骨头（手持骨头右键它）直到它头上出现爱心。如果它的脖子上出现项圈并且坐下了，就意味着你成功了！"
+				"步骤3："
+				"给狗狗喂至少一个训练口粮，接着它会消失一小小会，然后就会有一只没有项圈的狗狗出现在原本的地方。现在，你拥有一只天才小狗了！"
+			]
+			dependencies: ["3E1010E7853074C0"]
 			size: 1.5d
 			id: "000000000000062D"
 			tasks: [{
@@ -44,7 +52,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
-			description: ["{chapter.29.quest.2.description.1}"]
+			description: ["为狗狗升级的第一个口粮。它只能让狗狗升到20级。之后，你需要下一等级的口粮，名为超级口粮。"]
 			dependencies: ["000000000000062D"]
 			id: "000000000000062F"
 			tasks: [{
@@ -61,7 +69,14 @@
 		{
 			x: -0.5d
 			y: -0.5d
-			description: ["{chapter.29.quest.3.description.1}"]
+			description: [
+				"当你拥有一只天才小狗，你可以手持木棍（主副手都可以）右键它来打开小狗信息菜单。"
+				""
+				"你可以在这个菜单中给小狗改名、更改它的外表、添加小狗能力或选择小狗是否听从其他玩家。在菜单中，小狗的基础等级、突破等级和等级所需点数都会出现在它的名字下方。"
+				""
+				"为小狗升级的口粮有（按使用顺序排列）：训练口粮、超级口粮、大师口粮和顶级口粮；按顺序使用的口粮越多，为小狗增加的点数就越多。但最终，小狗会达到最高等级，"
+				"之后就不会再获得点数。"
+			]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000631"
 			tasks: [{
@@ -78,7 +93,7 @@
 		{
 			x: 1.5d
 			y: -4.5d
-			description: ["{chapter.29.quest.4.description.1}"]
+			description: ["为狗狗升级的第二个口粮。它只能让狗狗升到40级。之后，你需要下一等级的口粮，名为大师口粮。"]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000633"
 			tasks: [{
@@ -107,7 +122,7 @@
 		{
 			x: 3.5d
 			y: -4.5d
-			description: ["{chapter.29.quest.5.description.1}"]
+			description: ["为狗狗升级的第三个口粮。它只能让狗狗升到60级。之后，你需要下一等级的口粮，名为顶级口粮。"]
 			dependencies: ["0000000000000633"]
 			id: "0000000000000635"
 			tasks: [{
@@ -141,7 +156,10 @@
 		{
 			x: 5.5d
 			y: -4.5d
-			description: ["{chapter.29.quest.6.description.1}"]
+			description: [
+				"为狗狗升级的第四个口粮。它能提高突破等级，最多为30。之后，你将无法为小狗升级，你的小狗已经达到最高等级，同时，在最高等级，"
+				"小狗身上会出现末影粒子效果。"
+			]
 			dependencies: ["0000000000000635"]
 			id: "0000000000000637"
 			tasks: [{
@@ -174,10 +192,26 @@
 			]
 		}
 		{
-			title: "{chapter.29.quest.7.title}"
+			title: "口哨"
 			x: 3.5d
 			y: -2.5d
-			description: ["{chapter.29.quest.7.description.1}"]
+			description: [
+				"哨子有7种不同的模式来命令你附近的所有小狗。"
+				""
+				"口令-站好：让你的狗狗站在那"
+				""
+				"口令-跟上：让站着的狗狗传送到你身边。坐着的狗狗不会传送，所以请先让使用站立口令"
+				""
+				"口令-待着：让你的狗狗坐下"
+				""
+				"口令-懂了吗？：与口令-站好相同"
+				""
+				"牧羊哨子：牧羊狗可以将附近的动物背到背上然后运到你身边。"
+				""
+				"战术哨子：这个哨子会扔出一个雪球，然后将所有的狼切换为战术模式并攻击怪物。"
+				""
+				"咆哮哨子：拥有狂风怒吼天赋的狗狗能够使用一种强力的怒吼将怪物推开。"
+			]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000639"
 			tasks: [{
@@ -207,7 +241,10 @@
 		{
 			x: 5.0d
 			y: -1.5d
-			description: ["{chapter.29.quest.8.description.1}"]
+			description: [
+				"这个物品像是一张地图，但用于定位你的狗狗，前提是你需要为狗狗戴上雷达项圈。要定位狗狗，主手手持并右击这个物品，它就会告诉你狗狗与你相距多远，在哪个方向。然而，"
+				"这个物品只在你与狗狗在同一维度时有效。"
+			]
 			dependencies: ["0000000000000639"]
 			id: "000000000000063B"
 			tasks: [
@@ -244,7 +281,10 @@
 		{
 			x: -2.0d
 			y: -0.5d
-			description: ["{chapter.29.quest.9.description.1}"]
+			description: [
+				"这个物品能让你携带狗狗的食物。你可以直接手持袋子右键狗狗来喂它。"
+				"你也可以手持袋子右键狗食盆来将袋子中的食物放到食盆中。"
+			]
 			dependencies: ["0000000000000631"]
 			id: "000000000000063D"
 			tasks: [{
@@ -272,7 +312,7 @@
 			]
 		}
 		{
-			title: "{chapter.29.quest.10.title}"
+			title: "狗狗装饰品"
 			x: 2.0d
 			y: -1.5d
 			dependencies: ["0000000000000639"]
@@ -339,7 +379,10 @@
 		{
 			x: 3.0d
 			y: -0.5d
-			description: ["{chapter.29.quest.11.description.1}"]
+			description: [
+				"这会给你的狗狗一个项圈！主手手持项圈右键狗狗即可为它戴上项圈。你也可以自定义项圈的颜色，就像可穿戴背包模组（Wearable Backpacks）一样！"
+				"你只需要把项圈和染料放在工作台里或者直接对狗狗脖子上的项圈使用染料。你还可以用项圈剪刀将项圈拿下来。"
+			]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000644"
 			tasks: [
@@ -387,7 +430,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
-			description: ["{chapter.29.quest.12.description.1}"]
+			description: ["这根特殊的棍子能给你的狗狗5秒1级发光效果、10秒6级速度效果和5秒1级生命再生效果。"]
 			dependencies: ["0000000000000631"]
 			id: "0000000000000649"
 			tasks: [{
@@ -412,7 +455,10 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["{chapter.29.quest.13.description.1}"]
+			description: [
+				"你可以用这个物品和你的狗狗玩耍！首先，将狗狗设置为温顺模式，然后右键将骨头扔出去。狗狗会去追骨头，抓住它，然后把沾满口水的投掷骨头带回来。"
+				"再次扔骨头之前，你需要右键或在工作台中将它清洗干净，变回投掷骨头。"
+			]
 			dependencies: ["0000000000000649"]
 			id: "000000000000064B"
 			tasks: [{
@@ -442,7 +488,7 @@
 		{
 			x: 1.0d
 			y: 2.5d
-			description: ["{chapter.29.quest.14.description.1}"]
+			description: ["与投掷骨头用法一样。"]
 			dependencies: ["0000000000000649"]
 			id: "000000000000064D"
 			tasks: [{
@@ -477,7 +523,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["{chapter.29.quest.15.description.1}"]
+			description: ["培养狗狗必需的特殊骨头。"]
 			dependencies: ["0000000000000651"]
 			id: "000000000000064F"
 			tasks: [{
@@ -507,8 +553,17 @@
 		{
 			x: -1.5d
 			y: 1.0d
-			subtitle: "{chapter.29.quest.16.subtitle}"
-			description: ["{chapter.29.quest.16.description.1}"]
+			subtitle: "狗狗也可以复活！"
+			description: [
+				"这个东西能当做狗狗的重生点。"
+				""
+				"当你的狗狗坐在床上时，空手潜行右击床（主副手都可以）来将它们的重生点设置在此。如果放开潜行键直接右击床，就会展示这张床的主人狗狗。"
+				""
+				"如果狗狗去世了，点击它们的床就能让它们复活。"
+				"如果狗狗在另一个维度死亡，那么它们会在死亡的坐标处复活，而不是在床上。"
+				""
+				"在床上时，狗狗的回血速度也会更快。"
+			]
 			dependencies: ["0000000000000631"]
 			id: "0000000000000651"
 			tasks: [{
@@ -543,7 +598,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["{chapter.29.quest.17.description.1}"]
+			description: ["浴缸对于钓鱼小狗来说非常实用，因为连续不断的抖水意味着更多的鱼。"]
 			dependencies: ["0000000000000651"]
 			id: "0000000000000653"
 			tasks: [{
@@ -573,7 +628,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			description: ["{chapter.29.quest.18.description.1}"]
+			description: ["食物盆能自动给小狗喂食。"]
 			dependencies: ["0000000000000651"]
 			id: "0000000000000655"
 			tasks: [{
@@ -614,7 +669,7 @@
 		{
 			x: 4.0d
 			y: -0.5d
-			description: ["{chapter.29.quest.19.description.1}"]
+			description: ["这把特殊的剪刀用于将羊毛项圈从狗狗身上剪下来。同样的，它还可以放生你的狗狗。"]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000658"
 			tasks: [{
@@ -649,13 +704,36 @@
 		{
 			x: -0.5d
 			y: -4.5d
-			description: ["{chapter.29.quest.20.description.1}"]
+			description: [
+				"模式"
+				"这些模式控制着狗狗对其他实体的行为和与你的交互。每种模式的缩写提示会在狗狗上方显示出来，就像下面的图片一样。"
+				""
+				"温顺（D） "
+				"在此模式中，你的狗狗会跟着你，不攻击任何东西。当你扔出投掷骨头或投掷木棍时，它还会跟你玩耍。这个模式会以\"(D)\"显示在狗狗名字上方。"
+				""
+				"悠闲（W）"
+				"在这个模式中，你的狗狗会待在食盆附近并等待下一步指令。要设置你的狗食盆，只需要将你的狗狗带到食盆附近1个方块范围内。这个模式会以\"(W)\"显示在狗狗名字上方。"
+				""
+				"勇猛（A）"
+				"在这个模式中，你的狗狗会跟着你并攻击任何你攻击或攻击你的东西。这个模式会以\"(A)\"显示在狗狗名字上方。"
+				""
+				"狂暴（B）"
+				"在这个模式中，你的狗狗会跟着你并攻击附近的任何怪物。这个模式会以\"(B)\"显示在狗狗名字上方。"
+				""
+				"待令（T）"
+				"在这个模式中，你的狗狗会跟着你但不会攻击除了你使用命令光束攻击（主手手持右键）的任何东西。这个模式会以\"(T)\"显示在狗狗名字上方。"
+				""
+				""
+				""
+				""
+				""
+			]
 			dependencies: ["000000000000062F"]
 			id: "000000000000065A"
 			tasks: [{
 				id: "000000000000065B"
 				type: "checkmark"
-				title: "{chapter.29.quest.20.task.1.title}"
+				title: "狗狗模式"
 				icon: "itemfilters:tag"
 			}]
 			rewards: [{
@@ -672,15 +750,23 @@
 					Damage: 0
 				}
 			}
-			x: -2.0d
+			x: -5.5d
 			y: -4.5d
-			description: ["{chapter.29.quest.21.description.1}"]
-			dependencies: ["000000000000062F"]
+			description: [
+				"如果没有坚固的防御，宠物们就无法在精英怪手下存活。"
+				""
+				"你可以潜行右击你的宠物，然后给它穿上护甲。"
+				""
+				"你也可以用另一件护甲直接替换原先的护甲。"
+				""
+				"试着给宠物穿上带有光环buff的护甲，它们能让你的宠物变成强力辅助！"
+			]
+			dependencies: ["3E1010E7853074C0"]
 			id: "6C2E2AA49378EE39"
 			tasks: [{
 				id: "7FA3E78C24A8B216"
 				type: "checkmark"
-				title: "{chapter.29.quest.21.task.1.title}"
+				title: "宠物护甲"
 			}]
 			rewards: [{
 				id: "3F4AC90160ACC917"
@@ -706,10 +792,10 @@
 			}]
 		}
 		{
-			title: "{chapter.29.quest.22.title}"
+			title: "大狗狗 \\& 小狗狗"
 			x: 1.0d
 			y: -0.5d
-			description: ["{chapter.29.quest.22.description.1}"]
+			description: ["这些骨头能够用于改变狗狗的大小。"]
 			dependencies: ["000000000000062F"]
 			id: "6C50E14A07952420"
 			tasks: [
@@ -750,6 +836,97 @@
 					id: "6AD75E033E5C6D7F"
 					type: "ftbmoney:money"
 					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			description: [
+				"你驯服了一个新的朋友来陪伴你一起冒险！"
+				""
+				"不必担心与它们同行，在这个包中你不会对自己的宠物造成伤害。"
+				"你还可以给它们穿上护甲保护自己。"
+				""
+				"宠物会随时间缓慢回血，你也可以喂它们最爱的食物来加快这个过程。"
+			]
+			size: 1.5d
+			id: "3E1010E7853074C0"
+			tasks: [{
+				id: "730C32C610098E16"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+			}]
+		}
+		{
+			title: "照料宠物"
+			x: -2.0d
+			y: -4.0d
+			shape: "circle"
+			description: [
+				"一般的肉无法治疗你的狗狗，你需要一些特定的物品。"
+				""
+				"狗粮可以立即治疗狗狗，绷带能移除狗狗身上的流血效果。"
+			]
+			dependencies: ["000000000000062D"]
+			id: "40509027210B7392"
+			tasks: [
+				{
+					id: "13B8B5296057EF47"
+					type: "item"
+					item: {
+						id: "farmersdelight:dog_food"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "443E3B15590EB520"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "65C5BB7531065573"
+					type: "item"
+					item: {
+						id: "farmersdelight:dog_food"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "47F2CFECF900C093"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
 				}
 			]
 		}

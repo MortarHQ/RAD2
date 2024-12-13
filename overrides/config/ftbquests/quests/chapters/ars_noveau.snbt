@@ -3,7 +3,7 @@
 	group: "2C344CA71B9F0CFD"
 	order_index: 0
 	filename: "ars_noveau"
-	title: "{chapter.25.title}"
+	title: "新生魔艺"
 	icon: {
 		id: "ars_nouveau:apprentice_hood"
 		Count: 1b
@@ -672,7 +672,7 @@
 			]
 		}
 		{
-			title: "{chapter.25.quest.15.title}"
+			title: "入门法师"
 			x: 5.5d
 			y: -4.0d
 			dependencies: ["4A3496748AB9E7FF"]
@@ -803,7 +803,7 @@
 			]
 		}
 		{
-			title: "{chapter.25.quest.17.title}"
+			title: "普通法师"
 			x: 7.5d
 			y: -4.0d
 			dependencies: ["059A9420DE24D272"]
@@ -905,7 +905,7 @@
 			]
 		}
 		{
-			title: "{chapter.25.quest.18.title}"
+			title: "大魔法师"
 			x: 9.5d
 			y: -4.0d
 			dependencies: ["2CE8F52EE44DA32B"]
@@ -3026,10 +3026,10 @@
 			]
 		}
 		{
-			title: "{chapter.25.quest.55.title}"
+			title: "巫师之锤"
 			x: 6.0d
 			y: 7.5d
-			description: ["{chapter.25.quest.55.description.1}"]
+			description: ["RAD2自定义物品。与巫师之剑完全相同，但伤害更高、速度更慢。"]
 			dependencies: ["6BC8A28A792C35B2"]
 			id: "190DDF53698C55E1"
 			tasks: [{
@@ -3065,7 +3065,7 @@
 			]
 		}
 		{
-			title: "{chapter.25.quest.56.title}"
+			title: "疯狂法师"
 			icon: {
 				id: "losttrinkets:tha_wizard"
 				Count: 1b
@@ -3094,7 +3094,11 @@
 			}
 			x: 7.0d
 			y: 3.5d
-			description: ["{chapter.25.quest.56.description.1}"]
+			description: [
+				"收集新生魔艺中的92个魔符，然后试着制作最终魔符吧！"
+				""
+				"完成后可以在头衔章节领取头衔。"
+			]
 			dependencies: ["1CDFAAB12C713AA0"]
 			size: 1.75d
 			id: "2FD36B1AF21BF370"
@@ -4319,7 +4323,7 @@
 				{
 					id: "053D4F9BE8F9E911"
 					type: "pmmo:xpreward"
-					title: "{chapter.25.quest.56.reward.3.title}"
+					title: "1337 Magic XP"
 					icon: {
 						id: "kubejs:book2"
 						Count: 1b

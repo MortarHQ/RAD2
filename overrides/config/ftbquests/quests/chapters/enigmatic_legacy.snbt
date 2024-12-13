@@ -3,7 +3,7 @@
 	group: "2C344CA71B9F0CFD"
 	order_index: 1
 	filename: "enigmatic_legacy"
-	title: "{chapter.26.title}"
+	title: "神秘遗物"
 	icon: {
 		id: "enigmaticlegacy:oblivion_stone"
 		Count: 1b
@@ -28,7 +28,7 @@
 			x: -1.0d
 			y: 0.0d
 			shape: "octagon"
-			description: ["{chapter.26.quest.1.description.1}"]
+			description: ["神秘遗物的指导书，也是一把武器。"]
 			size: 1.5d
 			id: "22FCDA94D8D63817"
 			tasks: [{
@@ -63,7 +63,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			description: ["{chapter.26.quest.2.description.1}"]
+			description: ["获得经验、魔法技能经验和知识点数（虽然没用）。"]
 			dependencies: ["22FCDA94D8D63817"]
 			id: "636B692EB80B1FBE"
 			tasks: [{
@@ -106,7 +106,7 @@
 			x: 3.5d
 			y: -3.0d
 			shape: "octagon"
-			description: ["{chapter.26.quest.3.description.1}"]
+			description: ["制作卷轴的基础材料。"]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "737D3D4923742928"
 			tasks: [{
@@ -131,7 +131,7 @@
 			x: 4.5d
 			y: -2.5d
 			shape: "octagon"
-			description: ["{chapter.26.quest.4.description.1}"]
+			description: ["能存储无穷多的经验，但处理大量经验时需要花一点时间..."]
 			dependencies: ["737D3D4923742928"]
 			id: "4E14FCCB76F9292F"
 			tasks: [{
@@ -171,7 +171,11 @@
 			x: 3.0d
 			y: -4.0d
 			shape: "octagon"
-			description: ["{chapter.26.quest.5.description.1}"]
+			description: [
+				"当你在核心光束附近，你就能获得凋灵的飞行能力。"
+				""
+				"（在信标附近获得飞行）"
+			]
 			dependencies: ["737D3D4923742928"]
 			id: "65E6E33AD2CDD3F2"
 			tasks: [{
@@ -206,7 +210,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
-			description: ["{chapter.26.quest.6.description.1}"]
+			description: ["能在下界战利品中发现。"]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "26B76E1B29624570"
 			tasks: [{
@@ -234,7 +238,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["{chapter.26.quest.7.description.1}"]
+			description: ["能在末地战利品中发现。"]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "195BD8D38C6EEC28"
 			tasks: [{
@@ -269,8 +273,12 @@
 			x: 6.5d
 			y: -3.0d
 			shape: "octagon"
-			subtitle: "{chapter.26.quest.8.subtitle}"
-			description: ["{chapter.26.quest.8.description.1}"]
+			subtitle: "最黑暗的卷轴"
+			description: [
+				"制作诅咒卷轴的基础材料。"
+				""
+				"你可以把它像其他卷轴一样穿戴在身上，但不会受到任何效果。"
+			]
 			dependencies: ["737D3D4923742928"]
 			id: "2609B9D4BAA8C0FE"
 			tasks: [{
@@ -295,7 +303,7 @@
 			x: 7.0d
 			y: -2.0d
 			shape: "octagon"
-			description: ["{chapter.26.quest.9.description.1}"]
+			description: ["让你穿戴七咒之戒时仍能与猪灵交易，并增强村民和猪灵的交易。"]
 			dependencies: ["2609B9D4BAA8C0FE"]
 			optional: true
 			id: "1556AA07575E4055"
@@ -332,7 +340,7 @@
 			x: 7.0d
 			y: -4.0d
 			shape: "octagon"
-			description: ["{chapter.26.quest.10.description.1}"]
+			description: ["你获得的诅咒越多，这个卷轴就越强。"]
 			dependencies: ["2609B9D4BAA8C0FE"]
 			optional: true
 			id: "0F9EF9F297B98E0F"
@@ -368,7 +376,7 @@
 		{
 			x: 1.0d
 			y: 2.0d
-			description: ["{chapter.26.quest.11.description.1}"]
+			description: ["一次性物品，能完整修复任何带耐久条的装备。"]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "749E7D2E2FE67602"
 			tasks: [{
@@ -403,7 +411,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["{chapter.26.quest.12.description.1}"]
+			description: ["穿戴时吸取物品。"]
 			dependencies: ["1E7C7440246D020E"]
 			id: "30BDCA8C21DF074F"
 			tasks: [{
@@ -472,7 +480,7 @@
 		{
 			x: 4.0d
 			y: 2.5d
-			description: ["{chapter.26.quest.14.description.1}"]
+			description: ["末地的强大锭材料（查看末地探险章节的以太矿石）"]
 			dependencies: ["4BDC83576A6FAB97"]
 			id: "35C994E8314DDE5F"
 			tasks: [{
@@ -507,7 +515,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["{chapter.26.quest.15.description.1}"]
+			description: ["用这本书保护你的宠物免受伤害。适合与兽友指南搭配使用"]
 			id: "32BC5D23EFCBDAAE"
 			tasks: [{
 				id: "66437D1295AEABB1"
@@ -541,8 +549,12 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			subtitle: "{chapter.26.quest.16.subtitle}"
-			description: ["{chapter.26.quest.16.description.1}"]
+			subtitle: "再也不会误伤兔兔了"
+			description: [
+				"让你无法伤害动物。"
+				""
+				"与龙战斗时不要带上它..."
+			]
 			id: "0C58C5A90207F2DD"
 			tasks: [{
 				id: "3E2591BD8821D91A"
@@ -576,7 +588,11 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			description: ["{chapter.26.quest.17.description.1}"]
+			description: [
+				"启示之证的升级版本，可充当武器。"
+				""
+				"除非你想要一本更好看的书，不然没必要花费经历制作它。我们尝试让它有作用，很多次。"
+			]
 			optional: true
 			id: "2D5C31B3C415216C"
 			tasks: [{
@@ -611,7 +627,11 @@
 		{
 			x: -1.0d
 			y: 4.5d
-			description: ["{chapter.26.quest.18.description.1}"]
+			description: [
+				"祛魔物品并把所有附魔存储到一本附魔书上。"
+				""
+				"被祛魔的物品仍保留修复花费等级。"
+			]
 			id: "4A719CFCE68F97D5"
 			tasks: [{
 				id: "6F76753C8B1C5243"
@@ -645,7 +665,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["{chapter.26.quest.19.description.1}"]
+			description: ["简单的指环，增加1护甲。"]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "1E7C7440246D020E"
 			tasks: [{
@@ -669,7 +689,7 @@
 		{
 			x: 6.5d
 			y: 0.0d
-			description: ["{chapter.26.quest.20.description.1}"]
+			description: ["磁力之戒的更强版本，吸取范围是之前的两倍。"]
 			dependencies: ["30BDCA8C21DF074F"]
 			id: "7A0650ABB1F35FDE"
 			tasks: [{
@@ -704,7 +724,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			description: ["{chapter.26.quest.21.description.1}"]
+			description: ["让玩家能使用快捷键访问末影箱。"]
 			dependencies: ["1E7C7440246D020E"]
 			id: "03AA9DE0CE382658"
 			tasks: [{
@@ -838,7 +858,7 @@
 		{
 			x: 6.5d
 			y: 2.5d
-			description: ["{chapter.26.quest.25.description.1}"]
+			description: ["受到伤害时给予力量效果。"]
 			dependencies: ["6E16203B7577B88A"]
 			optional: true
 			id: "586DFB3794C1B728"
@@ -874,7 +894,7 @@
 		{
 			x: 6.5d
 			y: 3.5d
-			description: ["{chapter.26.quest.26.description.1}"]
+			description: ["能移除七咒之戒，但并非免费。"]
 			dependencies: ["6E16203B7577B88A"]
 			optional: true
 			id: "67A6EE38F2FCE4AA"
@@ -910,7 +930,7 @@
 		{
 			x: -1.0d
 			y: -4.0d
-			subtitle: "{chapter.26.quest.27.subtitle}"
+			subtitle: "你真的得好好看看你在吃什么..."
 			id: "2449B651FD8C81FF"
 			tasks: [{
 				id: "4F69236765509831"
@@ -940,7 +960,7 @@
 			}]
 		}
 		{
-			title: "{chapter.26.quest.28.title}"
+			title: "救赎药水"
 			icon: {
 				id: "enigmaticlegacy:antiforbidden_potion"
 				Count: 1b
@@ -952,8 +972,12 @@
 			}
 			x: 0.0d
 			y: -4.0d
-			subtitle: "{chapter.26.quest.28.subtitle}"
-			description: ["{chapter.26.quest.28.description.1}"]
+			subtitle: "摆脱禁忌之罪"
+			description: [
+				"只有第一次不需代价。"
+				""
+				"你只需要让自己被火焰焚烧。"
+			]
 			dependencies: ["2449B651FD8C81FF"]
 			optional: true
 			id: "76D5BCEFC1A1C523"
@@ -988,7 +1012,7 @@
 		{
 			x: -1.0d
 			y: -3.0d
-			description: ["{chapter.26.quest.29.description.1}"]
+			description: ["包含着末影之眼中的传送之力的黄金外壳，便于传送生物。"]
 			id: "7003E615AB84F8EB"
 			tasks: [{
 				id: "3FD7E4F8661191CB"
@@ -1020,8 +1044,12 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			subtitle: "{chapter.26.quest.30.subtitle}"
-			description: ["{chapter.26.quest.30.description.1}"]
+			subtitle: "要说的都在这杯茶里了！"
+			description: [
+				"不是什么神秘的东西。没有什么特别的。"
+				""
+				"享受它给你带来的似水柔情。耐毒性？在这似乎不起什么作用。"
+			]
 			id: "2C000F9A46E923FC"
 			tasks: [{
 				id: "66981DF47E0382E9"
@@ -1056,7 +1084,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			description: ["{chapter.26.quest.31.description.1}"]
+			description: ["猪灵的中立条件不必再需要玩家穿戴金质装备。"]
 			dependencies: ["1E7C7440246D020E"]
 			id: "7DAFA6B7703B909D"
 			tasks: [{
@@ -1104,7 +1132,7 @@
 		{
 			x: 4.0d
 			y: 3.5d
-			subtitle: "{chapter.26.quest.32.subtitle}"
+			subtitle: "最强之镐"
 			dependencies: ["35C994E8314DDE5F"]
 			id: "3D14810754D1FA65"
 			tasks: [{

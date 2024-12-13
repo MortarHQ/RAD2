@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 11
 	filename: "highway_to_the_bumblezone"
-	title: "{chapter.17.title}"
+	title: "前往蜜蜂领域"
 	icon: "rats:rat_upgrade_bee"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "{chapter.17.quest.1.title}"
+			title: "♪通往蜜蜂领域的高速♫"
 			icon: {
 				id: "feywild:honeycomb"
 				Count: 1b
@@ -34,7 +34,14 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "octagon"
-			description: ["{chapter.17.quest.1.description.1}"]
+			description: [
+				"蜜蜂领域遍布蜜脾方块、蜂蜜块、蜂蜜结晶、糖水和一些蜜蜂相关的方块！甚至还有一个内含独特蜜蜂护甲的结构！"
+				""
+				""
+				"进入这个维度的方式非常简单！只需要向蜂巢或蜂箱（甚至是模组的！）丢末影珍珠即可进入。你可以让你自己（骑着生物或交通工具）或任意生物进入这个维度，只需要用活塞将你们挤到蜂巢或蜂箱中！"
+				""
+				"要想离开这个维度的话，只需要向下挖并掉落到Y轴0以下或爬到Y轴256以上。"
+			]
 			size: 2.0d
 			id: "17777CD49B8B6F41"
 			tasks: [
@@ -285,7 +292,7 @@
 		{
 			x: 1.5d
 			y: 3.5d
-			subtitle: "{chapter.17.quest.8.subtitle}"
+			subtitle: "用蜂蜜桶驯服Behemoth"
 			dependencies: ["17777CD49B8B6F41"]
 			id: "5C0AEAAA45EB107A"
 			tasks: [{
@@ -315,7 +322,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			subtitle: "{chapter.17.quest.9.subtitle}"
+			subtitle: "将蜂蜜注入到史莱姆中"
 			dependencies: ["17777CD49B8B6F41"]
 			id: "1AE3D1728F1CC7A6"
 			tasks: [{

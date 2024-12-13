@@ -5,12 +5,12 @@
       "nbt": "{Damage:0}"
     },
     "title": {
-      "text": "Don me with Dreadsteel",
+      "text": "我要穿悚怖钢",
       "color": "dark_purple",
       "obfuscated": true
     },
     "description": {
-      "text": "Complete a set of dreadsteel armor (This advancement awards a special title!)"
+      "text": "获得一整套悚怖钢护甲（这个进度会奖励一个特殊头衔！）"
     },
     "frame": "challenge",
     "show_toast": true,

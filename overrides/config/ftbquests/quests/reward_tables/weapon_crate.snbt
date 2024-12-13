@@ -1,7 +1,7 @@
 {
 	id: "20C6039983880634"
 	order_index: 31
-	title: "{loot_table.32}"
+	title: "Weapon crate"
 	loot_size: 1
 	rewards: [
 		{

@@ -1,0 +1,9 @@
+{
+	"description.effect.dungeons_gear.bow_charge": "弓总是拉满弓弦的状态。（只有地下城装备适用）",
+	"description.effect.dungeons_gear.dynamo": "精力充沛附魔能增加武器伤害。",
+	"description.effect.dungeons_gear.life_steal": "击杀怪物时恢复血量。",
+	"description.effect.dungeons_gear.party_starter": "近战攻击会制造一次爆炸。",
+	"description.effect.dungeons_gear.shielding": "免疫箭矢。",
+	"description.effect.dungeons_gear.soul_protection": "使你免于死亡，复活后该效果将被移除。",
+	"description.effect.dungeons_gear.stunned": "造成反胃和缓慢，并且无法攻击。"
+}

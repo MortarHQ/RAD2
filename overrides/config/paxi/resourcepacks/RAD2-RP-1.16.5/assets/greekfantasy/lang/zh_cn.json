@@ -1,0 +1,16 @@
+{
+  "enchantment.greekfantasy.hunting.desc": "有概率立即击杀动物。",
+  "enchantment.greekfantasy.overstep.desc": "能自动跃上一格方块而不需要跳跃。",
+  "enchantment.greekfantasy.smashing.desc": "攻击会使成群怪物眩晕。",
+  "enchantment.greekfantasy.mirror.desc": "保护玩家免受戈耳工的石化凝视。",
+  "enchantment.greekfantasy.poison.desc": "有概率使攻击者中毒。",
+  "enchantment.greekfantasy.flying.desc": "使玩家更善于飞行。",
+  "enchantment.greekfantasy.lord_of_the_sea.desc": "使三叉戟能召唤强大的旋涡。",
+  "enchantment.greekfantasy.fireflash.desc": "使雷电能产生爆炸。",
+  "enchantment.greekfantasy.daybreak.desc": "将时间从夜晚切换到白天",
+  "enchantment.greekfantasy.raising.desc": "使双叉戟能召唤地生人",
+  "enchantment.greekfantasy.silkstep.desc": "让玩家能穿行蜘蛛网",
+  
+  "description.effect.greekfantasy.mirror": "保护玩家免受戈耳工的石化凝视。",
+  "description.effect.greekfantasy.swine": "把玩家变成猪。"
+}

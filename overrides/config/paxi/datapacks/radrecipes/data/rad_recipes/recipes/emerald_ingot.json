@@ -1,16 +1,24 @@
 {
-  "type": "betterendforge:alloying",
+  "type": "minecraft:crafting_shapeless",
+  "group": "emerald_ingot",
   "ingredients": [
     {
-      "tag": "forge:ingots/tin"
+      "tag": "forge:gems/emerald"
     },
     {
-      "tag": "forge:storage_blocks/emerald"
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "tag": "forge:ingots/tin"
     }
   ],
   "result": {
-    "item": "kubejs:emerald_ingot",
-    "count": 1
-  },
-  "experience": 2.0
+    "item": "kubejs:emerald_ingot"
+  }
 }

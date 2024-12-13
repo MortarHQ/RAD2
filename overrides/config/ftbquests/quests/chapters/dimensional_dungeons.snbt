@@ -3,9 +3,9 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 4
 	filename: "dimensional_dungeons"
-	title: "{chapter.10.title}"
+	title: "维度旅行"
 	icon: "dimdungeons:block_portal_keyhole"
-	subtitle: ["{chapter.10.subtitle}"]
+	subtitle: ["你可以在任何地方搭建前往无尽冒险的传送门！"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [
@@ -62,7 +62,14 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: ["{chapter.10.quest.1.description.1}"]
+			description: [
+				"维度地牢（Dimensional Dungeons）添加了无尽的程序生成的地牢！这些地牢都位于一个独立的维度，你可以在主世界的任何地点搭建传送门前往。这个模组让地牢互不相同，充满重复探索动力。"
+				""
+				"但地牢维度中不能搭建或破坏方块，就像冒险模式一样。"
+				""
+				""
+				"除了设计好的地牢挑战外，地牢里还会随机分布敌人与可观的奖励！这些奖励很多都需要你解决一道关于MC游戏机制的谜题。"
+			]
 			id: "373262E31E3E4D5B"
 			tasks: [{
 				id: "0549D2EE17A5251A"
@@ -91,7 +98,7 @@
 		{
 			x: 4.0d
 			y: 5.5d
-			description: ["{chapter.10.quest.2.description.1}"]
+			description: ["空白传送门钥匙由一根烈焰棒和一个命名牌制成，你可能需要几个。"]
 			dependencies: ["373262E31E3E4D5B"]
 			id: "49D31A8380AFA032"
 			tasks: [{
@@ -114,7 +121,7 @@
 		{
 			x: 6.5d
 			y: 0.5d
-			description: ["{chapter.10.quest.3.description.1}"]
+			description: ["首先，制作三个镀金传送门方块，由八个金锭围绕一块錾制石砖制成。"]
 			dependencies: ["19C09B0537FF8F85"]
 			id: "06FDB1551D976F28"
 			tasks: [{
@@ -139,7 +146,7 @@
 		{
 			x: 9.0d
 			y: 0.5d
-			description: ["{chapter.10.quest.4.description.1}"]
+			description: ["第二步，将一个镀金传送门方块与陷阱箱和末影之眼合成获得传送门基石。"]
 			dependencies: ["06FDB1551D976F28"]
 			id: "467404C9A88BA929"
 			tasks: [{
@@ -161,10 +168,18 @@
 			]
 		}
 		{
-			title: "{chapter.10.quest.5.title}"
+			title: "激活传送门钥匙"
 			x: 6.5d
 			y: 5.5d
-			description: ["{chapter.10.quest.5.description.1}"]
+			description: [
+				"空白钥匙不能打开地牢传送门。一把新制成的钥匙需要在'激活仪式'中激活，这会让钥匙上出现名字和随机生成的地牢方位。你需要将空白钥匙带到主世界的合适位置去激活。"
+				""
+				"首先，找到一个要塞，在末地传送门框架顶部使用钥匙。必须指在顶部的黑色方形中。"
+				""
+				"回到维度传送门框架，将钥匙放在钥匙孔中。如果一切正确，一个金色的地牢传送门就会出现。如果框架搭建错误，传送门会立刻粉碎。"
+				""
+				"钥匙只能被激活一次。但钥匙是可以循环使用的！如果你找到了一个更值得探索的地牢，一定要好好保存那把钥匙，一把命名后的钥匙只会把你带到对应的地牢。"
+			]
 			dependencies: ["49D31A8380AFA032"]
 			id: "2205A97ACB6A9309"
 			tasks: [{
@@ -180,13 +195,22 @@
 		{
 			x: 4.0d
 			y: 0.5d
-			description: ["{chapter.10.quest.6.description.1}"]
+			description: [
+				"这是搭建最基本最小的传送门材料："
+				"-9x石砖"
+				"-3x錾制石砖"
+				"-24x金锭"
+				"-1x陷阱箱"
+				"-1x末影之眼"
+				""
+				"注意，你还需要制作和激活钥匙。搭建传送门只是第一步。"
+			]
 			dependencies: ["373262E31E3E4D5B"]
 			id: "19C09B0537FF8F85"
 			tasks: [{
 				id: "0E498E4858047C55"
 				type: "checkmark"
-				title: "{chapter.10.quest.6.task.1.title}"
+				title: "搭建基本的传送门"
 			}]
 			rewards: [{
 				id: "7E79C499DFD17B21"
@@ -198,16 +222,19 @@
 			x: 9.0d
 			y: 2.5d
 			description: [
-				"{chapter.10.quest.7.description.1}"
+				"你至少需要用石砖围绕两个空气方块作为框架，然后将顶部中心的方块换成传送门基石。顶部两侧尖角处需要换成镀金传送门方块。"
+				""
 				"{image:rad2:textures/misc/build_basic_1.png width:170 height:100 align:1}"
-				"{chapter.10.quest.7.description.2}"
+				"将传送门下沉一格嵌在地上也许是个不错的注意，这样你就不用跳着进去了。但要记住，就算你看不见底部的方块，仍然要在底部放置石砖！"
+				""
+				"石砖的其他变种也可以用于搭建框架，传送门只会出现在被围住的空气方块处。"
 			]
 			dependencies: ["467404C9A88BA929"]
 			id: "46BDA3FB1FD338F7"
 			tasks: [{
 				id: "48F36A95518DC117"
 				type: "checkmark"
-				title: "{chapter.10.quest.7.task.1.title}"
+				title: "可用传送门方块"
 			}]
 			rewards: [{
 				id: "06781A553566752E"
@@ -218,7 +245,7 @@
 		{
 			x: 9.0d
 			y: 5.5d
-			subtitle: "{chapter.10.quest.8.subtitle}"
+			subtitle: "激活传送门钥匙"
 			dependencies: ["2205A97ACB6A9309"]
 			id: "5F3AE6FDE9AC06B6"
 			tasks: [{
@@ -242,8 +269,18 @@
 		{
 			x: 9.0d
 			y: 3.5d
-			subtitle: "{chapter.10.quest.9.subtitle}"
-			description: ["{chapter.10.quest.9.description.1}"]
+			subtitle: "找到两个维度皇冠座"
+			description: [
+				"高级地牢就像听起来那样很高级。更大的空间，更强的怪物还有更好的奖励！"
+				""
+				"在探索基础地牢时，你可能会发现一个装有物品的传送门基石。拿着它！里面的物品是一把高级的钥匙，拥有不同的命名方式和颜色。这是获得高级地牢钥匙的唯一方式。必须要寻找！"
+				""
+				"你的基础传送门框架并不足以这些传说级钥匙！你需要用额外的方块增强你的基础框架。"
+				""
+				"首先，你需要分别在传送门框架两个转角处挂一面五彩的旗帜。旗帜需要白/紫并与其他颜色结合作为底色。可以用装有钥匙的钥匙孔作为参考。"
+				""
+				"其次，你需要在传送门框架顶部放置两个维度皇冠座。它们能在基础地牢的箱子中被找到。"
+			]
 			dependencies: ["5F3AE6FDE9AC06B6"]
 			id: "563459F7C0D8D8D3"
 			tasks: [{

@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 13
 	filename: "sweet_dreams"
-	title: "{chapter.19.title}"
+	title: "甜蜜的梦"
 	icon: {
 		id: "good_nights_sleep:lolipop_bush"
 		Count: 1b
@@ -17,7 +17,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.19.quest.1.title}"
+			title: "Sweet Dreams"
 			icon: {
 				id: "good_nights_sleep:strange_bed"
 				Count: 1b
@@ -30,8 +30,14 @@
 			x: -1.0d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "{chapter.19.quest.1.subtitle}"
-			description: ["{chapter.19.quest.1.description.1}"]
+			subtitle: "聆听睡魔的摇篮曲"
+			description: [
+				"厌倦了基地里又旧又无聊的床。"
+				""
+				"找到一些特别的蘑菇，将它升级成一张奇异的床。"
+				""
+				"这些蘑菇生长在下界。"
+			]
 			id: "7CD8E2889CDD0041"
 			tasks: [
 				{
@@ -76,7 +82,7 @@
 			]
 		}
 		{
-			title: "{chapter.19.quest.2.title}"
+			title: "美梦"
 			icon: {
 				id: "good_nights_sleep:luxurious_bed"
 				Count: 1b
@@ -89,8 +95,12 @@
 			x: 0.5d
 			y: 0.0d
 			shape: "rsquare"
-			subtitle: "{chapter.19.quest.2.subtitle}"
-			description: ["{chapter.19.quest.2.description.1}"]
+			subtitle: "不要被床上的虫子咬了"
+			description: [
+				"这是梦还是现实？"
+				""
+				"为什么不在你醒来之前好好探索这个美妙的梦境呢。"
+			]
 			dependencies: ["7CD8E2889CDD0041"]
 			hide: false
 			secret: true
@@ -102,7 +112,7 @@
 			}]
 		}
 		{
-			title: "{chapter.19.quest.3.title}"
+			title: "噩梦"
 			icon: {
 				id: "good_nights_sleep:wretched_bed"
 				Count: 1b
@@ -115,8 +125,12 @@
 			x: 0.5d
 			y: 2.0d
 			shape: "rsquare"
-			subtitle: "{chapter.19.quest.3.subtitle}"
-			description: ["{chapter.19.quest.3.description.1}"]
+			subtitle: "这将是个可怕的夜晚"
+			description: [
+				"看起来，有人睡错了地方"
+				""
+				"多么可怕的噩梦，但从好的方面来看，你也许能获得一些有用的东西。"
+			]
 			dependencies: ["7CD8E2889CDD0041"]
 			hide: false
 			secret: true

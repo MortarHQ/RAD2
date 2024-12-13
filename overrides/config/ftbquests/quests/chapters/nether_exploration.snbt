@@ -3,28 +3,42 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 1
 	filename: "nether_exploration"
-	title: "{chapter.7.title}"
+	title: "下界探险"
 	icon: "minecraft:crimson_nylium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -6.5d
-		y: -7.5d
-		width: 3.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "nethers_delight:textures/block/crimson_fungus_colony_stage3.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: -6.5d
+			y: -7.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "nethers_delight:textures/block/crimson_fungus_colony_stage3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/warped_roots.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: 0.0d
 			y: -0.5d
 			shape: "octagon"
-			description: ["{chapter.7.quest.1.description.1}"]
+			description: ["进入或离开下界的方式写在\"特性 | 机制\"章节的\"新的下界传送门机制\"任务中。"]
 			size: 1.5d
 			id: "4ABA0AF14F4830E5"
 			tasks: [{
@@ -52,7 +66,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -1.5d
 			y: -4.0d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "46986285004F8604"
@@ -75,7 +89,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: -5.5d
 			dependencies: ["46986285004F8604"]
 			id: "0BC837BAE9BF5D1D"
@@ -253,8 +267,8 @@
 		}
 		{
 			x: 0.5d
-			y: -3.0d
-			description: ["{chapter.7.quest.10.description.1}"]
+			y: -3.5d
+			description: ["挖掘时掉落金粒。小心别激怒了本地居民..."]
 			dependencies: ["4ABA0AF14F4830E5"]
 			dependency_requirement: "one_completed"
 			id: "67A339531A61A13F"
@@ -281,7 +295,7 @@
 		{
 			x: -2.5d
 			y: -3.0d
-			description: ["{chapter.7.quest.11.description.1}"]
+			description: ["一种强大的苹果，提供特殊的下界合金力量和下界合金抗性效果，比原版效果更强。"]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "63E4DEAD58EA1044"
 			tasks: [{
@@ -313,7 +327,7 @@
 		{
 			x: -3.5d
 			y: -3.5d
-			description: ["{chapter.7.quest.12.description.1}"]
+			description: ["与下界合金苹果一样，但给予高一级效果。"]
 			dependencies: ["63E4DEAD58EA1044"]
 			id: "21F1BF0DE36BC880"
 			tasks: [{
@@ -400,8 +414,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
+			x: -2.0d
+			y: 1.5d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "0D02D42CC2FE1569"
 			tasks: [{
@@ -422,8 +436,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.5d
+			x: -2.5d
+			y: -2.0d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "3974D350BB9DAE3A"
 			tasks: [{
@@ -470,8 +484,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 2.0d
+			x: -3.5d
+			y: -2.5d
 			dependencies: ["3974D350BB9DAE3A"]
 			id: "3547528CA228CD35"
 			tasks: [{
@@ -651,8 +665,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.5d
+			x: -3.5d
+			y: 2.5d
 			dependencies: ["0D02D42CC2FE1569"]
 			id: "6F71C255CDF5A4D9"
 			tasks: [{
@@ -710,7 +724,7 @@
 		{
 			x: -3.5d
 			y: -1.5d
-			description: ["{chapter.7.quest.30.description.1}"]
+			description: ["更暗的火把，猪灵们不愿意靠近它。"]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "1FF5E2CC96EA1264"
 			tasks: [{
@@ -784,7 +798,11 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			description: ["{chapter.7.quest.33.description.1}"]
+			description: [
+				"更暗更痛苦的营火，猪灵们不愿靠近它。"
+				""
+				"能将带有前缀的物品回收成碎片。"
+			]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "60EE45363E31B08B"
 			tasks: [{
@@ -808,8 +826,8 @@
 		{
 			x: -2.5d
 			y: 3.5d
-			subtitle: "{chapter.7.quest.34.subtitle}"
-			description: ["{chapter.7.quest.34.description.1}"]
+			subtitle: "在下界安家"
+			description: ["使用重生锚在下界设置一个重生点。"]
 			dependencies: ["7137B3D4835692E8"]
 			id: "4A163C73BCFE6474"
 			tasks: [{
@@ -1161,7 +1179,11 @@
 			x: 0.0d
 			y: 8.0d
 			shape: "gear"
-			description: ["{chapter.7.quest.49.description.1}"]
+			description: [
+				"原版游戏中最强大的材料。"
+				""
+				"在这它失去了最强地位，但有些高级材料需要它。。"
+			]
 			dependencies: ["38E3B9FEC8AA6D51"]
 			size: 1.5d
 			id: "65760A3965C0610B"
@@ -1177,10 +1199,10 @@
 			}]
 		}
 		{
-			title: "{chapter.7.quest.50.title}"
+			title: "镶金下界合金护甲"
 			x: -3.5d
 			y: 9.5d
-			description: ["{chapter.7.quest.50.description.1}"]
+			description: ["增加2点幸运，让猪灵不再攻击你。"]
 			dependencies: ["3B5966CE0415E109"]
 			id: "6727E197F4283EAD"
 			tasks: [
@@ -1248,10 +1270,10 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.51.title}"
+			title: "海晶下界合金护甲"
 			x: 3.5d
 			y: 8.5d
-			description: ["{chapter.7.quest.51.description.1}"]
+			description: ["增加游泳速度、永久水下呼吸和水下速掘。"]
 			dependencies: ["56ADA502CFC3807D"]
 			id: "602F6BB604D64DDA"
 			tasks: [
@@ -1319,10 +1341,16 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.52.title}"
+			title: "末影下界合金护甲"
 			x: 2.0d
 			y: 11.0d
-			description: ["{chapter.7.quest.52.description.1}"]
+			description: [
+				"让末影人不再因为你的注视而愤怒。"
+				""
+				"由于你已经拥有虚空保护，所以第二个词条不起作用。"
+				""
+				"穿戴七咒之戒时，这套装备就完全没作用了。"
+			]
 			dependencies: ["42D44EE61E2CEF2E"]
 			id: "179CE2F43D189547"
 			tasks: [
@@ -1390,10 +1418,10 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.53.title}"
+			title: "烈焰下界合金护甲"
 			x: -1.0d
 			y: 11.5d
-			description: ["{chapter.7.quest.53.description.1}"]
+			description: ["免疫火焰伤害，在熔岩中能游的更快。"]
 			dependencies: ["22AD943138F5C856"]
 			id: "3EF22104C917962E"
 			tasks: [
@@ -1461,10 +1489,14 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.54.title}"
+			title: "飘羽下界合金护甲"
 			x: 1.0d
 			y: 4.5d
-			description: ["{chapter.7.quest.54.description.1}"]
+			description: [
+				"获得在流体上行走的能力，免疫摔落伤害，额外跳跃2格、免疫漂浮。"
+				""
+				"二段跳附魔和云中瓶提供的额外跳跃高度可以与之相加。"
+			]
 			dependencies: ["4FC103EC12228BBB"]
 			id: "2B235A1B58499000"
 			tasks: [
@@ -1532,10 +1564,14 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.55.title}"
+			title: "幻翼下界合金护甲"
 			x: -2.0d
 			y: 5.0d
-			description: ["{chapter.7.quest.55.description.1}"]
+			description: [
+				"免疫摔落伤害。"
+				""
+				"能自动越过一格高度，但你已经有了这个功能。"
+			]
 			dependencies: ["6D57242610098E42"]
 			id: "1D0C9364745C4EDE"
 			tasks: [
@@ -1603,10 +1639,10 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.56.title}"
+			title: "蛛毒下界合金护甲"
 			x: 3.5d
 			y: 6.5d
-			description: ["{chapter.7.quest.56.description.1}"]
+			description: ["免疫中毒并且能爬墙。"]
 			dependencies: ["363BD95AA810F14F"]
 			id: "74D61CFA5A3395DB"
 			tasks: [
@@ -1674,10 +1710,10 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.57.title}"
+			title: "凋灵下界合金护甲"
 			x: -3.5d
 			y: 7.0d
-			description: ["{chapter.7.quest.57.description.1}"]
+			description: ["让玩家免疫凋零效果。"]
 			dependencies: ["1F32E351FBF052A2"]
 			id: "004D06A98BA5D542"
 			tasks: [
@@ -1745,10 +1781,14 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.58.title}"
+			title: "镶金下界合金工具"
 			x: -3.5d
 			y: 8.5d
-			description: ["{chapter.7.quest.58.description.1}"]
+			description: [
+				"增加怪物和方块的掉落物。"
+				""
+				"这把剑会对猪灵蛮兵额外造成10%伤害。"
+			]
 			dependencies: ["3B5966CE0415E109"]
 			id: "2DF44D23C354CDC6"
 			tasks: [
@@ -1800,10 +1840,14 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.59.title}"
+			title: "烈焰下界合金工具"
 			x: -2.0d
 			y: 11.0d
-			description: ["{chapter.7.quest.59.description.1}"]
+			description: [
+				"增加对抗火敌人的伤害。"
+				""
+				"任何被这种工具杀死的怪物或挖掘的方块都会被自动烧制。"
+			]
 			dependencies: ["22AD943138F5C856"]
 			id: "791FB402D5A1BFA4"
 			tasks: [
@@ -1855,10 +1899,14 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.60.title}"
+			title: "末影下界合金工具"
 			x: 1.0d
 			y: 11.5d
-			description: ["{chapter.7.quest.60.description.1}"]
+			description: [
+				"增加对末影人的伤害并阻止其传送10秒，同时增加其掉落物。"
+				""
+				"潜行右键箱子能将任何用这把剑获得的怪物掉落物传入其中。"
+			]
 			dependencies: ["42D44EE61E2CEF2E"]
 			id: "581E9E45E5ED4FB2"
 			tasks: [
@@ -1910,10 +1958,10 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.61.title}"
+			title: "蛛毒下界合金工具"
 			x: 3.5d
 			y: 7.5d
-			description: ["{chapter.7.quest.61.description.1}"]
+			description: ["让敌人中毒，对中毒的敌人造成更多伤害。"]
 			dependencies: ["363BD95AA810F14F"]
 			id: "2835561D267FAFDD"
 			tasks: [
@@ -1954,10 +2002,10 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.62.title}"
+			title: "海晶下界合金工具"
 			x: 3.5d
 			y: 9.5d
-			description: ["{chapter.7.quest.62.description.1}"]
+			description: ["增加水下挖掘速度，对抗火敌人和末影人造成更多伤害。"]
 			dependencies: ["56ADA502CFC3807D"]
 			id: "4A450C79CCDB7840"
 			tasks: [
@@ -2009,10 +2057,10 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.63.title}"
+			title: "飘羽下界合金工具"
 			x: 2.0d
 			y: 5.0d
-			description: ["{chapter.7.quest.63.description.1}"]
+			description: ["将物品吸取到你身上。举盾时将敌人击退。"]
 			dependencies: ["4FC103EC12228BBB"]
 			id: "222CFF53D6C06F91"
 			tasks: [
@@ -2064,10 +2112,14 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.64.title}"
+			title: "幻翼下界合金工具"
 			x: -1.0d
 			y: 4.5d
-			description: ["{chapter.7.quest.64.description.1}"]
+			description: [
+				"增加2格触碰距离，让你能看见附近的敌人。"
+				""
+				"对幻翼额外造成10%伤害。"
+			]
 			dependencies: ["6D57242610098E42"]
 			id: "4E8D67A9761ACBC1"
 			tasks: [
@@ -2119,10 +2171,10 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.65.title}"
+			title: "凋灵下界合金工具"
 			x: -3.5d
 			y: 6.0d
-			description: ["{chapter.7.quest.65.description.1}"]
+			description: ["造成凋零效果，对凋零的敌人造成更多伤害。"]
 			dependencies: ["1F32E351FBF052A2"]
 			id: "77A8AD4D89E56A1F"
 			tasks: [
@@ -2255,9 +2307,9 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -2.0d
-			description: ["{chapter.7.quest.69.description.1}"]
+			x: -0.5d
+			y: -3.5d
+			description: ["独特设计了画"]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "26273B48330D94FC"
 			tasks: [{
@@ -2284,8 +2336,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -6.5d
+			x: 0.5d
+			y: -6.0d
 			dependencies: ["357B034F06F47129"]
 			id: "1C246B7933ACF8FA"
 			tasks: [
@@ -2363,7 +2415,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 0.0d
 			y: -5.0d
 			dependencies: ["46986285004F8604"]
 			id: "357B034F06F47129"
@@ -2391,7 +2443,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: -7.0d
 			dependencies: ["0BC837BAE9BF5D1D"]
 			id: "29EAFB7C2D441011"
@@ -2417,7 +2469,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			subtitle: "{chapter.7.quest.74.subtitle}"
+			subtitle: "肉桂卷？"
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "38E3B9FEC8AA6D51"
 			tasks: [{
@@ -2456,8 +2508,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: 1.5d
+			y: 2.5d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "192679B4B812DFED"
 			tasks: [{
@@ -2533,7 +2585,7 @@
 		{
 			x: 12.0d
 			y: -0.5d
-			description: ["{chapter.7.quest.77.description.1}"]
+			description: ["信标是一个会向天空发射光柱的方块，用可用的基座方块搭建基座，便可以为范围内的玩家提供增益效果。"]
 			dependencies: ["5A302A15FA9774B4"]
 			id: "30D48209ECED6B8B"
 			tasks: [{
@@ -2574,16 +2626,19 @@
 			x: 5.0d
 			y: -0.5d
 			shape: "octagon"
-			description: ["{chapter.7.quest.78.description.1}"]
-			dependencies: ["4ABA0AF14F4830E5"]
+			description: [
+				"你肯定知道该用这些做什么..."
+				"祝你好运！"
+			]
+			dependencies: ["6D946460884FA90E"]
 			id: "2DF36A4C59310AB7"
 			tasks: [
 				{
-					id: "69EB4E8A2CBECC28"
-					type: "item"
-					item: "minecraft:wither_skeleton_skull"
-					count: 3L
-				}
+				id: "69EB4E8A2CBECC28"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}
 				{
 					id: "31A4DDD049C12A83"
 					type: "item"
@@ -2634,12 +2689,42 @@
 			]
 		}
 		{
-			title: "{chapter.7.quest.79.title}"
+			title: "现在进入：专家模式！"
 			x: 7.5d
 			y: -0.5d
 			shape: "octagon"
-			subtitle: "{chapter.7.quest.79.subtitle}"
-			description: ["{chapter.7.quest.79.description.1}"]
+			subtitle: "专家模式新机制："
+			description: [
+				"- 战利品有25%概率翻倍。"
+				""
+				"- 获得的经验增加20%"
+				""
+				"- 所有怪物的血量和伤害增加20%（夜晚时变为40%）"
+				""
+				"- 幻术师会在夜晚自然生成"
+				""
+				"- 精锐骷髅会在夜晚自然生成（精准射箭）"
+				""
+				"- 猪灵成群生成"
+				""
+				"- 掠夺者成群生成"
+				""
+				"- 苦力怕爆炸后会生成更多小苦力怕"
+				""
+				"- 史莱姆有概率造成缓慢效果"
+				""
+				"- 凋零骷髅有时会手持凋灵之剑而不是石剑"
+				""
+				"- 不死军队变为4波"
+				""
+				"- 不死军队生成的不死生物有两倍概率拥有附魔物品"
+				""
+				"- 不死军队生成的不死生物有两倍概率穿戴护甲"
+				""
+				"- 打败不死军队多给予一倍经验"
+				""
+				"- 流血致死或被僵尸杀死都会生成一只戴着你头颅的特殊僵尸。"
+			]
 			dependencies: ["2DF36A4C59310AB7"]
 			size: 1.5d
 			id: "3D007BCE6C843D07"
@@ -2724,7 +2809,7 @@
 		{
 			x: 6.0d
 			y: -4.0d
-			description: ["{chapter.7.quest.82.description.1}"]
+			description: ["夸克添加的新药水，提供减少伤害效果。"]
 			dependencies: ["1C6B53E307B94F2B"]
 			id: "3F35EA02A0EF5661"
 			tasks: [{
@@ -2770,10 +2855,17 @@
 			]
 		}
 		{
+			title: "前往末地"
 			x: 6.0d
 			y: -2.0d
-			description: ["{chapter.7.quest.83.description.1}"]
+			shape: "octagon"
+			description: [
+				"现在你需要一些材料来定位末地传送门，然后直面末影龙！"
+				""
+				"你确定你准备好了吗？"
+			]
 			dependencies: ["641181016BC6E8FA"]
+			size: 1.25d
 			id: "216F05F4361A6D0F"
 			tasks: [
 				{
@@ -2809,7 +2901,7 @@
 		{
 			x: 4.0d
 			y: -3.5d
-			description: ["{chapter.7.quest.84.description.1}"]
+			description: ["让你免疫火焰伤害，但无法免疫熔岩造成的伤害。"]
 			dependencies: ["641181016BC6E8FA"]
 			id: "06EBA7A32121915D"
 			tasks: [{
@@ -2839,7 +2931,11 @@
 		{
 			x: 2.0d
 			y: -5.0d
-			description: ["{chapter.7.quest.85.description.1}"]
+			description: [
+				"在这个包中，磁石变得更便宜了，只需要游魂珠而不是下界合金。"
+				""
+				"多亏了小地图，让它还是没什么用..."
+			]
 			dependencies: ["285ABC6C20EEB458"]
 			id: "7D82A29DF2992C0F"
 			tasks: [{
@@ -2902,7 +2998,7 @@
 							]
 							Potion: "minecraft:mundane"
 							display: {
-								Name: "{\"text\":\"Hey, where'd my map go?\",\"italic\":false,\"color\":\"gray\"}"
+								Name: "{\"text\":\"嘿，这地图让我去哪？\",\"italic\":false,\"color\":\"gray\"}"
 							}
 						}
 						ForgeCaps: {
@@ -2917,7 +3013,7 @@
 		{
 			x: 1.5d
 			y: -4.0d
-			description: ["{chapter.7.quest.86.description.1}"]
+			description: ["灵魂沙峡谷中生成的游魂掉落。右键即可召唤一道飞向最近的下界堡垒的螺旋。"]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "285ABC6C20EEB458"
 			tasks: [{
@@ -2942,8 +3038,12 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			subtitle: "{chapter.7.quest.87.subtitle}"
-			description: ["{chapter.7.quest.87.description.1}"]
+			subtitle: "下界煤炭"
+			description: [
+				"在硫磺岩洞中找到，也能与猪灵交易获得。"
+				""
+				"可烧制12个物品。"
+			]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "3797A1DDB27CF38E"
 			tasks: [{
@@ -2978,7 +3078,7 @@
 		{
 			x: 6.5d
 			y: -3.0d
-			description: ["{chapter.7.quest.88.description.1}"]
+			description: ["下界书架所需。"]
 			dependencies: ["1C6B53E307B94F2B"]
 			id: "2AE5CBF6176606CF"
 			tasks: [{
@@ -3035,13 +3135,13 @@
 		{
 			x: 3.0d
 			y: -0.5d
-			description: ["{chapter.7.quest.89.description.1}"]
-			optional: true
+			description: ["这个镰刀能以较大概率获得凋零头颅。"]
+			dependencies: ["4ABA0AF14F4830E5"]
 			id: "6D946460884FA90E"
 			tasks: [{
 				id: "501FC3186E30C604"
 				type: "item"
-				title: "{chapter.7.quest.89.task.1.title}"
+				title: "Any #spartanweaponry:scythes"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -3081,7 +3181,7 @@
 			x: -6.5d
 			y: 3.0d
 			shape: "diamond"
-			description: ["{chapter.7.quest.90.description.1}"]
+			description: ["下界学家村民的工作站。"]
 			dependencies: ["0F0AA12E6E9A4350"]
 			id: "02CE728BCDC1E758"
 			tasks: [{
@@ -3113,11 +3213,11 @@
 			}]
 		}
 		{
-			title: "{chapter.7.quest.91.title}"
+			title: "我们需要逃离"
 			x: 5.625d
 			y: 0.625d
 			shape: "hexagon"
-			description: ["{chapter.7.quest.91.description.1}"]
+			description: ["在它旁边放四个金块，就会将玩家和怪物抬升，然后逃离下界。"]
 			dependencies: ["4ABA0AF14F4830E5"]
 			size: 1.25d
 			id: "4332965E0DC7395C"
@@ -3158,6 +3258,77 @@
 					}
 				}
 			]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:piglin_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: -5.0d
+			description: [
+				"-猪灵现在有着与村民一样的声望系统。通过与它们一起对抗凋零生物，给它们礼物或与它们以物换物来增加声望。如果猎杀猪灵生物，在它们附近挖掘受猪灵保护的方块或开受保护的箱子就会减少声望。"
+				""
+				"-声望达到50后，你不再需要穿着金质装备接近它们。达到100后，你就能打开或挖掘附近的箱子和金矿。"
+				""
+				"-声望在-50时，你不再能够与它们以物换物。-100时，你会被无理由攻击，甚至穿着金质装备时。"
+				""
+				"-猪灵会寻找并捡起吃掉食物（默认会吃猪排或烤猪排）。玩家也可以在猪灵没有吃东西时手持食物右键它们。猪灵会根据食物能回复的饱食度来回复血量。"
+				""
+				"-猪灵现在可以用金粒或金块以物换物。金粒会交换出更普通的物品，并且减半物品数量。金块会交换出更稀有的物品，并且物品数量为2倍。"
+				""
+				"-猪灵会像村民一样摇头来拒绝被给予的物品。"
+				""
+				"猪灵现在会在接受或拒绝物品时发出粒子效果和声音。"
+				""
+				""
+			]
+			dependencies: ["67A339531A61A13F"]
+			id: "0DA780E82198E59C"
+			tasks: [{
+				id: "4C371DDFD42B66C2"
+				type: "checkmark"
+				title: "新的猪灵行为"
+			}]
+			rewards: [{
+				id: "665866DA9908B914"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:arrow_up"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 14.0d
+			y: -0.5d
+			subtitle: "把你的书提升到下一级！"
+			description: [
+				"突破升级是一种完美利用信标力量的全新附魔方式。"
+				""
+				"一开始，你需要在信标旁放置5个普通箱子，四周和\\&上方各一个。"
+				""
+				"然后在上面的箱子中，放置4个相同等级的附魔书并对其使用不死图腾。"
+				"完成后，一个带有末地水晶的动画就会出现，附魔书将会升级，这个操作可以突破附魔等级。"
+			]
+			dependencies: ["30D48209ECED6B8B"]
+			id: "169FADF0D87C1DB2"
+			tasks: [{
+				id: "37B9E0119410B141"
+				type: "checkmark"
+				title: "突破升级"
+			}]
 		}
 	]
 }

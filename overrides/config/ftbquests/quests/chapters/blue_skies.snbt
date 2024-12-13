@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 6
 	filename: "blue_skies"
-	title: "{chapter.12.title}"
+	title: "蔚蓝浩空"
 	icon: "blue_skies:star_flare"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -253,7 +253,11 @@
 		{
 			x: -1.5d
 			y: 0.5d
-			description: ["{chapter.12.quest.1.description.1}"]
+			description: [
+				"找到守门人，然后与之交易一本日记。你可以在平原、高山和大多数冰雪群系中找到是守门人小屋。"
+				""
+				"蔚蓝旅记，由守门人撰写，其中包含了守门人在旅行中的所有见闻。在蔚蓝天空维度发展的越多，能够阅读的章节也就越多。你只需要获得一次蔚蓝旅记。之后，你能在物品栏右侧点击蔚蓝旅记按钮打开旅记。"
+			]
 			size: 1.5d
 			id: "2B1333F88EBD6BA9"
 			tasks: [{
@@ -275,12 +279,12 @@
 			]
 		}
 		{
-			title: "{chapter.12.quest.2.title}"
+			title: "拜访维度：永昼之地"
 			x: 1.5d
 			y: -2.5d
 			shape: "octagon"
-			subtitle: "{chapter.12.quest.2.subtitle}"
-			description: ["{chapter.12.quest.2.description.1}"]
+			subtitle: "找到永昼之地传送门并进入"
+			description: ["永昼之地顾名思义，永远白天，但非常寒冷。大型野兽和飘行怪物生活在此，在这旅行，你需要随时注意身后。请小心暴风雪，它会带来浓重的雾和更多危险的敌人。随着你的旅行，你会发现惑乱高塔和自然城堡，这是星荧粉碎者的居住地。"]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "72F9931405BEFE11"
@@ -304,7 +308,7 @@
 				{
 					id: "712F666FF1C32522"
 					type: "pmmo:xpreward"
-					title: "{chapter.12.quest.2.reward.3.title}"
+					title: "50 Light XP"
 					auto: "invisible"
 					skill: "light"
 					amount: 50.0d
@@ -313,12 +317,12 @@
 			]
 		}
 		{
-			title: "{chapter.12.quest.3.title}"
+			title: "拜访维度：恒晓之地"
 			x: 1.5d
 			y: 3.5d
 			shape: "octagon"
-			subtitle: "{chapter.12.quest.3.subtitle}"
-			description: ["{chapter.12.quest.3.description.1}"]
+			subtitle: "找到恒晓之地传送门并进入"
+			description: ["恒晓之地中，太阳永远在升起。这是一个更加潮湿且温暖的世界，昆虫和爬行动物横行。进入之前，请为中毒和燃烧做好准备，这个世界中，许多地方或生物会造成这两种伤害。在这片截然不同的土地上探索，发现恒晓之地惑乱高塔和猛毒地牢，这是幽咽蛛王的栖息地。"]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "26A94FF0B70C2076"
@@ -342,7 +346,7 @@
 				{
 					id: "7AABD3D23A7566D9"
 					type: "pmmo:xpreward"
-					title: "{chapter.12.quest.3.reward.3.title}"
+					title: "50 Shadow XP"
 					auto: "invisible"
 					skill: "shadow"
 					amount: 50.0d
@@ -353,7 +357,7 @@
 		{
 			x: 4.0d
 			y: -4.5d
-			description: ["{chapter.12.quest.4.description.1}"]
+			description: ["虽然你不能用它制作工具，但可以制作桶、剪刀、铁砧和最重要的工具盒！"]
 			dependencies: ["72F9931405BEFE11"]
 			id: "4794A9B6D95E1E20"
 			tasks: [
@@ -377,7 +381,7 @@
 		{
 			x: 2.5d
 			y: -5.0d
-			description: ["{chapter.12.quest.5.description.1}"]
+			description: ["除了用于合成，缪铁还能增加工具的额外耐久"]
 			dependencies: ["72F9931405BEFE11"]
 			id: "55F576A9B46CDEE9"
 			tasks: [
@@ -407,7 +411,7 @@
 		{
 			x: 4.0d
 			y: 5.5d
-			description: ["{chapter.12.quest.6.description.1}"]
+			description: ["用于制作炙铁熔炉，并且能让工具自动冶炼。"]
 			dependencies: ["26A94FF0B70C2076"]
 			id: "1855EE653FA1E241"
 			tasks: [
@@ -431,7 +435,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
-			description: ["{chapter.12.quest.7.description.1}"]
+			description: ["透辉石拥有比绛紫晶更高的伤害和护甲韧性，但攻击速度和护甲更低。"]
 			dependency_requirement: "one_completed"
 			id: "1BCB46BE15E966C4"
 			tasks: [{
@@ -461,7 +465,7 @@
 		{
 			x: 3.5d
 			y: 0.5d
-			description: ["{chapter.12.quest.8.description.1}"]
+			description: ["与铜工具同等级。"]
 			dependency_requirement: "one_completed"
 			id: "1665D4E72E5CDCC4"
 			tasks: [{
@@ -491,7 +495,7 @@
 		{
 			x: 4.5d
 			y: 0.5d
-			description: ["{chapter.12.quest.9.description.1}"]
+			description: ["与铁工具同等级。"]
 			dependency_requirement: "one_completed"
 			id: "420FF8CF919A5422"
 			tasks: [{
@@ -521,7 +525,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			description: ["{chapter.12.quest.10.description.1}"]
+			description: ["与钻石工具同等级。"]
 			dependency_requirement: "one_completed"
 			id: "458F3157DF05FBE7"
 			tasks: [{
@@ -551,7 +555,7 @@
 		{
 			x: 4.5d
 			y: -0.5d
-			description: ["{chapter.12.quest.11.description.1}"]
+			description: ["用于制作月长石，其能发射光。"]
 			dependency_requirement: "one_completed"
 			id: "3FB1D4C5A889ACED"
 			tasks: [{
@@ -581,7 +585,7 @@
 		{
 			x: 2.5d
 			y: -6.5d
-			description: ["{chapter.12.quest.12.description.1}"]
+			description: ["传送的方式之一。"]
 			dependencies: ["55F576A9B46CDEE9"]
 			id: "5FC39CB208286BC5"
 			tasks: [
@@ -612,8 +616,8 @@
 		{
 			x: 4.0d
 			y: -6.5d
-			subtitle: "{chapter.12.quest.13.subtitle}"
-			description: ["{chapter.12.quest.13.description.1}"]
+			subtitle: "用这个炫酷的灯笼把怪物们拒之门外！"
+			description: ["与主世界不同，这个世界的怪物可以生成在光源之中。这个方块可以阻止他们生成。"]
 			dependencies: [
 				"55F576A9B46CDEE9"
 				"51C0535FF6ABCB08"
@@ -646,7 +650,7 @@
 		{
 			x: 0.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.14.description.1}"]
+			description: ["需要将永昼之地和恒晓之地传送门都点亮。在永昼之地使用会生成蓝火，在恒晓之地生成黑火。"]
 			dependencies: ["2B1333F88EBD6BA9"]
 			id: "644C1F036C73D23E"
 			tasks: [{
@@ -715,7 +719,7 @@
 		{
 			x: 4.0d
 			y: 7.5d
-			description: ["{chapter.12.quest.16.description.1}"]
+			description: ["炙铁熔炉的燃料。"]
 			dependencies: ["4780D50B95651C50"]
 			id: "2C9161A4C75DAF7B"
 			tasks: [{
@@ -739,8 +743,8 @@
 		{
 			x: 5.5d
 			y: -4.5d
-			subtitle: "{chapter.12.quest.17.subtitle}"
-			description: ["{chapter.12.quest.17.description.1}"]
+			subtitle: "让你的工具永葆青春"
+			description: ["工具盒用于改变本模组工具的手柄，并可以用缪铁锭增加额外耐久。"]
 			dependencies: ["4794A9B6D95E1E20"]
 			id: "5C5D93DD699B0DE5"
 			tasks: [{
@@ -770,7 +774,7 @@
 		{
 			x: 14.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.18.description.1}"]
+			description: ["这个桌子可以结合任意5种食物（甚至是本模组外的）。大多数食物会保留它们的效果。"]
 			id: "75170045DA295BD4"
 			tasks: [{
 				id: "54C327253DA603E9"
@@ -814,7 +818,7 @@
 		{
 			x: 16.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.19.description.1}"]
+			description: ["和蛋糕一样。"]
 			dependencies: ["3CEB665E2E0A39D6"]
 			id: "5FCE8FDEDD736273"
 			tasks: [{
@@ -885,13 +889,14 @@
 		}
 		{
 			x: 6.0d
-			y: 0.5d
-			description: ["{chapter.12.quest.21.description.1}"]
+			y: 1.0d
+			description: ["永昼和恒晓都需要四把钥匙来拜访对应的高塔刌民boss。找不到这么多？这有个提示：看看酿造台！"]
 			id: "2A1BA8C5A433CB02"
 			tasks: [{
 				id: "25A3C9BEE96D20D3"
 				type: "item"
 				item: "blue_skies:blinding_key"
+				count: 4L
 			}]
 			rewards: [
 				{
@@ -1068,7 +1073,7 @@
 			x: 12.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "{chapter.12.quest.27.subtitle}"
+			subtitle: "我推荐在与这颗活体大树战斗前，先准备一把本模组的斧头和矛，不然你的游戏体验可能会不太好..."
 			dependencies: ["6D75A9B7EE136A30"]
 			size: 1.5d
 			id: "3EBFB973D7E9DF7D"
@@ -1647,8 +1652,8 @@
 		{
 			x: 14.5d
 			y: -2.5d
-			subtitle: "{chapter.12.quest.41.subtitle}"
-			description: ["{chapter.12.quest.41.description.1}"]
+			subtitle: "进入自然城堡"
+			description: [""]
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "0DF7112340FB8A00"
 			tasks: [{
@@ -1695,7 +1700,7 @@
 		{
 			x: 14.5d
 			y: 3.5d
-			subtitle: "{chapter.12.quest.42.subtitle}"
+			subtitle: "进入猛毒地牢"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "1A14F33889B103A2"
 			tasks: [{
@@ -1742,7 +1747,7 @@
 		{
 			x: 9.0d
 			y: 5.5d
-			subtitle: "{chapter.12.quest.43.subtitle}"
+			subtitle: "使用炼金台"
 			dependencies: ["5B94856F3F11992D"]
 			id: "0F57C6A3764FAEA3"
 			tasks: [{
@@ -1804,7 +1809,7 @@
 				advancement: "blue_skies:everdawn/kill_bug"
 				criterion: ""
 			}]
-			rewards: [{
+		rewards: [{
 				id: "4FE26B98E0603BFD"
 				type: "item"
 				item: {
@@ -1822,7 +1827,7 @@
 		{
 			x: 9.0d
 			y: -0.5d
-			subtitle: "{chapter.12.quest.45.subtitle}"
+			subtitle: "使用召唤台召唤人造傀儡"
 			dependencies: ["35C5EAA0D938BEAA"]
 			id: "4AC62C9E31D53CFA"
 			tasks: [{
@@ -1879,7 +1884,7 @@
 		{
 			x: 9.0d
 			y: -1.5d
-			description: ["{chapter.12.quest.46.description.1}"]
+			description: ["用于召唤你自己的仆从"]
 			dependencies: ["6D75A9B7EE136A30"]
 			id: "35C5EAA0D938BEAA"
 			tasks: [{
@@ -1913,7 +1918,7 @@
 		{
 			x: 9.0d
 			y: 4.5d
-			description: ["{chapter.12.quest.47.description.1}"]
+			description: ["用于将方块转变为相近种类。很适合用来改变多颜色方块，比如羊毛或龙鳞。"]
 			dependencies: ["50D7B576C27AE274"]
 			id: "5B94856F3F11992D"
 			tasks: [{
@@ -1947,7 +1952,7 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			description: ["{chapter.12.quest.48.description.1}"]
+			description: ["装备到饰品栏后，获得速度提升。这里的饰品栏是Blue Skies模组的。"]
 			dependencies: ["6D75A9B7EE136A30"]
 			id: "436F1887204A780B"
 			tasks: [{
@@ -1984,7 +1989,7 @@
 		{
 			x: 6.0d
 			y: 4.5d
-			description: ["{chapter.12.quest.49.description.1}"]
+			description: ["装备到饰品栏后，可以在潜行时隐身。这里的饰品栏是Blue Skies模组的。"]
 			dependencies: ["50D7B576C27AE274"]
 			id: "4B967D68D94BF6D0"
 			tasks: [{
@@ -2021,7 +2026,7 @@
 		{
 			x: 7.0d
 			y: -1.0d
-			description: ["{chapter.12.quest.50.description.1}"]
+			description: ["扔出后会自动寻回的矛。"]
 			dependencies: ["6D75A9B7EE136A30"]
 			id: "2FF8B516AF58A07B"
 			tasks: [{
@@ -2058,7 +2063,7 @@
 		{
 			x: 7.0d
 			y: 5.0d
-			description: ["{chapter.12.quest.51.description.1}"]
+			description: ["可以在主手当做武器的盾牌。"]
 			dependencies: ["50D7B576C27AE274"]
 			id: "0E55EC2EF936A6A0"
 			tasks: [{
@@ -2134,7 +2139,7 @@
 		{
 			x: 15.0d
 			y: 1.5d
-			description: ["{chapter.12.quest.53.description.1}"]
+			description: ["食用后获得再生效果。在樱桃草上种植普通的酿莓获得。"]
 			id: "68345D94E07C3BF8"
 			tasks: [{
 				id: "141AE66EB547BD2B"
@@ -2206,14 +2211,14 @@
 		{
 			x: 1.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.55.description.1}"]
+			description: ["本模组维度外的工具、武器和护甲在这都会变得更弱。为了旅途顺利，最好制作一些本模组的装备。"]
 			dependencies: ["644C1F036C73D23E"]
 			dependency_requirement: "one_completed"
 			id: "1ED53320619BBE2F"
 			tasks: [{
 				id: "42AF295420E807BC"
 				type: "checkmark"
-				title: "{chapter.12.quest.55.task.1.title}"
+				title: "新的开始"
 			}]
 			rewards: [{
 				id: "2996B81A50A22E9E"
@@ -2231,7 +2236,7 @@
 			}]
 		}
 		{
-			title: "{chapter.12.quest.56.title}"
+			title: "棍与矛"
 			icon: {
 				id: "blue_skies:bluebright_spear"
 				Count: 1b
@@ -2246,13 +2251,19 @@
 			}
 			x: 2.0d
 			y: 0.5d
-			description: ["{chapter.12.quest.56.description.1}"]
+			description: [
+				"蔚蓝浩空的工具会根据手柄不同展现出小的变化。一些能给予更多的耐久，一些则会给予更高的攻击速度。工具盒能够在你想的时候改变手柄材料。"
+				""
+				"本模组中的矛都可以扔出，也是你主要的远程攻击手段。也让之后的boss战更加轻松。"
+				""
+				"尝试使用这些棍子制作本模组中的工具和矛，看看它们改变的工具属性。"
+			]
 			dependencies: ["1ED53320619BBE2F"]
 			id: "4115F1E842101C67"
 			tasks: [{
 				id: "51B08BCD52D80B95"
 				type: "item"
-				title: "{chapter.12.quest.56.task.1.title}"
+				title: "Any #blue_skies:tools"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2423,10 +2434,10 @@
 			}]
 		}
 		{
-			title: "{chapter.12.quest.60.title}"
+			title: "破坏640x绿松石和月长石"
 			x: 3.5d
 			y: -0.5d
-			description: ["{chapter.12.quest.60.description.1}"]
+			description: ["还记得主世界章节的挖掘石头任务吗？现在轮到这个维度了！"]
 			id: "21D2681DBB1F5668"
 			tasks: [
 				{
@@ -2460,7 +2471,7 @@
 		{
 			x: 8.0d
 			y: 5.0d
-			subtitle: "{chapter.12.quest.61.subtitle}"
+			subtitle: "我没法把召唤石头叫做\"炼金\""
 			dependencies: ["50D7B576C27AE274"]
 			id: "03A7C00B4DB2FAAC"
 			tasks: [{
@@ -2502,7 +2513,7 @@
 				{
 					id: "7403C5A7B261FB70"
 					type: "pmmo:xpreward"
-					title: "{chapter.12.quest.61.reward.2.title}"
+					title: "150 炼金经验"
 					auto: "invisible"
 					skill: "alchemy"
 					amount: 150.0d
@@ -2554,7 +2565,7 @@
 				{
 					id: "5E7A27F900C37184"
 					type: "pmmo:xpreward"
-					title: "{chapter.12.quest.62.reward.2.title}"
+					title: "150 忍耐经验"
 					auto: "invisible"
 					skill: "endurance"
 					amount: 150.0d
@@ -2565,7 +2576,7 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			description: ["{chapter.12.quest.63.description.1}"]
+			description: ["在积雪上燃烧的熔炉。"]
 			dependencies: ["72F9931405BEFE11"]
 			id: "27A5A1DE6F026D6A"
 			tasks: [{
@@ -2599,7 +2610,7 @@
 		{
 			x: 14.5d
 			y: 4.5d
-			description: ["{chapter.12.quest.64.description.1}"]
+			description: ["中毒时增加近战攻击伤害。"]
 			id: "45879AD48D37550E"
 			tasks: [{
 				id: "1E424F0CCD46BA28"
@@ -2621,7 +2632,7 @@
 			rewards: [{
 				id: "07CD2213D1654ED3"
 				type: "pmmo:xpreward"
-				title: "{chapter.12.quest.64.reward.1.title}"
+				title: "300 Shadow XP"
 				auto: "invisible"
 				skill: "shadow"
 				amount: 300.0d
@@ -2631,7 +2642,7 @@
 		{
 			x: 14.5d
 			y: -3.5d
-			description: ["{chapter.12.quest.65.description.1}"]
+			description: ["给予你随时间恢复的绿色生命条。"]
 			dependencies: ["0DF7112340FB8A00"]
 			id: "2376F4CD121F43F6"
 			tasks: [{
@@ -2654,7 +2665,7 @@
 			rewards: [{
 				id: "1F12C0A62252AB89"
 				type: "pmmo:xpreward"
-				title: "{chapter.12.quest.65.reward.1.title}"
+				title: "300 Light XP"
 				auto: "invisible"
 				skill: "light"
 				amount: 300.0d
@@ -2728,7 +2739,7 @@
 			}]
 		}
 		{
-			title: "{chapter.12.quest.68.title}"
+			title: "Spear Enchanting"
 			icon: {
 				id: "blue_skies:lunar_spear"
 				Count: 1b
@@ -2747,13 +2758,17 @@
 			}
 			x: 2.0d
 			y: 1.5d
-			description: ["{chapter.12.quest.68.description.1}"]
+			description: [
+				"这些矛可以被附魔穿透和忠诚，这让它们像三叉戟一样，很适合用来应对一串敌人。"
+				""
+				"为了让其在这个包中更受关注，有一些附魔注入配方，让其能拥有增加伤害的附魔，例如愤怒，这些附魔无法通过正常手段附在矛上。"
+			]
 			dependencies: ["4115F1E842101C67"]
 			id: "458ABA83F93AD1B5"
 			tasks: [{
 				id: "37207F6CE2224755"
 				type: "checkmark"
-				title: "{chapter.12.quest.68.task.1.title}"
+				title: "矛附魔"
 			}]
 			rewards: [
 				{
@@ -2774,6 +2789,257 @@
 					id: "567320281CEECF4F"
 					type: "xp"
 					xp: 150
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 0.5d
+			subtitle: "合四种饰品之力"
+			description: [
+				"使用灌注基座（查看末地探险章节）将四种Boss饰品制作成注能剑，这把武器能通过充能造成双倍伤害。"
+				""
+				"所有材料都能从主世界或蔚蓝浩空维度中获得，你不需要专门前往末地制作这把剑。"
+				""
+				"这把剑的附魔效果非常差，所以最好使用附魔书为其附魔。"
+			]
+			dependencies: [
+				"0DF7112340FB8A00"
+				"1A14F33889B103A2"
+			]
+			id: "24CFE033EACDA5C3"
+			tasks: [{
+				id: "47CAF057C07BD186"
+				type: "item"
+				item: {
+					id: "blue_skies:infused_arc_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "36BB824D92DC7041"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			title: "再次召唤召唤师"
+			x: 6.0d
+			y: -0.5d
+			description: [
+				"在钥匙孔上使用空灵能再次召唤召唤师，击败后可以获得更好的奖励。"
+				""
+				"空灵不会消耗。"
+			]
+			dependencies: ["436F1887204A780B"]
+			id: "50E0D9E7E8D46B70"
+			tasks: [{
+				id: "7D2D18B9502A583F"
+				type: "questsadditions:use"
+				block: "blue_skies:bright_blinding_keystone"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "blue_skies:ethereal_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1923F52D708568BA"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "73B5CC102AA4A678"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "再次召唤炼金师"
+			x: 6.0d
+			y: 5.5d
+			description: [
+				"在钥匙孔上使用暮光能再次召唤召唤师，击败后可以获得更好的奖励。"
+				""
+				"暮光不会被消耗。"
+			]
+			dependencies: ["4B967D68D94BF6D0"]
+			id: "69F2667A4E5CC2C0"
+			tasks: [{
+				id: "28D7AFBC380AF993"
+				type: "questsadditions:use"
+				block: "blue_skies:dawn_blinding_keystone"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "blue_skies:dusk_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0DD16D958ABB4153"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "5232EC4090C52865"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "复生星熠破灭之树"
+			x: 15.5d
+			y: -4.5d
+			description: [
+				"如果你阅读了之前重新召唤boss的任务，你应该知道该怎么做了。"
+				""
+				"如果没有，只需要在钥匙孔上使用自然即可。"
+			]
+			dependencies: ["2376F4CD121F43F6"]
+			id: "65D22F17959C58AC"
+			tasks: [{
+				id: "20F3CCA6F8E0BFDB"
+				type: "questsadditions:use"
+				block: "blue_skies:nature_keystone"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "blue_skies:nature_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1723DF37CB241116"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "2C2CB354EB24122B"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "复生幽咽蛛王"
+			x: 15.5d
+			y: 5.5d
+			description: ["不需要另找一个新结构！在钥匙孔上使用恶浊即可再次挑战它。"]
+			dependencies: ["45879AD48D37550E"]
+			id: "71803E71AF943D59"
+			tasks: [{
+				id: "39AC4CFEC6788EB2"
+				type: "questsadditions:use"
+				block: "blue_skies:poison_keystone"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "blue_skies:poison_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D6DC3E078572BEA"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "247E76A4638B6B15"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}

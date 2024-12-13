@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 1
 	filename: "culinary_engineering"
-	title: "{chapter.21.title}"
+	title: "烹饪之旅"
 	icon: "cookingforblockheads:cooking_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: -9.0d
 			y: 11.5d
 			shape: "gear"
-			description: ["{chapter.21.quest.1.description.1}"]
+			description: ["有了这本书，你就能用物品栏中的材料制作食物。"]
 			size: 1.5d
 			id: "0000000000000FF0"
 			tasks: [{
@@ -25,7 +25,7 @@
 			x: -5.0d
 			y: 11.5d
 			shape: "rsquare"
-			description: ["{chapter.21.quest.2.description.1}"]
+			description: ["烹饪桌是建造懒人厨房的第一步，这是你制作食物的地方。"]
 			dependencies: ["0000000000000FF0"]
 			id: "0000000000000FF2"
 			tasks: [{
@@ -51,7 +51,7 @@
 			x: -3.0d
 			y: 11.5d
 			shape: "rsquare"
-			description: ["{chapter.21.quest.3.description.1}"]
+			description: ["厨房有了水槽后（将水槽放在厨房类方块旁），你就拥有了免费的水来源。"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FF4"
 			tasks: [{
@@ -69,7 +69,7 @@
 			x: -2.0d
 			y: 10.5d
 			shape: "rsquare"
-			description: ["{chapter.21.quest.4.description.1}"]
+			description: ["烤箱用于烤制食物。没有升级时，烤箱需要燃料才能烤制食物。"]
 			dependencies: ["0000000000000FF4"]
 			id: "0000000000000FF6"
 			tasks: [{
@@ -86,7 +86,7 @@
 		{
 			x: -4.0d
 			y: 10.5d
-			description: ["{chapter.21.quest.5.description.1}"]
+			description: ["吐司机会将配方中的面包转换为吐司。"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FF8"
 			tasks: [{
@@ -111,7 +111,11 @@
 		{
 			x: 0.0d
 			y: 12.5d
-			description: ["{chapter.21.quest.6.description.1}"]
+			description: [
+				"提供源源不断的牛奶，不需要手动填充。"
+				""
+				"用铁砧将牛压进奶罐中看看是否合适。"
+			]
 			dependencies: ["0000000000000FFC"]
 			id: "0000000000000FFA"
 			tasks: [{
@@ -135,7 +139,7 @@
 		{
 			x: 0.0d
 			y: 10.5d
-			description: ["{chapter.21.quest.7.description.1}"]
+			description: ["存储配方中所需的牛奶。需要手动填充。"]
 			id: "0000000000000FFC"
 			tasks: [{
 				id: "0000000000000FFD"
@@ -158,7 +162,10 @@
 		{
 			x: -6.0d
 			y: 10.5d
-			description: ["{chapter.21.quest.8.description.1}"]
+			description: [
+				"冰箱是装饰性存储方块，允许你存储配方中所需的材料。"
+				"两个冰箱可以相互连接扩展存储空间。"
+			]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FFE"
 			tasks: [{
@@ -175,7 +182,7 @@
 		{
 			x: -4.0d
 			y: 12.5d
-			description: ["{chapter.21.quest.9.description.1}"]
+			description: ["可以存放配方中所需的工具，需要连接在厨房结构中。"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000001000"
 			tasks: [{
@@ -184,15 +191,15 @@
 				item: "cookingforblockheads:tool_rack"
 			}]
 			rewards: [{
-				id: "7631441200DA19FC"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+					id: "7631441200DA19FC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 			}]
 		}
 		{
 			x: -6.0d
 			y: 12.5d
-			description: ["{chapter.21.quest.10.description.1}"]
+			description: ["存储并显示调味料。"]
 			dependencies: ["0000000000000FF2"]
 			id: "0000000000001002"
 			tasks: [{
@@ -209,7 +216,7 @@
 		{
 			x: -2.0d
 			y: 12.5d
-			description: ["{chapter.21.quest.11.description.1}"]
+			description: ["存储并显示配方中所需的水果。"]
 			dependencies: ["0000000000000FF4"]
 			id: "0000000000001004"
 			tasks: [{
@@ -240,7 +247,7 @@
 		{
 			x: -6.5d
 			y: 9.5d
-			description: ["{chapter.21.quest.12.description.1}"]
+			description: ["用于升级冰箱，使其拥有制冰能力以满足配方中所需的冰雪材料。"]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001006"
 			tasks: [{
@@ -264,7 +271,7 @@
 		{
 			x: -5.5d
 			y: 9.5d
-			description: ["{chapter.21.quest.13.description.1}"]
+			description: ["用于升级冰箱，会保留槽内的最后一个物品，以防这个槽被其他物品替代。"]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001008"
 			tasks: [{
@@ -286,33 +293,13 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 9.5d
-			description: ["{chapter.21.quest.14.description.1}"]
-			dependencies: ["0000000000000FF6"]
-			id: "000000000000100A"
-			tasks: [{
-				id: "000000000000100B"
-				type: "item"
-				item: "cookingforblockheads:heating_unit"
-			}]
-			rewards: [
-				{
-					id: "00000000000012F2"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "7C6B1878ADC16A46"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
 			x: 2.0d
 			y: 10.5d
-			description: ["{chapter.21.quest.15.description.1}"]
+			description: [
+				"悬挂式厨柜，能用来装饰厨房，也可以提供额外的存储空间。"
+				""
+				"可以用染料染色。"
+			]
 			id: "000000000000100C"
 			tasks: [{
 				id: "000000000000100D"
@@ -328,7 +315,11 @@
 		{
 			x: 4.0d
 			y: 10.5d
-			description: ["{chapter.21.quest.16.description.1}"]
+			description: [
+				"悬挂式转角橱柜，让玩家更加方便地处理转角。"
+				""
+				"可以用染料染色。"
+			]
 			id: "000000000000100E"
 			tasks: [{
 				id: "000000000000100F"
@@ -344,7 +335,11 @@
 		{
 			x: 2.0d
 			y: 12.5d
-			description: ["{chapter.21.quest.17.description.1}"]
+			description: [
+				"厨房柜台能够为厨房用具提供放置空间，同时也能存储材料。"
+				""
+				"可以用染料染色。"
+			]
 			id: "0000000000001010"
 			tasks: [{
 				id: "0000000000001011"
@@ -360,7 +355,11 @@
 		{
 			x: 4.0d
 			y: 12.5d
-			description: ["{chapter.21.quest.18.description.1}"]
+			description: [
+				"转角厨房柜台，用于转角处。"
+				""
+				"可以用染料染色。"
+			]
 			id: "0000000000001012"
 			tasks: [{
 				id: "0000000000001013"
@@ -376,7 +375,7 @@
 		{
 			x: 3.0d
 			y: 11.5d
-			description: ["{chapter.21.quest.19.description.1}"]
+			description: ["\"经典\"厨房地板。可以转换成其他颜色，详情请查看JEI。"]
 			id: "0000000000001014"
 			tasks: [{
 				id: "0000000000001015"
@@ -396,18 +395,22 @@
 				tag: {
 					Damage: 0
 				}
-			}
+					}
 			x: -2.5d
 			y: 15.0d
 			shape: "octagon"
-			subtitle: "{chapter.21.quest.20.subtitle}"
-			description: ["{chapter.21.quest.20.description.1}"]
+			subtitle: "*你可能要缩放才能看到所有任务*"
+			description: [
+				"这些任务不需要全部完成，它们也没有奖励，它们只为你提供了制作食物的思路以保持多样化饮食。"
+				""
+				"这也许是你真正的食谱书。"
+			]
 			size: 2.5d
 			id: "000000000000107A"
 			tasks: [{
 				id: "000000000000107B"
 				type: "checkmark"
-				title: "{chapter.21.quest.20.task.1.title}"
+				title: "做饭时间"
 			}]
 		}
 		{
@@ -1236,12 +1239,12 @@
 			]
 		}
 		{
-			title: "{chapter.21.quest.59.title}"
+			title: "汤、沙拉和砂锅"
 			icon: "simplefarming:spinach_quinoa_quiche"
 			x: 10.75d
 			y: 11.0d
 			shape: "diamond"
-			description: ["{chapter.21.quest.59.description.1}"]
+			description: ["咖啡馆菜单上真有这些东西！"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013F3"
@@ -1269,12 +1272,12 @@
 			}]
 		}
 		{
-			title: "{chapter.21.quest.60.title}"
+			title: "两面包夹所有东西"
 			icon: "fins:crab_sandwich"
 			x: -15.75d
 			y: 20.5d
 			shape: "diamond"
-			description: ["{chapter.21.quest.60.description.1}"]
+			description: ["这是热狗还是三明治？"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013D5"
@@ -1298,12 +1301,12 @@
 			}]
 		}
 		{
-			title: "{chapter.21.quest.61.title}"
+			title: "世界各地"
 			icon: "simplefarming:chicken_curry"
 			x: -15.75d
 			y: 11.0d
 			shape: "diamond"
-			description: ["{chapter.21.quest.61.description.1}"]
+			description: ["来自世界各地的美食！"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013E1"
@@ -1366,11 +1369,11 @@
 			]
 		}
 		{
-			title: "{chapter.21.quest.63.title}"
+			title: "品茶时间！"
 			x: -7.25d
 			y: 26.0d
 			shape: "hexagon"
-			description: ["{chapter.21.quest.63.description.1}"]
+			description: ["每种饮品都会提供有用的效果"]
 			dependencies: ["19A4385584636C45"]
 			size: 1.5d
 			id: "0960AD8BA5C09440"
@@ -1963,7 +1966,15 @@
 			x: -2.5d
 			y: 26.0d
 			shape: "hexagon"
-			description: ["{chapter.21.quest.82.description.1}"]
+			description: [
+				"炉灶是营火的直接升级版，也是厨锅的优质热源。"
+				""
+				"当没有方块阻挡炉灶上方时，右键炉灶即可将物品放到烤架上。炉灶会自动检测营火的配方，所以通常都会花费30秒来完成配方。炉灶无法自动化传输物品（例如漏斗），但可以不消耗燃料烧制物品，跟营火一样。"
+				""
+				"炉灶支持同时烧制6个物品，并且会将产物放到顶上，而不是随处乱丢。"
+				""
+				"炉灶可以被锹和水桶扑灭，并且可以用打火石点燃。"
+			]
 			dependencies: ["32D6083223BDCD90"]
 			size: 1.5d
 			id: "19A4385584636C45"
@@ -2010,7 +2021,13 @@
 			x: -2.5d
 			y: 20.0d
 			shape: "hexagon"
-			description: ["{chapter.21.quest.84.description.1}"]
+			description: [
+				"厨锅是准备和存储大量食物的工作站。当被放置在热源上时（营火、火焰、熔岩、炉灶等等）就会开始冒泡，这表示它可以用于烧菜了。"
+				""
+				"你最多可以添加6个食材。如果食材正确，厨锅就会开始烧制。大多数食物需要一个容器来装出，比如碗；产物槽会告诉你要使用什么容器。只需要将容器放在对应的槽内，或者右键厨锅，大吃一顿吧！"
+				""
+				"做出的食物往往能增加很多饱食度，所以它们的堆叠数量不会很高。如果你不想把它们一次全吃掉，你可以破坏厨锅把食物带在身上。厨锅可以无视堆叠上限，存储64份食物。"
+			]
 			dependencies: ["19A4385584636C45"]
 			size: 2.0d
 			id: "18F8DADD01FEC9C2"
@@ -2057,7 +2074,7 @@
 		{
 			x: -1.5d
 			y: 17.5d
-			description: ["{chapter.21.quest.86.description.1}"]
+			description: ["使用后，会随机移除玩家一个负面效果，不会影响正面效果。这让可可豆在困难、危险的旅行中拥有了一个简单实用的功能。"]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "55AF1779E7AE28A7"
 			tasks: [{
@@ -2098,7 +2115,7 @@
 		{
 			x: -5.0d
 			y: 23.5d
-			description: ["{chapter.21.quest.88.description.1}"]
+			description: ["这种合成食物能让你的坐骑在旅行中更加灵活。由于坐骑要吃大量饲料，所以这个物品不需要碗来盛装，可以节省一些存储空间。"]
 			dependencies: ["604569BC4764E258"]
 			id: "31E7C56ABBA6A7B2"
 			tasks: [{
@@ -2116,8 +2133,12 @@
 			x: 2.5d
 			y: 26.0d
 			shape: "hexagon"
-			subtitle: "{chapter.21.quest.89.subtitle}"
-			description: ["{chapter.21.quest.89.description.1}"]
+			subtitle: "砧板能让玩家用对应工具将一个物品处理成很多物品。"
+			description: [
+				"物品可以右键放置在砧板上。它也可以接受副手上的东西，你可以主手持工具，副手持材料来快速处理物品。"
+				""
+				"当正确的工具对应正确的物品时，物品就会被处理为1-4个不同的产物，并从侧面被丢出。产物总会向砧板把手的对面飞出，你可以用漏斗或篮子等物品收集方块收集产物。每次处理物品会消耗工具1点耐久。"
+			]
 			dependencies: ["19A4385584636C45"]
 			size: 1.5d
 			id: "2FEC85DD348C7C1C"
@@ -2130,7 +2151,7 @@
 				{
 					id: "372026CF74458EAB"
 					type: "item"
-					title: "{chapter.21.quest.89.task.2.title}"
+					title: "Any #farmersdelight:tools/knives"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -2224,7 +2245,7 @@
 		{
 			x: -6.5d
 			y: 23.5d
-			description: ["{chapter.21.quest.92.description.1}"]
+			description: ["这种合成食物能让狼更快追上你或猎物，在战斗中能持续更长时间。"]
 			dependencies: ["604569BC4764E258"]
 			id: "3693C3F67BD59401"
 			tasks: [{
@@ -2246,7 +2267,7 @@
 			tasks: [{
 				id: "567B754D8FE1DD06"
 				type: "checkmark"
-				title: "{chapter.21.quest.93.task.1.title}"
+				title: "Pet Foods"
 			}]
 			rewards: [{
 				id: "09498BF35D65A18A"
@@ -2257,14 +2278,18 @@
 		{
 			x: 0.0d
 			y: 22.0d
-			subtitle: "{chapter.21.quest.94.subtitle}"
-			description: ["{chapter.21.quest.94.description.1}"]
+			subtitle: "盛宴能补充大量饱食度，可以放置下来与其他玩家共享。"
+			description: [
+				"盛宴不能直接作为食物使用；它必须像方块一样被放置下来。放置后，玩家可以用碗右键来获得一份可食用物品。"
+				""
+				"本模组的盛宴可以分为4份。盘装盛宴会留下脏盘子；右键或将其破坏可以得到碗和一些食物残渣，例如骨头。"
+			]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "619A52669514E850"
 			tasks: [{
 				id: "251874AE085FBC47"
 				type: "checkmark"
-				title: "{chapter.21.quest.94.task.1.title}"
+				title: "Feasts"
 			}]
 			rewards: [{
 				id: "4D3E45D3809A8E8A"
@@ -3702,7 +3727,7 @@
 			]
 		}
 		{
-			title: "{chapter.21.quest.145.title}"
+			title: "Cakes and Pies"
 			icon: "simplefarming:strawberry_pie"
 			x: -15.75d
 			y: 29.5d
@@ -3823,7 +3848,7 @@
 			}]
 		}
 		{
-			title: "{chapter.21.quest.150.title}"
+			title: "Sweets n` Snacks"
 			icon: "supplementaries:candy"
 			x: 10.75d
 			y: 22.5d

@@ -3,14 +3,14 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 0
 	filename: "overworld_exploration"
-	title: "{chapter.6.title}"
+	title: "世界旅行"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 0.0d
-			y: -1.0d
+			x: -0.07d
+			y: -0.95d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
@@ -38,13 +38,27 @@
 			icon: "minecraft:potato"
 			x: 3.5d
 			y: 1.0d
-			description: ["{chapter.6.quest.1.description.1}"]
+			description: [
+				"生活调味料：马铃薯版（Spice of Life: Potato Edition）能让你在吃多种食物后获得多种增益。"
+				"悬停在食物上来查看它们提供的营养种类和营养值(NUs)。"
+				""
+				"根据最近一段时间饮食多样化的程度，你会获得不同增益。"
+				"- 蓝色区域会显示你目前的每种营养等级。"
+				"- 绿线会显示\"目标\"区域的界限。"
+				"- 左侧红线会显示\"营养不良\"的界限。"
+				"- 右侧红线会显示\"饱食\"的界限。"
+				""
+				"你需要保持饮食多样化来持续获得这些增益。这鼓励你搭建食物自动化，也鼓励你吃更多东西，就像胡萝卜版一样。"
+				""
+				"*注意：你的饮食多样化系统会随着所吃的食物动态变化。这意味着，在你吃过一顿大餐并且拥有很多增益后，再只吃面包，就会使你丢失或减弱增益的效果。要增加多样化得分，你需要在你的饮食中添加更多的种类。"
+				""
+			]
 			dependencies: ["45367EFC307FBA67"]
 			id: "006F7F9BE37E4FA7"
 			tasks: [{
 				id: "43036004E3C8DE83"
 				type: "checkmark"
-				title: "{chapter.6.quest.1.task.1.title}"
+				title: "食物多样化和增益"
 			}]
 			rewards: [{
 				id: "5592572112E7815D"
@@ -53,120 +67,18 @@
 			}]
 		}
 		{
-			icon: {
-				id: "losttrinkets:creepo"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 7.5d
-			y: 3.0d
-			description: ["{chapter.6.quest.2.description.1}"]
-			dependencies: ["5F7DCF112F9F6C1C"]
-			id: "46999E88BCF5B1BD"
-			tasks: [{
-				id: "62A65DFCEE9F4AA5"
-				type: "checkmark"
-				title: "{chapter.6.quest.2.task.1.title}"
-			}]
-			rewards: [
-				{
-					id: "49273F2D34DC8D06"
-					type: "item"
-					item: "supplementaries:candy"
-				}
-				{
-					id: "3C1CFE358EE92938"
-					type: "item"
-					item: "minecraft:apple"
-				}
-			]
-		}
-		{
-			title: "{chapter.6.quest.3.title}"
-			icon: "itemfilters:not"
-			x: 7.0d
-			y: 2.0d
-			description: ["{chapter.6.quest.3.description.1}"]
-			dependencies: ["518DF4A178673014"]
-			id: "143E7EB383FC8A60"
-			tasks: [{
-				id: "0EEDD89EE27ED37B"
-				type: "checkmark"
-				title: "{chapter.6.quest.3.task.1.title}"
-			}]
-			rewards: [{
-				id: "65B246D328EEEA52"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "apotheosis:strong_haste"
-					}
-				}
-			}]
-		}
-		{
-			icon: "itemfilters:not"
-			x: 1.0d
-			y: 0.0d
-			description: ["{chapter.6.quest.4.description.1}"]
-			dependencies: ["2DDD649416AA95EC"]
-			id: "7B1C0892C86A4177"
-			tasks: [{
-				id: "4665A7B467B41395"
-				type: "checkmark"
-				title: "{chapter.6.quest.4.task.1.title}"
-			}]
-			rewards: [
-				{
-					id: "5353785639EC83D0"
-					type: "item"
-					item: "minecraft:torch"
-					count: 2
-				}
-				{
-					id: "214983D047D7EB57"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-			]
-		}
-		{
-			icon: "itemfilters:id_regex"
-			x: 1.0d
-			y: -2.0d
-			description: ["{chapter.6.quest.5.description.1}"]
-			dependencies: ["2DDD649416AA95EC"]
-			id: "5AD3CAD77014FECC"
-			tasks: [{
-				id: "6BF0D787CC57A597"
-				type: "checkmark"
-				title: "{chapter.6.quest.5.task.1.title}"
-			}]
-			rewards: [{
-				id: "2C9FAD1B34763B10"
-				type: "item"
-				item: "minecraft:apple"
-			}]
-		}
-		{
 			x: 3.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "{chapter.6.quest.6.subtitle}"
-			description: ["{chapter.6.quest.6.description.1}"]
+			subtitle: "起于何处"
+			description: ["没有工作台，你无法走向更远处。"]
 			dependencies: ["2DDD649416AA95EC"]
 			size: 1.5d
 			id: "18FF6DA5335C0711"
 			tasks: [{
 				id: "01EA018DC5205DBA"
 				type: "item"
-				title: "{chapter.6.quest.6.task.1.title}"
+				title: "任何#forge:workbench"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -192,12 +104,12 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "{chapter.6.quest.7.subtitle}"
+			subtitle: "获得木头"
 			id: "2DDD649416AA95EC"
 			tasks: [{
 				id: "4A2AD7B3B078CCFD"
 				type: "item"
-				title: "{chapter.6.quest.7.task.1.title}"
+				title: "任何#minecraft:logs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -221,10 +133,10 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.8.title}"
+			title: "铁质护甲"
 			x: 9.5d
 			y: -2.0d
-			description: ["{chapter.6.quest.8.description.1}"]
+			description: ["在模组添加的地牢里有很多。"]
 			dependencies: ["7FC81AF332294769"]
 			id: "6D049357B6972937"
 			tasks: [
@@ -303,10 +215,10 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.9.title}"
+			title: "现在有更多活动空间！"
 			x: 6.0d
 			y: 1.0d
-			description: ["{chapter.6.quest.9.description.1}"]
+			description: ["你可以在下方看到采掘技能所需工具。除了这些基础工具还有更多可用的工具。"]
 			dependencies: ["01ECE22274DDE487"]
 			id: "518DF4A178673014"
 			tasks: [{
@@ -337,7 +249,7 @@
 		{
 			x: 10.0d
 			y: 6.0d
-			description: ["{chapter.6.quest.10.description.1}"]
+			description: ["普通的铁镐，拥有均衡的属性。"]
 			dependencies: ["0197357833059D83"]
 			dependency_requirement: "one_started"
 			id: "62D2AC9343C06D18"
@@ -357,19 +269,19 @@
 				}
 				{
 					id: "675BA03793FCFBDC"
-					type: "item"
-					item: {
-						id: "minecraft:iron_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
-						}
-					}
+				}
+			}
 					match_nbt: false
 					weak_nbt_match: true
 				}
@@ -411,7 +323,7 @@
 		{
 			x: 18.0d
 			y: 6.0d
-			description: ["{chapter.6.quest.11.description.1}"]
+			description: ["经典的镐。能完美挖掘黑曜石。"]
 			dependencies: [
 				"446936F80D06B8A4"
 				"3A78EBA961882C21"
@@ -459,7 +371,7 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.12.title}"
+			title: "用钻石包裹我"
 			x: 19.0d
 			y: 5.0d
 			dependencies: ["544027B606EEA00D"]
@@ -531,7 +443,7 @@
 			x: 18.0d
 			y: -1.0d
 			shape: "octagon"
-			description: ["{chapter.6.quest.13.description.1}"]
+			description: ["制作魔法物品的关键，并能解锁多个魔法维度"]
 			dependencies: ["7FC81AF332294769"]
 			dependency_requirement: "one_completed"
 			size: 1.5d
@@ -562,7 +474,11 @@
 		{
 			x: 10.5d
 			y: -3.0d
-			description: ["{chapter.6.quest.14.description.1}"]
+			description: [
+				"使用大型铁塔盾保护自己！"
+				""
+				"和普通的盾牌一样，塔盾也能用旗帜改变外形。"
+			]
 			dependencies: ["7FC81AF332294769"]
 			id: "3481C7E0750A45D6"
 			tasks: [{
@@ -636,10 +552,16 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.16.title}"
+			title: "实用工具"
 			x: 8.0d
 			y: -2.0d
-			description: ["{chapter.6.quest.16.description.1}"]
+			description: [
+				"-镐尖斧：斧头、镐子和锹的结合体。可以用于制造土径或去皮原木。"
+				""
+				"-长柄镰刀：收获与自动再种植的锄头工具。也可以作为范围攻击的武器。"
+				""
+				"-镰刀：范围破坏种植方块。"
+			]
 			dependencies: ["01ECE22274DDE487"]
 			id: "6EC9F2BFD2FC1809"
 			tasks: [
@@ -708,10 +630,14 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.17.title}"
+			title: "锡"
 			x: 6.0d
 			y: 6.0d
-			description: ["{chapter.6.quest.17.description.1}"]
+			description: [
+				"锡有着与燧石装备相等的力量，但锡镐能挖掘像钻石一样更坚硬的矿石。"
+				""
+				"锡镐是解锁下个任务的可选条件。"
+			]
 			dependencies: ["02ED7F720C5EBABD"]
 			dependency_requirement: "one_started"
 			id: "59F003B96FBE2813"
@@ -719,7 +645,7 @@
 				{
 					id: "167A4AB1CA44A420"
 					type: "item"
-					title: "{chapter.6.quest.17.task.1.title}"
+					title: "任何#forge:ingots/tin"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -764,10 +690,10 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.18.title}"
+			title: "铜"
 			x: 8.0d
 			y: 6.0d
-			description: ["{chapter.6.quest.18.description.1}"]
+			description: ["比锡耐用一点。"]
 			dependencies: ["59F003B96FBE2813"]
 			dependency_requirement: "one_started"
 			id: "0197357833059D83"
@@ -775,7 +701,7 @@
 				{
 					id: "3CD99AD47F5C8882"
 					type: "item"
-					title: "{chapter.6.quest.18.task.1.title}"
+					title: "任何#forge:ingots/copper"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -803,10 +729,10 @@
 			}]
 		}
 		{
-			title: "{chapter.6.quest.19.title}"
+			title: "银"
 			x: 12.0d
 			y: 6.0d
-			description: ["{chapter.6.quest.19.description.1}"]
+			description: ["对亡灵生物有特伤的铁制工具。"]
 			dependencies: ["62D2AC9343C06D18"]
 			dependency_requirement: "one_started"
 			id: "5F4896458FA5BB60"
@@ -814,7 +740,7 @@
 				{
 					id: "761E68267A9E38B3"
 					type: "item"
-					title: "{chapter.6.quest.19.task.1.title}"
+					title: "任何#forge:ingots/silver"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -859,10 +785,10 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.20.title}"
+			title: "蓝宝石"
 			x: 16.0d
 			y: 6.0d
-			description: ["{chapter.6.quest.20.description.1}"]
+			description: ["第一套钻石级别的装备。工具的耐久比钻石少但比铁多很多。"]
 			dependencies: ["1D6D6CB93ECEF297"]
 			dependency_requirement: "one_started"
 			id: "3A78EBA961882C21"
@@ -870,7 +796,7 @@
 				{
 					id: "32A2B99CC144E938"
 					type: "item"
-					title: "{chapter.6.quest.20.task.1.title}"
+					title: "任何#forge:gems/sapphire"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -926,10 +852,14 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.21.title}"
+			title: "铅"
 			x: 14.0d
 			y: 6.0d
-			description: ["{chapter.6.quest.21.description.1}"]
+			description: [
+				"铁的分支强化，速度更慢但攻击力和挖掘力更高。"
+				""
+				"第一把能挖黑曜石的镐，但非常慢。"
+			]
 			dependencies: ["5F4896458FA5BB60"]
 			dependency_requirement: "one_started"
 			id: "1D6D6CB93ECEF297"
@@ -937,7 +867,7 @@
 				{
 					id: "116BFD5CD970A68F"
 					type: "item"
-					title: "{chapter.6.quest.21.task.1.title}"
+					title: "任何#forge:ingots/lead"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -989,7 +919,7 @@
 			tasks: [{
 				id: "1CE86177C64AD58B"
 				type: "item"
-				title: "{chapter.6.quest.23.task.1.title}"
+				title: "任何#minecraft:beds"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1029,7 +959,7 @@
 			x: 6.0d
 			y: -1.0d
 			shape: "octagon"
-			description: ["{chapter.6.quest.24.description.1}"]
+			description: ["你也可以在地上找到散落的石头，收集它们就能跳过木质工具阶段。"]
 			dependencies: ["18FF6DA5335C0711"]
 			size: 1.5d
 			id: "01ECE22274DDE487"
@@ -1059,7 +989,7 @@
 			tasks: [{
 				id: "0995187A5468E252"
 				type: "item"
-				title: "{chapter.6.quest.25.task.1.title}"
+				title: "任何#forge:obsidian"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1100,7 +1030,7 @@
 			tasks: [{
 				id: "26CFFADD8427EB7A"
 				type: "item"
-				title: "{chapter.6.quest.26.task.1.title}"
+				title: "任何#forge:bookshelves"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1115,8 +1045,8 @@
 					type: "xp"
 					xp: 100
 				}
-				{
-					id: "48448ABFA2EAB806"
+		{
+			id: "48448ABFA2EAB806"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
@@ -1134,11 +1064,16 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.27.title}"
+			title: "耕作时间到"
 			x: 5.0d
 			y: 0.5d
 			shape: "circle"
-			description: ["{chapter.6.quest.27.description.1}"]
+			description: [
+				"锄头是多用途镰刀。"
+				"它能在一定范围内收割作物和破坏草。"
+				""
+				"像钻石、下界合金和龙钢锄头的范围更大。"
+			]
 			dependencies: ["01ECE22274DDE487"]
 			id: "45367EFC307FBA67"
 			tasks: [{
@@ -1166,7 +1101,7 @@
 			tasks: [{
 				id: "5455CD298723186E"
 				type: "item"
-				title: "{chapter.6.quest.28.task.1.title}"
+				title: "任何#storagedrawers:drawers"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1192,7 +1127,7 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			description: ["{chapter.6.quest.29.description.1}"]
+			description: ["比石质工具好一点。"]
 			dependencies: ["01ECE22274DDE487"]
 			id: "5F7DCF112F9F6C1C"
 			tasks: [{
@@ -1245,7 +1180,7 @@
 		{
 			x: 8.0d
 			y: 7.0d
-			description: ["{chapter.6.quest.30.description.1}"]
+			description: ["增加最大生命值。"]
 			dependencies: ["0197357833059D83"]
 			id: "0C028AFE6361A9C0"
 			tasks: [
@@ -1323,7 +1258,7 @@
 		{
 			x: 14.0d
 			y: 5.0d
-			description: ["{chapter.6.quest.31.description.1}"]
+			description: ["让你变得更重、更难被击退并抵抗一些魔法伤害。"]
 			dependencies: ["1D6D6CB93ECEF297"]
 			id: "401C62C883E0CDDA"
 			tasks: [
@@ -1381,7 +1316,7 @@
 		{
 			x: 4.0d
 			y: 2.0d
-			description: ["{chapter.6.quest.32.description.1}"]
+			description: ["用水填满后，能用于立即湿润耕地。"]
 			dependencies: ["45367EFC307FBA67"]
 			id: "568C31B3FDBED711"
 			tasks: [{
@@ -1439,7 +1374,7 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.34.title}"
+			title: "Go full nomad!"
 			x: 4.5d
 			y: -3.5d
 			dependencies: ["17FC433734DE388E"]
@@ -1447,7 +1382,7 @@
 			tasks: [{
 				id: "092A1CD36EC4FE13"
 				type: "item"
-				title: "{chapter.6.quest.34.task.1.title}"
+				title: "任何#questtag:sleepingbag"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1490,13 +1425,17 @@
 		{
 			x: 2.5d
 			y: 0.5d
-			description: ["{chapter.6.quest.35.description.1}"]
+			description: [
+				"准备好在七大洋上航行！"
+				""
+				"也是很有用的怪物陷阱。"
+			]
 			dependencies: ["18FF6DA5335C0711"]
 			id: "7CBB7705078C99DD"
 			tasks: [{
 				id: "101265A52585691D"
 				type: "item"
-				title: "{chapter.6.quest.35.task.1.title}"
+				title: "任何#minecraft:boats"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1534,7 +1473,7 @@
 		{
 			x: 18.0d
 			y: -3.5d
-			description: ["{chapter.6.quest.36.description.1}"]
+			description: ["你可以在砂轮中将附魔书或装备祛魔并获得一些返还的经验"]
 			dependencies: ["4D4CE785FDA4EFB9"]
 			id: "43509530CAD67EE9"
 			tasks: [{
@@ -1572,7 +1511,19 @@
 		{
 			x: 19.5d
 			y: -3.5d
-			description: ["{chapter.6.quest.37.description.1}"]
+			description: [
+				"海之祭坛能让你回收无用的附魔物品。"
+				""
+				"你需要四个附魔物品和一些经验."
+				""
+				"然后，将附魔物品放在各个柱子上（指向柱子然后右键）。"
+				""
+				"四个柱子被放置物品后，祭坛就会开始吸收附近玩家的经验。"
+				""
+				"经验所需数量基于附魔的稀有度。经验被吸收后，四个附魔物品会被吸收，然后会产出一本新的附魔书。"
+				""
+				"新的附魔是随机的，但更高等级和更稀有的附魔会产出更好的附魔。海之祭坛能够产出极品附魔。"
+				]
 			dependencies: ["43509530CAD67EE9"]
 			id: "1A15D385F7DDF6E4"
 			tasks: [{
@@ -1636,7 +1587,7 @@
 		{
 			x: 19.0d
 			y: -6.0d
-			subtitle: "{chapter.6.quest.39.subtitle}"
+			subtitle: "海边的书架"
 			dependencies: ["4E332FAD066528F2"]
 			id: "2DD4ECB63E6C32C8"
 			tasks: [{
@@ -1705,7 +1656,7 @@
 		{
 			x: 6.0d
 			y: 7.0d
-			description: ["{chapter.6.quest.41.description.1}"]
+			description: ["增加方块触碰距离。"]
 			dependencies: ["59F003B96FBE2813"]
 			id: "62B5E244F71CBC3E"
 			tasks: [
@@ -1763,7 +1714,7 @@
 		{
 			x: 12.0d
 			y: 5.0d
-			description: ["{chapter.6.quest.42.description.1}"]
+			description: ["对亡灵生物反弹伤害。"]
 			dependencies: ["5F4896458FA5BB60"]
 			id: "252A609057F3DB46"
 			tasks: [
@@ -1834,7 +1785,7 @@
 		{
 			x: 16.0d
 			y: 5.0d
-			description: ["{chapter.6.quest.43.description.1}"]
+			description: ["获得幸运，增加时运效果、战利品和运气。"]
 			dependencies: ["3A78EBA961882C21"]
 			id: "4DFC83646717BEC5"
 			tasks: [
@@ -1905,7 +1856,7 @@
 		{
 			x: 9.0d
 			y: 2.5d
-			description: ["{chapter.6.quest.44.description.1}"]
+			description: ["原版弓用于升级箭术技能，升级后你就能使用更好的弓。"]
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "7B627325BF285247"
 			tasks: [{
@@ -1956,8 +1907,13 @@
 		{
 			x: 13.5d
 			y: 0.0d
-			subtitle: "{chapter.6.quest.45.subtitle}"
-			description: ["{chapter.6.quest.45.description.1}"]
+			subtitle: "更多村民！"
+			description: [
+				"有一些新的村民职业，意味着也有特殊的交易、工作站和成就！"
+				"海洋学家、下界学家、林务员、末影学家、工程师、花贩、猎人、矿工"
+				""
+				"下界学家和末影学家的工作站可以在下界和末地章节中了解到。"
+			]
 			dependencies: ["7FC81AF332294769"]
 			id: "4EAD123C4CC0E5CA"
 			tasks: [{
@@ -1980,7 +1936,7 @@
 		{
 			x: 12.0d
 			y: 0.5d
-			description: ["{chapter.6.quest.46.description.1}"]
+			description: ["让你能空手挖掘方块。"]
 			dependencies: ["7FC81AF332294769"]
 			id: "5F5F8F6B0B5A2718"
 			tasks: [{
@@ -2017,8 +1973,11 @@
 			x: 19.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "{chapter.6.quest.47.subtitle}"
-			description: ["{chapter.6.quest.47.description.1}"]
+			subtitle: "提升你的挖掘速度、时运等级并提供可开关的夜视。"
+			description: [
+				""
+				"查看\"神秘遗物\"章节了解更多信息！"
+			]
 			dependencies: ["446936F80D06B8A4"]
 			id: "4CC0C281BCE93043"
 			tasks: [{
@@ -2039,7 +1998,7 @@
 		{
 			x: 8.0d
 			y: -4.0d
-			description: ["{chapter.6.quest.48.description.1}"]
+			description: ["高炉能将钻石和海王工具熔炼回部分材料。"]
 			dependencies: ["766E4FEA8148AEDA"]
 			id: "4D3A62DB1CC130EA"
 			tasks: [{
@@ -2066,10 +2025,14 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.49.title}"
+			title: "入门怪物猎人"
 			x: 9.0d
 			y: 1.0d
-			description: ["{chapter.6.quest.49.description.1}"]
+			description: [
+				"用你新得到的剑击杀怪物。"
+				""
+				"查看迎战！章节了解更多怪物猎人任务。"
+			]
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "3D96F603D819128E"
 			tasks: [
@@ -2155,8 +2118,11 @@
 			x: 7.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "{chapter.6.quest.50.subtitle}"
-			description: ["{chapter.6.quest.50.description.1}"]
+			subtitle: "刀是回收工具：它能让你从动植物中获得更多资源。"
+			description: [
+				""
+				"前往\"农夫乐事\"章节查看更多信息！"
+			]
 			dependencies: ["02ED7F720C5EBABD"]
 			id: "01F975837F68C5EC"
 			tasks: [{
@@ -2185,7 +2151,7 @@
 		{
 			x: 10.0d
 			y: 3.0d
-			description: ["{chapter.6.quest.51.description.1}"]
+			description: ["背上背着箭，看起来很帅。"]
 			dependencies: ["7B627325BF285247"]
 			id: "05A4EC5F750582F2"
 			tasks: [{
@@ -2212,11 +2178,11 @@
 			}]
 		}
 		{
-			title: "{chapter.6.quest.52.title}"
+			title: "准备前往下界！"
 			x: 20.5d
 			y: -1.0d
 			shape: "gear"
-			description: ["{chapter.6.quest.52.description.1}"]
+			description: ["下界传送门会以维度裂隙形式生成，并散落在地底深处。你需要找到一个裂隙来前往下界"]
 			dependencies: ["446936F80D06B8A4"]
 			id: "1C7D1D2C57D866A2"
 			tasks: [{
@@ -2247,9 +2213,9 @@
 		{
 			x: 11.0d
 			y: 1.0d
-			subtitle: "{chapter.6.quest.53.subtitle}"
+			subtitle: "医疗包."
 			description: [
-				"{chapter.6.quest.53.description.1}"
+				"医疗包."
 				"{image:roughtweaks:textures/item/medkit.png width:100 height:100 align:1}"
 			]
 			dependencies: ["7FC81AF332294769"]
@@ -2395,10 +2361,14 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.58.title}"
+			title: "梦想去流浪"
 			x: 5.5d
 			y: -4.0d
-			description: ["{chapter.6.quest.58.description.1}"]
+			description: [
+				"这个包鼓励玩家用不同的方式游玩，包括流浪探险！"
+				""
+				"这些物品能帮助你探险。虽然收集它们需要花费一些时间..."
+			]
 			dependencies: [
 				"6564CCC871E811E4"
 				"221A3D2E31B74520"
@@ -2544,7 +2514,19 @@
 		{
 			x: 5.0d
 			y: -2.0d
-			description: ["{chapter.6.quest.59.description.1}"]
+			description: [
+				"你可以在背包饰品栏穿戴背包，也可以将背包放在物品栏中。"
+				""
+				"你可以用快捷键打开饰品栏中的背包，当然，箱子、快捷栏、或物品栏都可以。"
+				""
+				"你也可以将鼠标悬停在想要打开的背包上按快捷键来打开背包。"
+				""
+				"你也可以将背包放置在地面，然后潜行使用来打开。这也能让背包连接到简易存储网络中。"
+				""
+				"与潜影盒一样，背包可以在被破坏时保留其中物品。"
+				""
+				"注意：目前有一个bug，当使用磁铁时，物品不会自动堆叠。我们暂时无法解决。请使用排序容器的按钮（或排列背包快捷键）作为解决方式。"
+			]
 			dependencies: ["18FF6DA5335C0711"]
 			id: "6564CCC871E811E4"
 			tasks: [{
@@ -2569,7 +2551,23 @@
 		{
 			x: 16.5d
 			y: -3.5d
-			description: ["{chapter.6.quest.60.description.1}"]
+			description: [
+				"附魔储备台能够以点数形式存储内部附魔书上的全部附魔。"
+				""
+				"一个点数表示一级附魔，也就是说会以多本低等级附魔书表示高等级附魔书（每级附魔价值2^(等级 -1)点）。"
+				""
+				"储备台也会记录内部每种附魔的最大等级，并且你可以以记录的最大等级拿出对应附魔，"
+				""
+				"也就意味着如果你想拿出一种附魔，首先需要向储备台里存储那种附魔。"
+				""
+				"你只需要在储备台中点击所需要的附魔即可拿出，并且附魔会出现在输出槽中，如果输出槽是空的，那么就会产出一本新的附魔书。"
+				""
+				"如果输出槽内有附魔书，就会将附魔合并到书上（如果你有足够的点数）。"
+				""
+				"Shift点击附魔则会尝试提取该附魔的最大等级（如果你有足够的点数）。"
+				""
+				"所需点数会显示在提示中。如果提示是红色，就说明你没有足够点数来提取附魔。"
+			]
 			dependencies: ["43509530CAD67EE9"]
 			id: "0E3EAF4D21A7FE1E"
 			tasks: [{
@@ -2611,7 +2609,17 @@
 		{
 			x: 13.5d
 			y: -2.0d
-			description: ["{chapter.6.quest.61.description.1}"]
+			description: [
+				"铁砧比以往更实用。"
+				""
+				"铁砧没有等级限制，并且可以被附魔。"
+				""
+				"铁砧可以接受耐久、拆分和分裂附魔。"
+				""
+				"拆分能允许你将铁砧从带有多个附魔词条的附魔书上方砸下后，概率拆解附魔书，等级越高拆解本数越多，每提升一个等级就会增加20%几率并且总是会磨损铁砧（你可以用耐久附魔避免）。"
+				""
+				"分裂很简单，有同样的概率机制，但它作用于有高于1级的单一附魔词条的附魔书。它会将附魔书分为两本比之前低一级附魔的附魔书，就是铁砧中合成附魔书的相反方式。"
+			]
 			dependencies: ["7FC81AF332294769"]
 			id: "2AA12D542527B597"
 			tasks: [{
@@ -2636,7 +2644,7 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			description: ["{chapter.6.quest.62.description.1}"]
+			description: ["营火会给予生命再生效果"]
 			dependencies: ["518DF4A178673014"]
 			id: "3BEED9F6C8434FF5"
 			tasks: [{
@@ -2682,7 +2690,7 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.63.title}"
+			title: "Humble accommodation "
 			x: 8.0d
 			y: -3.0d
 			dependencies: ["766E4FEA8148AEDA"]
@@ -2854,10 +2862,15 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.64.title}"
+			title: "Let's make a Mesh!"
 			x: 5.0d
 			y: 3.5d
-			description: ["{chapter.6.quest.64.description.1}"]
+			description: [
+				"你可以用纤维网更有效地获取燧石。"
+				"制作燧石剪刀并剪下一些草来制作纤维网。然后你就可以筛砂砾来获得燧石。"
+				""
+				"注意：你需要剪下原版的草，模组的草不适用。"
+			]
 			dependencies: ["02ED7F720C5EBABD"]
 			id: "0D53B0136F089B1F"
 			tasks: [
@@ -2934,10 +2947,10 @@
 			}]
 		}
 		{
-			title: "{chapter.6.quest.66.title}"
+			title: "学徒怪物猎人"
 			x: 12.5d
 			y: -4.5d
-			description: ["{chapter.6.quest.66.description.1}"]
+			description: ["Defeat even more mobs using your new weapon."]
 			dependencies: ["329013243101B08C"]
 			id: "12F259CB162FE046"
 			tasks: [
@@ -2955,48 +2968,48 @@
 					}
 					count: 32L
 				}
-				{
+			{
 					id: "5965110B2FF7121B"
-					type: "item"
-					item: {
-						id: "minecraft:spider_eye"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+				type: "item"
+				item: {
+					id: "minecraft:spider_eye"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					count: 8L
+				}
+				count: 8L
 				}
 				{
 					id: "12DC45A943680F3A"
-					type: "item"
-					item: {
-						id: "minecraft:gunpowder"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+				type: "item"
+				item: {
+					id: "minecraft:gunpowder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					count: 24L
+				}
+				count: 24L
 				}
 				{
 					id: "179B4AF394673589"
-					type: "item"
-					item: {
-						id: "minecraft:bone"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+				type: "item"
+				item: {
+					id: "minecraft:bone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					count: 32L
 				}
+				count: 32L
+			}
 			]
 			rewards: [
 				{
@@ -3009,24 +3022,24 @@
 					type: "ftbmoney:money"
 					ftb_money: 50L
 				}
-				{
+			{
 					id: "7F2AB077B5A0295B"
 					type: "xp"
 					xp: 500
 				}
 				{
-					id: "09E2EBE13999E4EA"
-					type: "item"
-					item: {
-						id: "mysticalworld:apple_cordial"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+				id: "09E2EBE13999E4EA"
+				type: "item"
+				item: {
+					id: "mysticalworld:apple_cordial"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					count: 3
+				}
+				count: 3
 				}
 			]
 		}
@@ -3124,7 +3137,7 @@
 		{
 			x: 17.0d
 			y: 7.0d
-			description: ["{chapter.6.quest.70.description.1}"]
+			description: [""]
 			dependencies: ["544027B606EEA00D"]
 			hide: true
 			id: "62CC0A7EBAFC51DD"
@@ -3144,7 +3157,7 @@
 		{
 			x: 18.0d
 			y: 7.0d
-			description: ["{chapter.6.quest.71.description.1}"]
+			description: [""]
 			dependencies: ["62CC0A7EBAFC51DD"]
 			hide: true
 			id: "268FEFB76E852EE6"
@@ -3176,7 +3189,7 @@
 		{
 			x: 9.0d
 			y: 5.0d
-			description: ["{chapter.6.quest.72.description.1}"]
+			description: ["铁是一种用途十分广泛的材料，尽可能多的收集吧！"]
 			dependencies: ["0197357833059D83"]
 			id: "46732178BA7B82A4"
 			tasks: [{
@@ -3193,10 +3206,10 @@
 			}]
 		}
 		{
-			title: "{chapter.6.quest.73.title}"
+			title: "这是你自找的，法师"
 			x: 20.0d
 			y: 7.0d
-			description: ["{chapter.6.quest.73.description.1}"]
+			description: ["都怪@doctor_mage"]
 			hide_dependency_lines: false
 			dependencies: ["76CDF977DD44821E"]
 			hide: true
@@ -3240,7 +3253,7 @@
 								LootTable: "barrel:barreloftruth"
 							}
 							display: {
-								Name: "{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"Barrel Of Truth\"}"
+								Name: "{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"真理之桶\"}"
 							}
 						}
 						ForgeCaps: {
@@ -3268,7 +3281,7 @@
 		{
 			x: 11.5d
 			y: 7.0d
-			description: ["{chapter.6.quest.74.description.1}"]
+			description: [""]
 			dependencies: ["62D2AC9343C06D18"]
 			id: "3C06C79413BD4E04"
 			tasks: [{
@@ -3303,7 +3316,7 @@
 			}]
 		}
 		{
-			title: "{chapter.6.quest.76.title}"
+			title: "Knowledge of Death"
 			icon: {
 				id: "tombstone:decorative_grave_cross"
 				Count: 1b
@@ -3313,7 +3326,7 @@
 			}
 			x: 0.0d
 			y: 6.0d
-			subtitle: "{chapter.6.quest.76.subtitle}"
+			subtitle: "Die at least 1 time"
 			optional: true
 			id: "68365C63EFD23F2E"
 			tasks: [{
@@ -3331,8 +3344,14 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			subtitle: "{chapter.6.quest.77.subtitle}"
-			description: ["{chapter.6.quest.77.description.1}"]
+			subtitle: "选择你的第一项死亡知识"
+			description: [
+				"玩家可以在每次使用墓碑灵魂附魔物品时获得知识点数，当灵魂从容器中被释放后，向附近的装饰性坟墓使用祈祷之安卡祷告（冷却时间为6个游戏时）。也可以通过完成墓碑成就获得点数。"
+				""
+				"这些点数能让你在一个特殊的GUI中解锁一些额外奖励（快捷键默认不绑定，你需要在\"杂项\"中更改）。"
+				""
+				"额外奖励都与墓碑特性有关。"
+			]
 			id: "5FD02944DC20453B"
 			tasks: [{
 				id: "2E682B242C3E989A"
@@ -3349,8 +3368,16 @@
 		{
 			x: 1.5d
 			y: 7.0d
-			subtitle: "{chapter.6.quest.78.subtitle}"
-			description: ["{chapter.6.quest.78.description.1}"]
+			subtitle: "装饰性墓碑"
+			description: [
+				"装饰性墓碑是一种特殊的方块，在夜晚，它的周围会被雾围绕。"
+				""
+				"装饰性墓碑上可能会缠绕灵魂。灵魂会持续待在上面，直到被用于附魔一些物品，例如魔法卷轴/石板，或升级坟墓之钥。"
+				""
+				"要制作装饰性墓碑，你需要收集墓灰（通常通过击败不死生物或猫咪的清晨礼物获得)，一个不死精华（通过完成成就获得，第一个成就是找到如何选择你喜欢的墓碑样式），一个很少在不死生物身上发现的东西，通过猫咪的清晨礼物或在深水处钓鱼获得（但一般不会用这些方法，除非你足够幸运）。"
+				""
+				"坟墓守卫者有小概率出现在装饰性墓碑附近。这个守卫会保护周围免受敌对生物伤害，并会为玩家提供一些交易。这是获得墓灰和不死精华的一种方式。在特殊事件中，交易会变得不同。"
+			]
 			dependencies: ["5FD02944DC20453B"]
 			id: "2D09120BC5B9A53D"
 			tasks: [
@@ -3383,7 +3410,7 @@
 				{
 					id: "476032839F26BC6D"
 					type: "item"
-					title: "{chapter.6.quest.78.task.3.title}"
+					title: "任何#tombstone:decorative_graves"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -3465,31 +3492,15 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.81.title}"
-			x: 4.0d
-			y: 0.0d
-			subtitle: "{chapter.6.quest.81.subtitle}"
-			description: ["{chapter.6.quest.81.description.1}"]
-			dependencies: ["18FF6DA5335C0711"]
-			id: "79F271A2D7FA06A1"
-			tasks: [{
-				id: "35029CE2D859E7F9"
-				type: "pmmo:skill"
-				skill: "agility"
-				requiredLevel: 1.0d
-			}]
-			rewards: [{
-				id: "3EF5B45E046B2310"
-				type: "random"
-				table_id: 8545390299491237994L
-			}]
-		}
-		{
-			title: "{chapter.6.quest.82.title}"
+			title: "信仰之跃"
 			x: 0.0d
 			y: 8.0d
-			subtitle: "{chapter.6.quest.82.subtitle}"
-			description: ["{chapter.6.quest.82.description.1}"]
+			subtitle: "有个性地降落"
+			description: [
+				"滑翔翼能够用来滑翔很长一段距离。"
+				""
+				"滑翔的距离由独特的耐力机制决定。"
+			]
 			id: "1E51B8E76910275C"
 			tasks: [{
 				id: "614490657F783439"
@@ -3518,10 +3529,16 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.83.title}"
+			title: "赞美Hylia"
 			x: 1.0d
 			y: 8.0d
-			description: ["{chapter.6.quest.83.description.1}"]
+			description: [
+				"古代女神的纪念碑。"
+				""
+				"她们可以在世界各处找到，村庄中更容易发现。"
+				""
+				"给她们试炼通行证来提升你的耐力。"
+			]
 			dependencies: ["1E51B8E76910275C"]
 			id: "533B104DB3063EAB"
 			tasks: [{
@@ -3551,74 +3568,17 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.84.title}"
-			icon: {
-				id: "minecraft:smithing_table"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 0.0d
-			y: 5.0d
-			subtitle: "{chapter.6.quest.84.subtitle}"
-			description: ["{chapter.6.quest.84.description.1}"]
-			id: "0D3A108B094C746F"
-			tasks: [{
-				id: "73E91283ED684744"
-				type: "observation"
-				title: "{chapter.6.quest.84.task.1.title}"
-				icon: "minecraft:smithing_table"
-				timer: 80L
-				observe_type: 0
-				to_observe: "minecraft:smithing_table"
-			}]
-			rewards: [
-				{
-					id: "35A3201138EF4229"
-					type: "item"
-					item: {
-						id: "minecraft:cobblestone"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "665C2F0D72342C11"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "{chapter.6.quest.85.title}"
+			title: "高雅雕像"
 			x: 2.0d
 			y: 8.0d
-			description: ["{chapter.6.quest.85.description.1}"]
+			description: ["找到并制作所有雕像Find or craft all the statues"]
 			dependencies: ["533B104DB3063EAB"]
 			id: "23BE4F851A51A152"
 			tasks: [
 				{
 					id: "4477E5EA56589832"
 					type: "observation"
-					title: "{chapter.6.quest.85.task.1.title}"
+					title: "女神雕像"
 					icon: {
 						id: "paraglider:goddess_statue"
 						Count: 1b
@@ -3635,7 +3595,7 @@
 				{
 					id: "24CE3F5213E3C792"
 					type: "observation"
-					title: "{chapter.6.quest.85.task.2.title}"
+					title: "Rito Statue"
 					icon: {
 						id: "paraglider:rito_goddess_statue"
 						Count: 1b
@@ -3652,7 +3612,7 @@
 				{
 					id: "6F8180B65567342A"
 					type: "observation"
-					title: "{chapter.6.quest.85.task.3.title}"
+					title: "Kakariko Style"
 					icon: {
 						id: "paraglider:kakariko_goddess_statue"
 						Count: 1b
@@ -3669,7 +3629,7 @@
 				{
 					id: "64B7DDFB122C5183"
 					type: "observation"
-					title: "{chapter.6.quest.85.task.4.title}"
+					title: "Goron Style"
 					icon: {
 						id: "paraglider:goron_goddess_statue"
 						Count: 1b
@@ -3686,7 +3646,7 @@
 				{
 					id: "1B068B439909DD28"
 					type: "observation"
-					title: "{chapter.6.quest.85.task.5.title}"
+					title: "Horned Statue"
 					icon: {
 						id: "paraglider:horned_statue"
 						Count: 1b
@@ -3742,16 +3702,16 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.86.title}"
+			title: "斯巴达武器"
 			x: 12.5d
 			y: -3.0d
-			description: ["{chapter.6.quest.86.description.1}"]
+			description: ["斯巴达武器模组添加了非常多的新武器种类，试试吧！"]
 			dependencies: ["7FC81AF332294769"]
 			id: "329013243101B08C"
 			tasks: [{
 				id: "58F2E3554C7C2C33"
 				type: "item"
-				title: "{chapter.6.quest.86.task.1.title}"
+				title: "任何#spartanweaponry:iron_weapons"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -3785,71 +3745,14 @@
 			]
 		}
 		{
-			icon: {
-				id: "minecraft:end_crystal"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 24.5d
-			y: -1.0d
-			shape: "gear"
-			subtitle: "{chapter.6.quest.87.subtitle}"
-			description: ["{chapter.6.quest.87.description.1}"]
-			dependencies: ["008B0C537B24A89F"]
-			id: "359F39A14EC630B9"
-			tasks: [{
-				id: "46670F28D9622188"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "3F29E09F7659682A"
-				type: "item"
-				item: {
-					id: "roughtweaks:medkit"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 23.5d
-			y: -1.0d
-			description: ["{chapter.6.quest.88.description.1}"]
-			dependencies: ["07CCE1397519FEDA"]
-			id: "008B0C537B24A89F"
-			tasks: [{
-				id: "35201FBC45860505"
-				type: "item"
-				item: {
-					id: "minecraft:ender_eye"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "1114A58D5C1C7725"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "{chapter.6.quest.89.title}"
+			title: "下一步是什么？"
 			icon: "kubejs:skull2"
-			x: 22.5d
+			x: 24.0d
 			y: -1.0d
-			subtitle: "{chapter.6.quest.89.subtitle}"
-			description: ["{chapter.6.quest.89.description.1}"]
-			dependencies: ["1C7D1D2C57D866A2"]
+			shape: "octagon"
+			description: ["查看\"特性|机制\"章节查看关于专家模式的详细信息。"]
+			dependencies: ["25045A0059F4E280"]
+			size: 2.0d
 			id: "07CCE1397519FEDA"
 			tasks: [{
 				id: "658E392E488348C7"
@@ -3862,36 +3765,9 @@
 			}]
 		}
 		{
-			icon: {
-				id: "kubejs:skull2"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 25.5d
-			y: -1.0d
-			subtitle: "{chapter.6.quest.90.subtitle}"
-			description: ["{chapter.6.quest.90.description.1}"]
-			dependencies: ["359F39A14EC630B9"]
-			id: "094D987502D8F928"
-			tasks: [{
-				id: "43224396FE9DF54F"
-				type: "checkmark"
-				title: "{chapter.6.quest.90.task.1.title}"
-			}]
-			rewards: [{
-				id: "710AAA393FBC476E"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			x: 15.0d
 			y: 0.0d
-			subtitle: "{chapter.6.quest.91.subtitle}"
+			subtitle: "找到一个村庄"
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "79A9E6D98A50387F"
 			tasks: [{
@@ -3909,7 +3785,7 @@
 		{
 			x: 16.0d
 			y: 0.0d
-			subtitle: "{chapter.6.quest.92.subtitle}"
+			subtitle: "进行第一次村民交易"
 			dependencies: ["79A9E6D98A50387F"]
 			id: "4355236339BC275F"
 			tasks: [{
@@ -3927,7 +3803,7 @@
 		{
 			x: 17.0d
 			y: 1.0d
-			subtitle: "{chapter.6.quest.93.subtitle}"
+			subtitle: "找到或制作村民工作方块(20)"
 			dependencies: ["4355236339BC275F"]
 			id: "04A6238F09D204C6"
 			tasks: [{
@@ -3952,7 +3828,7 @@
 		{
 			x: 16.0d
 			y: 1.0d
-			subtitle: "{chapter.6.quest.94.subtitle}"
+			subtitle: "在下界与下界学家交易"
 			dependencies: ["4355236339BC275F"]
 			id: "710A05F9B0FEBDDD"
 			tasks: [{
@@ -3977,7 +3853,7 @@
 		{
 			x: 17.0d
 			y: 2.0d
-			subtitle: "{chapter.6.quest.95.subtitle}"
+			subtitle: "在末地与末影学家交易"
 			dependencies: ["710A05F9B0FEBDDD"]
 			id: "723B381395B12DC0"
 			tasks: [{
@@ -4002,7 +3878,7 @@
 		{
 			x: 17.0d
 			y: 3.5d
-			subtitle: "{chapter.6.quest.96.subtitle}"
+			subtitle: "与所有职业的村民交易"
 			dependencies: ["723B381395B12DC0"]
 			id: "3798A245BFA80027"
 			tasks: [{
@@ -4027,7 +3903,7 @@
 		{
 			x: 15.0d
 			y: 1.0d
-			subtitle: "{chapter.6.quest.97.subtitle}"
+			subtitle: "找到掠夺者营地"
 			dependencies: ["79A9E6D98A50387F"]
 			id: "308F2C3D797D33A2"
 			tasks: [{
@@ -4051,9 +3927,9 @@
 			}]
 		}
 		{
-			x: 19.5d
+			x: 16.5d
 			y: -4.5d
-			description: ["{chapter.6.quest.98.description.1}"]
+			description: ["你也可以用砂轮将无用的附魔书和装备附魔祛除，并获得一些经验。"]
 			dependencies: ["43509530CAD67EE9"]
 			id: "6055F3844F5746A1"
 			tasks: [{
@@ -4121,7 +3997,7 @@
 			x: 12.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["{chapter.6.quest.99.description.1}"]
+			description: ["海洋学家村民的工作站。"]
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "6F7F3F9286FB0F6B"
 			tasks: [{
@@ -4156,7 +4032,7 @@
 			x: 14.5d
 			y: 3.0d
 			shape: "diamond"
-			description: ["{chapter.6.quest.100.description.1}"]
+			description: ["林务员村民的工作站。"]
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "101CA6B6B918F97D"
 			tasks: [{
@@ -4191,7 +4067,7 @@
 			x: 12.5d
 			y: 3.0d
 			shape: "diamond"
-			description: ["{chapter.6.quest.101.description.1}"]
+			description: ["工程师村民的工作站。"]
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "646D2844747B923C"
 			tasks: [{
@@ -4226,7 +4102,7 @@
 			x: 14.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["{chapter.6.quest.102.description.1}"]
+			description: ["花贩村民的工作站。"]
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "75A5D5E713BBE588"
 			tasks: [{
@@ -4261,7 +4137,7 @@
 			x: 13.5d
 			y: 2.5d
 			shape: "diamond"
-			description: ["{chapter.6.quest.103.description.1}"]
+			description: ["猎人村民的工作站。"]
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "24C504F32289B0ED"
 			tasks: [{
@@ -4313,9 +4189,9 @@
 		{
 			x: 11.0d
 			y: 2.0d
-			subtitle: "{chapter.6.quest.105.subtitle}"
+			subtitle: "附魔医疗包."
 			description: [
-				"{chapter.6.quest.105.description.1}"
+				"附魔医疗包."
 				"{image:roughtweaks:textures/item/medkit_enchanted.png width:100 height:100 align:1}"
 			]
 			dependencies: ["5CD3C0B70F668A36"]
@@ -4354,7 +4230,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			description: ["{chapter.6.quest.106.description.1}"]
+			description: ["拥有更大范围的水壶。"]
 			dependencies: ["568C31B3FDBED711"]
 			id: "072499F4CEC25323"
 			tasks: [{
@@ -4410,8 +4286,8 @@
 		{
 			x: 9.0d
 			y: 3.5d
-			subtitle: "{chapter.6.quest.107.subtitle}"
-			description: ["{chapter.6.quest.107.description.1}"]
+			subtitle: "范围收获+自动种植作物的工具。"
+			description: ["同样也是范围攻击的武器。"]
 			dependencies: ["7B627325BF285247"]
 			id: "3957DD0D691D5277"
 			tasks: [{
@@ -4444,7 +4320,7 @@
 		{
 			x: 20.0d
 			y: 6.0d
-			description: ["{chapter.6.quest.108.description.1}"]
+			description: ["绿宝石和锡精炼成的合金，也替代绿宝石生成在战利品箱子里（除了村庄箱子）"]
 			dependencies: ["544027B606EEA00D"]
 			id: "4424404688C4DA49"
 			tasks: [
@@ -4466,17 +4342,17 @@
 					type: "item"
 					item: {
 						id: "pickletweaks:emerald_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
 				}
+			}
 			]
 			rewards: [
 				{
@@ -4510,6 +4386,286 @@
 					id: "678FD6D7F13F3D2A"
 					type: "choice"
 					table_id: 768393147870328736L
+				}
+			]
+		}
+		{
+			title: "神化模组添加的新附魔系统"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: 19.5d
+			y: -4.5d
+			description: [
+				"现在，附魔系统被改为被三个属性影响，而不是原版的单一属性。"
+				""
+				"神化添加了11个新书架来支持新附魔系统，每个书架都有独自的附魔属性组合。这里展示的是末地书架、海洋书架、地狱书架、蜜蜂书架和西瓜书架。这些书架可以组合起来实现你所想的属性值，但如果要显著增加位阶属性，你需要末地书架。"
+			]
+			dependencies: ["43509530CAD67EE9"]
+			id: "6FCA404FDB2D82CC"
+			tasks: [{
+				id: "07F42EA7E8CC38A5"
+				type: "checkmark"
+				title: "新附魔机制"
+			}]
+			rewards: [{
+				id: "25FD19220EA221C0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "位阶"
+			x: 20.5d
+			y: -4.5d
+			description: [
+				"位阶是附魔的基础。它决定了你的附魔强度和要花费的经验等级。"
+				""
+				"大多数书架都提供位阶属性，并有最大值。"
+				""
+				"原版书架最多只能提供15位阶，所以你需要更强的书架来获得更强的附魔。"
+			]
+			dependencies: ["6FCA404FDB2D82CC"]
+			id: "0A7911EB233F4FD6"
+			tasks: [{
+				id: "15DC3E6F6598D84C"
+				type: "checkmark"
+				title: "位阶"
+				icon: {
+					id: "buzzier_bees:lime_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 21.5d
+			y: -4.5d
+			description: [
+				"量子化为你的附魔添加了一些随机性。"
+				""
+				"附魔时，它会根据属性值随机增加或减少附魔强度。"
+				""
+				"大多数怪物头颅会提供量子化属性，但有最大值。"
+				""
+				"附魔台默认自带15量子化，也就意味着附魔强度会在-15到+15闭区间中变动。"
+				""
+				"校准可以用于减少量子化的负面加成。荧石、紫水晶块和校准书架都能提供校准属性。"
+			]
+			dependencies: ["0A7911EB233F4FD6"]
+			id: "09F74D0C27C859A1"
+			tasks: [{
+				id: "28FEC88005A016BF"
+				type: "checkmark"
+				title: "量子化"
+				icon: {
+					id: "buzzier_bees:orange_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "阿卡那"
+			icon: "buzzier_bees:purple_candle"
+			x: 22.5d
+			y: -4.5d
+			description: [
+				"阿卡那增加出现稀有附魔的概率。"
+				""
+				"在25%和75%阿卡那时，你将额外获得一个附魔词条位。"
+				""
+				"南瓜灯是增加阿卡那的简单方法。"
+			]
+			dependencies: ["09F74D0C27C859A1"]
+			id: "0054E85C9D29551B"
+			tasks: [{
+				id: "6BE566D5A9954337"
+				type: "checkmark"
+				title: "阿卡那"
+				icon: {
+					id: "buzzier_bees:purple_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "betterportals:portal_fluid_bucket"
+			x: 22.0d
+			y: -1.0d
+			description: [
+				"寻常的黑曜石框架传送门在这不起作用。"
+				""
+				"下界传送门会以维度裂隙形式生成，并散落在地底深处。你需要找到一个裂隙来前往下界 - 但小心，因为这是个单向旅行！"
+				""
+				"要从下界回来，你需要找到一个巨石碑。由于这个结构会像天空发射光束，所以你可以在远处轻松看到。"
+				""
+				"巨石碑中心发射光束的方块叫做撤离信标，这是返回主世界的钥匙。然而，撤离信标需要一些能量，你需要在它四面各放置一个金块 - 下界中不难集齐。"
+				""
+				"充能后，撤离信标就能将你送回主世界。"
+				"================================="
+				"你可以用桶盛装维度浆液带回基地附近，你还可以将撤离信标拆下并放置在维度浆液将你传送到的下界点位附近。"
+				""
+				"双向传送其实还是很简单，唯一不同就是你需要先找到维度裂隙和巨石碑。"
+			]
+			dependencies: ["1C7D1D2C57D866A2"]
+			id: "25045A0059F4E280"
+			tasks: [{
+				id: "7C18E741D1CA3145"
+				type: "checkmark"
+				title: "新下界传送门机制"
+			}]
+			rewards: [{
+				id: "079877221EB51759"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "enigmaticlegacy:enchantment_transposer"
+			x: 16.5d
+			y: -2.5d
+			description: [
+				"有很多种祛魔的方式。"
+				""
+				"蜘蛛网能够在铁砧里将非诅咒附魔移除。"
+				""
+				"海晶蜘蛛网能够在铁砧里将诅咒附魔移除。"
+				""
+				"祛魔书能够与墓碑灵魂搭配使用，来将物品（除了书）的多条附魔提取到单独的书上。死亡知识可以提高提取的附魔数量。"
+				""
+				"将附魔物品与求知之书合成，来将附魔移到书上。"
+				""
+				"分解宝典会损坏物品，并且只能提取一些附魔。"
+			]
+			dependencies: ["43509530CAD67EE9"]
+			id: "4FFE28F3DB5EC162"
+			tasks: [{
+				id: "4C7B1B6EFBA461F3"
+				type: "checkmark"
+				title: "Disenchanting"
+			}]
+			rewards: [{
+				id: "48EE2F06FDD8213D"
+				type: "item"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:protection"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				item: {
+					id: "minecraft:book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "修复"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+			x: 15.0d
+			y: -2.5d
+			subtitle: "经验修补不是唯一；你修理装备的替代附魔"
+			description: [
+				"你也许知道原版的几种修理装备的方法;合成、铁砧和经验修补，这个包添加了许多新的附魔和物品来恢复物品的耐久度。"
+				""
+				"固化和生机盎然会随时间缓慢恢复耐久。"
+				""
+				"战士恩惠能在击杀怪物时恢复耐久。"
+				""
+				"保护和第二条命能让工具在损坏时恢复全部耐久，代价是损失一级该附魔等级。"
+				""
+				"经验修补也有一些变种，例如末影修补和生命修补诅咒。"
+				""
+				""
+				"同样也有一些物品能修复你的装备，例如修补混合物和修理书。试试吧！"
+				""
+				"(修理书需要一个装饰性墓碑，查看此章节左下方的不死精华任务了解更多)"
+			]
+			dependencies: ["2AA12D542527B597"]
+			id: "1C7CB1E29AADFB98"
+			tasks: [{
+				id: "090F037FFBAEE28E"
+				type: "checkmark"
+				title: "修复方法"
+			}]
+			rewards: [
+				{
+					id: "1A9C1852683F27C6"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:mending_mixture"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2FACCB33DB2BA43E"
+					type: "item"
+					item: {
+						id: "tombstone:book_of_repairing"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}

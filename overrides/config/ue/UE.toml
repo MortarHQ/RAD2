@@ -87,7 +87,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist", "blue_skies:soulbound_spear", "blue_skies:bluebright_spear", "blue_skies:starlit_spear", "blue_skies:frostbright_spear", "blue_skies:lunar_spear", "blue_skies:dusk_spear", "blue_skies:maple_spear", "blue_skies:cherry_spear"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_attack_damage = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -131,7 +131,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist", "blue_skies:soulbound_spear", "blue_skies:bluebright_spear", "blue_skies:starlit_spear", "blue_skies:frostbright_spear", "blue_skies:lunar_spear", "blue_skies:dusk_spear", "blue_skies:maple_spear", "blue_skies:cherry_spear"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_damage = 3.0
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -175,7 +175,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist", "blue_skies:soulbound_spear", "blue_skies:bluebright_spear", "blue_skies:starlit_spear", "blue_skies:frostbright_spear", "blue_skies:lunar_spear", "blue_skies:dusk_spear", "blue_skies:maple_spear", "blue_skies:cherry_spear"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_damage = 3.0
 			#Range: > 0
@@ -392,7 +392,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed_comparison = 1.05
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -436,7 +436,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_damage = 0.15
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -607,7 +607,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			scalar = 0.01
 
@@ -649,7 +649,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_per_hit = 0.1
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -696,7 +696,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			speed_bonus_base = 0.1
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -912,11 +912,11 @@
 			#Range: > 0
 			hard_cap = 100
 			#Enchantments that are not compatible with this Enchantment
-			incompats = ["uniquee:ecological", "minecraft:mending", "minecraft:infinity"]
+			incompats = ["uniquee:ecological", "minecraft:mending", "minecraft:infinity", "minecraft:multishot", "apotheosis:crescendo"]
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["minecraft:crossbow", "upgradednetherite:netherite_crossbow", "upgradednetherite:fire_upgraded_netherite_crossbow", "upgradednetherite:ender_upgraded_netherite_crossbow", "upgradednetherite:water_upgraded_netherite_crossbow", "upgradednetherite:wither_upgraded_netherite_crossbow", "upgradednetherite:poison_upgraded_netherite_crossbow", "upgradednetherite:phantom_upgraded_netherite_crossbow", "upgradednetherite:feather_upgraded_netherite_crossbow", "upgradednetherite:corrupt_upgraded_netherite_crossbow", "dungeons_gear:azure_seeker", "dungeons_gear:the_slicer", "dungeons_gear:rapid_crossbow", "dungeons_gear:auto_crossbow", "dungeons_gear:butterfly_crossbow", "dungeons_gear:burst_crossbow", "dungeons_gear:soul_hunter_crossbow", "dungeons_gear:corrupted_crossbow", "dungeons_gear:scatter_crossbow", "dungeons_gear:harp_crossbow", "dungeons_gear:lightning_harp_crossbow", "dungeons_gear:heavy_crossbow", "dungeons_gear:doom_crossbow", "dungeons_gear:slayer_crossbow", "dungeons_gear:soul_crossbow", "dungeons_gear:feral_soul_crossbow", "dungeons_gear:voidcaller", "dungeons_gear:exploding_crossbow", "dungeons_gear:firebolt_thrower", "dungeons_gear:imploding_crossbow", "dungeons_gear:harpoon_crossbow", "dungeons_gear:nautical_crossbow", "spartanweaponry:heavy_crossbow_wood", "spartanweaponry:heavy_crossbow_leather", "spartanweaponry:heavy_crossbow_iron", "spartanweaponry:heavy_crossbow_gold", "spartanweaponry:heavy_crossbow_diamond", "spartanweaponry:heavy_crossbow_netherite", "spartanweaponry:heavy_crossbow_copper", "spartanweaponry:heavy_crossbow_tin", "spartanweaponry:heavy_crossbow_silver", "spartanweaponry:heavy_crossbow_lead", "spartantwilight:heavy_crossbow_ironwood", "spartantwilight:heavy_crossbow_fiery", "spartantwilight:heavy_crossbow_steeleaf", "spartantwilight:heavy_crossbow_knightly"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			extra_durability = 2.0
 
@@ -1087,7 +1087,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist"]
 			#Range: > 0
 			nourishment_base = 1
 			#Range: > 0
@@ -1150,7 +1150,7 @@
 			min_level = 1
 			#Maximum Enchantment Level
 			#Range: > 0
-			max_level = 3
+			max_level = 4
 			#Rarity of the Enchantment
 			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 			rarity = "RARE"
@@ -1177,9 +1177,9 @@
 			#Allows to add custom compatible Items
 			compatible_items = []
 			#Range: > 0
-			baseDuration = 330
+			baseDuration = 120
 			#Range: 0.0 ~ 1.7976931348623157E308
-			scalingReduction = 16.0
+			scalingReduction = 4.0
 
 		[general.base.phoenixs_blessing]
 			#If the Enchantment is Obtainable
@@ -1340,7 +1340,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["alexsmobs:tarantula_hawk_elytra"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			base_consumtion = 24.0
 
@@ -1419,14 +1419,14 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:the_twist"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_damage_level = 0.5
 			#Range: 0.0 ~ 1.7976931348623157E308
 			reap_multiplier = 0.01
 			#Range: 0.0 ~ 1.7976931348623157E308
 			transcended_chance = 0.25
-			validMobs = ["minecraft:ender_dragon;8", "minecraft:wither;3", "minecraft:shulker;1", "minecraft:elder_guardian;5", "minecraft:ravager;2", "minecraft:evoker;1"]
+			validMobs = ["minecraft:ender_dragon;8", "minecraft:wither;3", "minecraft:shulker;1", "minecraft:elder_guardian;5", "minecraft:ravager;2", "minecraft:evoker;1", "alexsmobs:void_worm;8", "iceandfire:fire_dragon;8", "iceandfire:ice_dragon;8", "iceandfire:lightning_dragon;8"]
 
 		[general.base.grimoire]
 			#If the Enchantment is Obtainable
@@ -1505,7 +1505,7 @@
 			#Enchantments that are not compatible with this Enchantment
 			incompats = []
 			#Allows to add custom incompatible Items
-			incompatible_items = []
+			incompatible_items = ["minecraft:enchanted_book", "enigmaticlegacy:cursed_ring"]
 			#Allows to add custom compatible Items
 			compatible_items = []
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1591,7 +1591,7 @@
 			#Enchantments that are not compatible with this Enchantment
 			incompats = []
 			#Allows to add custom incompatible Items
-			incompatible_items = []
+			incompatible_items = ["minecraft:enchanted_book", "enigmaticlegacy:cursed_ring"]
 			#Allows to add custom compatible Items
 			compatible_items = []
 			#Range: 0.0 ~ 1.7976931348623157E308

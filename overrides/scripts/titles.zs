@@ -27,11 +27,16 @@ CTEventManager.register<MCPlayerLoggedInEvent>((event) => {
 	}
 	if (username in contributors_constants.feedbackUsers) {
 		world.asServerWorld().server.executeCommand('ftbquests change_progress ' + username + ' complete 5D6983FD863F51B3', true);
-	} else {
+		} else {
 		if (player.getPersistentData().contains("feedbackNotified"))
 			return;
-		player.updatePersistentData({feedbackNotified: 1});
-		world.asServerWorld().server.executeCommand("tellraw " + username + ' [{"text":"Welcome to ","color":"white"},{"text":"RAD 2! ","color":"green"},{"text":"Check the ","color":"white"},{"text":"Specialization","color":"gold"},{"text":" Tab in the ","color":"white"},{"translate":"item.ftbquests.book","color":"white"},{"text":" to pick your starting kit. It also contains some useful info and a lot of ","color":"white"},{"text":"quests!","color":"green"}]', true);
+		world.asServerWorld().server.executeCommand("tellraw " + username + ' [{"text":"欢迎游玩","color":"white"},{"text":"RAD 2！","color":"green"},{"text":"查看","color":"white"},{"text":"位于","color":"gold"},{"translate":"item.ftbquests.book","color":"white"},{"text":"的职业专精章节","color":"white"},{"text":"选择你的初始套装。其中也包含一些实用信息和很多","color":"white"},{"text":"任务！","color":"green"}]', true);
 	}
-	
+
+		if (player.getPersistentData().contains("feedbackNotified"))
+			return;
+		world.asServerWorld().server.executeCommand("execute if score dummy GameState matches 1.. run tellraw " + username + ' [{"text":"由于你加入了处于专家或大师模式的服务器，你可以在","color":"gold"},{"translate":"item.ftbquests.book","color":"gold"},{"text":"中领取新手助力套装以提升到铁制装备所需的等级。","color":"gold"}]', true);
+		player.updatePersistentData({feedbackNotified: 1});
+		world.asServerWorld().server.executeCommand('execute if score dummy GameState matches 1.. run ftbquests change_progress ' + username + ' complete 2358E374BEAF092F', true);
+
 });

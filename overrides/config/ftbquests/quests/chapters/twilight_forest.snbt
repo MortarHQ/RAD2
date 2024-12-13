@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 7
 	filename: "twilight_forest"
-	title: "{chapter.13.title}"
+	title: "暮色森林"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
@@ -146,7 +146,7 @@
 			x: 7.0d
 			y: -8.0d
 			shape: "hexagon"
-			subtitle: "{chapter.13.quest.1.subtitle}"
+			subtitle: "进入神秘的魔法森林：暮色森林。"
 			size: 2.0d
 			id: "539453A048F71094"
 			tasks: [{
@@ -175,8 +175,8 @@
 			icon: "twilightforest:naga_trophy"
 			x: 10.5d
 			y: -8.0d
-			subtitle: "{chapter.13.quest.2.subtitle}"
-			description: ["{chapter.13.quest.2.description.1}"]
+			subtitle: "击败森林庭院中的娜迦并获得娜迦鳞片来解除巫妖塔周围的禁制。"
+			description: ["娜迦可以在娜迦庭院中找到。击杀后，它会掉落娜迦鳞片、一个娜迦战利品和一些其他战利品；获得鳞片后，玩家就能进入巫妖塔。"]
 			dependencies: ["539453A048F71094"]
 			size: 1.5d
 			id: "4EA90E4534247A4D"
@@ -236,12 +236,16 @@
 			]
 		}
 		{
-			title: "{chapter.13.quest.3.title}"
+			title: "暮色巫妖战利品"
 			icon: "twilightforest:lich_trophy"
 			x: 17.25d
 			y: -8.0d
-			subtitle: "{chapter.13.quest.3.subtitle}"
-			description: ["{chapter.13.quest.3.description.1}"]
+			subtitle: "击杀巫妖塔顶的暮色巫妖并获得权杖来清除沼泽的蚊群，破除黑暗森林的失明诅咒，并抵御冰雪森林的寒冷。"
+			description: [
+				"暮色巫妖可以在巫妖塔找到。击杀它并获得权杖，就能进入沼泽、黑暗森林和积雪森林并探索其中的地牢了。"
+				""
+				"下一步是暮色沼泽。进入之前你必须打败暮色巫妖并获得权杖，否则会给玩家饥饿效果。"
+			]
 			dependencies: ["4EA90E4534247A4D"]
 			size: 1.5d
 			id: "392FE0691197DA9F"
@@ -328,12 +332,12 @@
 			]
 		}
 		{
-			title: "{chapter.13.quest.4.title}"
+			title: "米诺菇战利品"
 			icon: "twilightforest:minoshroom_trophy"
 			x: 11.25d
 			y: -0.75d
-			subtitle: "{chapter.13.quest.4.subtitle}"
-			description: ["{chapter.13.quest.4.description.1}"]
+			subtitle: "肉排和蘑菇煲让你感到十分温暖，让你觉得能够进入火焰沼泽冒险了。"
+			description: ["米诺菇可以在迷宫中找到，迷宫位于暮色沼泽群系。自然生成的入口可以在穿过洞穴或地表的小山处找到通过入口可以直达中心。这个地牢的目标是击败米诺菇。杀死它并吃掉一个牛头人沙拉酱肉能让玩家进入火焰沼泽。"]
 			dependencies: ["392FE0691197DA9F"]
 			size: 1.5d
 			id: "2D5BBCD3F940BE54"
@@ -395,8 +399,12 @@
 		{
 			x: 11.25d
 			y: 6.75d
-			subtitle: "{chapter.13.quest.5.subtitle}"
-			description: ["{chapter.13.quest.5.description.1}"]
+			subtitle: "击败强大的九头蛇并增强自己。"
+			description: [
+				"九头蛇可以在火焰沼泽中心的九头蛇巢穴中找到。击败它并获得炽热的血液能够解锁暮色高地。"
+				""
+				"下一步是进入黑暗森林。玩家需要先击败暮色巫妖才能解除其中的失明诅咒，但玩家可以通过穿戴有夜视效果的头盔来避免。"
+			]
 			dependencies: ["4ED928DF3D7629F7"]
 			size: 1.5d
 			id: "5349542EAF609696"
@@ -459,8 +467,8 @@
 			icon: "twilightforest:knight_phantom_trophy"
 			x: 3.75d
 			y: -0.75d
-			subtitle: "{chapter.13.quest.6.subtitle}"
-			description: ["{chapter.13.quest.6.description.1}"]
+			subtitle: "解决骑士陵墓中的不眠亡灵，砷铅铁高塔的机关就会向你臣服。"
+			description: ["幻影骑士能够在黑暗森林地底的地精骑士要塞中找到。在进入要塞之前，玩家需要找到一个有战利品基座的房间。在基座上放置任意战利品。放置完后，要塞的保护罩就会被移除。玩家需要在要塞中找到幻影骑士并将其打败，来获得进入黑暗高塔的权力。"]
 			dependencies: ["392FE0691197DA9F"]
 			size: 1.5d
 			id: "2E603FCB82DC886B"
@@ -529,8 +537,12 @@
 			icon: "twilightforest:ur_ghast_trophy"
 			x: 3.75d
 			y: 6.75d
-			subtitle: "{chapter.13.quest.7.subtitle}"
-			description: ["{chapter.13.quest.7.description.1}"]
+			subtitle: "触碰暮初恶魂的火红眼泪。"
+			description: [
+				"暮初恶魂可以在黑暗森林中心的黑暗高塔中找到。它会与其他怪物一起生成在塔顶，例如砷铅铁恶灵、塔木蛀虫和砷铅铁傀儡。击败它并获得炽热之泪能够解锁暮色高地。"
+				""
+				"下一步就是前往积雪森林和暮色冰川。击败暮色巫妖之前，玩家进入其中会被冰冻，并且移动十分缓慢。"
+			]
 			dependencies: ["2E603FCB82DC886B"]
 			size: 1.5d
 			id: "43FF6B04F1048E09"
@@ -585,8 +597,8 @@
 			icon: "twilightforest:yeti_trophy"
 			x: 17.25d
 			y: 6.75d
-			subtitle: "{chapter.13.quest.8.subtitle}"
-			description: ["{chapter.13.quest.8.description.1}"]
+			subtitle: "用雪怪首领毛皮缝制衣服，让你能抵御暮色冰川的寒冷。"
+			description: ["雪怪首领在积雪森林中心的雪怪巢穴中找到。巢穴一共有四个入口。巢穴中居住着很多雪怪。击杀雪怪首领并获得雪怪首领毛皮能解锁暮色冰川群系。"]
 			dependencies: ["392FE0691197DA9F"]
 			size: 1.5d
 			id: "78493192F7A18FD2"
@@ -654,8 +666,8 @@
 			icon: "twilightforest:snow_queen_trophy"
 			x: 13.5d
 			y: 13.5d
-			subtitle: "{chapter.13.quest.9.subtitle}"
-			description: ["{chapter.13.quest.9.description.1}"]
+			subtitle: "打败极光宫殿顶层的冰雪女王。"
+			description: ["冰雪女王在暮色冰川的极光宫殿中找到。击败冰雪女王后，玩家能够解锁暮色高地。"]
 			dependencies: ["78493192F7A18FD2"]
 			size: 1.5d
 			id: "680FD59F7ACC7E21"
@@ -732,8 +744,12 @@
 		{
 			x: 7.5d
 			y: 13.5d
-			subtitle: "{chapter.13.quest.10.subtitle}"
-			description: ["{chapter.13.quest.10.description.1}"]
+			subtitle: "击杀九头蛇、暮初恶魂和冰雪女王来清除酸雨，并使你有信心前往暮色高地。"
+			description: [
+				"当九头蛇、暮初恶魂和冰雪女王被击败后，暮色高地就会解锁，最终阶段逐渐揭露。在击杀全部前置boss之前进入暮色高地，玩家会被酸雨伤害。"
+				""
+				"与之前的流程不同，暮色高地没有需要击杀的boss，只需要到中心取得一个物品。这个区域被分为两个部分：巨魔洞窟和云上小屋。要达成目标，玩家必须从巨型黑曜石中获得余烬之灯，而你需要巨人镐才能破坏巨型黑曜石。获得余烬之灯后，玩家就能进入下一步。"
+			]
 			dependencies: [
 				"680FD59F7ACC7E21"
 				"5349542EAF609696"
@@ -947,7 +963,7 @@
 		{
 			x: 2.0d
 			y: 13.5d
-			description: ["{chapter.13.quest.15.description.1}"]
+			description: ["荆棘之地是暮色森林的最后一部分流程。只需要使用余烬之灯燃烧其中密集的荆棘，之后，玩家便能进入流程的最后阶段。"]
 			dependencies: ["76A2F6D8DEEDE474"]
 			id: "19B32C52F6F2C275"
 			tasks: [{
@@ -1187,7 +1203,7 @@
 		{
 			x: 11.25d
 			y: 1.5d
-			description: ["{chapter.13.quest.19.description.1}"]
+			description: ["你需要吃掉它才能进入火焰沼泽。"]
 			dependencies: ["2D5BBCD3F940BE54"]
 			id: "4ED928DF3D7629F7"
 			tasks: [{
@@ -1326,7 +1342,7 @@
 		{
 			x: 7.5d
 			y: 8.0d
-			description: ["{chapter.13.quest.22.description.1}"]
+			description: [""]
 			dependencies: [
 				"5349542EAF609696"
 				"43FF6B04F1048E09"
@@ -2081,7 +2097,7 @@
 		{
 			x: 7.0d
 			y: -10.0d
-			description: ["{chapter.13.quest.38.description.1}"]
+			description: ["谜题羊是一只友好动物boss。他可以在魔法森林中的谜题羊树丛找到。不像其他boss，它不需要被击杀。玩家需要通过给予所有颜色的羊毛来完成它的谜题。将羊毛仍在他脚下，或者直接对他使用羊毛即可。每次被给予羊毛，他的身体就会加长并出现对应的一圈颜色。"]
 			dependencies: ["539453A048F71094"]
 			id: "3B03FB1361F6D5C7"
 			tasks: [{
@@ -2217,7 +2233,7 @@
 		{
 			x: 5.0d
 			y: -8.0d
-			subtitle: "{chapter.13.quest.42.subtitle}"
+			subtitle: "猎杀一些本土野生动物。"
 			dependencies: ["539453A048F71094"]
 			optional: true
 			id: "1FFD924446E28C60"
@@ -3255,7 +3271,7 @@
 		{
 			x: -1.5d
 			y: -5.5d
-			description: ["{chapter.13.quest.63.description.1}"]
+			description: ["准备好斧头和剪刀！不放过任何角落，搜索能从树上获得的任何东西！合成、采集、收集每个台阶...树苗...树叶...更多...所有东西！所有！"]
 			hide_dependency_lines: true
 			dependencies: ["539453A048F71094"]
 			id: "4BA7DC6CA55620AB"
@@ -3273,6 +3289,7 @@
 						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
+							CustomModelData: 1
 							type: "crate_crate"
 						}
 						ForgeCaps: {
@@ -3418,17 +3435,17 @@
 			]
 		}
 		{
-			title: "{chapter.13.quest.66.title}"
+			title: "最终boss？"
 			x: 1.0d
 			y: 13.5d
-			subtitle: "{chapter.13.quest.66.subtitle}"
-			description: ["{chapter.13.quest.66.description.1}"]
+			subtitle: "\"最终boss什么时候有？\"-几乎每一个暮色森林新玩家都会问"
+			description: ["看着最终boss刷怪笼，虽然不会生成任何东西。你...通关了？"]
 			dependencies: ["19B32C52F6F2C275"]
 			id: "6D9E183685284193"
 			tasks: [{
 				id: "50408E199382BDCD"
 				type: "observation"
-				title: "{chapter.13.quest.66.task.1.title}"
+				title: "看向最终boss刷怪笼"
 				icon: {
 					id: "twilightforest:boss_spawner_final_boss"
 					Count: 1b
@@ -3475,7 +3492,7 @@
 				{
 					id: "2D89088FF5A808D5"
 					type: "command"
-					title: "{chapter.13.quest.66.reward.5.title}"
+					title: "Final Boss Title"
 					icon: {
 						id: "titles:title_scroll_rare"
 						Count: 1b

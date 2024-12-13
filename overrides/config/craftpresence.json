@@ -664,7 +664,8 @@
     },
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
-      "dreamsx": "https://crafatar.com/avatars/c800e50f27274da49a89ccd18f6a0700"
+      "dreamsx": "https://crafatar.com/avatars/c800e50f27274da49a89ccd18f6a0700",
+      "LandmineHQ": "https://crafatar.com/avatars/e2601f671d694013a113a4d0f283004c"
     },
     "dynamicVariables": {
       "default": "Example Text",

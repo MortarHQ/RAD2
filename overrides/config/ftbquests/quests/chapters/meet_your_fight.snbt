@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 4
 	filename: "meet_your_fight"
-	title: "{chapter.33.title}"
+	title: "迎战！"
 	icon: "meetyourfight:haunted_bell"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,15 @@
 			x: -3.5d
 			y: 3.0d
 			shape: "hexagon"
-			description: ["{chapter.33.quest.1.description.1}"]
+			description: [
+				"敲钟人是由Meet Your Fight模组添加的boss。它能被缠魂铃铛召唤。被杀死后，它会掉落1个幽魂质和3-4个金锭。"
+				""
+				"敲钟人漂浮在空中，并能穿透墙体，就像恼鬼。指向玩家时，它会持续保持在目标前方和上方。"
+				""
+				"它的所有攻击都会在短暂的延迟后直线发射一波投射物。每个投射物造成8点伤害，并能穿透墙体。敲钟人会随机在以下两种攻击方式中交替进行:"
+				""
+				"下降50%高度，它会敲响它的钟，然后对附近所有实体造成15秒缓慢2效果，然后快速向地面发射20行投射物然后向它的目标前进。攻击完成后，敲钟人会进行普通攻击，但每次攻击会发射4波投射物而不是3波。"
+			]
 			size: 1.5d
 			id: "01586496C0B6EB67"
 			tasks: [{
@@ -53,7 +61,14 @@
 			x: 0.0d
 			y: 2.25d
 			shape: "hexagon"
-			description: ["{chapter.33.quest.2.description.1}"]
+			description: [
+				"沼泽巨颌怪是由Meet Your Fight模组添加的boss。你可以使用化石之饵来召唤它。被击杀后，它会掉落1个藓牙，3-6个骨头，2-4个苔藓和1-3个泥土。"
+				""
+				"沼泽巨颌怪通常会飞在其目标上方，移动方式类似幻翼，除了它还可以看透并穿透墙体。攻击时它会重复以下行为："
+				"围绕目标上方和周围移动。"
+				"快速移动到目标上方投下3颗地雷，这些地雷会在接触地面时爆炸，威力是TNT的一半，但不会破坏方块或伤害自己。"
+				"向目标俯冲，造成7点触碰伤害。攻击沼泽巨颌怪会打断这次攻击。"
+			]
 			size: 1.5d
 			id: "6A51E5206B5F75D4"
 			tasks: [{
@@ -93,7 +108,13 @@
 		{
 			x: 3.5d
 			y: 3.0d
-			description: ["{chapter.33.quest.3.description.1}"]
+			description: [
+				"福尔图娜女爵是由迎战模组添加的一个Boss，使用红色立方体弹射物进行攻击。"
+				""
+				"这些攻击会从上方或四周攻击玩家。"
+				""
+				"击杀福尔图娜女爵能够获得命运之眷、一些绿宝石和3本随机附魔书。"
+			]
 			size: 1.5d
 			id: "4BBEF37E398FA6EA"
 			tasks: [{
@@ -220,7 +241,7 @@
 		{
 			x: 7.0d
 			y: 2.5d
-			description: ["{chapter.33.quest.7.description.1}"]
+			description: ["依据你的幸运属性，有概率使你造成的伤害翻倍。"]
 			dependencies: ["2902A2D96332A34A"]
 			id: "2BFC276EEE062A1F"
 			tasks: [{
@@ -254,7 +275,7 @@
 		{
 			x: 6.0d
 			y: 4.0d
-			description: ["{chapter.33.quest.8.description.1}"]
+			description: ["依据你的幸运属性，有概率抵御所有受到的伤害。"]
 			dependencies: ["2902A2D96332A34A"]
 			id: "3825DCF170FB6A6A"
 			tasks: [{
@@ -288,7 +309,7 @@
 		{
 			x: 6.0d
 			y: 2.0d
-			description: ["{chapter.33.quest.9.description.1}"]
+			description: ["依据你的幸运属性，有概率得到随机增益效果。"]
 			dependencies: ["2902A2D96332A34A"]
 			id: "6B90A18AD9F4B77D"
 			tasks: [{
@@ -328,7 +349,7 @@
 		{
 			x: 7.0d
 			y: 3.5d
-			description: ["{chapter.33.quest.10.description.1}"]
+			description: ["给予10分钟幸运效果。"]
 			dependencies: ["2902A2D96332A34A"]
 			id: "0D656D70646EA87A"
 			tasks: [{
@@ -362,7 +383,7 @@
 		{
 			x: -1.5d
 			y: 4.0d
-			description: ["{chapter.33.quest.11.description.1}"]
+			description: ["这些强大的骨爪能让你增加2点近战伤害。"]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "36FC8D7BB0D670BF"
 			tasks: [{
@@ -396,7 +417,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
-			description: ["{chapter.33.quest.12.description.1}"]
+			description: ["按住右键充能一次小型爆炸。瞄准怪物的脚底把它们炸飞！"]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "00C8004131AAE6F7"
 			tasks: [{
@@ -436,7 +457,7 @@
 		{
 			x: 1.5d
 			y: 4.0d
-			description: ["{chapter.33.quest.13.description.1}"]
+			description: ["这个胸腔能保护你抵抗强力攻击。"]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "3E12346156015D00"
 			tasks: [{
@@ -503,7 +524,7 @@
 		{
 			x: -7.0d
 			y: 3.5d
-			description: ["{chapter.33.quest.15.description.1}"]
+			description: ["用于穿墙，需要消耗一些经验和生命值。"]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "6FB76A93A64BE52D"
 			tasks: [{
@@ -537,7 +558,7 @@
 		{
 			x: -6.0d
 			y: 2.0d
-			description: ["{chapter.33.quest.16.description.1}"]
+			description: ["探测附近的怪物。"]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "0B6A4216C393C695"
 			tasks: [{
@@ -571,7 +592,7 @@
 		{
 			x: -6.0d
 			y: 4.0d
-			description: ["{chapter.33.quest.17.description.1}"]
+			description: ["增加2格触碰范围。"]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "352860E048E56249"
 			tasks: [{
@@ -605,7 +626,7 @@
 		{
 			x: -7.0d
 			y: 2.5d
-			description: ["{chapter.33.quest.18.description.1}"]
+			description: ["食用后给予5秒漂浮效果。"]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "2C8425F45507BE14"
 			tasks: [{
@@ -1123,7 +1144,7 @@
 			]
 		}
 		{
-			title: "{chapter.33.quest.28.title}"
+			title: "传送门"
 			icon: {
 				id: "gateways:gate_pearl"
 				Count: 1b
@@ -1139,7 +1160,19 @@
 			x: 0.0d
 			y: -2.0d
 			shape: "hexagon"
-			description: ["{chapter.33.quest.28.description.1}"]
+			description: [
+				"传送门是个获得怪物掉落物的便利方式。"
+				""
+				"每个传送门会打开一个通向满是特定种类怪物的通道。这些怪物会一波波地持续涌现，每波完成后会在传送门生成额外奖励。"
+				""
+				"完整完成传送门入侵后，大量战利品和经验会从传送门处涌出，接着传送门就会关闭。"
+				""
+				"要打开传送门，你需要制作一个打开传送门的道具。不同配方制成的道具对应不同种类的怪物。制作出该道具后，右击附近的方块即可打开传送门。"
+				""
+				"打开传送门后，你的下一个目标就是关闭它。你可以通过打败所有波次来关闭传送门。但要注意，如果在波次中失败就会触发一个不稳定事件，这个事件可能会破坏附近的东西！"
+				""
+				"传送门最大阶段数会在顶部boss条显示。boss条的每一段代表一波，当每波开始后血条会缓慢减少。完成一波后该段血条就会立即清空并开始下一波。每波被击败后，额外的战利品就会在传送门处生成。打败的波数越多，中心生成的战利品就越多，但生成的怪物也会更强。每一波的怪物都会比之前强得多。完成所有波数后，你会得到大量的经验和战利品，传送门也会被安全地关闭。"
+			]
 			dependencies: ["636C994CC9BDE02A"]
 			size: 2.0d
 			id: "2859B5A6AAB94D7E"
@@ -2246,7 +2279,7 @@
 			}
 			x: 8.0d
 			y: 7.5d
-			description: ["{chapter.33.quest.60.description.1}"]
+			description: [""]
 			dependencies: ["3E4FABF49DF8A4A0"]
 			id: "4C0A01CEE6B9573F"
 			tasks: [{
@@ -2574,7 +2607,7 @@
 		{
 			x: 11.0d
 			y: 6.5d
-			description: ["{chapter.33.quest.71.description.1}"]
+			description: ["在袭击和刌民要塞中找到。"]
 			id: "6B835736FC7C4119"
 			tasks: [{
 				id: "6BC0AA3EFD3F34D8"
@@ -2598,8 +2631,8 @@
 		{
 			x: 11.0d
 			y: 7.5d
-			subtitle: "{chapter.33.quest.72.subtitle}"
-			description: ["{chapter.33.quest.72.description.1}"]
+			subtitle: "逃不出他的巨型高塔"
+			description: ["通常在刌民高塔和袭击中找到。"]
 			id: "2D8C58A0B2073AC4"
 			tasks: [{
 				id: "247A3AA968C0F3F2"
@@ -2623,7 +2656,7 @@
 		{
 			x: 11.0d
 			y: 8.5d
-			description: ["{chapter.33.quest.73.description.1}"]
+			description: ["在刌民矿井和采掘维度找到。"]
 			id: "3B931FE5DA0EC3CE"
 			tasks: [{
 				id: "0FFCCA545FBFFFA7"
@@ -3091,7 +3124,7 @@
 			]
 		}
 		{
-			title: "{chapter.33.quest.86.title}"
+			title: "任意传送门珍珠"
 			x: 0.0d
 			y: -3.5d
 			shape: "hexagon"
@@ -3934,7 +3967,7 @@
 			]
 		}
 		{
-			title: "{chapter.33.quest.107.title}"
+			title: "坏名声 I"
 			x: 11.0d
 			y: 10.5d
 			id: "40F5EEC0C7474750"
@@ -3966,7 +3999,7 @@
 			]
 		}
 		{
-			title: "{chapter.33.quest.108.title}"
+			title: "坏名声 II"
 			x: 11.0d
 			y: 11.5d
 			dependencies: ["40F5EEC0C7474750"]
@@ -3999,7 +4032,7 @@
 			]
 		}
 		{
-			title: "{chapter.33.quest.109.title}"
+			title: "坏名声 III"
 			x: 11.0d
 			y: 12.5d
 			dependencies: ["234394677552B368"]
@@ -4029,7 +4062,7 @@
 						}
 					}
 				}
-				{
+			{
 					id: "2F2FDD238219EFFF"
 					type: "pmmo:xpreward"
 					auto: "invisible"
@@ -4042,7 +4075,10 @@
 		{
 			x: 0.0d
 			y: -0.5d
-			description: ["{chapter.33.quest.110.description.1}"]
+			description: [
+				"试炼通过证掉落于刷怪笼或在其他一些建筑中找到。"
+				"它们能用于制作传送门或在女神雕像处升级你的滑翔伞耐力。"
+			]
 			id: "636C994CC9BDE02A"
 			tasks: [{
 				id: "5BDA5878F5F0AC4D"
@@ -4081,7 +4117,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			description: ["{chapter.33.quest.111.description.1}"]
+			description: ["升级版试炼通过证，用于制作更大的传送门。"]
 			dependencies: ["636C994CC9BDE02A"]
 			id: "382CA6AE28A6316A"
 			tasks: [{
@@ -4127,16 +4163,16 @@
 			]
 		}
 		{
-			title: "{chapter.33.quest.112.title}"
+			title: "破坏25个刷怪笼"
 			x: 1.5d
 			y: -1.5d
-			description: ["{chapter.33.quest.112.description.1}"]
+			description: ["刷怪笼是获得试炼通过证的最简单方式"]
 			dependencies: ["636C994CC9BDE02A"]
 			id: "203172A2D2865B49"
 			tasks: [{
 				id: "2D4C7AB93F4CF1A6"
 				type: "questsadditions:break"
-				title: "{chapter.33.quest.112.task.1.title}"
+				title: "Spawner Smasher"
 				block: "minecraft:spawner"
 				value: 25L
 				checkItem: false
@@ -4188,7 +4224,7 @@
 		{
 			x: -3.0d
 			y: -1.0d
-			description: ["{chapter.33.quest.113.description.1}"]
+			description: ["不死军队事件掉落。"]
 			id: "7D48C1C4B70B99F8"
 			tasks: [{
 				id: "1839C0D23C028D73"
@@ -4212,7 +4248,7 @@
 		{
 			x: -3.0d
 			y: -2.0d
-			description: ["{chapter.33.quest.114.description.1}"]
+			description: ["再做一次！这个事件生成的怪物刷怪笼是获得试炼通行证的便利方式"]
 			dependencies: ["7D48C1C4B70B99F8"]
 			id: "71296448B1C20014"
 			tasks: [{
@@ -4511,7 +4547,7 @@
 		{
 			x: 9.5d
 			y: 12.5d
-			description: ["{chapter.33.quest.122.description.1}"]
+			description: ["幻术师会在专家模式（凋灵被杀死后）开始自然生成，也会在入侵中生成。"]
 			id: "4F18B88B2A7608F8"
 			tasks: [{
 				id: "46494CE179A84D35"
@@ -4617,7 +4653,7 @@
 			]
 		}
 		{
-			title: "{chapter.33.quest.126.title}"
+			title: "Break 50 Spawners"
 			x: 2.5d
 			y: -1.5d
 			dependencies: ["203172A2D2865B49"]
@@ -4667,7 +4703,7 @@
 				{
 					id: "04AAD0460AB5AFCA"
 					type: "pmmo:xpreward"
-					title: "{chapter.33.quest.126.reward.6.title}"
+					title: "Dungeoneering XP"
 					icon: {
 						id: "kubejs:chest2"
 						Count: 1b
@@ -4686,7 +4722,7 @@
 		{
 			x: 1.5d
 			y: -0.5d
-			description: ["{chapter.33.quest.127.description.1}"]
+			description: ["怪物盒子在被挖掉时会掉落试炼通行证。不要离得太近！"]
 			dependencies: ["636C994CC9BDE02A"]
 			id: "58C1C68226071763"
 			tasks: [{
@@ -4790,7 +4826,7 @@
 				{
 					id: "2383888442AA197C"
 					type: "pmmo:xpreward"
-					title: "{chapter.33.quest.128.reward.6.title}"
+					title: "Dungeoneering XP"
 					icon: {
 						id: "kubejs:chest2"
 						Count: 1b
@@ -4814,7 +4850,7 @@
 			tasks: [{
 				id: "5DA228070189B1B1"
 				type: "questsadditions:break"
-				title: "{chapter.33.quest.129.task.1.title}"
+				title: "破坏100个刷怪笼"
 				block: "minecraft:spawner"
 				value: 100L
 				checkItem: false
@@ -4953,14 +4989,17 @@
 			x: 4.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "{chapter.33.quest.131.subtitle}"
-			description: ["{chapter.33.quest.131.description.1}"]
+			subtitle: "破坏500个刷怪笼"
+			description: [
+				"那些能忍受住刷怪场的诱惑，并尽其所能破坏500个刷怪笼的人能获得刷怪笼粉碎者头衔！"
+				"(完成此任务后，可以在\"头衔\"章节获取头衔。)"
+			]
 			dependencies: ["5A3FA8B6A53D834D"]
 			id: "40FF66BE65AF171D"
 			tasks: [{
 				id: "0BA38C8135DBD375"
 				type: "questsadditions:break"
-				title: "{chapter.33.quest.131.task.1.title}"
+				title: "Spawner Smasher"
 				block: "minecraft:spawner"
 				value: 500L
 				checkItem: false
@@ -5012,7 +5051,7 @@
 				{
 					id: "75A20CDEB1600DA8"
 					type: "pmmo:xpreward"
-					title: "{chapter.33.quest.131.reward.6.title}"
+					title: "1337 地牢工程学经验"
 					icon: "kubejs:chest2"
 					skill: "dungeoneering"
 					amount: 1337.0d
@@ -5024,13 +5063,13 @@
 			x: 4.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "{chapter.33.quest.132.subtitle}"
+			subtitle: "破坏500个怪物盒子"
 			dependencies: ["7FC5E3377BF8195C"]
 			id: "03B12F1965ADB68A"
 			tasks: [{
 				id: "144956EFB7B19305"
 				type: "questsadditions:break"
-				title: "{chapter.33.quest.132.task.1.title}"
+				title: "盒子破坏者"
 				block: "quark:monster_box"
 				value: 500L
 				checkItem: false
@@ -5082,7 +5121,7 @@
 				{
 					id: "0D1976BBC5B3A26F"
 					type: "pmmo:xpreward"
-					title: "{chapter.33.quest.132.reward.6.title}"
+					title: "1337地牢工程学经验"
 					icon: "kubejs:chest2"
 					skill: "dungeoneering"
 					amount: 1337.0d

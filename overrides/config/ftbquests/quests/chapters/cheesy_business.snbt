@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 2
 	filename: "cheesy_business"
-	title: "{chapter.22.title}"
+	title: "奶酪生意"
 	icon: "rats:rat_trap"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -37,7 +37,11 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			description: ["{chapter.22.quest.1.description.1}"]
+			description: [
+				"为了保护心爱的衣帽不被老鼠咬坏，人们会使用捕鼠夹。"
+				""
+				"配合传统的防鼠措施，例如石头房子和养猫，能够很好的抵御这些啮齿动物的侵扰。"
+			]
 			dependencies: ["60A98B1357B81D11"]
 			id: "03A59DE3E3891061"
 			tasks: [{
@@ -54,7 +58,13 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			description: ["{chapter.22.quest.2.description.1}"]
+			description: [
+				"Rats模组最重要的东西就是奶酪。将牛奶装入坩埚来获得奶酪。"
+				""
+				"除了是一种食物来源，奶酪还可以用于驯服野生老鼠，并且参与大量模组中的合成配方。"
+				""
+				""
+			]
 			dependencies: ["60A98B1357B81D11"]
 			id: "5287FD38B69C71B9"
 			tasks: [{
@@ -77,7 +87,7 @@
 		{
 			x: 1.5d
 			y: -3.0d
-			description: ["{chapter.22.quest.3.description.1}"]
+			description: ["击杀下界老鼠获得。"]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "5CA79B5846DF3C0F"
 			tasks: [{
@@ -94,7 +104,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
-			description: ["{chapter.22.quest.4.description.1}"]
+			description: ["老鼠会在主世界的晚上出现，就像怪物一样。它们通常害怕玩家，并且会跑出视野范围内。老鼠会在木头墙上打洞、从箱子中偷食物和种子并且摧毁作物，所以十分讨人厌。此外，老鼠还可以潜行通过栅栏或定位到门。"]
 			id: "60A98B1357B81D11"
 			tasks: [{
 				id: "3F6B4DE3B6DF35E5"
@@ -132,7 +142,15 @@
 		{
 			x: 2.5d
 			y: -1.0d
-			description: ["{chapter.22.quest.6.description.1}"]
+			description: [
+				"老鼠笼由铁栏杆、铁锭和小麦制成。它用于放置和喂养老鼠。任何骑在玩家肩膀上或头上的老鼠都可以通过与笼子交互将老鼠放进去。右键笼子也可以将其中的老鼠放出来。笼子能容纳的老鼠数量没有限制，但是原版仍然有实体堆积规则。老鼠笼可以用一些东西装饰，这些东西都标明了鼠笼装饰。钻钻乐可以链接笼子。相邻的笼子连在一起形成一个大笼子。"
+				""
+				"在笼子中放置老鼠育种灯后，相同笼子中相对性别的老鼠便会繁殖。它们的幼仔有概率拥有与父母不同的颜色。"
+				""
+				"驯服老鼠后，可以做很多事情，但其中最重要的事情就是自动合成。"
+				""
+				"给一只驯服的老鼠合成升级，并将其放置在老鼠工作台顶部，老鼠就能开始自动合成。"
+			]
 			dependencies: ["0FBC75A8226C78D8"]
 			id: "356CFEE6C2861E73"
 			tasks: [{
@@ -149,7 +167,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["{chapter.22.quest.7.description.1}"]
+			description: ["鼠笼一共有超过30种独特的装饰物，包括鼠吊床和鼠小屋，只需要手持装饰物右键鼠笼。替换装饰物或破坏鼠笼都会将原本的装饰物取下。"]
 			dependencies: ["356CFEE6C2861E73"]
 			dependency_requirement: "one_completed"
 			id: "57D050BC4C4F0844"
@@ -174,7 +192,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			description: ["{chapter.22.quest.8.description.1}"]
+			description: ["钻钻乐是链接鼠笼的塑料管道。右键钻钻乐就能打开一个口让老鼠进入。"]
 			dependencies: ["356CFEE6C2861E73"]
 			id: "586CD4AFCDAAB1BE"
 			tasks: [{
@@ -209,7 +227,13 @@
 		{
 			x: 2.5d
 			y: 2.0d
-			description: ["{chapter.22.quest.9.description.1}"]
+			description: [
+				"要使用奶酪魔杖，你需要将它\"绑定\"到一只老鼠上。只需手持魔杖右键老鼠。绑定后，奶酪魔杖就能点击任意方块。"
+				""
+				"用绑定后的魔杖点击箱子或存储方块来打开奶酪魔杖菜单。玩家能在这里标记该方块是存入还是提取。"
+				""
+				"魔杖也能够为老鼠设置一个家的定位点。设置为\"闲逛\"指令时，老鼠会在定位点附近游荡。"
+			]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "2A06481BD57E5A8E"
 			tasks: [{
@@ -230,7 +254,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			description: ["{chapter.22.quest.10.description.1}"]
+			description: ["老鼠升级：托盘将让老鼠一次性运送一组物品。没有此升级时，老鼠每次只能运送单个物品。"]
 			dependencies: ["2A06481BD57E5A8E"]
 			id: "4067608F0749CF58"
 			tasks: [{
@@ -257,10 +281,14 @@
 			]
 		}
 		{
-			title: "{chapter.22.quest.11.title}"
+			title: "职业化"
 			x: 0.5d
 			y: -4.0d
-			description: ["{chapter.22.quest.11.description.1}"]
+			description: [
+				"有很多专为老鼠制作的升级，从简单的生命值、速度提升，到大幅度力量和护甲提升，或是新的能力，例如制作食物和运送整组物品。"
+				""
+				"大多数职业化老鼠功能都来源于老鼠升级。这些升级能给老鼠独特属性和能力，目前总共有50种老鼠升级可用。"
+			]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "32DD2DCE063BFE76"
 			tasks: [{
@@ -321,13 +349,16 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			description: ["{chapter.22.quest.14.description.1}"]
+			description: [
+				"驯服老鼠某种程度上是非常难的，因为老鼠害怕并会远离人类。你不能驯服疫鼠，但你可以用奶酪驯服普通的老鼠。与其他食物一样，老鼠会自己去吃被丢在地上的奶酪。野生的老鼠对玩家有一个信任值，被喂奶酪时就会增加。随着信任值的增长，老鼠会慢慢不再那么快或远的逃离玩家，当吃了10个奶酪后，它就会信任玩家并不再逃跑，并且在之后，每次喂奶酪，都会有33%概率驯服。一般驯服一只老鼠需要喂15次。当老鼠产生爱心粒子并能被交互，就说明已经驯服成功了。"
+				""
+			]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "0FBC75A8226C78D8"
 			tasks: [{
 				id: "38EF53E23CD9D0E4"
 				type: "checkmark"
-				title: "{chapter.22.quest.14.task.1.title}"
+				title: "驯服进行时"
 			}]
 			rewards: [
 				{
@@ -345,13 +376,17 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["{chapter.22.quest.15.description.1}"]
+			description: [
+				"被驯服的老鼠有一个菜单，空手或手上有东西时右键老鼠都可以打开。"
+				""
+				"在这个菜单中，玩家可以更改老鼠的头盔和旗帜、改变老鼠的三个升级槽和老鼠手持或嘴里叼的物品。更重要的是，玩家能点击右侧的箭头循环选择老鼠命令。目前的命令和它的性别都会显示。"
+			]
 			dependencies: ["0FBC75A8226C78D8"]
 			id: "317360572C8BEEA6"
 			tasks: [{
 				id: "12B75969C53BE39C"
 				type: "checkmark"
-				title: "{chapter.22.quest.15.task.1.title}"
+				title: "老鼠菜单"
 			}]
 			rewards: [
 				{
@@ -369,13 +404,24 @@
 		{
 			x: 0.5d
 			y: 2.0d
-			description: ["{chapter.22.quest.16.description.1}"]
+			description: [
+				"在老鼠菜单中，有多种命令可以更改，你也可以使用老鼠长笛更改。它们分别是："
+				"-闲逛-老鼠会漫无目的的游荡，就像原版的那些动物一样。需要注意的是，在这个模式下，老鼠仍然有自主防卫的行为。"
+				"-坐下-老鼠会弓腰抬头坐下，不进行移动或工作。"
+				"-跟随-老鼠会像狗一样跟随主人，并保护主人。"
+				"-猎杀动物-老鼠会攻击范围内任何动物和怪物，不会攻击幼年生物。"
+				"-收集-老鼠会拾取地上的物品。"
+				"-采收-老鼠会破坏草和作物并收集掉落物。有一些升级，例如老鼠升级：矿工、老鼠升级：种植家和老鼠升级：渔夫会覆写这个指令。"
+				"-运输-老鼠会在两个容器之间运输物品。"
+				""
+				"注意：猎杀动物、收集、采收、运输命令，都可以用奶酪魔杖指定老鼠所用的容器点位。"
+			]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "50C9FF36FEDAC1F0"
 			tasks: [{
 				id: "734AB6500F825E78"
 				type: "checkmark"
-				title: "{chapter.22.quest.16.task.1.title}"
+				title: "老鼠命令"
 			}]
 		}
 		{
@@ -419,7 +465,7 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			description: ["{chapter.22.quest.18.description.1}"]
+			description: ["使用老鼠长笛会发出一个笛声然后命令范围内的所有老鼠。潜行使用能循环选择笛声所指定的命令。"]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "4799C026D3216A0F"
 			tasks: [{

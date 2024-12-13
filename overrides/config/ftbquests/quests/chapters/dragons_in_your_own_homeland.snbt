@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 2
 	filename: "dragons_in_your_own_homeland"
-	title: "{chapter.31.title}"
+	title: "龙！"
 	icon: {
 		id: "iceandfire:dragon_skull_fire"
 		Count: 1b
@@ -13,7 +13,7 @@
 			}
 		}
 	}
-	subtitle: ["{chapter.31.subtitle}"]
+	subtitle: ["就在你的家乡！你敢信？"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -71,13 +71,13 @@
 		{
 			x: -2.5d
 			y: -1.0d
-			subtitle: "{chapter.31.quest.2.subtitle}"
+			subtitle: "点击鳞片了解更多信息"
 			dependencies: ["0289B5163EDBE735"]
 			id: "43CB9B3DAD77683A"
 			tasks: [{
 				id: "4ADC46F4B9A68D7C"
 				type: "item"
-				title: "{chapter.31.quest.2.task.1.title}"
+				title: "击杀任意火焰巨龙！"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -105,13 +105,13 @@
 		{
 			x: 2.5d
 			y: -1.0d
-			subtitle: "{chapter.31.quest.3.subtitle}"
+			subtitle: "点击鳞片获取更多信息"
 			dependencies: ["0289B5163EDBE735"]
 			id: "35557AE2D124F340"
 			tasks: [{
 				id: "2C38EDA94738B25A"
 				type: "item"
-				title: "{chapter.31.quest.3.task.1.title}"
+				title: "击杀任意冰霜巨龙"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -139,13 +139,13 @@
 		{
 			x: 1.5d
 			y: -2.5d
-			subtitle: "{chapter.31.quest.4.subtitle}"
+			subtitle: "点击鳞片获取更多信息"
 			dependencies: ["0289B5163EDBE735"]
 			id: "605894F90D1565D9"
 			tasks: [{
 				id: "1BC7DBCE2CFB50A0"
 				type: "item"
-				title: "{chapter.31.quest.4.task.1.title}"
+				title: "击杀任意闪电巨龙"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -713,7 +713,7 @@
 		{
 			x: -4.5d
 			y: -7.0d
-			description: ["{chapter.31.quest.20.description.1}"]
+			description: ["用于将绑定的火龙传送到你身边。"]
 			dependencies: ["09882BA9CA9D8453"]
 			id: "42178C8AE0F6403F"
 			tasks: [{
@@ -738,7 +738,7 @@
 		{
 			x: 4.5d
 			y: -7.0d
-			description: ["{chapter.31.quest.21.description.1}"]
+			description: ["用于将绑定的冰龙传送到你身边。"]
 			dependencies: ["596E4BBBE5ECB9C5"]
 			id: "44D34FC0F25E3719"
 			tasks: [{
@@ -763,7 +763,7 @@
 		{
 			x: 1.5d
 			y: -8.0d
-			description: ["{chapter.31.quest.22.description.1}"]
+			description: ["用于将绑定的电龙传送到你身边。"]
 			dependencies: ["752042A08C0343CE"]
 			id: "2A58AD42BCAFD8E2"
 			tasks: [{
@@ -909,7 +909,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			description: ["{chapter.31.quest.27.description.1}"]
+			description: ["对冰龙造成额外伤害。"]
 			dependencies: ["09882BA9CA9D8453"]
 			id: "2D16B44C7D383ED2"
 			tasks: [{
@@ -961,7 +961,7 @@
 		{
 			x: 4.5d
 			y: -8.0d
-			description: ["{chapter.31.quest.28.description.1}"]
+			description: ["对火龙造成额外伤害"]
 			dependencies: ["596E4BBBE5ECB9C5"]
 			id: "668B64CA5C7C8280"
 			tasks: [{
@@ -1013,7 +1013,7 @@
 		{
 			x: 0.0d
 			y: -10.5d
-			description: ["{chapter.31.quest.29.description.1}"]
+			description: ["对冰龙和火龙造成额外伤害。"]
 			dependencies: ["752042A08C0343CE"]
 			id: "4374C6812B288DC4"
 			tasks: [{
@@ -1070,7 +1070,7 @@
 			tasks: [{
 				id: "702F12FBB62E3915"
 				type: "item"
-				title: "{chapter.31.quest.30.task.1.title}"
+				title: "任意#iceandfire:dragon_skulls"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1142,7 +1142,7 @@
 		{
 			x: -7.0d
 			y: 0.5d
-			description: ["{chapter.31.quest.32.description.1}"]
+			description: ["将你的龙呼唤到你身边，适用于龙飞走的时候。"]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "313CAD78364A3D66"
 			tasks: [{
@@ -1187,7 +1187,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["{chapter.31.quest.33.description.1}"]
+			description: ["能穿刺多个敌人的强力三叉戟。"]
 			dependencies: ["49AD80E916672BBE"]
 			id: "452887E4D3CF63A4"
 			tasks: [{
@@ -1227,7 +1227,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			description: ["{chapter.31.quest.34.description.1}"]
+			description: ["将你的龙存入这个号角中，就能在冒险中随身携带它们了。"]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "6C82D3C21252DD57"
 			tasks: [{
@@ -1339,7 +1339,11 @@
 		{
 			x: -0.5d
 			y: 5.5d
-			description: ["{chapter.31.quest.37.description.1}"]
+			description: [
+				"发射对其他敌人造成闪电伤害的弹射物。"
+				""
+				"这个武器不会激怒中立生物。"
+			]
 			dependencies: ["55C1E6BBD60D4586"]
 			id: "325E00CC4C5AB970"
 			tasks: [{
@@ -1435,7 +1439,7 @@
 		{
 			x: -3.5d
 			y: 11.0d
-			description: ["{chapter.31.quest.40.description.1}"]
+			description: ["手持时会对附近的敌对生物施加虚弱效果。"]
 			id: "4576D3B3A1577D84"
 			tasks: [{
 				id: "27630217A1027FC1"
@@ -1562,7 +1566,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
-			description: ["{chapter.31.quest.43.description.1}"]
+			description: ["鸡偶尔会产出。可以像鸡蛋一样扔出，有概率孵化出一只被驯服的鸡蛇！"]
 			id: "05A7E9B1299D7219"
 			tasks: [{
 				id: "2C76D7A98BDB4E6E"
@@ -1649,7 +1653,11 @@
 		{
 			x: 0.0d
 			y: 10.0d
-			description: ["{chapter.31.quest.45.description.1}"]
+			description: [
+				"一次性消耗品，能将怪物变成石头（除了末影龙）"
+				""
+				"你可以用镐子敲击10次石头雕像来破坏它，如果镐子有精准采集即可获得雕像。"
+			]
 			id: "5F9AC0AB15154C7D"
 			tasks: [{
 				id: "2A8CB89E57A1253E"
@@ -1851,7 +1859,7 @@
 		{
 			x: -6.0d
 			y: 3.0d
-			description: ["{chapter.31.quest.49.description.1}"]
+			description: ["加快龙的生长。"]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "1DCD8CFCE09D656F"
 			tasks: [{
@@ -1883,7 +1891,7 @@
 		{
 			x: -7.0d
 			y: 2.5d
-			description: ["{chapter.31.quest.50.description.1}"]
+			description: ["停止龙的生长。这对龙是永久生效的。"]
 			dependencies: ["1DCD8CFCE09D656F"]
 			id: "4451F4351231A711"
 			tasks: [{
@@ -1933,7 +1941,7 @@
 			x: -5.0d
 			y: 1.5d
 			shape: "octagon"
-			subtitle: "{chapter.31.quest.51.subtitle}"
+			subtitle: "获得一颗龙蛋"
 			size: 2.0d
 			id: "5C42AD1E351785EA"
 			tasks: [{
@@ -1970,7 +1978,11 @@
 		{
 			x: 2.0d
 			y: 10.5d
-			description: ["{chapter.31.quest.52.description.1}"]
+			description: [
+				"由铜羽泽鹗掉落，你可以选择击杀它也可以捡它们发射的羽毛。"
+				""
+				"你可以用这种材料制作匕首、箭或一捆羽毛。"
+			]
 			id: "0DBDC4BAA4465307"
 			tasks: [{
 				id: "557F6530028246D7"
@@ -2112,7 +2124,7 @@
 		{
 			x: 1.0d
 			y: 7.0d
-			description: ["{chapter.31.quest.56.description.1}"]
+			description: ["像铁傀儡一样将生物狠狠丢上天空！"]
 			dependencies: ["53F95089CB6FF9CF"]
 			id: "0638813A7CD7CB60"
 			tasks: [{
@@ -2545,7 +2557,11 @@
 		{
 			x: 3.0d
 			y: 6.0d
-			description: ["{chapter.31.quest.63.description.1}"]
+			description: [
+				"由恶魂掉落，用于制作被诅咒的箱子和坟土。"
+				""
+				"它也能制作魂质宝珠，这是制作更强传送门珍珠的关键材料。"
+			]
 			id: "5474A3F78B629DB9"
 			tasks: [{
 				id: "33EAA179E3DA3CBB"
@@ -2589,7 +2605,11 @@
 		{
 			x: 2.5d
 			y: 5.0d
-			description: ["{chapter.31.quest.64.description.1}"]
+			description: [
+				"由自然生成的恶魂偶尔掉落。（不是被诅咒的箱子生成的恶魂）。"
+				""
+				"它主要用于制作幻灵剑，但也可以用于将骑士金属升级成幻影骑士装备。"
+			]
 			id: "1E4783908222E61C"
 			tasks: [{
 				id: "0A74D7E989DA4C88"
@@ -2613,7 +2633,7 @@
 		{
 			x: 3.5d
 			y: 5.0d
-			description: ["{chapter.31.quest.65.description.1}"]
+			description: ["向远处攻击时会发射穿透墙壁的剑气。"]
 			dependencies: ["1E4783908222E61C"]
 			id: "6E1A96AF0E1B0F18"
 			tasks: [{
@@ -2661,7 +2681,7 @@
 		{
 			x: -6.0d
 			y: -10.5d
-			description: ["{chapter.31.quest.66.description.1}"]
+			description: ["将敌人点燃并击退到远处。"]
 			dependencies: ["5F7B4E456CD5AD52"]
 			id: "13F3473F3041F8BE"
 			tasks: [{
@@ -2720,7 +2740,7 @@
 		{
 			x: 1.0d
 			y: -11.5d
-			description: ["{chapter.31.quest.67.description.1}"]
+			description: ["附带闪电附魔和一些范围减益伤害。"]
 			dependencies: ["2BFCFAF2EF10A54E"]
 			id: "6F46536FE6DBE744"
 			tasks: [{
@@ -2779,7 +2799,7 @@
 		{
 			x: 5.0d
 			y: -12.5d
-			description: ["{chapter.31.quest.68.description.1}"]
+			description: ["击中怪物时大幅减缓其速度。"]
 			dependencies: ["586BC8112DF3B5FA"]
 			id: "14B446040569CF12"
 			tasks: [{
@@ -3420,7 +3440,7 @@
 		{
 			x: 1.0d
 			y: 5.5d
-			description: ["{chapter.31.quest.75.description.1}"]
+			description: ["放在快捷栏时给予生命再生效果。"]
 			id: "77444F5105A251CC"
 			tasks: [{
 				id: "49336133B2F9E1AE"
@@ -6245,7 +6265,11 @@
 		{
 			x: -7.0d
 			y: -10.5d
-			description: ["{chapter.31.quest.102.description.1}"]
+			description: [
+				"龙钢装备能用于抵抗龙的伤害。"
+				""
+				"感谢Unique Enchantments模组，让保护附魔能够附加在龙钢装备上。"
+			]
 			dependencies: ["5F7B4E456CD5AD52"]
 			id: "79222FD515377830"
 			tasks: [
@@ -6333,7 +6357,11 @@
 		{
 			x: 6.5d
 			y: -11.0d
-			description: ["{chapter.31.quest.103.description.1}"]
+			description: [
+				"龙钢装备能用于抵抗龙的伤害。"
+				""
+				"感谢Unique Enchantments模组，让保护附魔能够附加在龙钢装备上。"
+			]
 			dependencies: ["586BC8112DF3B5FA"]
 			id: "47FBF871DC42B9F0"
 			tasks: [
@@ -6421,7 +6449,11 @@
 		{
 			x: 2.5d
 			y: -10.0d
-			description: ["{chapter.31.quest.104.description.1}"]
+			description: [
+				"龙钢装备能用于抵抗龙的伤害。"
+				""
+				"感谢Unique Enchantments模组，让保护附魔能够附加在龙钢装备上。"
+			]
 			dependencies: ["2BFCFAF2EF10A54E"]
 			id: "7004E82094588EBB"
 			tasks: [
@@ -6509,12 +6541,12 @@
 		{
 			x: 2.5d
 			y: 3.5d
-			subtitle: "{chapter.31.quest.105.subtitle}"
+			subtitle: "发现陵墓之锁"
 			id: "1F464E151EBF2088"
 			tasks: [{
 				id: "692B6D5D0FA5B40D"
 				type: "observation"
-				title: "{chapter.31.quest.105.task.1.title}"
+				title: "一把怪异的锁"
 				icon: {
 					id: "iceandfire:dreadwood_planks_lock"
 					Count: 1b
@@ -6530,11 +6562,11 @@
 			}]
 		}
 		{
-			title: "{chapter.31.quest.106.title}"
+			title: "近乎不可能之钥"
 			x: 2.5d
 			y: 2.5d
-			subtitle: "{chapter.31.quest.106.subtitle}"
-			description: ["{chapter.31.quest.106.description.1}"]
+			subtitle: "最稀有的钥匙"
+			description: ["你很幸运找到了它...尸妖很少会到这来"]
 			dependencies: ["1F464E151EBF2088"]
 			id: "0215C0DA01B8935B"
 			tasks: [{
@@ -6574,12 +6606,18 @@
 		{
 			x: -1.0d
 			y: 11.0d
-			description: ["{chapter.31.quest.107.description.1}"]
+			description: [
+				"鸡蛇活动于萨瓦纳群系。你可以孵化烂鸡蛋获得一只被驯服的鸡蛇，也可以与野生的鸡蛇对视50秒将其驯服。"
+				""
+				"然而，鸡蛇的凝视会对你造成凋零减益。"
+				""
+				"幸运的是，驯服进度会保留，所以你可以停止与之对视，回复血量后继续驯服。"
+			]
 			id: "54761D5F9843BF91"
 			tasks: [{
 				id: "587B9980523F4CA2"
 				type: "observation"
-				title: "{chapter.31.quest.107.task.1.title}"
+				title: "凝视鸡蛇"
 				icon: {
 					id: "alexsmobs:tab_icon"
 					Count: 1b
@@ -6612,7 +6650,11 @@
 		{
 			x: 1.0d
 			y: 11.0d
-			description: ["{chapter.31.quest.108.description.1}"]
+			description: [
+				"使用时向所有方向射出八根羽毛。"
+				""
+				"一些羽毛能被捡回。"
+			]
 			dependencies: ["0DBDC4BAA4465307"]
 			id: "04B14007299FC09B"
 			tasks: [{
@@ -6646,7 +6688,7 @@
 		{
 			x: 2.0d
 			y: 11.5d
-			description: ["{chapter.31.quest.109.description.1}"]
+			description: ["拥有3攻击速度的匕首。副手持有时能增加锻造经验。"]
 			dependencies: ["0DBDC4BAA4465307"]
 			id: "5D715FBCE0F2D6DC"
 			tasks: [{
@@ -6668,7 +6710,7 @@
 			rewards: [{
 				id: "31D03018670AF36A"
 				type: "pmmo:xpreward"
-				title: "{chapter.31.quest.109.reward.1.title}"
+				title: "100 Smithing XP"
 				icon: {
 					id: "minecraft:anvil"
 					Count: 1b
@@ -6687,7 +6729,7 @@
 		{
 			x: 3.0d
 			y: 11.0d
-			description: ["{chapter.31.quest.110.description.1}"]
+			description: ["比普通箭多造成50%伤害，受重力影响更小。适合远距离攻击，也便于完成狙击手的对决成就。"]
 			dependencies: ["0DBDC4BAA4465307"]
 			id: "425F7CE940B05FD5"
 			tasks: [{

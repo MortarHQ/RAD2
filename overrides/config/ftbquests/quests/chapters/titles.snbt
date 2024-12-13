@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "titles"
-	title: "{chapter.4.title}"
+	title: "头衔"
 	icon: {
 		id: "titles:title_scroll_rare"
 		Count: 1b
@@ -20,12 +20,18 @@
 			icon: "kubejs:scroll_01c"
 			x: 0.0d
 			y: 0.0d
-			description: ["{chapter.4.quest.1.description.1}"]
+			description: [
+				"按下't'（如果它与其他按键冲突，你可以把这个快捷键改成别的）来打开头衔GUI。"
+				""
+				"最开始，你不能随意选择头衔。"
+				""
+				"只需要完成进度，就可以增加你的头衔数量。"
+			]
 			id: "4B93CE8715CACD5A"
 			tasks: [{
 				id: "5392A0BFA52D6B1C"
 				type: "checkmark"
-				title: "{chapter.4.quest.1.task.1.title}"
+				title: "Titles"
 			}]
 			rewards: [{
 				id: "3D3AC225061A725D"
@@ -42,18 +48,22 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.2.title}"
+			title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
 			x: -6.0d
 			y: 5.0d
 			shape: "hexagon"
-			subtitle: "{chapter.4.quest.2.subtitle}"
-			description: ["{chapter.4.quest.2.description.1}"]
+			subtitle: "在beta版本填写反馈表获得"
+			description: [
+				"表格链接：bit.ly/RAD2FeedbackTEST"
+				""
+				"如果你在表格中提供了你的用户名，在下次更新时，你会被添加到这个头衔的用户列表中。"
+			]
 			optional: true
 			id: "555DE2027606D5B7"
 			tasks: [{
 				id: "5D6983FD863F51B3"
 				type: "custom"
-				title: "{chapter.4.quest.2.task.1.title}"
+				title: "提供反馈"
 				icon: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -67,7 +77,7 @@
 			rewards: [{
 				id: "11C10744446F9668"
 				type: "command"
-				title: "{chapter.4.quest.2.reward.1.title}"
+				title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
 				icon: "titles:title_scroll_rare"
 				team_reward: false
 				command: "/titles add @p titles:feedbacker"
@@ -77,7 +87,11 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["{chapter.4.quest.3.description.1}"]
+			description: [
+				"头衔碎片能够在战利品中获得，也可以使用头衔卷轴与村民交易。"
+				""
+				"每个卷轴有解锁头衔数量上限。"
+			]
 			dependencies: ["4B93CE8715CACD5A"]
 			id: "13BF5C3D53C0B1F5"
 			tasks: [{
@@ -103,14 +117,14 @@
 			x: -6.0d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "{chapter.4.quest.4.subtitle}"
+			subtitle: "给帮助开发这个包的玩家。请不要获取这个头衔来假冒开发者。"
 			optional: true
 			secret: true
 			id: "70E5ACFA41387822"
 			tasks: [{
 				id: "6237C8565A36FFF9"
 				type: "custom"
-				title: "{chapter.4.quest.4.task.1.title}"
+				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
 				icon: {
 					id: "kubejs:ruby"
 					Count: 1b
@@ -124,7 +138,7 @@
 			rewards: [{
 				id: "7CEEC0584CF0E4D4"
 				type: "command"
-				title: "{chapter.4.quest.4.reward.1.title}"
+				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
 				icon: "titles:title_scroll_rare"
 				team_reward: false
 				command: "/titles add @p titles:developer"
@@ -225,12 +239,17 @@
 			]
 		}
 		{
-			title: "{chapter.4.quest.8.title}"
+			title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
 			x: -6.0d
 			y: 4.0d
 			shape: "hexagon"
-			subtitle: "{chapter.4.quest.8.subtitle}"
-			description: ["{chapter.4.quest.8.description.1}"]
+			subtitle: "给予在Patreon关注dreams01的玩家。"
+			description: [
+				""
+				"https://www.patreon.com/Dreams01"
+				""
+				"请通过Patreon、Discord(dreams#0285)或Discord的Hall-Of-Heroes频道私信我你的MC用户名。"
+			]
 			optional: true
 			id: "746A3F9BEE5F8477"
 			tasks: [{
@@ -249,7 +268,7 @@
 			rewards: [{
 				id: "11E518256C81330E"
 				type: "command"
-				title: "{chapter.4.quest.8.reward.1.title}"
+				title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b
@@ -265,10 +284,10 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.9.title}"
+			title: "§4§kDO§r§4CURSED§kOM"
 			x: -3.0d
 			y: 3.0d
-			subtitle: "{chapter.4.quest.9.subtitle}"
+			subtitle: "穿戴七咒之戒"
 			optional: true
 			id: "7B90BE75C03FC842"
 			tasks: [{
@@ -279,10 +298,10 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.10.title}"
+			title: "§1冠军"
 			x: -1.5d
 			y: 3.0d
-			subtitle: "{chapter.4.quest.10.subtitle}"
+			subtitle: "击败一只恶魔精英怪(等级5)"
 			id: "5E09DAF586A91C01"
 			tasks: [{
 				id: "09483474EDBB26C7"
@@ -292,10 +311,10 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.11.title}"
+			title: "§7死亡蔑视者"
 			x: -1.5d
 			y: 4.0d
-			subtitle: "{chapter.4.quest.11.subtitle}"
+			subtitle: "击败一只Blasphemous Harbinger (等级 6)"
 			id: "0F86D8591149BD11"
 			tasks: [{
 				id: "3A7EC45CDBEF987B"
@@ -305,10 +324,10 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.12.title}"
+			title: "§k悚怖§5化身"
 			x: 0.0d
 			y: 3.0d
-			subtitle: "{chapter.4.quest.12.subtitle}"
+			subtitle: "获得一整套悚怖钢护甲"
 			id: "3D080F094832612B"
 			tasks: [{
 				id: "39363838F22031BC"
@@ -318,10 +337,10 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.13.title}"
+			title: "命运玩弄者"
 			x: 1.5d
 			y: 3.0d
-			subtitle: "{chapter.4.quest.13.subtitle}"
+			subtitle: "击败福尔图娜女爵获得命运之眷"
 			id: "756D91C669861D90"
 			tasks: [{
 				id: "1F7A456E6C11FDC8"
@@ -331,7 +350,7 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.14.title}"
+			title: "厨师"
 			icon: {
 				id: "dungeons_mobs:chef_helmet"
 				Count: 1b
@@ -349,8 +368,8 @@
 			}
 			x: 3.0d
 			y: 3.0d
-			subtitle: "{chapter.4.quest.14.subtitle}"
-			description: ["{chapter.4.quest.14.description.1}"]
+			subtitle: "放下一个厨锅，开启你的厨师之旅"
+			description: [""]
 			id: "4DA9BF75AA123CCC"
 			tasks: [{
 				id: "5CE16E8AF2837DF9"
@@ -360,7 +379,7 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.15.title}"
+			title: "海鸥领飞员"
 			icon: {
 				id: "twilightforest:ore_magnet"
 				Count: 1b
@@ -375,8 +394,8 @@
 			}
 			x: 4.5d
 			y: 3.0d
-			subtitle: "{chapter.4.quest.15.subtitle}"
-			description: ["{chapter.4.quest.15.description.1}"]
+			subtitle: "喂养海鸥获得"
+			description: [""]
 			id: "4C23F119C971EE8D"
 			tasks: [{
 				id: "3A44934BFAF90576"
@@ -386,11 +405,11 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.16.title}"
+			title: "蚊鬼斗士"
 			x: -4.5d
 			y: 3.0d
-			subtitle: "{chapter.4.quest.16.subtitle}"
-			description: ["{chapter.4.quest.16.description.1}"]
+			subtitle: "击败诡异蚊鬼获得"
+			description: [""]
 			id: "2A973F38FD6E0B08"
 			tasks: [{
 				id: "7B1D271057BED93A"
@@ -407,11 +426,11 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.17.title}"
+			title: "刺客"
 			x: 6.0d
 			y: 3.0d
-			subtitle: "{chapter.4.quest.17.subtitle}"
-			description: ["{chapter.4.quest.17.description.1}"]
+			subtitle: "击败阿图姆中的刺客获得"
+			description: [""]
 			id: "4803B7176940EDF9"
 			tasks: [{
 				id: "50D37FE907B9E0AC"
@@ -421,7 +440,7 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.18.title}"
+			title: "the Food Critic"
 			icon: {
 				id: "dungeons_mobs:wooden_ladle"
 				Count: 1b
@@ -436,8 +455,8 @@
 			}
 			x: 3.0d
 			y: 4.0d
-			subtitle: "{chapter.4.quest.18.subtitle}"
-			description: ["{chapter.4.quest.18.description.1}"]
+			subtitle: "品尝农夫乐事的每一道菜，成为一名终极美食评论家"
+			description: [""]
 			id: "3F13F86497060869"
 			tasks: [{
 				id: "7D1FE4BDDB938965"
@@ -447,10 +466,10 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.19.title}"
+			title: "梦想家"
 			x: -4.5d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.19.subtitle}"
+			subtitle: "进入梦境世界获得这个头衔"
 			id: "09908626ADFAD48F"
 			tasks: [{
 				id: "598BF46DB4AE8BF4"
@@ -460,11 +479,11 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.20.title}"
+			title: "Herobrine之梦魇"
 			x: -3.0d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.20.subtitle}"
-			description: ["{chapter.4.quest.20.description.1}"]
+			subtitle: "进入噩梦维度击败Herobrine"
+			description: [""]
 			id: "7ABDB4D872CD85AF"
 			tasks: [{
 				id: "4CCEA9A64A09F393"
@@ -474,11 +493,11 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.21.title}"
+			title: "巨龙击杀者"
 			x: -1.5d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.21.subtitle}"
-			description: ["{chapter.4.quest.21.description.1}"]
+			subtitle: "击败一条龙。"
+			description: ["几乎所有人都能获得这个头衔，所以你得赶快获得它。"]
 			id: "4DA0C9352F8BBA87"
 			tasks: [{
 				id: "21537AE7C67D4471"
@@ -489,22 +508,22 @@
 			rewards: [{
 				id: "7EEDC06EAE308F30"
 				type: "command"
-				title: "{chapter.4.quest.21.reward.1.title}"
+				title: "Dragonslayer's Message"
 				icon: "iceandfire:manuscript"
 				auto: "enabled"
-				command: "/tellraw @p {\"text\":\"The fall of a dragon has awakened the power of some weaker bosses previously held under its control.\",\"color\":\"dark_red\",\"bold\":true}"
+				command: "/tellraw @p {\"text\":\"恭喜你成功击败你的第一条龙！龙钢之旅是一场漫长而又艰难的旅程，因为巨龙们都因你的存在而感到畏惧，它们躲避起来以防你的抓捕。祝你顺利找到它们。\",\"color\":\"yellow\"}"
 				player_command: false
 			}]
 		}
 		{
 			x: 0.0d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.22.subtitle}"
+			subtitle: "使用附有精准采集的工具将装满蜜蜂的蜂巢移位。"
 			id: "64344C1296F6BA6A"
 			tasks: [{
 				id: "16A5122A2DE6D314"
 				type: "advancement"
-				title: "{chapter.4.quest.22.task.1.title}"
+				title: "养蜂人"
 				icon: {
 					id: "dungeons_gear:buzzy_nest"
 					Count: 1b
@@ -522,7 +541,7 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.23.title}"
+			title: "树木学家"
 			icon: {
 				id: "twilightforest:minotaur_axe"
 				Count: 1b
@@ -537,7 +556,7 @@
 			}
 			x: 3.0d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.23.subtitle}"
+			subtitle: "收集并制作\"未完成的\"森林中每种由木头制成的方块，并且对此感到疑问。"
 			id: "1628D6C6E5CB1CBB"
 			tasks: [{
 				id: "0BBB182F4D8BDDEC"
@@ -549,7 +568,7 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.24.subtitle}"
+			subtitle: "击败极其稀有的魔笛人，并且偷走它的头衔"
 			id: "7A6B7E410672A9BE"
 			tasks: [{
 				id: "31639C090BD00959"
@@ -559,10 +578,10 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.25.title}"
+			title: "新人上路"
 			x: 4.5d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.25.subtitle}"
+			subtitle: "连续死两次"
 			id: "28F38CEA8870B961"
 			tasks: [{
 				id: "4E17CA73423FFB12"
@@ -580,10 +599,10 @@
 				criterion: ""
 			}]
 			rewards: [
-				{
-					id: "1426261C0B6627E4"
+		{
+			id: "1426261C0B6627E4"
 					type: "command"
-					title: "{chapter.4.quest.25.reward.1.title}"
+					title: "新人上路"
 					icon: {
 						id: "titles:title_scroll_common"
 						Count: 1b
@@ -601,7 +620,7 @@
 				{
 					id: "6854B6A3D61AB392"
 					type: "command"
-					title: "{chapter.4.quest.25.reward.2.title}"
+					title: "新人提示"
 					icon: {
 						id: "iceandfire:manuscript"
 						Count: 1b
@@ -613,13 +632,13 @@
 					}
 					team_reward: false
 					auto: "invisible"
-					command: "/tellraw @p [{\"text\":\"You got a title! Press \",\"color\":\"yellow\"},{\"keybind\":\"key.titles.openTitleSelection\",\"color\":\"light_purple\",\"bold\":\"true\"},{\"text\":\" to see all your earned titles.\",\"color\":\"yellow\"}]"
+					command: "/tellraw @p [{\"text\":\"你获得了一个头衔！按下 \",\"color\":\"yellow\"},{\"keybind\":\"key.titles.openTitleSelection\",\"color\":\"light_purple\",\"bold\":\"true\"},{\"text\":\" 查看所有已获得的头衔。\",\"color\":\"yellow\"}]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "{chapter.4.quest.26.title}"
+			title: "§a测试者"
 			icon: {
 				id: "supplementaries:wrench"
 				Count: 1b
@@ -629,14 +648,14 @@
 			}
 			x: -6.0d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.26.subtitle}"
-			description: ["{chapter.4.quest.26.description.1}"]
+			subtitle: "给予参与RAD2测试（预发布）版本的玩家。"
+			description: ["我们当中最好的"]
 			optional: true
 			id: "290AB1813B3A9515"
 			tasks: [{
 				id: "1EDA9B202A8A35A2"
 				type: "custom"
-				title: "{chapter.4.quest.26.task.1.title}"
+				title: "测试预发布整合包"
 				icon: {
 					id: "supplementaries:wrench"
 					Count: 1b
@@ -653,7 +672,7 @@
 			rewards: [{
 				id: "1F290226068867C5"
 				type: "command"
-				title: "{chapter.4.quest.26.reward.1.title}"
+				title: "测试者"
 				icon: "titles:title_scroll_rare"
 				team_reward: false
 				auto: "disabled"
@@ -665,19 +684,19 @@
 			icon: "minecraft:spawner"
 			x: 6.0d
 			y: 6.0d
-			subtitle: "{chapter.4.quest.27.subtitle}"
-			description: ["{chapter.4.quest.27.description.1}"]
+			subtitle: "破坏500个刷怪笼"
+			description: ["在\"迎战!\"章节中完成破坏500个刷怪笼任务。"]
 			dependencies: ["40FF66BE65AF171D"]
 			id: "4B455D9DA6A65FFC"
 			tasks: [{
 				id: "13D3A43216E49AE5"
 				type: "checkmark"
-				title: "{chapter.4.quest.27.task.1.title}"
+				title: "Spawner Smasher"
 			}]
 			rewards: [{
 				id: "74215E966E019CB8"
 				type: "command"
-				title: "{chapter.4.quest.27.reward.1.title}"
+				title: "§2Spawner Smasher"
 				icon: {
 					id: "titles:title_scroll_uncommon"
 					Count: 1b
@@ -698,22 +717,22 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.28.title}"
+			title: "最终Boss头衔"
 			icon: "twilightforest:time_sapling"
 			x: -1.5d
 			y: 7.5d
-			subtitle: "{chapter.4.quest.28.subtitle}"
-			description: ["{chapter.4.quest.28.description.1}"]
+			subtitle: "给予完成暮色森林章节中最终城堡任务者的奖励。"
+			description: ["完成暮色森林章节中最后一个任务。"]
 			dependencies: ["50408E199382BDCD"]
 			id: "4004EFD371791C82"
 			tasks: [{
 				id: "545571FE4CECB9D2"
 				type: "checkmark"
-				title: "{chapter.4.quest.28.task.1.title}"
+				title: "仍在搜寻最终Boss..."
 			}]
 		}
 		{
-			title: "{chapter.4.quest.29.title}"
+			title: "星荧砍伐者"
 			icon: {
 				id: "blue_skies:starlit_crusher_trophy"
 				Count: 1b
@@ -730,7 +749,7 @@
 			}
 			x: 0.0d
 			y: 7.5d
-			description: ["{chapter.4.quest.29.description.1}"]
+			description: ["击败永昼之地的星荧粉碎者。"]
 			id: "7BC6161ED22064D1"
 			tasks: [{
 				id: "5ED6B8142FB84F6A"
@@ -740,7 +759,7 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.30.title}"
+			title: "蜘蛛碾碎者"
 			icon: {
 				id: "blue_skies:arachnarch_trophy"
 				Count: 1b
@@ -757,7 +776,7 @@
 			}
 			x: 1.5d
 			y: 7.5d
-			description: ["{chapter.4.quest.30.description.1}"]
+			description: ["击败恒晓之地的幽咽蛛王。"]
 			id: "1182309200FF1818"
 			tasks: [{
 				id: "469A3603137B4CFE"
@@ -767,7 +786,7 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.31.title}"
+			title: "§5§l疯狂巫师"
 			icon: {
 				id: "losttrinkets:tha_wizard"
 				Count: 1b
@@ -796,18 +815,18 @@
 			}
 			x: 7.0d
 			y: 4.5d
-			description: ["{chapter.4.quest.31.description.1}"]
+			description: ["完成新生魔艺章节中的疯狂巫师任务。"]
 			dependencies: ["2FD36B1AF21BF370"]
 			id: "7F643383AC98A054"
 			tasks: [{
 				id: "41376730E7DEBF5E"
 				type: "checkmark"
-				title: "{chapter.4.quest.31.task.1.title}"
+				title: "疯狂巫师"
 			}]
 			rewards: [{
 				id: "1F01B4A8483A413F"
 				type: "command"
-				title: "{chapter.4.quest.31.reward.1.title}"
+				title: "疯狂巫师"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b

@@ -1,6 +1,7 @@
 {
-  "type": "command",
+  "type": "advancement",
+  "id": "titles:_rad_recipes/mad_mage",
   "rarity": "rare",
-  "defaultDisplay": "§5the Mad Mage",
+  "defaultDisplay": "§5疯狂巫师",
   "flavorText": "Putting the NO U in Nouveau"
 }

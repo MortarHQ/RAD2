@@ -3457,7 +3457,7 @@
 	},
 	"minecraft:end_crystal":
 	{
-		"minecraft:ender_eye":
+		"outer_end:rose_crystal":
 		{
 			"salvageMax": 1,
 			"baseChance": 30,
@@ -4665,6 +4665,18 @@
 			"maxChance": 80,
 			"xpPerItem": 10,
 			"levelReq": 12
+		}
+	},
+	"kubejs:emerald_ingot":
+	{
+		"minecraft:emerald":
+		{
+			"salvageMax": 4,
+			"baseChance": 25,
+			"chancePerLevel": 1,
+			"maxChance": 75,
+			"xpPerItem": 3,
+			"levelReq": 20
 		}
 	}
 }

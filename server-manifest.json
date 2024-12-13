@@ -1,7 +1,7 @@
 {
-  "name": "RAD2-v1.11",
+  "name": "RAD2-vanilla_v1.12",
   "author": "mortar",
-  "version": "1.11_mortar_3",
+  "version": "1.12_mortar_0",
   "description": "",
   "fileApi": "https://www.landmine.top/mc",
   "files": [
@@ -99,7 +99,7 @@
     },
     {
       "path": "config/alexsmobs/endergrade_spawns.json",
-      "hash": "3f67e0ff32239e61233ed8dc88f282140c144342"
+      "hash": "a7a04e54b5bb0b6f4110a4db25894bf4f5b29248"
     },
     {
       "path": "config/alexsmobs/enderiophage_spawns.json",
@@ -215,7 +215,7 @@
     },
     {
       "path": "config/alexsmobs/spectre_spawns.json",
-      "hash": "17c89e387f32fcfbc6468da8404182cf43c71fbc"
+      "hash": "a46b0888baf30f031eb1c71424de5c613b5ecb06"
     },
     {
       "path": "config/alexsmobs/straddler_spawns.json",
@@ -279,7 +279,7 @@
     },
     {
       "path": "config/apotheosis/enchantments.cfg",
-      "hash": "0250e054f1c891f835689178e07f5083376cb5c9"
+      "hash": "15fb9b3a53de74e92df85e3f4b7a452bd075416e"
     },
     {
       "path": "config/apotheosis/garden.cfg",
@@ -287,7 +287,7 @@
     },
     {
       "path": "config/apotheosis/names.cfg",
-      "hash": "68c095e79bf5258bdd90f31a165d621d90d5b37b"
+      "hash": "a814060a1dd8d16844cabd0e26bdbb8b464cb478"
     },
     {
       "path": "config/apotheosis/potion.cfg",
@@ -1467,7 +1467,7 @@
     },
     {
       "path": "config/capsule-common.toml",
-      "hash": "b37aa23fdae5736a6641bd82679d76268bd85c5a"
+      "hash": "d2aaff26de994d2beb539b8aec82ba8cff5a273c"
     },
     {
       "path": "config/cavebiomeapi-common.toml",
@@ -1479,7 +1479,7 @@
     },
     {
       "path": "config/cc-common.toml",
-      "hash": "8e426e99e87990d3c91738d68ce5dc00c9d1e2e3"
+      "hash": "3d7bf2cd346fe0782b0f43942d0da0b242b34f99"
     },
     {
       "path": "config/champions-client.toml",
@@ -1530,6 +1530,10 @@
       "hash": "733da870b5413883cce34cd8022d526fcba694b1"
     },
     {
+      "path": "config/CoroUtil/General.toml",
+      "hash": "5591e4868d6f01b3c66c308869f1f180728b2eef"
+    },
+    {
       "path": "config/cosmeticarmorreworked-client.toml",
       "hash": "21c34cfaa5d4b346a032f872d87cc9044a2e9e7c"
     },
@@ -1547,7 +1551,7 @@
     },
     {
       "path": "config/craftpresence.json",
-      "hash": "32e789300717ef5d4cd04bd8d1c22ac6ea754281"
+      "hash": "bb5ac2974bf56eeddc8884989858191e5aa86bb7"
     },
     {
       "path": "config/cucumber-client.toml",
@@ -1642,8 +1646,12 @@
       "hash": "8708d1670c92fc57d4c42c16dea077e4370bda1c"
     },
     {
-      "path": "config/drippyloadingscreen/loading1.png",
+      "path": "config/drippyloadingscreen/loading0.png",
       "hash": "24dcd04ea1dc8de8076a28a2fc0be56ecee3b029"
+    },
+    {
+      "path": "config/drippyloadingscreen/loading1.png",
+      "hash": "a926ed05b9469c5ffc2a0b0ca7427be9e057a8fe"
     },
     {
       "path": "config/drippyloadingscreen/loading2.png",
@@ -1654,15 +1662,15 @@
       "hash": "9cbc6706de301607979218f1d698cd2eb240e1a0"
     },
     {
-      "path": "config/drippyloadingscreen/loading4.png",
-      "hash": "a926ed05b9469c5ffc2a0b0ca7427be9e057a8fe"
-    },
-    {
       "path": "config/drippyloadingscreen/locals/en_us.local",
       "hash": "1e862937d4b8d82ca7b792a61b4529ff94f82e59"
     },
     {
       "path": "config/drippyloadingscreen/screen_loading.jpg",
+      "hash": "6a0780ca806e651d4a595f390a3c544cf035e6e0"
+    },
+    {
+      "path": "config/drippyloadingscreen/screen_loading0.jpg",
       "hash": "e76e54efe573f915197841943aba088cd08b6f7c"
     },
     {
@@ -1680,10 +1688,6 @@
     {
       "path": "config/drippyloadingscreen/wallhaven-4dp6gj.jpg",
       "hash": "0870f1a58d601b8a3d6cff729f7c9fc321fc3e81"
-    },
-    {
-      "path": "config/drippyloadingscreen/wallhaven-6o58j7.jpg",
-      "hash": "6a0780ca806e651d4a595f390a3c544cf035e6e0"
     },
     {
       "path": "config/drippyloadingscreen/wallhaven-8x3eej.png",
@@ -1734,6 +1738,10 @@
       "hash": "baa4bb721380d96d5f5ac2982f34e3cc5c8569ad"
     },
     {
+      "path": "config/dynview-common.toml",
+      "hash": "b8a5d2bd2602e4f635c573a05b2aba6d49b8340a"
+    },
+    {
       "path": "config/eidolon-client.toml",
       "hash": "a7bd6c314784181c5b5df9d449e62a041ae4cd84"
     },
@@ -1747,7 +1755,7 @@
     },
     {
       "path": "config/elenaidodge2-common.toml",
-      "hash": "17e95e8b046f52e22724c8d44ee6e739668a5763"
+      "hash": "09772df8ec00305f5a2c3de5caa8ec175a55ddda"
     },
     {
       "path": "config/embeddium-mixins.properties",
@@ -2267,539 +2275,543 @@
     },
     {
       "path": "config/ftbmoneyshop.snbt",
-      "hash": "9f0574c55902b18806c925fe4cf5dd6cb70d5591"
+      "hash": "a50ebdddaf2d855eea08ae46f389fe720c215fd6"
     },
     {
       "path": "config/ftbquests/quests/chapters/alexs_mobs.snbt",
-      "hash": "ccca483413a5a51656f90df9f54080a921acc7f8"
+      "hash": "4dd33242e71bc522d699377d1d6ec87ee8771357"
     },
     {
       "path": "config/ftbquests/quests/chapters/ars_noveau.snbt",
-      "hash": "46bf62fde2bdd6fec765a22ab885ebcb2541d09e"
+      "hash": "a085f10b44e028c9d52044ac97e0e2fd51954f36"
     },
     {
       "path": "config/ftbquests/quests/chapters/a_reliable_friend.snbt",
-      "hash": "7a0033342982d040feef4c8eca8503c9fc44d988"
+      "hash": "7aa682a363faf20179b3aacde73e3cc6f35cf675"
     },
     {
       "path": "config/ftbquests/quests/chapters/blue_skies.snbt",
-      "hash": "8ca50b6f186d2fb484023491f1cbeca032ad354e"
+      "hash": "f451629b4ca8237b1a78f59b5ad222edec159a91"
     },
     {
       "path": "config/ftbquests/quests/chapters/card_collector.snbt",
-      "hash": "1bf7adafed6a3f414bc271b09ee0b29277700004"
+      "hash": "b61dcd2d748cfc2fea61078d26d6198abe5f2aa6"
     },
     {
       "path": "config/ftbquests/quests/chapters/cheesy_business.snbt",
-      "hash": "201b35bc048556704f9662f93485530becc65b2d"
+      "hash": "c455d1ea34075f9eabaaba548b6d83b747f3680d"
     },
     {
       "path": "config/ftbquests/quests/chapters/contraptions.snbt",
-      "hash": "a546c109c78e587937c066a39e2700fe8542d2b9"
+      "hash": "e3383830f10f35b42b92c2b3cde92f96298925f5"
     },
     {
       "path": "config/ftbquests/quests/chapters/culinary_engineering.snbt",
-      "hash": "b77dc9d6ca526d00884440f11960355b37a6d915"
+      "hash": "527f9562f05ade0e86c6a57d1fd1939c749285a9"
     },
     {
       "path": "config/ftbquests/quests/chapters/dark_magoc.snbt",
-      "hash": "ef1405c103858fe0e7310a803e66dbcdc1395bde"
+      "hash": "4012ef13519eb1e909f7987acfd7762dd1dccb43"
     },
     {
       "path": "config/ftbquests/quests/chapters/dimensional_dungeons.snbt",
-      "hash": "21f8b7a7d164f051b412cf3c3364e9fb5b9a76ba"
+      "hash": "007b7d2b1240fa92743ee39fc4fed55fa4461c3e"
     },
     {
       "path": "config/ftbquests/quests/chapters/dragons_in_your_own_homeland.snbt",
-      "hash": "e59d3d355e59e1e953026a97e14926d449275713"
+      "hash": "b0127351d76d34727f3f794ac32e802a496740cd"
     },
     {
       "path": "config/ftbquests/quests/chapters/enigmatic_legacy.snbt",
-      "hash": "dac1b5619d38caabcf32405e4b6480efac18bf90"
+      "hash": "a27cd99b69daae056ced2d5c61f121b948624bb3"
     },
     {
       "path": "config/ftbquests/quests/chapters/farmers_delight.snbt",
-      "hash": "6f1055f02f37df5ff264f13cb891fd18d58606b4"
+      "hash": "2bdcd2851669ffa143b04c910ed7307c57ddd880"
     },
     {
       "path": "config/ftbquests/quests/chapters/features_and_mechanics.snbt",
-      "hash": "d2815d28f6a890c9545b5edb6dc0f0260b9340c8"
+      "hash": "695f65984941442ea8bf1e95d063f9dc64b66034"
     },
     {
       "path": "config/ftbquests/quests/chapters/greek_fantasy.snbt",
-      "hash": "fafd18393fc8772e78ba989f9bb746f7e09b3c1d"
+      "hash": "833a6ed9d41fb0a6435f552ec5474bed6e3c16df"
     },
     {
       "path": "config/ftbquests/quests/chapters/highway_to_the_bumblezone.snbt",
-      "hash": "577e553463f6091b0eaaa8656c1ed7f65884c59d"
+      "hash": "ba173e1fb91520b04d4616b8e0c91004b83d1944"
     },
     {
       "path": "config/ftbquests/quests/chapters/into_the_sands.snbt",
-      "hash": "199bcd93216d512ceb26ea24e69f9b8f4be379fb"
+      "hash": "ffd8a4384424be435b93bde4bee1872058cd0ec7"
     },
     {
       "path": "config/ftbquests/quests/chapters/meet_your_fight.snbt",
-      "hash": "c1048d33a03868c6aeb6c92b06033289a7303e23"
+      "hash": "5f8743abb9badf5e9c6dcdf18b42f08edde3e010"
     },
     {
       "path": "config/ftbquests/quests/chapters/mining_dimension.snbt",
-      "hash": "489477cb9cb15e4f327e417f72fbb00aadc6259c"
+      "hash": "2f1ff7b5e48e61e73ea7017f09df5ffed5b9e125"
     },
     {
       "path": "config/ftbquests/quests/chapters/nether_exploration.snbt",
-      "hash": "84a06cf80e22b8976d546e66756e721367ebeb87"
+      "hash": "47d652e97d24f7b69ff9c4d2c276dfb29bb2a86c"
     },
     {
       "path": "config/ftbquests/quests/chapters/overworld_exploration.snbt",
-      "hash": "11486f40a78f6af0de01b99872fd93109e92a429"
+      "hash": "8a9c2e32e16014f0c9169d7bc60efe236b2a139b"
     },
     {
       "path": "config/ftbquests/quests/chapters/pathfinder.snbt",
-      "hash": "d0cb997035000a8d67f508715df53ad3dce65f99"
+      "hash": "8f025ca90c0edc3a4b18221ab4cdc0bf57c19066"
     },
     {
       "path": "config/ftbquests/quests/chapters/reborn_of_the_end.snbt",
-      "hash": "853403632ea65789523a002ee779e97290103ac7"
+      "hash": "2cdd9aa6dded299cd00f564924e53908a1f9ee83"
     },
     {
       "path": "config/ftbquests/quests/chapters/shop.snbt",
-      "hash": "3d5177bcaed33107eb111b4ab099aa9f0593dd13"
+      "hash": "764dafe853f59e9441b59fb4644a46ede0cbc82d"
     },
     {
       "path": "config/ftbquests/quests/chapters/simple_storage.snbt",
-      "hash": "745e91e30deb066965e2248e82a7a2d1374f33e9"
+      "hash": "d050862a8f91bb0cc54c74ffac6c6ffd84dd94c6"
     },
     {
       "path": "config/ftbquests/quests/chapters/specialization.snbt",
-      "hash": "31a042542da306c887e60f2634b342955c76aac4"
+      "hash": "ea3e45628fe0af3efe1a2ebbf5f8140a25ad2a64"
     },
     {
       "path": "config/ftbquests/quests/chapters/sweet_dreams.snbt",
-      "hash": "f3010d15ae2ecdaa91894ef81a98d150d51f1dae"
+      "hash": "09c2aca876f72581c5d3ebe9f33bd1e7992cde70"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/the_armory.snbt",
+      "hash": "65d415cac96d793849be2480fb05f112d2951f7f"
     },
     {
       "path": "config/ftbquests/quests/chapters/the_garden_under.snbt",
-      "hash": "8c806613a01815d3b9ec9a665f37f14bc6c5691d"
+      "hash": "f6f764325974de796027098a13f2e792b8c5ab84"
     },
     {
       "path": "config/ftbquests/quests/chapters/the_patreon.snbt",
-      "hash": "1ca625a960bc90938549a0f44c9402df7fa71d62"
+      "hash": "23c78b324f5f52f98ef4845747ef3f35eb2d917a"
     },
     {
       "path": "config/ftbquests/quests/chapters/titles.snbt",
-      "hash": "d077f259617008300cf5b84632caacca17d3a265"
+      "hash": "bc42c856bfd4789cff1d5c5d2638d71cb56deeef"
     },
     {
       "path": "config/ftbquests/quests/chapters/trinkets__curios.snbt",
-      "hash": "eb1228fde6ce0f41a83ed8e65732351d8ddeb88c"
+      "hash": "0d363619d39a581a18e41b6ac9284396ab05268f"
     },
     {
       "path": "config/ftbquests/quests/chapters/tropicraft.snbt",
-      "hash": "efca89e5ff376fe043a0f4306675fafc3769193d"
+      "hash": "bdaf4606a04882dd2367b39813395915afdaf4bd"
     },
     {
       "path": "config/ftbquests/quests/chapters/twilight_forest.snbt",
-      "hash": "0121c688ddde24483d8265ccfd1136bbbfcafee2"
+      "hash": "881c0e2b6440523d7dbd3f9ea23c776c11bb44e9"
     },
     {
       "path": "config/ftbquests/quests/chapter_groups.snbt",
-      "hash": "44f415e27634aaa9b7148e21096d7d41fe5f75bc"
+      "hash": "a66a3cc8625df192d3604d1a69ab11fcf575cc2e"
     },
     {
       "path": "config/ftbquests/quests/data.snbt",
-      "hash": "e7bf200117f0386c69240e1e4014dc58f2095769"
+      "hash": "62060ebecd9a9d90f12dbf56a8dad10d54e5b00c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/10rare.snbt",
-      "hash": "a223e2a7250f5d532fba594009e5f6f377536cef"
+      "hash": "5b628f06d98bed0413dfb89033b8a8b700c66d54"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32common.snbt",
-      "hash": "7110e060124623e113639292a67dd38b3624f584"
+      "hash": "261e8be8e1276c0721e275f8757d39df2ab13b13"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32rare.snbt",
-      "hash": "1e45efad026ccd8c315f7d184998fc2c7f22fb8e"
+      "hash": "cf69349ad072e6cae0be393dd27af6cc3d6553ae"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/32uncommon.snbt",
-      "hash": "2ce0376c05d24997ad2a28e2fb46f97e50a2bbf5"
+      "hash": "5a37b9cc9a25aeea6a1a1e3a9af8f5d0ff2c36c3"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64common.snbt",
-      "hash": "84763f209fbcf9f0c8288600fe56d5a0cf953b1b"
+      "hash": "f7845bdc81e21a144d9aea4e34a77ecc3064faf0"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64uncommon.snbt",
-      "hash": "9a2a8660c3ba381e19d71d7c0cfbd1d9e918d439"
+      "hash": "88961258cf7f607fed6f54cba32ddb43d83ce0b4"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/64_rare_crates.snbt",
-      "hash": "c3ca318f7834d7f8a6d9de5168d532cb08ec1f36"
+      "hash": "eec78283c4725e004aa135c6fcfefa10d37179f2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/amethcoin.snbt",
-      "hash": "b7fc068d80f01211b44769c96a71a2d2df31ab3b"
+      "hash": "4b5b88ce5a6faf842fd2f68db2ad426d00733873"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/armor_crate.snbt",
-      "hash": "ec154611600e0a064b37c357aca9f12973094da9"
+      "hash": "6103a714aba2c3d4e8f4351bde3202f905ae7958"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/artefact_crate.snbt",
-      "hash": "a31f10a4b8c1463010796cdd52c2bed8bba4ea0c"
+      "hash": "5f569817fb4673dca433f7147c819571e7646e89"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/avengers_sword_crate.snbt",
-      "hash": "0b52a4239cf4dab48ff1640d19670c7b7c981b4f"
+      "hash": "8ce0c02aa9206b1fff039dbffcbfa628b76a319c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/blossom_saplings.snbt",
-      "hash": "e86192581cbea7e550e4f6a82c837003aa8c0af2"
+      "hash": "c1600519280502d24dd56126a0e903e2b552be50"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/common_loot_crate.snbt",
-      "hash": "70d5fdd7a4b97badc4edf9bcd42ff9c55a52793e"
+      "hash": "ea387af0e6bee74adaf31d1b870a40b8c611a933"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/coppercoin.snbt",
-      "hash": "3c870232cb8e034c72a87ddba55130dafc60c809"
+      "hash": "c8c3bb0fb2c978dfac2eb52a6c42fe6c482e23c9"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward.snbt",
-      "hash": "9d010eb3127afb059d70f0b8782fcd21cc88a64f"
+      "hash": "9dcd7b307b8d6b8933b1bc2ac86cf8d3da23eebf"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward_x32.snbt",
-      "hash": "327f7c6deedba9d1df40ea8d36c369ae0460377f"
+      "hash": "d57370fc3566890164572f8a5b68202321df7c05"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/copper_coin_reward_x64.snbt",
-      "hash": "546997235f982fe98a0b91b121075139d6446954"
+      "hash": "08fb51c1f6bf070cc8990779a88c2b6e5f4007fc"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/crate_crate.snbt",
-      "hash": "f41717333d3c277f53a92185f8224f8535dd5a74"
+      "hash": "2b999e1105b95dbf2b07a25e57ee47667a5355ab"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamondcoin.snbt",
-      "hash": "f6e54d61f25ca383849c67186fc632e3a131eb74"
+      "hash": "136244c98ea3da805c3b028fc2bf2a8a9f48f6ad"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamondcoinreward.snbt",
-      "hash": "1ebf224b42e4e08c9f6d5afd7590b214ee55048e"
+      "hash": "0990e7351265926ab91665aacca2ae5b51f4ebbd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/diamond_coin_reward.snbt",
-      "hash": "876984fb1cbe85969146c55533d4ff2a6191c4ee"
+      "hash": "0230dcf6dc271e5ed15d9cd8399b71bd0745357c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/duds.snbt",
-      "hash": "90c7e3ced1330f47ea3a9b1928f1d2b937cf901c"
+      "hash": "303011eecac7f3a32aeb8c43cef813a7ed69a283"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/duds1.snbt",
-      "hash": "643e36c2e9ea2d171134ba77f47496bb0c781e3c"
+      "hash": "d0978fe160a148366dbd12bcf6b5cf22b25054d6"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_artifacts_crate.snbt",
-      "hash": "ec7a01b4e788bf558f71f2ebef347d7fa5df3d59"
+      "hash": "490a269bc39ba0a1e6880eb49c5fef629b7bbe4b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_gear_crate.snbt",
-      "hash": "7ab3134e00f07d2917207dcc3d953db2e8d5a579"
+      "hash": "b16581f352cb7a62678d2699755fbe2afe25a279"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_mobs_gear_crate.snbt",
-      "hash": "aed41fa3029a68ea55ed0d7b41d40cfc14920221"
+      "hash": "a473ab9933c830bad74d8acaa6ed68c106eca3ae"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/dungeons_weapons_crate.snbt",
-      "hash": "de081e6685190996cd00d0cf26e4610796706b0b"
+      "hash": "cb726194cc21ec4727d0c0e5bbedc3dc8db8dcb7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/emeraldcoin.snbt",
-      "hash": "02120a052d9858f4ae2d16a1b8760a4523ef00ae"
+      "hash": "57ef924e5ac15237827811bd061458d90e9f7347"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/enchanted_books_4.snbt",
-      "hash": "ce773ad5db15aeadba7919d5b1708f1ddbb9305d"
+      "hash": "189cad688c855f9fb8dd4f93787feff8a47de3b3"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/enchantments.snbt",
-      "hash": "d2dcddc68a37a65554a5a3be28775af62ffb0bb5"
+      "hash": "82ddaceef52007b75796969d122fb6e176cc82c2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/epic_loot_crate.snbt",
-      "hash": "25b5bb55b4165b0848300dc7129f351a57680175"
+      "hash": "d60f8ec77cffc70160987645e3b1253627a7c6d2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/experience.snbt",
-      "hash": "01fc109010e385a18eb8f6f733e7003aba965432"
+      "hash": "03528bae49fc76e1bfa7dc0a3b1ef5ca677e5075"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/experience30.snbt",
-      "hash": "f9820c81ff06c3e570bff7c1c99c75678e9a346c"
+      "hash": "37effab81c2060dbc8e15d73911ad63ece22c84f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/filler_blocks.snbt",
-      "hash": "8fcd7c8ced41bf844fa7f98f08baf4bfdd301f0d"
+      "hash": "303061e71a49d1a1cec3ef4d2da79162dd4f5472"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/food_4.snbt",
-      "hash": "9088983f7ec8a2d4d1ad2762a7034d2baf966492"
+      "hash": "f2d18fb69627a434f4132ffe4f3e3aa8b47d983a"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/food_crate.snbt",
-      "hash": "3e11cb24ca22134e1a7af19f01e148256af6d8c1"
+      "hash": "1834fcebc7ca833a11f3246e1e93a7e49f98cf14"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold2coin.snbt",
-      "hash": "6bfcbfa53f5c86c565aa36a0dff393e0f4293882"
+      "hash": "e2f9daa3bbb51e1dfb732627893b9c403522b9e6"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/goldcoin.snbt",
-      "hash": "c34971e611d8c56a2fcba4ebe06d16a892d17ae4"
+      "hash": "39e47210b36f3de452ab14ac06664a06ca31c8f7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold_coin.snbt",
-      "hash": "8501e76c75d6da8165aa37ba40af06e1f0fe0c8f"
+      "hash": "431b5379c14d71a1b3a4faa80868b652c3a86843"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/gold_coin_reward.snbt",
-      "hash": "50e671881dac5827ac59523d432b4ae23f236461"
+      "hash": "c78e1fa7ef8115d2c285733e3dbef3b5f3340ae6"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/hat_crate.snbt",
-      "hash": "1c6b9c8121bc200869f177c02b493333db159b13"
+      "hash": "b1c276178eaa2a4653dde875e63bac8deecfa61d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ingots_basic.snbt",
-      "hash": "3a0c5f259ee593450e1bc0a5027c902393dc01b0"
+      "hash": "5fd498e458e41df6b45b0ea641a30076a96fd7c2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ingots_valuable.snbt",
-      "hash": "5e6ed1fc156858090d4f24deff299a2a2de33482"
+      "hash": "c3490c3266ad934e370dad3043ee9d0437292330"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward.snbt",
-      "hash": "3b2dbbedb22da1a72ee102670a4a70cdf3b0f14d"
+      "hash": "4086564b6b35725035b03772491097e93cbeff1d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward_x32.snbt",
-      "hash": "4341e1da5bb564a7256933a1508e8e83af413dd7"
+      "hash": "555d4c31147ec142ddfb247a096f77a4d5bd81fb"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/iron_coin_reward_x64.snbt",
-      "hash": "db0d483935bf86b4c210e80edb040470af3d8f0c"
+      "hash": "ae800d48d044d8657d24e06ea2a7ee75ab9996dd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/junk_3.snbt",
-      "hash": "24ce2efb4b0da761eca728d7ca2ee0273da5bd4f"
+      "hash": "b30cd389909dce9e387a30c82addbd4ed838770d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/junk_4.snbt",
-      "hash": "51b705644368b82092dc308710d3d43834dd1d6e"
+      "hash": "c76b165644da7b958a8db04144173a8a7743f83e"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/lapiscoin.snbt",
-      "hash": "7197513f14d1ee1c88c4193c357dd087465f86ed"
+      "hash": "3c90ab5214c1465c19a99b59ef53f6b2baf6fa53"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/legendary_loot_crate.snbt",
-      "hash": "6d3063962b630f1b2ac5e2a7fe43882ee5b3007c"
+      "hash": "de5477fa68cf96e7080e9232960855ccdb31bb71"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/logs.snbt",
-      "hash": "3e6c8b3efb6779d619cf9db963716a302f4d15b7"
+      "hash": "3fbb54774bfb729d003552b6b0f2f1326b1092ef"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_3.snbt",
-      "hash": "8386e898dace6970c9150731eba927a54eab83af"
+      "hash": "fa1d0d0c0c655220069397dffef5b46eb8467f1f"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_dusts.snbt",
-      "hash": "4804299338c5781eae505572c12c0593952df6af"
+      "hash": "f2ec9ad17ba8acd47b4b8724a3a8b7df36a378d9"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_magic.snbt",
-      "hash": "d7c61904b4ec9d487efd9c6348dba06f6cfe691c"
+      "hash": "2bfd8d364303933f3d3ac9503387f749722ef56c"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_monsters.snbt",
-      "hash": "cd8a02ccf9ffa546ae089d72a2856855645821b6"
+      "hash": "f3dcc261e8a56131e7c1b18046a284630dd151dd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/materials_random.snbt",
-      "hash": "6de3ca00846a77ec72e96943ebc18f281e66aba1"
+      "hash": "20e555c26f44b2f995382a0ded1c6d5005cbfd46"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/miners_pick_crate.snbt",
-      "hash": "a4e1e8a66c902b0b4d6b652846a9d1bb8226bb31"
+      "hash": "4f5e865a7872950a6d32dc9349335a9f03849edf"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers.snbt",
-      "hash": "f26c95effa0422ad571d7030d883cbd95e1e0828"
+      "hash": "629ac67c610bb20b554e3151fcaad71bc4fd8ff7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers_armor.snbt",
-      "hash": "87df19b0ef22357c1167a0497349a1ce44d6dcbe"
+      "hash": "79d9a46d3ce16e301929f1c6955eaf545c5441e8"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/modifiers_tools.snbt",
-      "hash": "be54a43bd1b14bca4997b1e4c0f7982d394c3324"
+      "hash": "fa555bc161b3124f64b432e3ac59b383ae0f6cec"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money.snbt",
-      "hash": "0c4d83bea6e6947ea70ba17e3b8e9a27428231b9"
+      "hash": "eaa01f5d54d4c139aa295a2bee257c0de1575471"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money10.snbt",
-      "hash": "6317a1d7d7d91fe431a324861f894966cf141528"
+      "hash": "ba8bb72b5b1044e71120446a9cba5d6d13100b56"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money1000.snbt",
-      "hash": "d8c955154a2897bb52add3775e3aa6275bc8a9b8"
+      "hash": "370a8aa7673a2b26917672c04959f34dbb146fa0"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/money50.snbt",
-      "hash": "c568ceecb3386127feb934eff06a137b87fcef72"
+      "hash": "d2f628768602cf1fbb09d15135bffbe0eb39e037"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/mythic_loot_crate.snbt",
-      "hash": "249116d0fdf5e8bb45e41fcbfe16807c7c742157"
+      "hash": "a6760a0adfbd4d759d955f9041765c3b515a7e06"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/netherite_coin_reward.snbt",
-      "hash": "d1000662190f6a96a1027b882dbbf6bf14d26566"
+      "hash": "d2e1f64408e31f05cc978746eead5acf18b0c8dd"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/nether_loot_crate.snbt",
-      "hash": "7506ee7cfb2bcc1d929809e0a6c6e404d640e82e"
+      "hash": "dca62926eb98811712b15f8f8fa6ea7068d50209"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores.snbt",
-      "hash": "5179f3491b4f1dd5c643f8d176d7f32f2745f774"
+      "hash": "0c63521a80e4c1c146eab0fe1a01570bf86680f4"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_2.snbt",
-      "hash": "7924ee37e82b44dce53ebff997a11a3327313b4a"
+      "hash": "98f2dfa7301a68e25be075000113b99a2ff77910"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_3.snbt",
-      "hash": "81c6eee63c849677e1b6969447181753f7acc8a1"
+      "hash": "db46f0debb7c94798d5caa5de640373c86578870"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/ores_4.snbt",
-      "hash": "7046eb790a733946fd19f0b2dbf2d289abcc3162"
+      "hash": "b580a7ad00dd09bc4f08cb56f9ae1fe1d8886c47"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/passive_spawn_eggs.snbt",
-      "hash": "13584495230e6c196ad3b8dda86d195ecad1d2a7"
+      "hash": "00c0b2c13357905103a851a6aeeb1a70622e9c9d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/planks.snbt",
-      "hash": "2087650aae973ae8eed3b1a6184cb26fd45fbf38"
+      "hash": "502c26a28fac749ee3203871d83853c6a6f0941b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/potions.snbt",
-      "hash": "79d0a5d98e2ee688b4a1d433cd86908398e40b39"
+      "hash": "f5bd2bb20faf66b55f74878a80709e2d882ac767"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/random_dyes.snbt",
-      "hash": "a734d82ffcedca5a25d2aeb97ae19047544b1862"
+      "hash": "f9bb958163656dd3df6b545aa5fc532423f63c43"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/random_materials.snbt",
-      "hash": "2b6a7b2a14c2576b81c8d10924ca0ee3f677ee94"
+      "hash": "fb2187fbf3dca86b84c70b77d5eb22609c6a4760"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/rare_loot_crate.snbt",
-      "hash": "94a6784c70d42297f14e9effc7515cde5189b601"
+      "hash": "5264330ff9d08c23d8c3ae5dc0d32ac5334677e1"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/redstonecoin.snbt",
-      "hash": "a63187344e04ed3fa633477b606e700a128e1a34"
+      "hash": "87f412adc44bf25790a943b5472a7273d428aa3a"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/relics_materials_crate.snbt",
-      "hash": "288cbdc997b9d992ed9945b3133ea601317a3355"
+      "hash": "2b8329dba03fad9b9dfe419122be56b69f181e3b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/relic_crate.snbt",
-      "hash": "b596feb5089ea6804a30d1a8891d22042f0e2c51"
+      "hash": "7270d21edce203c4ba8f61c8572dac3e79d3db5b"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/sapling_crate.snbt",
-      "hash": "b79ba707a89aa45f450bdbdca759407040f22e58"
+      "hash": "f001a90a224d952a80af839e9dea97cc6942ebdf"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/seed_crate.snbt",
-      "hash": "2ce47731964d0bd6da67704d00087ea5d05c4e4b"
+      "hash": "bdef49fe5f73577830e3e2d70ec91c6ab1076ee2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience.snbt",
-      "hash": "1b03f8f608c14d192ee06029a6c5ac2336c33ee8"
+      "hash": "0e2ddd684658dc829189ec9a3c954e77daf40ab1"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience05.snbt",
-      "hash": "1872027e8c3b91cd6b496282121738bd476fada8"
+      "hash": "4fb39ed4de74ab165d6e74960bbf01e219d76633"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_experience10.snbt",
-      "hash": "40f65d985561febd1e5ccb372bba2c59bf45e0c3"
+      "hash": "8395798b15f2c1ccc1652d63d6212e39318a5e50"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/skill_level.snbt",
-      "hash": "02f8d2663eb7de154007ab99244685863106290c"
+      "hash": "acef8d76479e543a5006aaf79e21f14cdb499b85"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/spawn_eggs_2.snbt",
-      "hash": "af0d2a26ac152deb1e68cf2cd300babe72fd5dff"
+      "hash": "eb835f6d544d66af2ddfb03a9c983d038a7c7a44"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/spawn_eggs_3.snbt",
-      "hash": "fa1ea073142ce11bf0c53ff31719f4146663f24a"
+      "hash": "c6613122a919ec92f1c7472f8f6fa34d6bcb04c7"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/specialization_token_i.snbt",
-      "hash": "8d1fc9cea95fa1059508a30b1585212e7f8cce29"
+      "hash": "2ea668992632bd6dd04055510f1d5883f04af5a3"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/stone.snbt",
-      "hash": "106de2b19a98f26dac516375e2db029ad3437eb2"
+      "hash": "8c2ac5fa9390e073e870b0c6772b211971b18f0d"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/uncommon_loot_crate.snbt",
-      "hash": "b528f31762560d261f2f29c830845da5c68353fd"
+      "hash": "70368d0991ce8b775a32c7f10c4d474dbd0e7f69"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food.snbt",
-      "hash": "f27484459e7fdebabbdaa3f763ba55dc3907e349"
+      "hash": "3ab69260020d2b537f431ea038a107bf5a939791"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food_2.snbt",
-      "hash": "1077a6996f1ffe92ae81b949fc2cda9295115df4"
+      "hash": "0d836674b7c81b8ff36f239b17beb7a83572c870"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_food_3.snbt",
-      "hash": "13aee2b9a85c6d293e3c3769c7f04d15b65bd17d"
+      "hash": "2f77d6fc38e3c8909a1e20f56320b93b466f5521"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials.snbt",
-      "hash": "1d5e6bae8e66c34b633e9294444f487933798c1a"
+      "hash": "b83c8889a9746e9f1d35f04d609e2a600f2670db"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials_2.snbt",
-      "hash": "14da8e5e481393d788a0d55c968ba6fba61d69a7"
+      "hash": "6aa9128c42ad917bef3357319f784ce47c125a13"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/vanilla_materials_4.snbt",
-      "hash": "b97fd8f4d5a4e52f661234285a86ef4b0436f21a"
+      "hash": "417661e97f3c69c43f55d058ea6a6d522f2340a2"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/weapon_crate.snbt",
-      "hash": "5d87ab7bfe733cea5709095a3dd2c84015f689ae"
+      "hash": "77a59561184ed91fcc695439a08100fe7307d428"
     },
     {
       "path": "config/ftbultimine.snbt",
@@ -3027,7 +3039,7 @@
     },
     {
       "path": "config/improvedmobs/equipment.json",
-      "hash": "75dcdb7ff54802ecfc3e2c92865ef0cba7fe245a"
+      "hash": "f759025f2273b024ebc58c4ecd7ce6fc4cea0cd5"
     },
     {
       "path": "config/infernalexp/spawnrates/basalt_giant_spawns.json",
@@ -3090,12 +3102,16 @@
       "hash": "a5ab375ae0d9745edbfb55cc06435ffa467a2145"
     },
     {
+      "path": "config/jecharacters.toml",
+      "hash": "1a18dd3ade0ac5d71da9f698e65a2f45c715d9ff"
+    },
+    {
       "path": "config/jei/bookmarks.ini",
       "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
     },
     {
       "path": "config/jei/ingredient-list-mod-sort-order.ini",
-      "hash": "8012481cf8d57ed7111a6a9c969cbbd972c5d133"
+      "hash": "239ce80899e330269021699dcd77a3d60d997d59"
     },
     {
       "path": "config/jei/ingredient-list-type-sort-order.ini",
@@ -3111,11 +3127,11 @@
     },
     {
       "path": "config/jeresources-common.toml",
-      "hash": "dd10d1071ef6e8b300ebb0c7aca9973fcdd7e0ca"
+      "hash": "47c2d2f751f3cd0d858e6b433603033b667c33c9"
     },
     {
       "path": "config/jeresources.toml",
-      "hash": "7cd2c5c2be05df3aed6af4fc67ffe346cb90c9c7"
+      "hash": "d65abb6de08891a8a988d2676b881305f49243e7"
     },
     {
       "path": "config/konkrete/locals/de_de.local",
@@ -3155,7 +3171,7 @@
     },
     {
       "path": "config/lootr-common.toml",
-      "hash": "4d49045c78a2b65573e97730eb1f8fb51a249b65"
+      "hash": "4503850e70247017dd3dc171c1af9608bb02af18"
     },
     {
       "path": "config/losttrinkets/general_common.toml",
@@ -3195,7 +3211,7 @@
     },
     {
       "path": "config/modernfix-mixins.properties",
-      "hash": "6e770103f2b273f1085529d5d931a221b40a4159"
+      "hash": "2afa6c4019214c1d106a9c3815bd203892874aae"
     },
     {
       "path": "config/morevillagers-common.toml",
@@ -3211,7 +3227,7 @@
     },
     {
       "path": "config/mowziesmobs-common.toml",
-      "hash": "2a872dcd21e2a89e54816f48e789c5c088553b21"
+      "hash": "1e0763ace914d3a97bc9a63e248b04df918b5625"
     },
     {
       "path": "config/mysticalworld-common.toml",
@@ -3235,7 +3251,7 @@
     },
     {
       "path": "config/oculus.properties",
-      "hash": "faa71817e945855e5da93ce7930570e05bc279b3"
+      "hash": "6999ba7f64091b8916bdf5ffe4cfaf1e7a86f0cf"
     },
     {
       "path": "config/oreexcavation/block_groups.json",
@@ -3478,6 +3494,1338 @@
       "hash": "c6948d9be064933085f2d2f8eb609d4ba85a4646"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/.vscode/settings.json",
+      "hash": "b70a6429d61b649828ab2560c997b6361e2770a5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/advancements/dreadsteel_set.json",
+      "hash": "6351c9be2f21566f3e689f6ea7471bd79c5631f5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/advancements/has_ring_of_seven_curses.json",
+      "hash": "aea8ec7bd2c97686eccd48bb5a20e6ca964708d6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/advancements/mad_mage.json",
+      "hash": "7906df8e6ece1d28505a858701933c665915038d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/advancements/slay_5_star_champion.json",
+      "hash": "fbccb58c21ad6d3a4be830ff84c0bc87a0bf5758"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/advancements/slay_6_star_champion.json",
+      "hash": "f846d604164682b1e1ea88e411c69eedee4c921e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/blue_skies/alchemy_recipes/calamari.json",
+      "hash": "8917c40839cf3bee00e187a960692623e7503cc4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/blue_skies/alchemy_recipes/fire_dragon_scales.json",
+      "hash": "2d80235934dde7803c454c33dbaf781b503a8de9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/blue_skies/alchemy_recipes/ice_dragon_scales.json",
+      "hash": "55cc362944dfea269ced6fc38d915dd500b5128a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/blue_skies/alchemy_recipes/iron_ladder.json",
+      "hash": "912be2dd860fa4eaef0282ef74b445adec47e807"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/blue_skies/alchemy_recipes/lightning_dragon_scales.json",
+      "hash": "fd48818d8665c6301a744b1bba8dc3a8dd1baa75"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/blue_skies/alchemy_recipes/quilted_wool.json",
+      "hash": "60934e93ff846fe4b8deb7d80b46227723393d28"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/blue_skies/alchemy_recipes/sea_serpent_scales.json",
+      "hash": "e3038f96788a17e94a1f897709c3bb7cfe2e1e2a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/byg_dark_shelves.json",
+      "hash": "15639854db6dab389d76329f09f1b96a99c80b60"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/byg_enchanted_shelves.json",
+      "hash": "d966234c142ec0cf6521a00c107afbaadf76b66e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/crimson_shelf.json",
+      "hash": "5667d36c76d66fe1b0640137ab5e7e133b6a9297"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/dragon_head.json",
+      "hash": "fc9fe42e872795aaf31dafc3e672812f2a07e719"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/glowshroom_shelf.json",
+      "hash": "6df80ecb32255d2bdc5de5300e244570c35bc9ff"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/iaf_amethyst_block.json",
+      "hash": "a77ea3650eb08ddd2813c8d6ad4c67638f348b54"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/poise_bookshelf.json",
+      "hash": "fad257da8ae877870266f706ad54d1702cad0444"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/quest_ram_trophy.json",
+      "hash": "d26985eb7197a607034c8914f7381c6b9f4a1840"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/spartan_skulls.json",
+      "hash": "9faa5a0f858f72ad145a7a5c4b6f765ce4bd44c7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/twilight_trophies.json",
+      "hash": "0f294ce438efbced4256a9761dcb1fd9462e672b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/uncrafting_table.json",
+      "hash": "c75544c6ad9393e6876896cd00af06fdf3d3dc4d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/enchanting_stats/warped_shelf.json",
+      "hash": "c661c57824dc5370b6302689c88f8351a0daa91d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/atum_arthropod_gate_small.json",
+      "hash": "747ca2cf57e7feffa667e5c722f62ed0d967b193"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/atum_undead_gate.json",
+      "hash": "81429a1888556a24ffcb961ea63fc3073a5b1e38"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/dread_gate.json",
+      "hash": "2e0fc2c63b166b1853ea95e584d152123411cfcf"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/dread_gate_medium.json",
+      "hash": "2baf55685ca2fdb88dd99b6e1f57b6002a9eea26"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/greek_minotaur_gate.json",
+      "hash": "77429f97dfacbe331c2b0206eac4a469930d9b95"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/knight_gate.json",
+      "hash": "fc2e33fcfc87034c8766d5d1416b7e41c65a48fd"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/nemean_lion_gate.json",
+      "hash": "c3fe018620f4fb2d7e2239ea679a668d252b8265"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/rotspawn_gate.json",
+      "hash": "9e12ff7d1a5b1ce014da9aaed3cad35245251b14"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/gateways/twilight_castle_dwellers_large.json",
+      "hash": "fcabec4184ca2367ebe5f2bcadd32823a6f4b911"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/abundance/jacaranda_bookshelf.json",
+      "hash": "52c03794e5cf0aa201ea7f1d050f502082f74983"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/abundance/jacaranda_chest.json",
+      "hash": "9abf06407ef9f7e1d9f493a6e3265d613e2891f3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/abundance/jacaranda_ladder.json",
+      "hash": "e73aee96b7e15e83b212e2a816a6e45704fb6c60"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/abundance/jacaranda_trapped_chest.json",
+      "hash": "51e11b8b10239506580e1301a684d07abbebcc85"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/abundance/redbud_bookshelf.json",
+      "hash": "235ba17a49e4e94d26dae7a2f482ecd10ff1f039"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/abundance/redbud_chest.json",
+      "hash": "a52fc6386f29bd96e040d6271f760932adaf09d3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/abundance/redbud_ladder.json",
+      "hash": "149e788aa9cd72f635253792324443075b4ff2e2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/abundance/redbud_trapped_chest.json",
+      "hash": "64c2594ccae2f0ecc5c6ce87b08639d8b0193984"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/amethyst_from_nugget.json",
+      "hash": "d89b2447b8a2e56ee27d84b428db9fc6ae89d4d4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/amethyst_nugget_from_amethyst.json",
+      "hash": "9bfb36b3f575ca4e48d80ba18387c11709762b04"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/amethyst_arrow.json",
+      "hash": "c490d6dce9ae3ab60ac4f77582049f71ea126bf3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/amphithere_arrow.json",
+      "hash": "443f38c8a67da3b0e35453bf7a794325cd17074a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/blaze_arrow.json",
+      "hash": "9141cb2848b8fc1f2a98192be5599b64c68ea6bd"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/diamond_arrow.json",
+      "hash": "786f433b79cc73f5e2e42a08e5f50c56b4dca273"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/diamond_arrow_spartan.json",
+      "hash": "aafabe2a7e506b968079504d26f1a2e289b70694"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/displacement_arrow.json",
+      "hash": "4f3f98025ae7d58f6f4d098636bc46bc9a402907"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/dragonbone_arrow.json",
+      "hash": "1e190c4e5c1f46f71586e299cd8a9df0b9ca8b15"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/ender_arrow.json",
+      "hash": "776f1f9c264cd1c5431002d3178e4bfccd5ec2b6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/explosive_arrow.json",
+      "hash": "37c83c269f40b305be2887a1daca1711e0eb9898"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/explosive_arrow_spartan.json",
+      "hash": "1f36f4745be24489e9523792092fcf1e4e3f1552"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/frost_arrow.json",
+      "hash": "c7724c369c7b62b2e0a6a0c5b9f01ee25fcbed7c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/glowstone_arrow.json",
+      "hash": "f6ba63a93e2ddbb843abc576fd9adedfe13d4cbc"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/hydra_arrow.json",
+      "hash": "2362775271c31b478a20c0862154a5f38ab2cb55"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/iron_arrow_spartan.json",
+      "hash": "217e58496aeda4a5a6f13de64abb1bb058f238ae"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/phantasmal_arrow.json",
+      "hash": "55a1eec06539f3ec5fe4728c2f3d4b484171a137"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/prismarine_arrow.json",
+      "hash": "2baf1e36e4d3d3036cc9895bde3860d03e001085"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/quartz_arrow.json",
+      "hash": "31f1bd17dd2df0021768bf262700e25988c89af2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/redstone_arrow.json",
+      "hash": "31b2aeb00f0efb625993b29b1d0369d083014cca"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/shark_tooth_arrow.json",
+      "hash": "1e5d78d6f82065e7d38f80f8cebbd36c0cfd99fc"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/slime_arrow.json",
+      "hash": "f702bc9ac76b091b5f61942c8e01ac940e8615b8"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/stymphalian_arrow.json",
+      "hash": "8a12bd17922df08d461481a112c68243262277f0"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/tide_arrow.json",
+      "hash": "fa735b70651a59b4617d5d03dc8ae20ed61b0e6e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/torch_arrow.json",
+      "hash": "178ed8141a147958f60848c3376d7c3d1db919ae"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/training_arrow.json",
+      "hash": "f2280d9fbe3958998a749de400dba94bce7ef090"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/apotheosis/wooden_arrow_spartan.json",
+      "hash": "1b2d4e92d670d41fe893614b37d1ad6c2e2bb58b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/aquaculture/driftwood_to_stripped_drift_wood.json",
+      "hash": "89f95c5b2a183323e5333430e541a3fe4c51ff36"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/bone_meal.json",
+      "hash": "40c205bbf6c7ae403280d7cf53ce133851aa40df"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_black_dye.json",
+      "hash": "271bd63beae38f81efb2d01e6e3a6675fcf823ca"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_blue_dye.json",
+      "hash": "52b1a5a727ffc1d6216739be68c3ecbfc1e10082"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_brown_dye.json",
+      "hash": "7e52b683a3fe11af35a8fb4a696f00152e0d2465"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_cyan_dye.json",
+      "hash": "69edaea682dd659d2dcee0631a08bbcd741bbbfb"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_double_pink_dye.json",
+      "hash": "031ffa58944699377e6437ac19c86b82a4ee71de"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_green_dye.json",
+      "hash": "29fc4621172e85d85bbe99078b58d513c03aa05a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_light_blue_dye.json",
+      "hash": "9a4725e10bab06f2eddadddcc6af40867d0f4af5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_light_gray_dye.json",
+      "hash": "df666125ad671cafe3eb38bffc1c970a11c12f93"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_lime_dye.json",
+      "hash": "84e52c7201693d9afc316c824a4cfdce417d1afd"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_magenta_dye.json",
+      "hash": "a2ae80746bd22b2874d55c5b8daf2768725d340b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_orange_dye.json",
+      "hash": "8a66cc486319309bcc6e171e8a936e0b21eb59ea"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_pink_dye.json",
+      "hash": "0809ee710f42cba481882de86442c4e93adaf17b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_purple_dye.json",
+      "hash": "ef41623422a8c9fba1b00050341fbd5c9e039de7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_red_dye.json",
+      "hash": "f681e57b472c050a1e425518f283ab64edaacb27"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_white_dye.json",
+      "hash": "439dcbf254f9d77858c49e567253ccb58ef687dc"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/byg_yellow_dye.json",
+      "hash": "6aab2adb9b5a1b37c6efbb09114c436f78c04fde"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/atum_quern_bonus_recipes/wither_bone_shards.json",
+      "hash": "c9286d8ded012be5000ef5e483ecf779996cc12d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/alchemists_grace_book.json",
+      "hash": "da4864fcdfe269dceff5c8ddb3e28aeaecdfc28f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/backstabbing_book.json",
+      "hash": "74ffaaef9db7f9cdaed8b3095ae6e3348ffaa20d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/berserker_book.json",
+      "hash": "bd05aa3352f5faaab591b944e1ac1eeb6dd5d964"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/crescendo_of_bolts_book.json",
+      "hash": "bf26b00007055fa353d6b61005a83de162be6580"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/curse_of_bones_book.json",
+      "hash": "7bd35b0a0e3f4d2e57a749ee2c142ad61bf11126"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/dodge_book.json",
+      "hash": "75343324d4f41938af86cddae99c2a21c02e2b02"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/expanse_book.json",
+      "hash": "94fb7774d6d489f7ca50746be2eb34e6de19bf72"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/exploding_book.json",
+      "hash": "72a1af63792842e21ecd4c8aef844790a03bf9bc"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/firebrand_book.json",
+      "hash": "859eaf3ff7603cd4d75fbaad0d313c63d879ec47"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/focus_impact_book.json",
+      "hash": "edc432deeb765d0c76e53be0b50f5d4b9e1acd86"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/fuse_shot_book.json",
+      "hash": "19fa416c344a1f21cc5ec7dd0461bd53c88201ec"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/growing_book.json",
+      "hash": "213a96a8018b9f13d44cbd0a712c0a15f06ab885"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/illagers_bane_book.json",
+      "hash": "0ae7b09658c7510b50dcafb3f6eb4d75f6850434"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/life_mending_book.json",
+      "hash": "831bf065fc71a1e57a136d5f29ba3e9101c62c52"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/lightweight_book.json",
+      "hash": "ace98a07bbe5a14855d6f9e46bfb5903e3b3c0a8"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/lucky_throw_book.json",
+      "hash": "e100894e5fb59f133f77922eec3e1aa3901d40a0"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/magic_protection_book.json",
+      "hash": "6a0a2809741b6d282ee30100bcad1ef5f27462bc"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/mana_boost_book.json",
+      "hash": "a453618884bb255605a0f7a670ecf5758a455e96"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/mana_regen_book.json",
+      "hash": "ff6833584793f9d56f9a6c0b64503865765d9254"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/payback_book.json",
+      "hash": "67f33fdfa914c216ed1d96a4387717f467311d4b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/propel_book.json",
+      "hash": "04bfd49e153ee86dcde34697599f8ad8a3f43af5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/quick_draw_book.json",
+      "hash": "a5350aaf0b4d6d78d85e165bb58c029f3f68f1e3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/razors_edge_book.json",
+      "hash": "339601982113547cd6b737f1698d693ff20155c2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/safeguard_book.json",
+      "hash": "6ee7262d7f54605d826bbc7d79dbfe82e7bde9b0"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/sages_blessing_book.json",
+      "hash": "859196d74648149c7a913953c7cb223be1e5bb43"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/sharpshooter_book.json",
+      "hash": "86dccdfe73b07da6eb9db148f24e62a536a2c35e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/supercharge_book.json",
+      "hash": "d2b2b9a3f250c51dd03d9c0067181db4650240a2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/swift_blade_book.json",
+      "hash": "c52d62171017bb2809cf2144d27b19fb02d2d182"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/vitae_book.json",
+      "hash": "e5d63c3952716a4f516a200c8599f9d6a8f9b188"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/vitality_book.json",
+      "hash": "5b1d2871ae2fce49ecce6e5ad7d4a88e00331c19"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendinfusion_modded/vorpal_book.json",
+      "hash": "11951697c484b90a729511e0d1363802a1babaf4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_aquite.json",
+      "hash": "f964c0d70cc7a222c0a60a1011d6d0f272de8d09"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_charoite.json",
+      "hash": "554079dc15d1673dd33346894ba72bbd76045c4c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_cloggrum.json",
+      "hash": "ab10444d6ff7e893255c398c928dedb23abfb2ea"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_etherium.json",
+      "hash": "d314f74f0649241a9ea0cc52a8f2a0eba9f5e4fe"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_falsite.json",
+      "hash": "0ae55f1e7a5da2693d4bbaee7ffd7fddb6db91e8"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_froststeel.json",
+      "hash": "92d3573c991c3dc7334e11e4c44ea94b0fb21220"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_horizonite.json",
+      "hash": "6f7272424b3f0a2853ec44ca4f22776bc5c04dec"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_ironwood.json",
+      "hash": "9c48f4418ff99c4d0f5c53ede07fd57bb19cd1cc"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_knightmetal.json",
+      "hash": "73ec660f733c53eda3c3e84504bb9c389d012352"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_lead.json",
+      "hash": "2ac9e0524c041ac2e5f3cb04fe2d06e3d08511f1"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_nebu.json",
+      "hash": "b13f2a36d9941783ce98d69461f20fe89439d70e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_rainbow.json",
+      "hash": "1531db0ec742b5cf16aedfab898057fd886e84d4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_regalium.json",
+      "hash": "37614ab64c179b0d32b8af37559a4fe75afd81b0"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_tin.json",
+      "hash": "efa78ea3c4678ab79c1d17f2552b3c772b2fc727"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_ventium.json",
+      "hash": "b309074d92985371f194bbeb77a819d5bf44d13a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/betterendsmelter/additional_zitrite.json",
+      "hash": "f6ff779b739776872fe91fb5c59a0c1dfda1ef86"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/aspen_log.json",
+      "hash": "f34b7cb36b92ebdc26f698d3b45144b00cda3df9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/aspen_wood.json",
+      "hash": "5506a21a2581adb3b313d46367cd5567d72dbd86"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/baobab_log.json",
+      "hash": "25a9a8c16236108bd2a360a6e34de949f88d18eb"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/baobab_wood.json",
+      "hash": "e0b889d9bff8f3f9ec5d729ddd61c4ac4f206fd3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/blue_enchanted_log.json",
+      "hash": "35bfbd7bf344ff844d818df0eb918412b389f3e5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/blue_enchanted_wood.json",
+      "hash": "0bb3f3ae134031dd8c7321111cc0abeba2315783"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/bulbis_stem.json",
+      "hash": "23bcae13b74921b50cbb1dfab521068c52a325f2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/bulbis_wood.json",
+      "hash": "062b7cd36fccf9ad7b6c983c35f7006632e4dbe5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/cherry_log.json",
+      "hash": "ce6c219e56996546f26eceb9f6e0733d2d7d4bb7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/cherry_wood.json",
+      "hash": "617e532fcc3ad2b69eb8f3c80ecb127770c09a62"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/cika_log.json",
+      "hash": "8bef3f8c079411fd117951d8b082e1968f4b0aa0"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/cika_wood.json",
+      "hash": "880528fd5681045a276c5019a8a0c4d29e7caa79"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/cypress_log.json",
+      "hash": "f8f2256cca0a64f0503eebd73774d096281df373"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/cypress_wood.json",
+      "hash": "56fb8ada136c3c74313d47835a0aa1e390f805d7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/ebony_log.json",
+      "hash": "53c35fc72be48bf1a94d2871bed4a44ef4a8949c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/ebony_wood.json",
+      "hash": "b6ffef72a67c0e9d7c5ee4a85ecaab6fad4a2851"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/embur_hyphae.json",
+      "hash": "6bd65c469dfbc3d3a8c8ca4465461a59d7f3551b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/embur_pedu.json",
+      "hash": "35bd321f1808c40c9f48c4c73b954fca05587e85"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/ether_log.json",
+      "hash": "66f425a087fcdfc1543668e1f7b02ddf259adc0f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/ether_wood.json",
+      "hash": "47582e99a590136ca194c79d68849b20905a90d4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/fir_log.json",
+      "hash": "be093056f312b64ddf002bd09dfb082b77cbb0d9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/fir_wood.json",
+      "hash": "062b7cd36fccf9ad7b6c983c35f7006632e4dbe5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/green_enchanted_log.json",
+      "hash": "08fa30cb5ea0e75882eb14d7abd86f52c2682406"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/green_enchanted_wood.json",
+      "hash": "f44e9e52df4a713ce2df47cd36f7ebf61735f463"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/holly_log.json",
+      "hash": "16d7fd87d1cab65726dbcb8edbf0b2639065cd34"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/holly_wood.json",
+      "hash": "744133accbd77556ec1dc1426fe1fc37fff332f9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/jacaranda_log.json",
+      "hash": "91b223ef104544d55edab97eb03e8d52c6189b50"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/jacaranda_wood.json",
+      "hash": "8b350d7fa7afd2d8a4c273fb94b5e6dfb8870d93"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/lament_log.json",
+      "hash": "9009b81c2b42935297ea0bc7793aa09f2d026df8"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/lament_wood.json",
+      "hash": "31dd889010f35c222569e98e774c713a92d6b636"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/mahogany_log.json",
+      "hash": "7658506231c7cae26f746dc9c782401f439349a5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/mahogany_wood.json",
+      "hash": "d980d9f393deb57b9b5e77171560f7e5c997c6b4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/mangrove_log.json",
+      "hash": "b1c75b7b063353097d233a789c2474745513f393"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/mangrove_wood.json",
+      "hash": "470dd972240014eb2b24696a97f3fe0ed1c77637"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/maple_log.json",
+      "hash": "40071a6f4166f5aa28ff8f5f510c8faa34b804d2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/maple_wood.json",
+      "hash": "bc9a33c206f374f4601089f8c6c62e269a149abb"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/nightshade_log.json",
+      "hash": "aed79f9c707ce83892c9fc3aa251bf2f94326e20"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/nightshade_wood.json",
+      "hash": "1995d32ec8638a0d11e295634a726466f0180c78"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/palm_log.json",
+      "hash": "438d758e9d375e72c460ad5f4717895f3827fdea"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/palm_wood.json",
+      "hash": "289cfd33ba978ae86230c1161da7d7226d22dda2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/palo_verde_log.json",
+      "hash": "0adcc91648b1a3bf76bc6f9c7623da3b56b9f67a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/palo_verde_wood.json",
+      "hash": "f8ab1f37144a1a98d388e359edf48fc83f96513b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/pine_log.json",
+      "hash": "cb94c3830d86844d44c4a3491e646071a7bf1b95"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/pine_wood.json",
+      "hash": "b99cfe84a40d36ea7cd7a6ff7958044b7273c3f1"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/rainbow_eucalyptus_log.json",
+      "hash": "678b695811633480a0801c78231657c438bba572"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/rainbow_eucalyptus_wood.json",
+      "hash": "e47c34f073c596b589c96bf7104e2c34724f95d6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/redwood_log.json",
+      "hash": "100aa8d12f1ed4b019ce9893674c91098cca98c4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/redwood_wood.json",
+      "hash": "69489cd1860f71de76ea1f8d0c63525f7c1382fe"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/skyris_log.json",
+      "hash": "f2517d21514d431a1b75e5f4913f4a505fb4e70c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/skyris_wood.json",
+      "hash": "b4e6c19c39edc64897cc114579687a2f63edaea2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/synthian_stem.json",
+      "hash": "c3cdb8dfede400f8d4e47526fef6869e349beb03"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/sythian_hyphae.json",
+      "hash": "3f7873dc4bd152525a2d7d63c7d40d90791e5f41"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/sythian_stem.json",
+      "hash": "8b350d7fa7afd2d8a4c273fb94b5e6dfb8870d93"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/willow_log.json",
+      "hash": "586520ae7861f6be9218b8df5773e4ee85c73ca1"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/willow_wood.json",
+      "hash": "ec26771860958c6d8bc215c5001caf812d954832"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/witch_hazel_log.json",
+      "hash": "ab8387be2c34ca4fe3d8c6b88de50603b47fcd7d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/witch_hazel_wood.json",
+      "hash": "35d7da6a6f20462c0c4d3863c7a1b791667078fa"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/zelkova_log.json",
+      "hash": "5dc0562ee587eefdd67cb687f52cd1b198030882"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_bark_recipes/zelkova_wood.json",
+      "hash": "5ef48dc4172406d08a1332a5931dfb379dd5dbb1"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/chiseled_travertine.json",
+      "hash": "c588cb8b050994600ed0499524905c2040862ae4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/chiseled_travertine_from_travertine_stonecutting.json",
+      "hash": "5f897b7677048fecc476cd60ec70f4e606dea581"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/chiseled_travertine_slab.json",
+      "hash": "344da5220a64e2b319e3b545d9262b90e0804635"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/chiseled_travertine_slab_from_chiseled_travertine_stonecutting.json",
+      "hash": "6eb93d82f7780bd12509fc2e50b8447102c31279"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/chiseled_travertine_stairs.json",
+      "hash": "d56e3efd054788cb0e011d2b7fc9c5cef0448517"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/chiseled_travertine_stairs_from_chiseled_travertine_stonecutting.json",
+      "hash": "54a3c6b9ad31b494f0b625c4af64d4c8b61f9683"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/chiseled_travertine_wall.json",
+      "hash": "13f69be4612020b2ac8b9f9b58dd7682965e1065"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/chiseled_travertine_wall_from_chiseled_travertine_stonecutting.json",
+      "hash": "3794f3d0222fceb95c66720c954e20a4b4cb02a7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/polished_travertine.json",
+      "hash": "c35f099fee5428d3953b33f57f8b76fbb1c689f6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/polished_travertine_from_travertine_stonecutting.json",
+      "hash": "79184606c1bf16e24454cf2f1bed5d12c465f910"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/polished_travertine_slab.json",
+      "hash": "96e8d352c5234d90e67d642a57fafd95abfed138"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/polished_travertine_slab_from_polished_travertine_stonecutting.json",
+      "hash": "1a66a96b6283cf330b53933d10af71eaa5798416"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/polished_travertine_stairs.json",
+      "hash": "1c9851b767af4f1d00e839669523d73966e4b698"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/polished_travertine_stairs_from_polished_travertine_stonecutting.json",
+      "hash": "6dc746afeb9abe0148472e94ee385f37d8d2f8f3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/polished_travertine_wall.json",
+      "hash": "acf13d96c2ceca27449de7973c2cc7c0ea7691c2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/polished_travertine_wall_from_polished_travertine_stonecutting.json",
+      "hash": "e3aa4e67b41c5d0d9294a23690b3937b1c1c261f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/travertine_slab.json",
+      "hash": "e8769c05305e8912c4e9fe1dc0db64844d5e5d9e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/travertine_slab_from_travertine_stonecutting.json",
+      "hash": "cb208a345b5865f7386a45c135abac294d71e715"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/travertine_stairs.json",
+      "hash": "7d1e0354ee21d51e483651db37c0fb7f192cd99f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/travertine_stairs_from_travertine_stonecutting.json",
+      "hash": "babd4f32c17dfbcf46209cf0a996b031b125745a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/travertine_wall.json",
+      "hash": "9b29548a80c7773f820a7d32ffdc8b0e4205b919"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/byg_fix/travertine_wall_from_travertine_stonecutting.json",
+      "hash": "4848fa5bbdd4ad1e2b6453f50f22ee7bdf7ed04e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/emerald_ingot.json",
+      "hash": "1615a553d340331e3c3e111bc292fdd5b358f6e8"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enchanters_hammer.json",
+      "hash": "b16457d03d0a4b509977b1478a53925907526fd1"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/ender_beamer.json",
+      "hash": "883f03c2a947d0141bdee549290f7f6cf9208ae2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/endless_quiver_apex.json",
+      "hash": "9a196f546ba7912ff8394318dd99f1f87312d383"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/brown_mushroom_bookshelf.json",
+      "hash": "e3df9d37528f42991c58c66db21422db98efe867"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/brown_mushroom_chest.json",
+      "hash": "8ab413f2b7cc016c5701562c7994c03f392c47e9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/brown_mushroom_ladder.json",
+      "hash": "af9a07c1d168ff920ec736290a9d5c85d51dc966"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/brown_mushroom_trapped_chest.json",
+      "hash": "1fbf5dd6435b88acb59c5cfaaa7b5caaa9ad5e64"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/glowshroom_bookshelf.json",
+      "hash": "5ccdae88fef2ca358651efc1a8b2337885965df4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/glowshroom_chest.json",
+      "hash": "cc7823fa7029e98c1cb29818924dbf77fc287897"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/glowshroom_ladder.json",
+      "hash": "ebcdd7fe05333fed7ee9f0685400c1c42e9f577a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/glowshroom_trapped_chest.json",
+      "hash": "5f842d9eae8a1ab7953cecba1156c383893f8b7f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/red_mushroom_bookshelf.json",
+      "hash": "47b2ee8a7ed287ab76f8b9f90f0251e54d204959"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/enhancedmushrooms/red_mushroom_ladder.json",
+      "hash": "3a970da72218c9db8a29715361fe98134c0fb63f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/canopy_log.json",
+      "hash": "92ead2bf3d3481062cfa5f5000d023bdf4648685"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/canopy_wood.json",
+      "hash": "59fb5ed09ca1bcbd604b2be33d65f2e037301ab2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/darkwood_log.json",
+      "hash": "0eb871d2159bd20b47f48453f8506e8fee03df67"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/darkwood_wood.json",
+      "hash": "18fa4939af798d00965e582e66adb63b7d200d37"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/mangrove_log.json",
+      "hash": "5c54ee07c5bbb1dc6f0db3c914f740f15e2901f1"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/mangrove_wood.json",
+      "hash": "707adc5cfb7ca28dddc3a566d5efabfa49295817"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/mossy_glowshroom_bark.json",
+      "hash": "b2ddd5c2cb7b9559a4602837069b85cdd6042e45"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/mossy_glowshroom_log.json",
+      "hash": "e68295545643431a04c341c28aee24ebd32590f6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/old_boot.json",
+      "hash": "e54d941cbb248e53dc83b13463d46782e53b9be6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/pineapple_cubes.json",
+      "hash": "c78de531cc2759afdd8ea38c3be81cc7674fafd6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/pythadendron_log.json",
+      "hash": "29f6cd68f7f24dd89cfdc4af5671e2af7237fc5c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/pythadendron_wood.json",
+      "hash": "cf8257a2563fd7ce3afdd069d70daacdf55fc8fa"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/twilight_oak_log.json",
+      "hash": "42a77d2bdc05c723214093853a45627bcd4bd87b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/twilight_oak_wood.json",
+      "hash": "b2af20acb30994ca52bb6bd49185af6587f04435"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/farmersdelight/wool_to_string.json",
+      "hash": "7ea81cdef8f516dee9a2fd4b39848f66fcadff6f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/atum_arthropod_gate_small.json",
+      "hash": "3aaaaa06557c06c91cb384b25ffa74a4a582a48a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/atum_undead_gate.json",
+      "hash": "7e3428e2f39dfc3a56681a4e5c3c38b855ddc296"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/dread_gate.json",
+      "hash": "87d6e51b027bcd33c0de215d3bf8ab82795e62a9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/dread_gate_medium.json",
+      "hash": "941c184b5897e03fc69ba43333f9a08580e59c08"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/enderman_gate_replacement.json",
+      "hash": "2c2464024d1c1dd5e5223b9b8af4602c1512d642"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/enderman_gate_small_replacement.json",
+      "hash": "114fe8bfab20f8d398a9927845cd56995748b4ce"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/knight_gate.json",
+      "hash": "863a95ace85c80eb2aa21eee8178ae15f7ee7a05"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/minotaur_gate.json",
+      "hash": "6ceeedda00371f3260c13d2e7a82219e638ead2b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/nemean_lion_gate.json",
+      "hash": "12bf8d03f45ac8a99b17b8a041fcb94821bd5a57"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/rotspawn_gate.json",
+      "hash": "a46896bc2fa363189d1eb7c84b6724d1723357d6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/gateway_recipes/twilight_castle_dwellers_large.json",
+      "hash": "c0762bee905a0b6d5fa9b1622aa6b15afb2fe241"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/green_sconce.json",
+      "hash": "bf4c73e215d731319a3337fc92f933cc7bf6a839"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/iceandfire/gold_ingot_from_gold_dragon_armor.json",
+      "hash": "fce6fa21340aa570b9db1665e7f6a4683da2bd26"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/iceandfire/iron_ingot_from_iron_dragon_armor.json",
+      "hash": "0e76f2b79b8215884a159c9cbbfa67961a55140a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/infusion_enchanting/bluebright_spear_infusion.json",
+      "hash": "da562685b9d2e1d11b47fa05ef9e17295119af6d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/infusion_enchanting/cherry_spear_infusion.json",
+      "hash": "923eb8c71924dea49c7954367f36b13fd2ac8360"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/infusion_enchanting/dusk_spear_infusion.json",
+      "hash": "b21d1807538dc5b3a0848386e60ce7358f8893bf"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/infusion_enchanting/frostbright_spear_infusion.json",
+      "hash": "35f01b65e007ff00363e2ae40cb43f67f5ba5de2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/infusion_enchanting/lunar_spear_infusion.json",
+      "hash": "336992cb74bb9a20372775b941edd445800f5932"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/infusion_enchanting/maple_spear_infusion.json",
+      "hash": "45ffd29ab20309ab8ff6ba39644350125edc9e6f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/infusion_enchanting/soulbound_spear_infusion.json",
+      "hash": "e659940982908dc545a4d94a1f03408a61523df3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/infusion_enchanting/starlit_spear_infusion.json",
+      "hash": "172c756b0de9b694e9137c165fbc443d39a9e355"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/knowledge_of_the_ages_apex.json",
+      "hash": "3906283fd655c051c4bd9c5ff2de1daa498b5b49"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/nebu_drop_from_crafting.json",
+      "hash": "bd44f2abc121b0c49b75efd65540a5d596c518d5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/spartan_handle_conversions/handle.json",
+      "hash": "7cf66531ded7c3f33e4a52189a3137d3a02c98ae"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/spartan_handle_conversions/leather_wrapped_stick.json",
+      "hash": "26b986e70a711829a6c220626384abd4c9d1d95d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/spartan_handle_conversions/pole.json",
+      "hash": "0c19807216ed695687bcd75ec6ded61b887d730b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/terrasteel_shield_nobotania.json",
+      "hash": "8212f6011116da886c21442a9f4ddd62b5998b12"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/copper_nugget_from_blasting_spartan.json",
+      "hash": "fac68c961b0b974ae3be29a6da332aa9e2be615e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/copper_nugget_from_smelting_spartan.json",
+      "hash": "a0e546c0e691671b870715eae3353c464c576598"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/diamond_nugget_from_blasting_spartan.json",
+      "hash": "a6fac863ff009fae7f309b757932fcc5a1aa7ed2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/diamond_nugget_from_blasting_vanilla.json",
+      "hash": "cae0241c25569929a1af4aaeaeaa6632a56109c8"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/gold_nugget_from_blasting_spartan.json",
+      "hash": "4ae14e5076543942773f0135919c37cf2ae1b908"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/gold_nugget_from_smelting_spartan.json",
+      "hash": "145768cd2ba9c9edf5888221272843fe42af2075"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/iron_nugget_from_blasting_spartan.json",
+      "hash": "6b6f65c6725ef0be51ae9fa51f2c341301895c50"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/iron_nugget_from_smelting_spartan.json",
+      "hash": "640b6abe3874a4c85d88c38b4b3753a0542a5faa"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/lead_nugget_from_blasting_spartan.json",
+      "hash": "d87b17f8114cae98729a0467a3b4d3e349944e33"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/lead_nugget_from_smelting_spartan.json",
+      "hash": "19e0f4e5d578dd26825af9730e6be2a1860df3da"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/silver_nugget_from_blasting_spartan.json",
+      "hash": "d6aef1897dd138928f3522459147077588ffbd36"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/silver_nugget_from_smelting_spartan.json",
+      "hash": "1864c0e864b6b4f21df3d3cb263d8ffed9f10adb"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/tin_nugget_from_blasting_spartan.json",
+      "hash": "e09bef2b45143fb96ee5fe475c8140a775e7acb3"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/tool_recycling/tin_nugget_from_smelting_spartan.json",
+      "hash": "583e65d0c6ccb771bbe879e53969be852b69795d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/auroralized_glass.json",
+      "hash": "2c761d8e06ea0ec58490adfdd03ce1a8f1727ea9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/cinder_burning.json",
+      "hash": "9e80547f899fb4e34050a44a311105cb22f87ba6"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/cinder_wood.json",
+      "hash": "f647614ab40a9f6b8c782d6e30ee54a743a85ce4"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/mini_court.json",
+      "hash": "b9ac706a60d200aacda4052f76d117c3aa52636b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/mini_portal.json",
+      "hash": "9a325535b343f2c6c2b06db419993cd6bc4d7710"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/mini_tower.json",
+      "hash": "2a7e5d04e15657a6923f9f31da2fb565ea3e85cc"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/moss_patch.json",
+      "hash": "62fba6ba57ab2fafa137eee7268402ce80a731f9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/phantom_chestplate_smithing.json",
+      "hash": "e0fc22f1954dc3de1450e2c648f4b91ca0dad441"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/phantom_helmet_smithing.json",
+      "hash": "8f7803793259a279dc622c4761549744d518a66e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/stone_pillar.json",
+      "hash": "3814c133f094aa76f40ed87d498f8d0eeabe937c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/stone_pillar_stonecutting.json",
+      "hash": "31fc980a028ae339cdab2d305c0b271f455b32a2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/stone_twist.json",
+      "hash": "e71dc15b59feba2df1e9b0657e143481562c11b8"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/stone_twist_stonecutting.json",
+      "hash": "c53bd20e2a2ae19d6c7f724e122636870fbe39ec"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/twilightforest/underbrick_floor.json",
+      "hash": "eb8102b903d860f75123599ba6bd3bd84e02cee2"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/upgrade_aquatic/driftwood_bookshelf.json",
+      "hash": "6b50a7fdc0a821cb012bcec43dfa78552b1e7319"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/upgrade_aquatic/driftwood_chest.json",
+      "hash": "6a8172ee1cdf6dca7df02a152a9a423bf2d86146"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/upgrade_aquatic/driftwood_ladder.json",
+      "hash": "b8d1eb718e2fe8bf7b3745f7e00f90ce1969c80c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/upgrade_aquatic/driftwood_trapped_chest.json",
+      "hash": "a2cb371a61b4212a2992b341cbe46a52f4266323"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/upgrade_aquatic/river_bookshelf.json",
+      "hash": "0fcc56e85eca73787f32577685962e59be159288"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/upgrade_aquatic/river_chest.json",
+      "hash": "5b701839e6abd70cda4793249eedd26cc366964c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/upgrade_aquatic/river_ladder.json",
+      "hash": "50e0fc3a349559dec31d1261c3fd8341d3c9853b"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/rad_recipes/recipes/upgrade_aquatic/river_trapped_chest.json",
+      "hash": "d46d315fd3c35b80a5ce2fc828c720da4dd063b9"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_alexsmobs/alexsmobs/seagull_steal.json",
+      "hash": "deb5cb2151f0b3b1248a22673bb3b5166cada790"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_alexsmobs/alexsmobs/warped_mosco_kill.json",
+      "hash": "bee5ce9fa83f39a6e62780bdc21b63f9a65de70d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_atum/core/assassinassin.json",
+      "hash": "850dda60065cedf87b1ade92c68e56265fba3cc5"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_farmersdelight/main/master_chef.json",
+      "hash": "6924751bff60844e93b226efa35b722718a00de7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_farmersdelight/main/place_cooking_pot.json",
+      "hash": "133cb454a38dd2ef21ae39b9530f835b30f2c3e7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_good_nights_sleep/dream/dream.json",
+      "hash": "aabb80ffc81ace6a28990ece5b0f29f26548f41e"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_good_nights_sleep/nightmare/kill_herobrine.json",
+      "hash": "b8add28394ae1e7bf170bfadc842efde067a3d1a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_iceandfire/iceandfire/kill_if_dragon.json",
+      "hash": "63d360b091f474adba58de291c5fc7460dd7288f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_meetyourfight/main/dame_fortuna_kill.json",
+      "hash": "f557efee9e3ac343091711e4f41f7bed1eaf35c8"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_minecraft/husbandry/silk_touch_nest.json",
+      "hash": "5820d69e5e9c1412348ff8ceeed5fca779189927"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/dreadsteel_set.json",
+      "hash": "6861d2211b7d865732f80084387a45b7bba4b173"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/has_ring_of_seven_curses.json",
+      "hash": "e3c48f634ddffefa7789335dd7d41038e686272a"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/mad_mage.json",
+      "hash": "54f1e6bfb6550a7e2d5e41472401672888176d38"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/slay_5_star_champion.json",
+      "hash": "69d63f1d5003b67d7dc5f93777678629bd101ba7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/slay_6_star_champion.json",
+      "hash": "5c9b60711ef5018feb9ce83ba7b64e04eedff373"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/spawner_buster.json",
+      "hash": "ee769ea1202844e14fb31fe90e44a94e7f73eda0"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/the_ameliorated.json",
+      "hash": "f8ba252406212276ce9810eccc2d09870c6e6f80"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/the_apex.json",
+      "hash": "5e2b13db4d98efe4a8b8b4e08df8e918a9039a25"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/the_berserker.json",
+      "hash": "ade625e8a3ee8d24c8ebbc9cd63f382043504cdb"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/the_initiate.json",
+      "hash": "e5109a23528bf1f692f457302be5c4168adc21cc"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/the_paladin.json",
+      "hash": "f846d233f04a6eb05b8532bf415333e9052756de"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rad_recipes/twilight_final_boss.json",
+      "hash": "8c20d48c89205483836be408bd3312b3f4d6bf40"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_rats/rats/piper.json",
+      "hash": "7699a25b6da492700e0e4e069ff7a8a7f2917f03"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/1/titles/titles/_twilightforest/arborist.json",
+      "hash": "1868ece00ca9ceca6c919a8cf897e90fb7e7cfaf"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/akashictome/recipes/tome2.json",
       "hash": "e12079e7c1f40c03869da8c19106edc2fdf5f8a1"
     },
@@ -3698,6 +5046,10 @@
       "hash": "d8b43555a3850248911ff76cbe505e4b4c69c6fa"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/betterendforge/worldgen/biome/ice_starfield.json",
+      "hash": "6c2a3cf1e340f9cdfae2d87028efe508939038d4"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/blue_skies/recipes/cherry_pie.json",
       "hash": "9fb11365d7ef1c7d6b2e9071372f2b0e1bc128d4"
     },
@@ -3762,48 +5114,68 @@
       "hash": "5055e7912aa1108fb541ef5287ace40a87bd4aa2"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/loot_tables/enchantments/lucky_explorer.json",
+      "hash": "1abf0eb8a52a9420792d22d28b7225163da11cc1"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/bone.json",
-      "hash": "796381832f3312f0a152002649e620390401650a"
+      "hash": "7824c82e2084ef6eed3e7fc81bca422bec142253"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/cloth.json",
-      "hash": "8ab7ee0a1a05c7b4d675e2f09a2bc69cc477b224"
+      "hash": "66bd05a891dcab59152a3c398832d4a7f9fa55f8"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/hard_wood.json",
-      "hash": "6ef3b66b9424bf35d2f78140258c2c604220501f"
+      "hash": "15d67f863c4a319058026f9d0e02dcff49da4e9c"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/heavy_plate.json",
-      "hash": "41ce7d785a9144edf3b3935c168debd19437850a"
+      "hash": "1199093564edfc8c0553b1e05ed945cef9d623e8"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/hide.json",
-      "hash": "ab5b00523bf3589a19e46d17be395374d76d1e98"
+      "hash": "2dec191904d1cbc2ae7e905dc834a0c8ed4447eb"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/leather.json",
+      "hash": "01278763ddd851cc5bf28f064595d1cf2c28a07d"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/light_plate.json",
-      "hash": "02f5225a975a79f9df4001a95ce768bd493db67a"
+      "hash": "263efafcc183d8e33210683955bd8b8ebdc584f5"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/medium_plate.json",
-      "hash": "ef90742e1e483163ba46117bfde7b850a32f6a58"
+      "hash": "e6dbb791c6b378b892432c441433dc1d1c610122"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/pelt.json",
-      "hash": "5d75c5bd4ca7a1c04af6449298eb59ef0e1ba684"
+      "hash": "1dc92b7fab88591a1b6996915288954a3fc1ac1d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/tattered.json",
+      "hash": "531860d8ccde9d80d260982c4ebdad9405c65572"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/wither_bone.json",
-      "hash": "0112418e09642e41dd3eca44d8bdca26f2900953"
+      "hash": "ef72ba3b2ae4ccbbd12744da81b03c557f16c782"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_gear/material/armor/wood.json",
-      "hash": "a578e341ee2f45675946b9bcf42a7d5d55f331db"
+      "hash": "7f1580d030486218e40a420b2e0baee39e2b69ee"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/dungeons_mobs/gearconfig/armor/alpine_armor.json",
+      "hash": "36df88500660fbff5dc4f5b902af4dc547a4a729"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/dungeons_mobs/gearconfig/armor/chef_armor.json",
       "hash": "f38a0e3afc3b29cedf33fb1092b1863cae549240"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/dungeons_mobs/gearconfig/armor/illusioner_armor.json",
+      "hash": "c2064d447581801e4118a3c15aa6f5ee560b70d6"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/endergetic/recipes/poise_bookshelf.json",
@@ -3939,23 +5311,23 @@
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/iceandfire/recipes/dragonsteel_lightning_axe.json",
-      "hash": "4b18cb45d3d62d8df7b15b280349654c6d18caf1"
+      "hash": "00d6fea2d3d942b7b39f54b5573915482f553d54"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/iceandfire/recipes/dragonsteel_lightning_hoe.json",
-      "hash": "dd8d2b9e25d66f6551ba5be028af742bf9895a6d"
+      "hash": "2c7d4276600a3edb0fc930519483d176b8a5e53f"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/iceandfire/recipes/dragonsteel_lightning_pickaxe.json",
-      "hash": "80c0d21605877d709e64722df97c66b39b34aaee"
+      "hash": "7e0753a4b359b15e7d146381ebda1a023baf6a35"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/iceandfire/recipes/dragonsteel_lightning_shovel.json",
-      "hash": "09684a0181b84afc1da3f3f84221fee99c449e76"
+      "hash": "a2c8b9234153d732b990e49136255154e26d9c7c"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/iceandfire/recipes/dragonsteel_lightning_sword.json",
-      "hash": "b5f36b972ea446e1b864a768af824a08134b02e0"
+      "hash": "51ce30b54c2a633f79b0fc8c184a8b73f548f369"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/iceandfire/recipes/fire_sword.json",
@@ -3992,6 +5364,22 @@
     {
       "path": "config/paxi/datapacks/radrecipes/data/magicaljewelry/loot_tables/entities/water_jewel_drops.json",
       "hash": "4b362a304ab562ca9023b5bce066629e7e6148e7"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/majruszs_difficulty/recipes/undead_army_boots.json",
+      "hash": "fac3ebf048afd2f6cc131e84eeccd45020163248"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/majruszs_difficulty/recipes/undead_army_chestplate.json",
+      "hash": "736df250816a7810b03ff794853f5deda5404834"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/majruszs_difficulty/recipes/undead_army_helmet.json",
+      "hash": "f27f81fdd1164fc86dff022b1bba1ab9a7e8e95c"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/majruszs_difficulty/recipes/undead_army_leggings.json",
+      "hash": "a7e39cbb2bc8bde2b825d4fbbd728a716e173f39"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/minecraft/recipes/flint_and_steel.json",
@@ -4598,20 +5986,28 @@
       "hash": "7d8718aa252c06034971960afdd630d25a88aa42"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/advancements/died_with_ring_of_seven_curses.json",
+      "hash": "f6b86fbc66df454d1cea39ce6afc0a55a49ee1df"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/advancements/dreadsteel_set.json",
-      "hash": "6351c9be2f21566f3e689f6ea7471bd79c5631f5"
+      "hash": "d1f92e36ed5a270aaf715dad319c6f0ceddad604"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/advancements/has_ring_of_seven_curses.json",
-      "hash": "aea8ec7bd2c97686eccd48bb5a20e6ca964708d6"
+      "hash": "54109e91f57a96194cdf10f6d86bdf1031e9fa2f"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/advancements/mad_mage.json",
+      "hash": "b77a718bdf119c998c11c42a8dad4420c5a95025"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/advancements/slay_5_star_champion.json",
-      "hash": "fbccb58c21ad6d3a4be830ff84c0bc87a0bf5758"
+      "hash": "43bc8cc6e6e298b22ebbb8063c485a40499362eb"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/advancements/slay_6_star_champion.json",
-      "hash": "f846d604164682b1e1ea88e411c69eedee4c921e"
+      "hash": "80eef13721f1cdb096bbd4e3b4ebd24885276f9c"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/blue_skies/alchemy_recipes/calamari.json",
@@ -4671,7 +6067,7 @@
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/enchanting_stats/quest_ram_trophy.json",
-      "hash": "d26985eb7197a607034c8914f7381c6b9f4a1840"
+      "hash": "ffd5c7f098ca60c9b8f50ed7cf0ea51acdc06172"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/enchanting_stats/spartan_skulls.json",
@@ -4688,6 +6084,18 @@
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/enchanting_stats/warped_shelf.json",
       "hash": "c661c57824dc5370b6302689c88f8351a0daa91d"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/functions/blue_skies_boss_nerf.mcfunction",
+      "hash": "b6b7ff165097bad119164887c8712f066f23b281"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/functions/pet_buff.mcfunction",
+      "hash": "285adc41e7178645649f324933963cf47b0329b0"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/functions/ring_of_seven_curses_death_reminder.mcfunction",
+      "hash": "cc06f1b205707c6bb81804a5f4f1370483186f27"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/gateways/atum_arthropod_gate_small.json",
@@ -4708,6 +6116,10 @@
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/gateways/greek_minotaur_gate.json",
       "hash": "77429f97dfacbe331c2b0206eac4a469930d9b95"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/gateways/guardian_gate.json",
+      "hash": "8c188e0b971711c02981fc3e318853070eaf1bbf"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/gateways/knight_gate.json",
@@ -4994,6 +6406,10 @@
       "hash": "0ae7b09658c7510b50dcafb3f6eb4d75f6850434"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/betterendinfusion_modded/infused_arc_sword.json",
+      "hash": "627c91633761bf39c0aa60eceb78167d8dbcedf2"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/betterendinfusion_modded/life_mending_book.json",
       "hash": "831bf065fc71a1e57a136d5f29ba3e9101c62c52"
     },
@@ -5076,10 +6492,6 @@
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/betterendsmelter/additional_cloggrum.json",
       "hash": "ab10444d6ff7e893255c398c928dedb23abfb2ea"
-    },
-    {
-      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/betterendsmelter/additional_emerald_ingot.json",
-      "hash": "a08ecdbcdfae1e02ad84421948e3fe35e5b678b3"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/betterendsmelter/additional_etherium.json",
@@ -5458,6 +6870,10 @@
       "hash": "4848fa5bbdd4ad1e2b6453f50f22ee7bdf7ed04e"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/emerald_ingot.json",
+      "hash": "44c31571d2c580f75a9ba1fb7823727e4fb3e775"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/enchanters_hammer.json",
       "hash": "b16457d03d0a4b509977b1478a53925907526fd1"
     },
@@ -5594,6 +7010,10 @@
       "hash": "114fe8bfab20f8d398a9927845cd56995748b4ce"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/gateway_recipes/guardian_gate.json",
+      "hash": "87e1a08435a91abedd65fe64e508486310660c6e"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/gateway_recipes/knight_gate.json",
       "hash": "863a95ace85c80eb2aa21eee8178ae15f7ee7a05"
     },
@@ -5650,12 +7070,20 @@
       "hash": "45ffd29ab20309ab8ff6ba39644350125edc9e6f"
     },
     {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/infusion_enchanting/purple_trident.json",
+      "hash": "c86a2d52f372fbb94dbcdaf791a812a43f9ce0a4"
+    },
+    {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/infusion_enchanting/soulbound_spear_infusion.json",
       "hash": "e659940982908dc545a4d94a1f03408a61523df3"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/infusion_enchanting/starlit_spear_infusion.json",
       "hash": "172c756b0de9b694e9137c165fbc443d39a9e355"
+    },
+    {
+      "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/infusion_enchanting/yellow_trident.json",
+      "hash": "4f64c30280bb288d2929c9cba734a659c2703d3c"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/rad_recipes/recipes/knowledge_of_the_ages_apex.json",
@@ -5907,43 +7335,43 @@
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_alexsmobs/alexsmobs/seagull_steal.json",
-      "hash": "deb5cb2151f0b3b1248a22673bb3b5166cada790"
+      "hash": "b098ca4283efb2c62ac3e843c1b46628b2a2939d"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_alexsmobs/alexsmobs/warped_mosco_kill.json",
-      "hash": "bee5ce9fa83f39a6e62780bdc21b63f9a65de70d"
+      "hash": "37b887f30ccf89fe6c360dc9bd8850ef62423a3a"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_atum/core/assassinassin.json",
-      "hash": "850dda60065cedf87b1ade92c68e56265fba3cc5"
+      "hash": "3c58aae601da548722a19359a897140725a27d1d"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_blue_skies/everbright/kill_starlit_crusher.json",
-      "hash": "40341816cdc3336fe9ba617e9a22fc8ce227ed89"
+      "hash": "82d95a0e809618f4cb6f4bddfcb555cf3ab0afbd"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_blue_skies/everdawn/kill_arachnarch.json",
-      "hash": "e9e5d81ccfd39fba4ab7c308ba7992d6ca18c7ec"
+      "hash": "b532dcc94af9601158c4e8d58cbdfc7bfadefcc0"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_farmersdelight/main/master_chef.json",
-      "hash": "6924751bff60844e93b226efa35b722718a00de7"
+      "hash": "ed81bb76f428b9780fc6ec49fc3b7325e28c2eff"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_farmersdelight/main/place_cooking_pot.json",
-      "hash": "133cb454a38dd2ef21ae39b9530f835b30f2c3e7"
+      "hash": "83433e59747fc16a01e370890d8d3a4b6c3d0810"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_good_nights_sleep/dream/dream.json",
-      "hash": "aabb80ffc81ace6a28990ece5b0f29f26548f41e"
+      "hash": "791f83203d7880423c6e913b44c906e26709e937"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_good_nights_sleep/nightmare/kill_herobrine.json",
-      "hash": "b8add28394ae1e7bf170bfadc842efde067a3d1a"
+      "hash": "a0c7dc1e3e00fccf2608a65b1f79476cab07d4b8"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_iceandfire/iceandfire/kill_if_dragon.json",
-      "hash": "63d360b091f474adba58de291c5fc7460dd7288f"
+      "hash": "a04978702029e40886a380cb1ce1b69f5613bec3"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_meetyourfight/main/dame_fortuna_kill.json",
@@ -5951,67 +7379,67 @@
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_minecraft/husbandry/silk_touch_nest.json",
-      "hash": "5820d69e5e9c1412348ff8ceeed5fca779189927"
+      "hash": "0e076e4a79cf0a228226b9eb159d0650c2b00ead"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/dreadsteel_set.json",
-      "hash": "6861d2211b7d865732f80084387a45b7bba4b173"
+      "hash": "ebb39be68dd9f7e0ce34d1b2904118c0a93b23e9"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/has_ring_of_seven_curses.json",
-      "hash": "e3c48f634ddffefa7789335dd7d41038e686272a"
+      "hash": "e1def557d8eb0f80927b5fc46e3e60e973d47b2f"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/mad_mage.json",
-      "hash": "bd68b85cf73cde898b0c66927d19f5555c534da0"
+      "hash": "4614799fa6dbb59d8ef7b4bfe772fc2433c06a13"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/slay_5_star_champion.json",
-      "hash": "69d63f1d5003b67d7dc5f93777678629bd101ba7"
+      "hash": "17203295839b21d027bcf76618012311b477c345"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/slay_6_star_champion.json",
-      "hash": "5c9b60711ef5018feb9ce83ba7b64e04eedff373"
+      "hash": "60cc2fd69bede6541dba2ef67a773e5b2703e9b4"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/spawner_buster.json",
-      "hash": "ee769ea1202844e14fb31fe90e44a94e7f73eda0"
+      "hash": "b1c2c12f8a817b4795cb49524b37e6a5383b82e2"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/the_ameliorated.json",
-      "hash": "f8ba252406212276ce9810eccc2d09870c6e6f80"
+      "hash": "cff082ef1bbfccabf254eb70d62a8df3606a9084"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/the_apex.json",
-      "hash": "5e2b13db4d98efe4a8b8b4e08df8e918a9039a25"
+      "hash": "097db749788d8480a0ac43b63d266074f326dfa7"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/the_berserker.json",
-      "hash": "ade625e8a3ee8d24c8ebbc9cd63f382043504cdb"
+      "hash": "992951c1ed873b91354e149599c036408f062a09"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/the_initiate.json",
-      "hash": "e5109a23528bf1f692f457302be5c4168adc21cc"
+      "hash": "3f2590304a83b2067fd1364c39eb4c15ad9eb720"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/the_paladin.json",
-      "hash": "f846d233f04a6eb05b8532bf415333e9052756de"
+      "hash": "5625dd85dd95aa1de72f0092081a7e3749dcf724"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rad_recipes/twilight_final_boss.json",
-      "hash": "8c20d48c89205483836be408bd3312b3f4d6bf40"
+      "hash": "fc3152dc504bf39b56d7fe738cc9b84dd3b81abb"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_rats/rats/piper.json",
-      "hash": "7699a25b6da492700e0e4e069ff7a8a7f2917f03"
+      "hash": "65742b822da9bb12d42a3492331d584269088aed"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_tombstone/adventure/chain_death.json",
-      "hash": "62c80b61b91733ab4815526cf5a5b68ae3ea3480"
+      "hash": "017095b5103713450467fd26bfa7da7f3c7b624e"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/titles/titles/_twilightforest/arborist.json",
-      "hash": "1868ece00ca9ceca6c919a8cf897e90fb7e7cfaf"
+      "hash": "fdd1929b7d64ff7f67e8d722769a31b04676ff6f"
     },
     {
       "path": "config/paxi/datapacks/radrecipes/data/twilightdecor/recipes/canopy_bookshelf.json",
@@ -6151,15 +7579,15 @@
     },
     {
       "path": "config/paxi/datapacks/radTitles/data/titles/titles/developer.json",
-      "hash": "bed121cd05fbe5ae5bdeddf2e459beadf913bbf0"
+      "hash": "0c4b279edcf8f2d6023bef8eb65e57501ffaa3cf"
     },
     {
       "path": "config/paxi/datapacks/radTitles/data/titles/titles/feedbacker.json",
-      "hash": "c18346fedd507fb42c64e5ad52dd759f0aa8ee44"
+      "hash": "60b36c2e396979936966a176a81b3e7d34750d1f"
     },
     {
       "path": "config/paxi/datapacks/radTitles/data/titles/titles/patreon.json",
-      "hash": "f89eacd539568e267cb041df2d657e5d60b567a5"
+      "hash": "cf587acc816d755622a27229fdaa912245498529"
     },
     {
       "path": "config/paxi/datapacks/radTitles/data/titles/titles/tester.json",
@@ -6258,12 +7686,24 @@
       "hash": "3c08daffb265fd6e7ed26a28beadf9b49d4ed3aa"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/alexsmobs/lang/zh_cn.json",
+      "hash": "73cd081d91cadd4a337a9a421527cd13352d42db"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/apotheosis/lang/en_us.json",
       "hash": "6654281a3822c9c9875bac4613b424717e85d939"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/apotheosis/lang/zh_cn.json",
+      "hash": "eb82618e7a74c28073f5bdcf257b38637af8fcd7"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/ars_nouveau/lang/en_us.json",
       "hash": "e581d2a673b3ea77f01455dee56b2c9b80a8550b"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/ars_nouveau/lang/zh_cn.json",
+      "hash": "da5ef5918b8ab845361032ea022912160db03eaf"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/ars_nouveau/models/item/enchanters_sword.json",
@@ -6274,28 +7714,56 @@
       "hash": "723651996425cc851c6f397415488bed3b6e5a3f"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/betterendforge/lang/zh_cn.json",
+      "hash": "c27c5739f99d8b1884c4aa8fbe10e75f1a9513f9"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/blue_skies/lang/en_us.json",
       "hash": "bf57ad1efcb595247a99f9fcf7050089fa070d80"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/blue_skies/lang/zh_cn.json",
+      "hash": "1d2f666b32aa64cd95adaf9154d3daebf55d0422"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/bountifulbaubles/lang/en_us.json",
       "hash": "c23c5251327ed15fc187b3080a96d68904903ba2"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/bountifulbaubles/lang/zh_cn.json",
+      "hash": "b6804b07ba587939c6f2e4deb907873cc2ace8ae"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/buddycards/lang/en_us.json",
       "hash": "c6da81d260bbd7813d72983ac361c8b6bcbc5377"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/buddycards/lang/zh_cn.json",
+      "hash": "c5680b2077cd02e9979ab071a98c4e8f9cba5f95"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/buzzier_bees/lang/en_us.json",
       "hash": "638618936c5456f707916de729e1cf114236aef1"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/buzzier_bees/lang/zh_cn.json",
+      "hash": "6894bb2fbdadf550550d6e303c2de11d1286c245"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/carrots/lang/en_us.json",
-      "hash": "4984f4b66cf6fa91d03f7c64b9526f5bf43642fa"
+      "hash": "cc273a202bb60f71deac5a60671303cc32cbc159"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/carrots/lang/zh_cn.json",
+      "hash": "5d6cb13e5774ed206be03650f23123285f098616"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/champions/lang/en_us.json",
       "hash": "42fcae594e174e55b9636562b6705171e6fb05e7"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/champions/lang/zh_cn.json",
+      "hash": "34c57e31f6f32378e5a08e26be28aae7fc5fbb40"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/classicbar/textures/gui/health.png",
@@ -6306,8 +7774,16 @@
       "hash": "ede76ff4b663b64cfe9b940eb68d748f2244cc79"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/cofh_core/lang/zh_cn.json",
+      "hash": "d335f8df5e0ee42b2713ee68d852eda94ff30587"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/curios/lang/en_us.json",
       "hash": "b24883621b6d86d0f81dfc083ef067714ec9accd"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/curios/lang/zh_cn.json",
+      "hash": "948f593ccde063394d845614f41cd85d7bf1eb19"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/curios/textures/slot/cursed_ring_slot.png",
@@ -6322,8 +7798,16 @@
       "hash": "ad40528a5ca519d9f7ad36462fecf2b3afbee3c1"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/dungeons_gear/lang/zh_cn.json",
+      "hash": "c0d5075d2f6f55b66114a6bd684cc701a77e49a6"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/dungeons_libraries/lang/en_us.json",
       "hash": "99cc29ae66b0150bb02242e000957f51ebbe30d2"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/dungeons_libraries/lang/zh_cn.json",
+      "hash": "12f044e6ffc09bb00ff174689f8cb6606153f4eb"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/dungeons_libraries/textures/gui/artifact_bar.png",
@@ -6334,8 +7818,20 @@
       "hash": "86b8bdf8a717f72f8a3faee6bf29712c77d1736a"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/eidolon/lang/zh_cn.json",
+      "hash": "118d4ae6252e92d62fc343d19a3ba0400d39dd61"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/elenaidodge2/lang/en_us.json",
       "hash": "e415ff62b22cbd837416bf26d4a60acc2e3899fb"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/elenaidodge2/lang/zh_cn.json",
+      "hash": "2a592e9486ee91436f7eaab8ac7bec350c52cbe3"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/environmental/lang/zh_cn.json",
+      "hash": "64b55ed7751610cf3c10b52d3d996fb06eb80acb"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/ftblibrary/textures/gui/background_squares.png",
@@ -7143,31 +8639,59 @@
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/gateways/lang/en_us.json",
-      "hash": "cc7c3c31a4d3bab8675e3a5b74356cc1bc293ec8"
+      "hash": "0fb756740803930124227e7113cec5bed216b160"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/gateways/lang/zh_cn.json",
+      "hash": "0b984f1567ae01ec4ef8d4676a41467ed2b18bfd"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/greekfantasy/lang/en_us.json",
       "hash": "73db5a589558d92b8650dfa8a4a79e8173be78de"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/greekfantasy/lang/zh_cn.json",
+      "hash": "6bae5f71387a174a36994290e6e9153c171b14ad"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/iceandfire/lang/en_us.json",
       "hash": "00e92ee13f42d4bc3a1bd2b7989e23ae4adae3e2"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/iceandfire/lang/zh_cn.json",
+      "hash": "f7d962cd0b15fc8d7b112ea237e909fd2d8d17cb"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/illagers_plus/lang/en_us.json",
       "hash": "bb908f73b534387bd1db3ea220cb66abfb3c5366"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/illagers_plus/lang/zh_cn.json",
+      "hash": "c650f6d353cfb21aa452e8a7abf8e15c26228579"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/infernalexp/lang/en_us.json",
       "hash": "19c2da2826013d89933c299e83221ffc70d93a83"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/infernalexp/lang/zh_cn.json",
+      "hash": "36743d5e32c5a9d86c66fa9c93e91d5ab09e2545"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/magnesium_extras/lang/en_us.json",
       "hash": "ccd2d947b0bf1623c329aefa01e1876005ef544c"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/magnesium_extras/lang/zh_cn.json",
+      "hash": "c400348fadaf020047c6a9fe06cf42b2f81eb808"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/minecraft/lang/en_us.json",
       "hash": "42dd694d7b8b3c1967128d456d73a8bd88aac1cc"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/minecraft/lang/zh_cn.json",
+      "hash": "40dfe1442dfedc71c31b12e59cef91ec6580e448"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/minecraft/textures/gui/icons.png",
@@ -7182,16 +8706,32 @@
       "hash": "3566b9c646c8b4f3bed4e1e8623a90b4af1147d3"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/mining_dimension/lang/zh_cn.json",
+      "hash": "20851aebff50bbbe1b940fe8d70c4948e9ca94c7"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/morevillagers/lang/en_us.json",
       "hash": "523dd595e08a323c9891f728aa7fc5dc1cc20cf9"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/morevillagers/lang/zh_cn.json",
+      "hash": "dedb7f7c44e7e951e929f0368a42f2c03a8715bb"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/mowziesmobs/lang/en_us.json",
       "hash": "045bbab2b66c7628ab06c94321821359fbe76aa3"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/mowziesmobs/lang/zh_cn.json",
+      "hash": "9c95aa3b20330f595cbeef81c7de1c2991153d03"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/mysticalworld/lang/en_us.json",
       "hash": "89886c7472b43fbabdf03b624f18650625783b18"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/mysticalworld/lang/zh_cn.json",
+      "hash": "c1f4cbd9c85c6a8fe1993cd2924e2c9ea987f8f7"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/mysticalworld/models/block/silver_ore.json",
@@ -7206,8 +8746,20 @@
       "hash": "5818535993c646cf57b4fd220e3e46b884fa6bfa"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/pmmo/lang/zh_cn.json",
+      "hash": "762d0cd2841fcd2b53b31995186bbe0955cdc9f6"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/rad2/lang/en_us.json",
-      "hash": "21aa5b1bf3c90cdbf78da50d0a4c3fa8c90e6b36"
+      "hash": "4564747ff9760120053efe76ba7667307bfab4e9"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/rad2/lang/lol_us.json",
+      "hash": "1c1d10c45141f9401cacec0c665abff050fdaf54"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/rad2/lang/zh_cn.json",
+      "hash": "420b8a25cb518c27160340224df4fa7fca05c19e"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/rad2/models/item/big_stick.json",
@@ -7558,6 +9110,18 @@
       "hash": "cd40a6c0d26bdb8cf54b476eb3fe20844b489cbd"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/rad2/tips/tip51.json",
+      "hash": "c59d83d2326768b03345f6f442ef8ba9a22cd806"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/rad2/tips/tip52.json",
+      "hash": "9012b41dd2aa0c419a13087740682854ef6f216f"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/rad2/tips/tip53.json",
+      "hash": "162a478c7aa2e5b1b022dcbb7f64e51c76d236a1"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/rad2/tips/tip6.json",
       "hash": "54abcd6688eca6f76037912036d9eb433d6b408b"
     },
@@ -7578,8 +9142,16 @@
       "hash": "bb377459c1243480eb6b0801e782eb6a1c1a0505"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/randomloot/lang/zh_cn.json",
+      "hash": "123ca39f1b4be9d151ba36d42bffd1d17a2b8906"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/remodifier/lang/en_us.json",
       "hash": "7d1220c5ea9a676bbdf8c5f8e09cd9a262d97045"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/remodifier/lang/zh_cn.json",
+      "hash": "e57d629af2cf36d6c758e0a2e34e1682f50c1960"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/spartanweaponry/models/item/pike_wood.json",
@@ -7590,32 +9162,64 @@
       "hash": "19332c3d58cf12c323c6683419b90b363cdc52ad"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/stalwart_dungeons/lang/zh_cn.json",
+      "hash": "7d3a0efcd9b369195916c62f5e9f91f39b99d782"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/supplementaries/lang/en_us.json",
       "hash": "cdbbc0b8c9abc432e32754907b69dcf419524c9e"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/supplementaries/lang/zh_cn.json",
+      "hash": "76b0b0e371559c8b8d5acca1614d881d439bc8db"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/tips/lang/en_us.json",
       "hash": "dbdfa574fceb021e66c6d4f013f39cee2aa29917"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/tips/lang/zh_cn.json",
+      "hash": "ce70e602febd281c311d1e6f5f03004e729e9859"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/twilightdelight/lang/en_us.json",
       "hash": "4533dc46f8b26ab0f9aa9c1a8051273df3b4f93e"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/twilightdelight/lang/zh_cn.json",
+      "hash": "28e470bef0c6307d54d9393e14454008627cbd55"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/twilightforest/lang/en_us.json",
       "hash": "292191cfbe8ab5b36db753274d541bad1967da1c"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/twilightforest/lang/zh_cn.json",
+      "hash": "b51e00d1011a2049de648b98ba94bcb46243d32f"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/undergarden/lang/en_us.json",
       "hash": "9af5f139508aa9298849dd6a764027b32d39df51"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/undergarden/lang/zh_cn.json",
+      "hash": "f67dc51434a3c9223c3d3d69011f28765d449590"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/vtweaks/lang/en_us.json",
       "hash": "c5806761396a1213f1bd3248bdf57e1b3ff495c1"
     },
     {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/vtweaks/lang/zh_cn.json",
+      "hash": "7f4245221af2f4133583ed5f9cb8f5a56c94c368"
+    },
+    {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/wandering_trapper/lang/en_us.json",
       "hash": "1ac5b9979a3ff3eee7e90dd3a5e4b7d2ece7077b"
+    },
+    {
+      "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/assets/wandering_trapper/lang/zh_cn.json",
+      "hash": "fd00288839ee705bbda8771b6a049b3f9f571930"
     },
     {
       "path": "config/paxi/resourcepacks/RAD2-RP-1.16.5/pack.mcmeta",
@@ -7763,11 +9367,11 @@
     },
     {
       "path": "config/pmmo/req_tool.json",
-      "hash": "7b102a9b25ad92bb33be92e60b5a0992d46e0c39"
+      "hash": "2bce030457dc1cfc6f732aaa31cd8d27c0f337b6"
     },
     {
       "path": "config/pmmo/req_use.json",
-      "hash": "2a3f88c2ecbb6ddd8026b20501717382c8336ca1"
+      "hash": "3722d98690599e08b021c2aaf263b6ab7de4729f"
     },
     {
       "path": "config/pmmo/req_use_enchantment.json",
@@ -7775,15 +9379,15 @@
     },
     {
       "path": "config/pmmo/req_weapon.json",
-      "hash": "e19e7f42f986b95617517f0845ce414dbeb50b1e"
+      "hash": "fdb886443cf8c3997d267ff80b1d0a751ecaf236"
     },
     {
       "path": "config/pmmo/req_wear.json",
-      "hash": "76caf936a80c7fb1e2415f335d17d22d33c7e07b"
+      "hash": "65c53801e5aa44ab31813b0435e9c51b772b9562"
     },
     {
       "path": "config/pmmo/salvage.json",
-      "hash": "411928d283383c8e1fe4c789bb878aad60ea323d"
+      "hash": "0ef6fb2599fa93d18945e9fb5362f7fd757284fe"
     },
     {
       "path": "config/pmmo/skills.json",
@@ -7799,19 +9403,19 @@
     },
     {
       "path": "config/pmmo/xp_bonus_biome.json",
-      "hash": "34d07b0952f0c430313426bcd57b339d0f28e3f0"
+      "hash": "f3ddb62836861c3d23ddfcb5462cc0bc8dff598f"
     },
     {
       "path": "config/pmmo/xp_bonus_dimension.json",
-      "hash": "0039f3d507f945b6af1f281ef6a18cd0cfc6bfad"
+      "hash": "ac98f72f5c0f24fa9ee65470897da2f07a373d63"
     },
     {
       "path": "config/pmmo/xp_bonus_held.json",
-      "hash": "339c469efa25cdc81250a204cc3c86b425f115a5"
+      "hash": "5b9a9767dcc4aa6ab0884e95e0c8baff98bb63b0"
     },
     {
       "path": "config/pmmo/xp_bonus_worn.json",
-      "hash": "2c751c43e84c6034cc6f68b467c86f721f8ac6bb"
+      "hash": "9626d37394e14bf6d64bda30261759df21154bfe"
     },
     {
       "path": "config/pmmo/xp_multiplier_dimension.json",
@@ -7839,7 +9443,7 @@
     },
     {
       "path": "config/pmmo/xp_value_craft.json",
-      "hash": "34ca706fef14e4f943bf88a24ed23c46ee066e0d"
+      "hash": "b47d49416adf752686ce17625c42ddca0bdea034"
     },
     {
       "path": "config/pmmo/xp_value_general.json",
@@ -7851,7 +9455,7 @@
     },
     {
       "path": "config/pmmo/xp_value_kill.json",
-      "hash": "7d67dd47022ec935a060b75e12d666ab01de6f49"
+      "hash": "a3199b6ce46defbad6ce0c119bd996b5c945f2b4"
     },
     {
       "path": "config/pmmo/xp_value_place.json",
@@ -8287,11 +9891,23 @@
     },
     {
       "path": "config/serverconfigupdater-common.toml",
-      "hash": "77b1092341656d64142b1025ee52c177806f2ba5"
+      "hash": "a1f4aebe04b9a202e1f394693849f1d5abaec1c8"
+    },
+    {
+      "path": "config/servertabinfo-client.toml",
+      "hash": "d1afdc4cf401c43139e7b6227276d7a313f91979"
+    },
+    {
+      "path": "config/servertabinfo-server.toml",
+      "hash": "7298a409f40e0a95cc404f47931d93fa2c9e525e"
+    },
+    {
+      "path": "config/shieldmechanics-common.toml",
+      "hash": "3e499a97fc7126d078fb6290b4052a01d023d840"
     },
     {
       "path": "config/sidebar_buttons.json",
-      "hash": "db9b7eb78184b2d048a5b95c0e6341c49464c516"
+      "hash": "3f545ec683be213b684475b39393a01d1faadbcb"
     },
     {
       "path": "config/simplefarming.toml",
@@ -8443,7 +10059,7 @@
     },
     {
       "path": "config/toms_storage-common.toml",
-      "hash": "8ec0280edc6fec351522799b1eacb19d8e1076cb"
+      "hash": "7504d2d22721017764a13330e68b6fb89c73cc89"
     },
     {
       "path": "config/toomanyglyphs/amplify_three.toml",
@@ -8543,11 +10159,11 @@
     },
     {
       "path": "config/ue/UE.toml",
-      "hash": "9af970d5178d9e48f439c810de893115e921a951"
+      "hash": "4cdd4055fb97716f92c4d9c9d20541b9e16162e6"
     },
     {
       "path": "config/ue/UEApex.toml",
-      "hash": "39e85d938ed6d303836e22898d3462d8237279dc"
+      "hash": "875067e689d89741c91b9e53ed2d8a110ed5b77e"
     },
     {
       "path": "config/ue/UEBase.toml",
@@ -8567,11 +10183,11 @@
     },
     {
       "path": "config/ue/UEBattle.toml",
-      "hash": "573c6525c7175650425ea1f97be7c597c049a889"
+      "hash": "552f38d087734dce898ce790bb96ff2917a2b693"
     },
     {
       "path": "config/ue/UEUtils.toml",
-      "hash": "0e6f808e89efb141510aa4a482725ec15f5ca97c"
+      "hash": "d5b210b08c887d0fbfb4d08a4cae7506e2aa6653"
     },
     {
       "path": "config/upgradednetherite-client.toml",
@@ -8642,6 +10258,14 @@
       "hash": "192ab07cca106d1bca8e69bffafffadd8f166300"
     },
     {
+      "path": "config/watut-client.toml",
+      "hash": "c06f2c256aa7d64ab27f72a4d945354d0ce5fc3e"
+    },
+    {
+      "path": "config/watut-common.toml",
+      "hash": "26a30b0cfd2c9e4d8618608f7fc9cc4b657e2135"
+    },
+    {
       "path": "config/waystones-client.toml",
       "hash": "ca7faf39a05e9c65e3345dd432ba5066e9f55d61"
     },
@@ -8662,12 +10286,16 @@
       "hash": "bf6722796d74e04000047c125a464fb0f1ec5d7c"
     },
     {
+      "path": "config/wyml-SpawnRules/feywild.json",
+      "hash": "09bd96c0e4a97305ee3cc19dd5ba739b3ece657d"
+    },
+    {
       "path": "config/xaerominimap-common.txt",
       "hash": "6b046de5626a1a61b0ef7ff0dd2ae1de3c9bfcad"
     },
     {
       "path": "config/xaerominimap.txt",
-      "hash": "06b411d82774f0ffbae727ae43527a972803d5a9"
+      "hash": "2e9adc6093cee0ce6fc75510487e1bc862185fd8"
     },
     {
       "path": "config/xaerominimap_entities.json",
@@ -8803,7 +10431,7 @@
     },
     {
       "path": "defaultconfigs/artifacts-server.toml",
-      "hash": "84c87e9823c6c8fb2e0b7231554ad441019822a3"
+      "hash": "6a48824f5d16dab99ff99a6e6cb75405f0322b23"
     },
     {
       "path": "defaultconfigs/champions-affixes.toml",
@@ -8819,7 +10447,7 @@
     },
     {
       "path": "defaultconfigs/champions-server.toml",
-      "hash": "2a1843e9ace603b60c218c9178c6774faae734a1"
+      "hash": "72b3bdbe88cdec182d048fec6f23af8252bf12f3"
     },
     {
       "path": "defaultconfigs/cofh_core-server.toml",
@@ -8911,7 +10539,7 @@
     },
     {
       "path": "defaultconfigs/radenchants-server.toml",
-      "hash": "315f0de7b45cb2d3ff1c130996ccd25ddd7256bf"
+      "hash": "c75cbae49424bfa24b625382090684449a74848a"
     },
     {
       "path": "defaultconfigs/repurpose-server.toml",
@@ -8930,6 +10558,10 @@
       "hash": "3045c8450f38b970812a38bf6c35287f1da98096"
     },
     {
+      "path": "defaultconfigs/upgradednetherite-server.toml",
+      "hash": "c2e9cd06558e5a2eb980b2ba181c2b291a7c1fd6"
+    },
+    {
       "path": "defaultconfigs/valhelsia_structures-server.toml",
       "hash": "958e956e5fb3bf4a82764d75cc70b9984ccda1c0"
     },
@@ -8938,16 +10570,16 @@
       "hash": "497c197776b710998e6cc63af72212b707fd3230"
     },
     {
+      "path": "fancymenu_data/last_world.fmdata",
+      "hash": "eeb9781b47c89b8f59f54b98c07e3ede6f98a421"
+    },
+    {
       "path": "hmclversion.cfg",
-      "hash": "77ead7db807fa11d7d453ce71ac20352007d5ac3"
+      "hash": "409f3386adb48f6f003f65ad08d72509675a2efd"
     },
     {
-      "path": "kubejs/assets/kubejs/lang/en_us.json",
-      "hash": "b2367cc02ce2669726f1d3c836a91f972169cdb4"
-    },
-    {
-      "path": "kubejs/assets/kubejs/lang/zh_cn.json",
-      "hash": "324c6f77d4fd601154a2e2615ebcb48b483f1327"
+      "path": "knownkeys.txt",
+      "hash": "df95c7a4a10d67285d7169aedded473f3d900c4b"
     },
     {
       "path": "kubejs/assets/kubejs/models/block/glass_slab_bottom.json",
@@ -8972,6 +10604,10 @@
     {
       "path": "kubejs/assets/kubejs/models/block/glass_stairs_outer.json",
       "hash": "0ed9dccaf833a1910703d56fec5d4191e8efe804"
+    },
+    {
+      "path": "kubejs/assets/kubejs/models/item/shield.json",
+      "hash": "d9b71fb6552b69d1a2aa3df5c455779dd1fea6f9"
     },
     {
       "path": "kubejs/assets/kubejs/textures/block/ccc1.png",
@@ -9462,16 +11098,20 @@
       "hash": "193088cbc976cc576817499a297268bcdd910ada"
     },
     {
+      "path": "kubejs/assets/radenchants/lang/zh_cn.json",
+      "hash": "392d4965e06e28b0bd53a8cb60f7819fa66a2520"
+    },
+    {
       "path": "kubejs/client_scripts/jei-add.js",
       "hash": "86dd837ce3b4c49653255430e62417a87d0fefc8"
     },
     {
       "path": "kubejs/client_scripts/jei-descriptions.js",
-      "hash": "e033ee8800259e5dbf539f872a70e05e00fa0046"
+      "hash": "e7ec8f3fe86e5ab1d8c9d6dfddcfc19a4d6f9e0e"
     },
     {
       "path": "kubejs/client_scripts/script.js",
-      "hash": "289ee44d0bf81e5b4b285ffd782adff674e225ca"
+      "hash": "07844b0c316bf1c9cde070c39a3f6bbb043c0c33"
     },
     {
       "path": "kubejs/config/client.properties",
@@ -9479,7 +11119,7 @@
     },
     {
       "path": "kubejs/config/common.properties",
-      "hash": "4abdb65707a3c01d5b341d26bdbc988e4772d3c5"
+      "hash": "49e8a11972f4a16f24486e24ac9eb0306fb3db46"
     },
     {
       "path": "kubejs/data/kubejs/loot_tables/blocks/glass_slab.json",
@@ -9555,15 +11195,775 @@
     },
     {
       "path": "kubejs/server_scripts/loottweaks.js",
-      "hash": "7e036f1058a313c1927813a41d44ba2e1e2f55e3"
+      "hash": "f16e35cf0db3172f255d858db779c7038a2aa5b0"
+    },
+    {
+      "path": "kubejs/server_scripts/mobtweaks.js",
+      "hash": "227923674340226f3b465117bd94173af8994bf0"
     },
     {
       "path": "kubejs/server_scripts/script.js",
-      "hash": "65d2ed87541862b6c61f62c7a14a0232d34eb73b"
+      "hash": "b360d4c6d708992ba0ba1269956fb700124f5a37"
+    },
+    {
+      "path": "kubejs/server_scripts/tombstoneloot.js",
+      "hash": "825314c2a3dee1578bf6b066eb8b5cc86c43d989"
     },
     {
       "path": "kubejs/startup_scripts/script.js",
-      "hash": "1976cf373cd274ed44763075df8f7bcca52dd5a4"
+      "hash": "9e39683e202b1de75e8f0fc1663a4931f0e7c42a"
+    },
+    {
+      "path": "kubejs/startup_scripts/worldgen.js",
+      "hash": "e6c1c1b5d3cdbce4c769fd95897994cd5501a737"
+    },
+    {
+      "path": "log4j2.xml",
+      "hash": "d47d254675d1aee18670aece5ed768e1e631517b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/apotheosis_boss_1_580fe3e5eb.nbt",
+      "hash": "8b81e670598785bc69b6d1f9533dc5650852bf1e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/bountiful_village_common_bounty_gazebo_b73d4119ea.nbt",
+      "hash": "2c3954c866f85f25efa2cc91e1d9307028fb0b1c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/buzzier_bees_village_apiarist_bees_bees_1_8d81501d46.nbt",
+      "hash": "dcfe844b4115ef06dd471719bd5fa29e2fe72c64"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_plus_bigger_dungeon_main_room_e49cdf7964.nbt",
+      "hash": "f581d820b4fd4cc9af00bf8207555ef3118a5d0e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_plus_bigger_dungeon_root_c931858c88.nbt",
+      "hash": "90e8c18fed2d18923dd875616861e16ecc7cc7bf"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_coffin_e43015bf66.nbt",
+      "hash": "d79d9a31b14181d9b1dd23bb2de28f5149c1f269"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_corridor_center_e3c61bcdaa.nbt",
+      "hash": "4078623f07b095ce3bba006c222c29708015fccc"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_corridor_door_79575687e9.nbt",
+      "hash": "330c9a272d3ef2b194bb47d95e282e26e3d85a82"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_graveyard_cafa62307b.nbt",
+      "hash": "1387b7f7763795259311466c0abce8a2ecf0a75f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_lab_d0b418cb69.nbt",
+      "hash": "11ead4f7166b9e1adea5b99f762e84440d52b808"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_room_medium_77dd9a63ca.nbt",
+      "hash": "604f8c06c1b057e7146baf8316206c273e8a06cd"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_room_small_ddc2fbfe2b.nbt",
+      "hash": "ea625fec80f22b7c4f182ca38bcfc28fbec5a55b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_shrine_e9c6091536.nbt",
+      "hash": "e961a921bd25ff4323c881f98119fecddced1bd0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_skull_6820a0bee3.nbt",
+      "hash": "ef1cc0c3b0249b0a9fd57c3a506f7035c3b2e1bf"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_spawner_8b86b6268f.nbt",
+      "hash": "48f7d3efc87ef524252d63e288e46d78b8f870f3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_trap_bb2c4c9449.nbt",
+      "hash": "cf7d106e0f57e9925395e5f03256508056817907"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_catacomb_turnaround_133d25c777.nbt",
+      "hash": "b805b491ded4bfbc6e5e3774033e5f9973cdf8c6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/eidolon_lab_7462b1aba1.nbt",
+      "hash": "036fa2a5f7b4f7637743c33e49fcd4d24386d099"
+    },
+    {
+      "path": "modernfix/structureCacheV1/greekfantasy_ara_camp_ara_tent_4f216bd518.nbt",
+      "hash": "21750e779d49848a2d9cf39436354138921b66a4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/greekfantasy_olive_tree_olive_tree_0_1c8963e2ea.nbt",
+      "hash": "d5b194001e10b42a19769326bae9199cd1e9ea21"
+    },
+    {
+      "path": "modernfix/structureCacheV1/greekfantasy_olive_tree_olive_tree_1_334bd409ab.nbt",
+      "hash": "f865f12b3efb1c87c607d69751354d954744d269"
+    },
+    {
+      "path": "modernfix/structureCacheV1/greekfantasy_olive_tree_olive_tree_2_8570ec8fb5.nbt",
+      "hash": "e37da144f0ed4eef30e436e6af3399f369169a77"
+    },
+    {
+      "path": "modernfix/structureCacheV1/greekfantasy_satyr_camp_satyr_campfire_f5d865900d.nbt",
+      "hash": "5762b21fb53e5552de3b3be301de86468bad83ed"
+    },
+    {
+      "path": "modernfix/structureCacheV1/greekfantasy_small_limestone_shrine_65bdd3f41d.nbt",
+      "hash": "66bc26ace4117366b51e587ae67ea5d41cc6e7ba"
+    },
+    {
+      "path": "modernfix/structureCacheV1/greekfantasy_small_marble_shrine_6d0c9e1f8b.nbt",
+      "hash": "004437ccbdc4f47644629010f4dea23b25b391fd"
+    },
+    {
+      "path": "modernfix/structureCacheV1/iceandfire_graveyard_graveyard_1_5e22e04477.nbt",
+      "hash": "b9bf6870dcb6016d9e78e13c5e3796d186a87742"
+    },
+    {
+      "path": "modernfix/structureCacheV1/illagers_plus_illager_archer_tower_1e707ac94f.nbt",
+      "hash": "3479873e523bbc692f87bcd16bfc7cc737bf9747"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_animals_dog_4e02f490d9.nbt",
+      "hash": "3252a94e99dd83d4c3c363139230e481cf525fbc"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_animals_sheep_e354206507.nbt",
+      "hash": "424c7e526516d828a18b22ac1f768066b1d4bf83"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_decor_mountains_lamp_1_1a0a5c426e.nbt",
+      "hash": "eb60bd4be82dc969a716a6acde413f1168a3c6e5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_animal_pen_1_7ef1273046.nbt",
+      "hash": "01b62cb04f818532e6e56c50aac00726bc81cb1d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_armorer_house_1_0dd788528b.nbt",
+      "hash": "4d698a6a4a7df10c53c60d33fbd71b50fd722618"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_big_house_1_089b4e5974.nbt",
+      "hash": "ec8831c3872f39ab81aa9754c4b1a24333d82be3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_library_1_759c03451e.nbt",
+      "hash": "9debbb0b7022f495fa6e8bdd1e5878a0fdb22368"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_medium_house_1_eb030cbebe.nbt",
+      "hash": "ed2ab070fa3eea2b398083f2aee505f045b96803"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_medium_house_2_ae0e77f26d.nbt",
+      "hash": "44c0df116152acd5cc9b5e3a856c0fdd5b63ada8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_medium_house_3_556cdf8e92.nbt",
+      "hash": "5bc9893dbca4ed3ff923f0b10fb0f190066f6fcc"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_medium_house_4_cedd7de3d0.nbt",
+      "hash": "2cd5cd9d70c4d062a9b2d6c22a973fc7c42ac3a2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_medium_house_5_ba0fb85168.nbt",
+      "hash": "15691b7a71d7d029fdbf916f53d778f8748f71ff"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_small_house_1_33e177b48d.nbt",
+      "hash": "02c8f91516ae3a875f0b041cb258ece2073be32d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_small_house_2_28c66a5f10.nbt",
+      "hash": "8634646400730ccc3321603016d3112de8298cd6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_temple_1_d7542279f3.nbt",
+      "hash": "b9fe8d24fc8c90fecbc2455311a47cf2c0bdd7ee"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_temple_2_a4b1e5d651.nbt",
+      "hash": "770807dcb49320ca56b55da0f3eeee0bd94389a4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_houses_mountains_weaponsmith_1_8814b2a36f.nbt",
+      "hash": "7edceb33f899d27d66fe4aa66c5c7a7ba6910267"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_corner_01_2aa497ef78.nbt",
+      "hash": "bf342888e3f8814cdda94d041f2d31dee6da088b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_corner_02_f3d9089702.nbt",
+      "hash": "0b25d419dc5d91a96a13b0d18ec8c8738309338a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_corner_03_16a0aa52f7.nbt",
+      "hash": "714af7a59d7c116b2678c02d6137cb1517533f6e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_crossroad_01_dc4244fdd6.nbt",
+      "hash": "f2f8563ac9d3ce839063b67ed0aa0d5991af2c93"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_crossroad_05_3b3c3a2196.nbt",
+      "hash": "362e84540dc9310a33cb16ebcf3f1d1e7e0aa2d4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_straight_01_5775e5dd4c.nbt",
+      "hash": "f23f19d4e171d42e903f33c7c32f71d403c1f72f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_straight_02_b54629d4b2.nbt",
+      "hash": "988464d4fe9d9d966cc7e956ac3267fa52ad74f0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_straight_03_f89e4116fa.nbt",
+      "hash": "414a78759db78fab965d1c4f22f3a0140fda97c2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_straight_04_d57e1fc6f4.nbt",
+      "hash": "890465b566190696ac8b2b431af58e08012bcdd7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_streets_straight_05_8371cb9f69.nbt",
+      "hash": "8f39978e3d0b1749fa98a8d94610566f3939dde5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_terminators_terminator_01_e4db155d41.nbt",
+      "hash": "5e96287ac6cf9974e02e4cc21d1d64ea92f84c3e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_terminators_terminator_02_4140203bc4.nbt",
+      "hash": "b2bcfd4433b4ca4f8dec892ac61513d72ec86c13"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_terminators_terminator_03_5acd110334.nbt",
+      "hash": "7977e5309cbfc60aac87cb1b1c1d5885ee389d3e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_town_centre_mountains_meeting_point_01_a1da4d1ffd.nbt",
+      "hash": "8e64bb8913afdbcee306c2180f263464e03a1f28"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_villagers_baby_dd3ae78b0d.nbt",
+      "hash": "6b38cf5ab59ff7253d64872e242b149fd92fdb08"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_villagers_nitwit_e9ddce9035.nbt",
+      "hash": "98e14fafb0511cbc0e8ada79ad7fb34f70b997c7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_mountains_villagers_unemployed_999e0d6a24.nbt",
+      "hash": "7f5f741dce32a9b3c095f1d5225cd71c0764cf40"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_underwater_ruin_brick_6_47d1f733a5.nbt",
+      "hash": "79de94403fd585b410114afb2fb397644e7ee677"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_underwater_ruin_cracked_6_d80dd5bbe4.nbt",
+      "hash": "b661aad3c828639c1940c117bb97b8c69aaf651d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_underwater_ruin_mossy_6_4499c6cb17.nbt",
+      "hash": "dad11bae0c8a63cb6900e2739573c8ef6f22a95f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_common_iron_golem_bfa919f54a.nbt",
+      "hash": "2a20a6e633552998bd1347a5e13d01910726d024"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_plains_terminators_terminator_01_6ebc97d615.nbt",
+      "hash": "813cea315041109541d1a12df0da72f7b45755a1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_plains_terminators_terminator_02_6ebc97d615.nbt",
+      "hash": "813cea315041109541d1a12df0da72f7b45755a1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_plains_terminators_terminator_03_6ebc97d615.nbt",
+      "hash": "813cea315041109541d1a12df0da72f7b45755a1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_plains_terminators_terminator_04_6ebc97d615.nbt",
+      "hash": "813cea315041109541d1a12df0da72f7b45755a1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_animal_pen_1_d5c80cfafa.nbt",
+      "hash": "b3e8c80fc2b029bd7691d1f1b78fbb8422037d30"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_armorer_2_94801c83d2.nbt",
+      "hash": "9aecbba43d911799596c91f81a6c173ca371f565"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_armorer_house_1_c0cae9b7c0.nbt",
+      "hash": "d34aa4e6a6bac231f4c1c87554e7487c46cc57d9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_butcher_shop_1_b22f7337bb.nbt",
+      "hash": "356135ba1bdc62b836b6e6f4cd6cd2ec33c5c581"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_cartographer_house_1_67bcd73a31.nbt",
+      "hash": "09249d6d7056ab9ae856c4234ec25556f6ecdb14"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_fisher_cottage_1_d597637516.nbt",
+      "hash": "2e53970337002312ce04d78327a447789d901483"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_fletcher_house_1_52f1e44e8b.nbt",
+      "hash": "0d68eab852d3d836002b5a522d3fa37e546a4197"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_large_farm_1_513c49373a.nbt",
+      "hash": "76c601c8808e3d8ac7e9fd1b83a4936c67d4d49c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_large_farm_2_ba54ae4af7.nbt",
+      "hash": "50cca316558ceaa372c72396c0fa6ddc5dfe57c8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_library_1_1cd86a6abc.nbt",
+      "hash": "6d8ee816c25539e47f204d20e1a87b8e1388e995"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_masons_house_1_f15a9bc4c8.nbt",
+      "hash": "b2ca0336d1ed207f85b6c3a508242e9e49b66435"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_medium_house_1_6e001dd26a.nbt",
+      "hash": "8b78a9e4af899cd3cad3b79d6708dc04324384c0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_medium_house_2_0ad9bae232.nbt",
+      "hash": "dabef7c14f28d4ad87d3f405134c103f0ebde2c9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_medium_house_3_6f46d775cd.nbt",
+      "hash": "8a400e86ed65d516b969b67963c75f35dec8e328"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_medium_house_4_79d8eb1135.nbt",
+      "hash": "58065e11aeec8126e818761f4b58dc5904badd02"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_shepherds_house_1_8e1cb77039.nbt",
+      "hash": "95c21f0d5b7a92ed75efa98922b1387aedf9aab2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_small_farm_1_0b892335c4.nbt",
+      "hash": "a8d5ba7910bc6c0ea99c7943bb1fabe9e2a46174"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_small_house_1_f34f6eafa7.nbt",
+      "hash": "20a80c3ff3fdbd4fffbbe615564c3a1472b55d49"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_small_house_2_daa5e83c7f.nbt",
+      "hash": "ac00938e9305a0c7b71cb9127db96f8b06f8049e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_small_house_3_b9b1196451.nbt",
+      "hash": "04449c3052cbd9313a7abd271b5c6f6849b943b3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_small_house_4_d308f71104.nbt",
+      "hash": "a630abc4d076b33d72116f11fde56b8549af8120"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_small_house_5_8207e6007f.nbt",
+      "hash": "38a69a342fefa85bd30170644025712dba5d849c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_tannery_1_3ab23c050b.nbt",
+      "hash": "4e9cca8d6d11f2dbedffc02f92c0d98785a7eed5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_temple_1_b426c49106.nbt",
+      "hash": "647847598fbcc1936eb3c1467f3cde63b865568c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_tool_smith_1_59b49e767a.nbt",
+      "hash": "a3a78965f8384ad9b6cbb8ce37915223b4b4bc9a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_weaponsmith_1_c66a633b05.nbt",
+      "hash": "24c0b9e2a0e5ef66cb99d1bfb3fa41d5d0715782"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_houses_taiga_weaponsmith_2_40f908537e.nbt",
+      "hash": "0ada4a80bc7808b9b8e893f8f913dd1e9d02adfe"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_corner_01_5ef1fe8703.nbt",
+      "hash": "da5622a39878177b938a4a08f41aeb0089eaf52c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_corner_02_973cc55873.nbt",
+      "hash": "b9f69d8cbb4684437cb6688abd7cd8ef5b5a6755"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_corner_03_d243487244.nbt",
+      "hash": "08e8e646d00899b4f46283949d93adfc92562fa3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_crossroad_01_8fe47be3b1.nbt",
+      "hash": "79100848a1263c98abb9c67f73cdae0ab6a273ae"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_crossroad_02_1458cf80ff.nbt",
+      "hash": "34b23a522ea821e7193d11b21ce87708b1639cb1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_crossroad_03_b8a79a27b2.nbt",
+      "hash": "bc966fe4081ea88a5d70937f4695e3dde761ca64"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_crossroad_04_3aaff7b49c.nbt",
+      "hash": "8d2a730f56280b049340232f425e9f7672dfb9be"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_crossroad_05_03e3b50381.nbt",
+      "hash": "31b6743094712e57ca3e9f3e7d35d630961ccf14"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_crossroad_06_d248940972.nbt",
+      "hash": "90d65521b1dea6e1d03eff185c7a4c5828653199"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_straight_01_7a5841c1b3.nbt",
+      "hash": "ab2b22b8af7541093dd7f7603a4873312f94143d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_straight_02_6270faa75f.nbt",
+      "hash": "2d5be0f60121936ed3e9755c27ff19f0610f91b0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_straight_03_7c4d288462.nbt",
+      "hash": "78054a449c23f40e47005247b291235508476838"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_straight_04_54ea0c2acf.nbt",
+      "hash": "7347e3d26877ee1db65567afcbbafd2e772314e3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_straight_05_6c38ef01e2.nbt",
+      "hash": "df809883aeca97cbd7cfa2512ab591f20383f730"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_straight_06_7877519f6a.nbt",
+      "hash": "a825644f85c4d154d5eb0bcca69e632ae7b3bb75"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_streets_turn_01_56c97a81f7.nbt",
+      "hash": "5676ebe7810201f479ea95ed81106e9c0fc3a640"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_taiga_decoration_1_770d9f8236.nbt",
+      "hash": "51fc88705959f074db316474da661854d6a2c9c0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_taiga_decoration_2_2b8054333a.nbt",
+      "hash": "93a868d5384f8691240926171890e40d414d2bee"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_taiga_decoration_3_8453e0323e.nbt",
+      "hash": "b818142c86c713b29c26d66367d510b78f67b4fe"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_taiga_decoration_4_5059faa1a9.nbt",
+      "hash": "8e41a8508af309cc4e294b7d0d3686a30d0729c9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_taiga_decoration_5_7e7177d9fc.nbt",
+      "hash": "8ca1aae88c6adadf00e5b880eea3f9d9be903844"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_taiga_decoration_6_54b2814771.nbt",
+      "hash": "e2ab16b4dddda3b22c8718c49953ca594af6ab17"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_taiga_lamp_post_1_2b767ba4b7.nbt",
+      "hash": "333f0128e6a8c076714dbef7371815cf053dd7fe"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_town_centers_taiga_meeting_point_1_36be569295.nbt",
+      "hash": "02ad63b08e18bae7ba36eca62d5724bffd209617"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_town_centers_taiga_meeting_point_2_14220f8266.nbt",
+      "hash": "035dd8e878103f4cbc7295bc0f801b210b8881a4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_villagers_baby_93fb1f51b7.nbt",
+      "hash": "e26cee4463834d222589c6c73f2e6370cb9c2dcf"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_villagers_nitwit_38992f793d.nbt",
+      "hash": "08b96329b4351bda571bf3161a16b3a0ff243a8b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_taiga_villagers_unemployed_27244a2347.nbt",
+      "hash": "27a6420a81e01bb94655144d2d83411383b8af47"
+    },
+    {
+      "path": "modernfix/structureCacheV1/mowziesmobs_wroughtnaut_chamber_cd6bf85741.nbt",
+      "hash": "d0d0e4e61e878c1d3f51869e74fca0a6cbddbd87"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_igloos_grassy_basement_451b8f51a7.nbt",
+      "hash": "764aed3939074d898b41b1250998c6813ae0f231"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_igloos_grassy_ladder_long_f4f23fc8bc.nbt",
+      "hash": "c395306ab609d7975e013ea8c78a73c443349eed"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_igloos_grassy_ladder_medium_67b470946e.nbt",
+      "hash": "bcb834c010a103c085e96f4bc26425b4e4cd148e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_igloos_grassy_top_trapdoor_5b32c0548d.nbt",
+      "hash": "33e2875b10d7cb69996a15243f18aa29614de6f7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_decor_lamp_post_01_cd19305048.nbt",
+      "hash": "29cc3b2731cf4149f267cb2cfb5db24612644a71"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_decor_lamp_post_02_efd100411b.nbt",
+      "hash": "7297cceb78690d9b09435a454f234807becf9a48"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_decor_lamp_post_03_8dc0f0dbd3.nbt",
+      "hash": "6f62301c19e9f0103dcd304a4e2f9f3d32c676bb"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_animal_pen_1_7ad069d9d2.nbt",
+      "hash": "cdbbd9030cc3b6f3e24dec91fdeedd5b52a3c1f4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_animal_pen_2_c06e9e3459.nbt",
+      "hash": "9ad1540d20a78fab3c162f88b26b378e8791fa6c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_armorer_house_1_e75c345b8e.nbt",
+      "hash": "9a9cba630aecbcde19d10fdfb6f80a7f48f6b30e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_armorer_house_2_267501736d.nbt",
+      "hash": "9a7cdfff835355c42f1d18c03218f8454a0a85a8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_butcher_shop_1_98471f5ef9.nbt",
+      "hash": "09b1f07af77dd592522ef89c1bfece06c359e972"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_butcher_shop_2_784d8032ff.nbt",
+      "hash": "0b3f2b4412be7b05b3ec7c6b40ad0351bf24903f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_farm_1_d77ff46dfb.nbt",
+      "hash": "14fdd3748040f8e7cd5119a13aa12f23f5684260"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_farm_2_a11e8d34da.nbt",
+      "hash": "a6110eab62918cfcabea477d9692c27540b0eab7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_fisher_cottage_9f3a2ad6f7.nbt",
+      "hash": "111badf9d9839032e2a9179aa4b3138f2c953b2f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_fletcher_house_1_d2a2e8669b.nbt",
+      "hash": "18a9292ef4e680ebe5b3a2e679a0e9d8f080be3a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_library_1_22d90a7dd9.nbt",
+      "hash": "b196fd36c8f5ad489bab3ed8a033f885085c72de"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_masons_house_1_f51726bc2a.nbt",
+      "hash": "4a719fb090c489718cdaa2587f3ff3d08240dee1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_masons_house_2_51f6a94f93.nbt",
+      "hash": "aabd6cae1dbd0931a74a486ed02329e65ab7b71b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_medium_house_1_a3feac4349.nbt",
+      "hash": "11de93b1e87f63413aefd55ceb6bb817b62e1584"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_medium_house_2_a46ab2d036.nbt",
+      "hash": "f6139615a48b4abb4986c0e15358186f9d225bf0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_medium_house_3_e1ba1d9cdf.nbt",
+      "hash": "cfd5f126263a1e9077614e907f5a6ce0bda0d554"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_small_house_1_97f2aab641.nbt",
+      "hash": "ccaab330f372151290267f26e1aa44ad759e6cbc"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_small_house_2_69cc5b30da.nbt",
+      "hash": "d9850a3b5832c0d54f45916a4aa6f430321d5618"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_small_house_3_c46b9c6614.nbt",
+      "hash": "aa34d2cbab84987b6b92f45298296eef41015ae8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_small_house_4_616834de5d.nbt",
+      "hash": "20ec27df0ff436288f23179656eb6c5df1a7c37a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_small_house_5_f4eef318eb.nbt",
+      "hash": "824c6da7865aefa7d49b461663778022b2974b43"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_small_house_6_7330bf5be7.nbt",
+      "hash": "db3c3ceea8e2ffdc81372daed965c58b73ea2f86"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_small_house_7_198071a71a.nbt",
+      "hash": "38d36cb5a1734e29df07c9a0e2e06e051c976d42"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_small_house_8_a06320c575.nbt",
+      "hash": "614e711d446be3b9b2c88d66eae09a3784212c1d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_tannery_1_f6fe71d9aa.nbt",
+      "hash": "2e06612c01af4ab511022cc58b122f287c77f621"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_temple_1_542611be00.nbt",
+      "hash": "92926d3f0a46ccc1f037237b934bc2b2aeb63607"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_tool_smith_1_4df6b58626.nbt",
+      "hash": "9e61fc563679b09882f925847ff36166e4122e18"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_houses_weapon_smith_1_62e6191c2f.nbt",
+      "hash": "1b7b684fe654ae5624cbeb29b0e11f99e9bb720f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_corner_01_bbeecd5ef4.nbt",
+      "hash": "c667d299dd52882882ff2ad41ac38d52130775af"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_corner_02_269bc669a5.nbt",
+      "hash": "6b2a96c959a1a7290db225264734ee5cced0bddc"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_corner_03_e45761d350.nbt",
+      "hash": "6378c7684bc63dda166af41d9b376d5ce85bb618"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_crossroad_01_591969ae02.nbt",
+      "hash": "4038f6e3b34a0bd6e817e83dc5f77db5aed1d31b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_crossroad_02_116e23270d.nbt",
+      "hash": "c8e549303a3061df0e3838c83b20cd9e9762f22f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_crossroad_03_6e007ab9b5.nbt",
+      "hash": "fbfff8241c4b0c18fe399a5564d5f0cd145599b9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_crossroad_04_cbea279be1.nbt",
+      "hash": "063402851d44869c454ebbc5c13231b5518540bc"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_crossroad_05_ffa0e22977.nbt",
+      "hash": "313a0fe76b7668dce3e37a1f8ca17f036fa3c7e3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_crossroad_06_65db25dc62.nbt",
+      "hash": "179d9c47291edaa15fc23a122c34eacb69048912"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_square_01_3f2c7b95ca.nbt",
+      "hash": "6fec97568ce9d1e76322afefb8e319698eeeaaec"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_straight_01_a8cf0b9f4d.nbt",
+      "hash": "fdc23b7a8d2e9b07b504b25050d85d00279350e2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_straight_02_da504e02c0.nbt",
+      "hash": "d7884eadf56197071c81c25c8f314e812ccb22e8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_straight_03_a5b323c7e3.nbt",
+      "hash": "9400fffe34e18b3edc1b0f3b53085fc814198050"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_straight_04_5d0d6414c7.nbt",
+      "hash": "81b118bfb334213ca624d57c29fdd13b90ebae2f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_straight_06_16aca9880e.nbt",
+      "hash": "ec44aed4df0bfaefc0967db18f6849d4538c5767"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_straight_08_67a99018e2.nbt",
+      "hash": "5c37334e5ab4d55b84eaca9eedb842282f731ec1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_streets_turn_01_9e742cff1e.nbt",
+      "hash": "16bff9fddafcd23295da4a724ed764fa084302b5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_terminators_terminator_01_5cdfff9d9a.nbt",
+      "hash": "a655a5203537b40ef91c546ba5acc5aa1b97ec0e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_terminators_terminator_02_f2aa5c2587.nbt",
+      "hash": "c1f17983615a812ad5e3d917c51e77603c991929"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_terminators_terminator_03_00123834cd.nbt",
+      "hash": "4269ce6c494af4a8905c9a126e214602dc74990c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_terminators_terminator_04_c6b1075165.nbt",
+      "hash": "95cec5e763879829ad1321368a98863c7b544189"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_town_centers_meeting_point_2_97257ead61.nbt",
+      "hash": "2bf93029c5bdc596f09b8e7a9edc317f6596b520"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_villagers_baby_a7be096657.nbt",
+      "hash": "e26cee4463834d222589c6c73f2e6370cb9c2dcf"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_villagers_nitwit_6513128bda.nbt",
+      "hash": "08b96329b4351bda571bf3161a16b3a0ff243a8b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/repurposed_structures_village_giant_taiga_villagers_unemployed_8ec45cf1a4.nbt",
+      "hash": "27a6420a81e01bb94655144d2d83411383b8af47"
+    },
+    {
+      "path": "modernfix/structureCacheV1/waystones_village_common_waystone_1841a7692d.nbt",
+      "hash": "96e0fa12f16af6ef2030d9a9dd954e6beb361bdb"
     },
     {
       "path": "mods/abnormals_core-1.16.5-3.3.1.jar",
@@ -9882,10 +12282,6 @@
       "hash": "129f79a5a88874f72eb3f7b214ff8318e404bcb6"
     },
     {
-      "path": "mods/doespotatotick-1.16.5-4.0.2.jar",
-      "hash": "529a6795a80422d339402140c273a0875d84340c"
-    },
-    {
       "path": "mods/DoggyTalents-1.16.5-2.1.15.jar",
       "hash": "351f9b882c0da908225867848c7ad51afd376d47"
     },
@@ -9924,6 +12320,10 @@
     {
       "path": "mods/dungeons_plus-1.16.5-1.1.5.jar",
       "hash": "700cde5afe55963df9e0eb70d6ac85418e1137d4"
+    },
+    {
+      "path": "mods/dynviewdist-2.0.jar",
+      "hash": "a53ba81b4abf225b00e619f7dd46c79d5e94be23"
     },
     {
       "path": "mods/eidolon-0.2.8.jar",
@@ -10004,6 +12404,10 @@
     {
       "path": "mods/farsight-1.7.jar",
       "hash": "4c069009bc869f72a7c822850fea1d08c8ad9cee"
+    },
+    {
+      "path": "mods/fastasyncworldsave-1.16.5-1.4.jar",
+      "hash": "a12b0ff4f6a6dd3e524c7dde65e1f8f10850b5b6"
     },
     {
       "path": "mods/FastLeafDecay-v25.2.jar",
@@ -10162,8 +12566,8 @@
       "hash": "2a3d4340153ff66fe34281c807bbadef57a79a1f"
     },
     {
-      "path": "mods/jei-1.16.5-7.8.0.1011.jar",
-      "hash": "557ddaf8a322eb8d8f8c3c729f8abc27afe22c26"
+      "path": "mods/jei-1.16.5-7.8.0.1012.jar",
+      "hash": "d68e15cdd882ad787f6cfc5eb29f3f2431dd7a16"
     },
     {
       "path": "mods/JustEnoughResources-1.16.5-0.12.2.216.jar",
@@ -10226,8 +12630,8 @@
       "hash": "3989356daf0387d04f7e0ce49134947d46c961c0"
     },
     {
-      "path": "mods/lootr-1.16.5-0.2.18.49.jar",
-      "hash": "013933c93ab7e3db2aefb62928855483e7e73a1a"
+      "path": "mods/lootr-1.16.5-0.2.19.51.jar",
+      "hash": "eca5695e12538bb744a3ffbb372a0d29a1deda71"
     },
     {
       "path": "mods/LostTrinkets-1.16.5-0.1.27.jar",
@@ -10250,12 +12654,12 @@
       "hash": "3f7962ae2ace97f2fc8554834c6ea456fd127d28"
     },
     {
-      "path": "mods/mcw-bridges-2.1.0-mc1.16.5forge.jar",
-      "hash": "4e68aa3f10b938ad57b626504e373447c0539250"
+      "path": "mods/mcw-bridges-3.0.1-mc1.16.5forge.jar",
+      "hash": "b6d68bef82637ee93ea6b9e458116b959b3955ee"
     },
     {
-      "path": "mods/mcw-windows-2.2.1-mc1.16.5forge.jar",
-      "hash": "3f48434f466770b2cd2ee30fbd71b4ba9c5b56e3"
+      "path": "mods/mcw-windows-2.3.0-mc1.16.5forge.jar",
+      "hash": "4480c54b543c870b1ebd151ec1fba30b93dafde5"
     },
     {
       "path": "mods/meetyourfight-1.16.5-1.2.0.jar",
@@ -10266,8 +12670,8 @@
       "hash": "32a3078f21be3c2e959449dc702f64b8d890c1b7"
     },
     {
-      "path": "mods/modernfix-forge-5.17.0+mc1.16.5.jar",
-      "hash": "e8e8d787ef6ae820e0c4349ccab6f6510deed707"
+      "path": "mods/modernfix-forge-5.18.0+mc1.16.5.jar",
+      "hash": "bd020d379e36ed8a2568fa76d998aff265cb57bb"
     },
     {
       "path": "mods/morevillagers-FORGE-1.16.5-1.5.5.jar",
@@ -10470,6 +12874,10 @@
       "hash": "08e284a58c4ede45b628a820fa410609743435d9"
     },
     {
+      "path": "mods/shieldmechanics-2.8-1.16.5.jar",
+      "hash": "7fd7ffc1d30a3162f9360af15370ba287cb885e1"
+    },
+    {
       "path": "mods/silent-lib-1.16.5-4.10.0.jar",
       "hash": "e1fe166b324e4a2ba0d7875c1c10e13067ce4100"
     },
@@ -10582,8 +12990,8 @@
       "hash": "094d1522760e9bbd2952992f72aa5d543cae89eb"
     },
     {
-      "path": "mods/toms_storage-1.2.19.jar",
-      "hash": "ac04e6b9ab5f64d2bb6ee3f32026303c30e0b985"
+      "path": "mods/toms_storage-1.16.5-1.2.24.jar",
+      "hash": "b72317addd618bfbe5be0195f06870af869d83b9"
     },
     {
       "path": "mods/toomanyglyphs-snapshot-20220223.jar",
@@ -10706,12 +13114,12 @@
       "hash": "0b95a1966970c7fa7f447002eedc72c0f1766abd"
     },
     {
-      "path": "mods/XaerosWorldMap_1.38.4_Forge_1.16.5.jar",
-      "hash": "8281077bfa85207e80dabe656940c8a4bc71f5be"
+      "path": "mods/XaerosWorldMap_1.38.8_Forge_1.16.5.jar",
+      "hash": "b9bf7ad5d1290621899c82516af730bfdf76071c"
     },
     {
-      "path": "mods/Xaeros_Minimap_24.1.1_Forge_1.16.5.jar",
-      "hash": "6d2ab021c996b1154e490224b01781ee60d4b1d5"
+      "path": "mods/Xaeros_Minimap_24.2.1_Forge_1.16.5.jar",
+      "hash": "3ab881a9c1c216e6a4e6e7ab46807d5408efc0ee"
     },
     {
       "path": "mods/xptome-1.16.5-v2.1.5.jar",
@@ -10728,10 +13136,6 @@
     {
       "path": "mods_add/client/coroutil-forge-1.16.5-1.3.6.jar",
       "hash": "ae832c948eb32ad078e248f5db7e3c05296c4385"
-    },
-    {
-      "path": "mods_add/client/farsight-1.7.jar",
-      "hash": "4c069009bc869f72a7c822850fea1d08c8ad9cee"
     },
     {
       "path": "mods_add/client/I18nUpdateMod-3.5.3-all.jar",
@@ -10762,6 +13166,86 @@
       "hash": "ba89d909f228c96054ed7c18125a9238739bce69"
     },
     {
+      "path": "natives-windows-x86_64/glfw.dll",
+      "hash": "9d95a8f52cbd48ab87937714eb4fd2129ed10f0a"
+    },
+    {
+      "path": "natives-windows-x86_64/glfw32.dll",
+      "hash": "b9a18c65931b474a453cca5b20903220975f0fc9"
+    },
+    {
+      "path": "natives-windows-x86_64/jemalloc.dll",
+      "hash": "8a6eb00b934da6c97b0dc9d2dc321843076c8987"
+    },
+    {
+      "path": "natives-windows-x86_64/jemalloc32.dll",
+      "hash": "0d3c5c4d18d9a60501bce1f586684cd2fc5c466f"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl.dll",
+      "hash": "d01410449d2402a952e9a6063699f1868196883f"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl32.dll",
+      "hash": "a7aa4fbaa375fd39c4cb8eabeef45b44d5848bcb"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_opengl.dll",
+      "hash": "8e9836dd0d1691356db654aa02533ad80e9bf52c"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_opengl32.dll",
+      "hash": "2e0fe073b23ab972af00025097efcfcb446d927f"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_stb.dll",
+      "hash": "8b047fb3f6c31946fe33157e7912ac31595cd3b8"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_stb32.dll",
+      "hash": "1c28819763f77cbb4593a95b1cbb0999f136695d"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_tinyfd.dll",
+      "hash": "ec0fd8007afba6697d5b3b8249b5be27096a0ce8"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_tinyfd32.dll",
+      "hash": "079540a19727772f056cd80535e9645a674190b4"
+    },
+    {
+      "path": "natives-windows-x86_64/META-INF/INDEX.LIST",
+      "hash": "304659e97a4889e314e2ef15632d1ab02c19827e"
+    },
+    {
+      "path": "natives-windows-x86_64/META-INF/MANIFEST.MF",
+      "hash": "bb30425dff1ace753caf8b4f1d50a1a37c4fbaa5"
+    },
+    {
+      "path": "natives-windows-x86_64/META-INF/versions/9/module-info.class",
+      "hash": "4fda2f05729e5b34e9f5ae9deff1d516beab238b"
+    },
+    {
+      "path": "natives-windows-x86_64/OpenAL.dll",
+      "hash": "dc8f7a5704164fe3dff3631c326bab7159a9358d"
+    },
+    {
+      "path": "natives-windows-x86_64/OpenAL32.dll",
+      "hash": "aa3fa9446b7c1264e2b463bb53946718e4f8ce82"
+    },
+    {
+      "path": "natives-windows-x86_64/SAPIWrapper_x64.dll",
+      "hash": "c4a293116e7531d950db2d5ea737e61a9912b61d"
+    },
+    {
+      "path": "natives-windows-x86_64/SAPIWrapper_x86.dll",
+      "hash": "70e85ab3f880a7c3d5f0a9aae0f65661cb8af5a6"
+    },
+    {
+      "path": "patchouli_data.json",
+      "hash": "b25365d1c7629d189c37695f533f614975a7f42f"
+    },
+    {
       "path": "resourcepacks/EclecticTrove-1.16.5-1.0.1.zip",
       "hash": "ffc922387f63f1c893360a8e7f168de7ca004e86"
     },
@@ -10778,6 +13262,18 @@
       "hash": "9422af2cea4ef5536c8fcf418f161cdac7881997"
     },
     {
+      "path": "resourcepacks/Infernal Resources.zip",
+      "hash": "8bfe7b593459badf847e3a7e3bc06438b372b296"
+    },
+    {
+      "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.16.5.zip",
+      "hash": "09cec290cd73fb02da6933958bf288055c7706d3"
+    },
+    {
+      "path": "resourcepacks/Quark Programmer Art.zip",
+      "hash": "c1ea21228f2aac1ffc4f38dac8604d13b4b0681d"
+    },
+    {
       "path": "resourcepacks/Unity-1.16.X-Base-2.4.0.zip",
       "hash": "39eae7dacc98c87b224a40ea303d64fc8a9462bb"
     },
@@ -10788,10 +13284,6 @@
     {
       "path": "scripts/armorDurabilityBuff.zs",
       "hash": "87479f6f543c854c8335c225d9577bff4ca3387a"
-    },
-    {
-      "path": "scripts/blockTweaks.zs",
-      "hash": "b7518ccf37122ca83b0e12ad08a3df8a131d83cc"
     },
     {
       "path": "scripts/craftingTable.zs",
@@ -10831,11 +13323,11 @@
     },
     {
       "path": "scripts/furnace.zs",
-      "hash": "2e12082bc37becaf0e60373458020274fb76c226"
+      "hash": "f3e695c1ce34e854a74d5bbed8eb55f3e9f44e39"
     },
     {
       "path": "scripts/gamestages/bosskills.zs",
-      "hash": "2e7e462aaafeae92ab2a71b9c3cd98f79975f0b1"
+      "hash": "07540f5231b96aa9a3f8d4950b2565366aa5afd3"
     },
     {
       "path": "scripts/gamestages/endlock.zs",
@@ -10847,7 +13339,7 @@
     },
     {
       "path": "scripts/item_attributes.zs",
-      "hash": "23fc6f9c7be86f910d83de24f369c5c7a35ccd67"
+      "hash": "107b40c03b0511f609f0a82de25acaa1b06fafa9"
     },
     {
       "path": "scripts/jei-hide.zs",
@@ -10878,16 +13370,8 @@
       "hash": "b18e2924090fa1677502f499d5e20fb3ef2b149e"
     },
     {
-      "path": "scripts/spartanreachFix.zs",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "path": "scripts/spawnItems.zs",
-      "hash": "ba8ab5a0280b953aa97435ff8946cbcbb2755a27"
-    },
-    {
       "path": "scripts/stackSize.zs",
-      "hash": "2b089c1db521d3d7d17381c0cabc49897946f290"
+      "hash": "c21939979b95ac436a646080d54c794320149b16"
     },
     {
       "path": "scripts/stupidSpawnEggs.zs",
@@ -10895,11 +13379,11 @@
     },
     {
       "path": "scripts/tags.zs",
-      "hash": "433a67bfac83b3b4964e576ad2adfa8541e6cc56"
+      "hash": "a7a0a2939a7b0f183f8060f9ace7a166ddc32bf7"
     },
     {
       "path": "scripts/titles.zs",
-      "hash": "33383d28ac1491720a1a9f24661651af912144a4"
+      "hash": "8126fc09f499e325f4f32b82db838e01ea1742c1"
     },
     {
       "path": "scripts/tollBellNerf.zs",
@@ -10912,14 +13396,6 @@
     {
       "path": "scripts/yurtingBlacklist.zs",
       "hash": "1c4997b80a7f1b968c2fc25297b6fb80b47509dc"
-    },
-    {
-      "path": "servers.dat",
-      "hash": "22c4ffac51ae45f3eba8ec6063eea98daf165f4b"
-    },
-    {
-      "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip",
-      "hash": "65c7ef20fef4b5b03aa44afccbfdfdd82574c193"
     }
   ],
   "addons": [

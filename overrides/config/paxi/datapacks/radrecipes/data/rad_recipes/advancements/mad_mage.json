@@ -5,12 +5,12 @@
       "nbt": "{RepairCost: 1, \"quark:RuneAttached\": 1b, Enchantments: [{lvl: 3s, id: \"ars_nouveau:mana_boost\"}], \"quark:RuneColor\": {ForgeCaps: {\"dungeons_libraries:built_in_enchantments\": {BuiltInEnchantments: []}}, id: \"quark:red_rune\", Count: 1b}}"
     },
     "title": {
-      "text": "Mad Mage",
+      "text": "疯狂法师",
       "color": "dark_purple",
       "bold": true
     },
     "description": {
-      "text": "Acquire every Glyph from Ars Nouveau, even the disabled ones"
+      "text": "装备所有Ars Nouveau模组的魔符，甚至包含已禁用的"
     },
     "frame": "challenge",
     "show_toast": true,
